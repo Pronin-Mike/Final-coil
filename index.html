@@ -23,6 +23,7 @@ h1,h2,h3{line-height:1.2}h2{font-size:23px;letter-spacing:-.02em;margin:36px 0 1
 table{width:100%;border-collapse:collapse}td,th{border-bottom:1px solid var(--line);text-align:left;padding:11px 12px;font-size:12px;vertical-align:top}th{color:var(--muted);font-weight:550}.status{color:var(--accent)}.warning{color:var(--gold)}.crumb-link{display:inline-block;margin-bottom:20px;color:var(--accent)}
 .searchbar{background:var(--panel);color:var(--text);padding:12px 15px;border:1px solid #455e4a;border-radius:9px;max-width:520px;width:100%;outline:0}.searchbar:focus{border-color:var(--accent)}.filters{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.filter{background:var(--panel);border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:8px 12px;cursor:pointer}.filter.on{background:#354b37;color:white;border-color:#78906e}
 .note{border-left:3px solid var(--gold);padding:12px 17px;background:#2a2b2070;font-size:13px;color:#e0d6bd;border-radius:0 7px 7px 0}.meta{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0 24px}.side-note{color:var(--muted);font-size:12px;margin-top:7px}
+.stream-number{font-size:11px;letter-spacing:.16em;color:var(--gold);font-weight:700}.stream .tile-body{min-height:200px;display:flex;flex-direction:column;gap:8px}.stream h3{margin:0}.stream p{min-height:0;margin:0;flex:1}.roadmap-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}.roadmap-head .pill{color:var(--gold);border-color:#7d6645}.stream a{color:var(--accent)}.roadmap-flag{margin:12px 0;padding:13px 16px;border-radius:9px;background:#273424;border:1px solid #405541;font-size:13px;color:#c9d6c3}
 #mobileBtn{display:none}.hidden{display:none!important}
 @media(max-width:1000px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){#shell{display:block}aside{position:fixed;left:0;top:0;bottom:0;width:280px;z-index:30;transform:translateX(-105%);transition:transform .2s;box-shadow:10px 0 25px #0007}aside.open{transform:translateX(0)}#mobileBtn{display:block;background:none;color:var(--text);border:0;font-size:24px;cursor:pointer}.top{height:58px;padding:0 16px}main{padding:19px 16px 55px}.hero{padding:27px 21px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.stat{padding:14px}.grid,.split{grid-template-columns:1fr}.donut-wrap{flex-direction:column;align-items:flex-start}.version{font-size:9px}#overlay{position:fixed;inset:0;background:#0009;z-index:20;display:none}#overlay.on{display:block}}
@@ -50,6 +51,116 @@ var places=[
 {id:"hut",title:"Сторожка лесника",cat:"Постройка",lead:"Небольшое человеческое убежище среди гораздо более крупного природного мира.",idea:"Потенциальная точка передышки и часть лесного быта.",objects:["Деревянная сторожка","Навес и дровник","Место для простых инструментов"],atmosphere:["Треск дерева, ветер, запах печи","Непривычная тишина вдали от деревни"],actions:["Отдых при подходящих условиях","Осмотр бытового инвентаря","Изучение окружающих троп"],questions:["Решить, действующая ли сторожка","Определить доступ игрока","Уточнить обстановку и степень сохранности"],checks:[1,0,0,0,0]},
 {id:"swamp",title:"Болото и низины",cat:"Природа",lead:"Неброская, но опасная часть северного ландшафта, нарушающая прямые маршруты.",idea:"Рельеф и влага становятся настоящими факторами маршрута.",objects:["Моховые кочки и осока","Мелкие протоки, лужи, редкие сухие островки","Старые гати и полузаросшие тропы"],atmosphere:["Приглушённые звуки, сырость","Низкий туман и изменчивая поверхность"],actions:["Выбор безопасного обхода","Изучение следов и рельефа","Сбор некоторых природных материалов"],questions:["Создать честные, видимые признаки опасности","Определить глубину механики промокания","Согласовать пешие обходы"],checks:[1,0,0,0,0]}
 ];
+var workstreams=[
+ {
+  "id": "world",
+  "title": "Локация и открытый мир",
+  "status": "В работе",
+  "summary": "Определить пространство, которое действительно интересно исследовать: деревню, Старый Бор, озеро, дороги и точки интереса.",
+  "result": "Утверждённый атлас мест, паспорта локаций и согласованная схема игровой карты.",
+  "known": [
+   "Выбран вымышленный посёлок Берёзовка в Архангельской области.",
+   "Старый Бор с высокими соснами — ключевой природный образ.",
+   "Сначала детально описываем каждую локацию, затем расставляем их на карте."
+  ],
+  "questions": [
+   "Какие здания, объекты и занятия нужны в каждой локации?",
+   "Какая у каждого места атмосфера в течение суток и при разной погоде?",
+   "Как связать места дорогами, тропами и узкоколейкой?",
+   "Какими должны быть размеры и игровые времена перемещения?"
+  ]
+ },
+ {
+  "id": "survival",
+  "title": "Повседневная жизнь и выживание",
+  "status": "Требует проработки",
+  "summary": "Определить, чем наполнен обычный день и что делает пребывание в деревне интересным без сюжетных заданий.",
+  "result": "Основной игровой цикл: бытовые нужды, ресурсы, хозяйство, торговля, подготовка и последствия решений.",
+  "known": [
+   "Игра — открытая песочница, а не цепочка обязательных миссий.",
+   "Дом можно обустраивать, продавать или сохранять.",
+   "Выживание должно поддерживать исследования, а не превращаться в обслуживание шкал."
+  ],
+  "questions": [
+   "Какие потребности героя действительно нужны: тепло, сон, питание, усталость?",
+   "Где и как добываются деньги, еда, топливо и инструменты?",
+   "Что можно ремонтировать и улучшать в доме?",
+   "Какие действия и события наполняют семь первых игровых дней?"
+  ]
+ },
+ {
+  "id": "car",
+  "title": "Автомобиль и механика ремонта",
+  "status": "Требует проработки",
+  "summary": "Сделать автомобиль полезным и глубоким, но необязательным способом перемещения и самостоятельной работы.",
+  "result": "Дизайн системы сборки, диагностики, обслуживания и игрового руководства по ремонту.",
+  "known": [
+   "Машину можно восстановить, но мир и финалы доступны и пешком.",
+   "Герой не профессиональный механик; игрок учится по руководству.",
+   "Уже существуют технические наработки по крепежу, инструментам и взаимодействию UE5."
+  ],
+  "questions": [
+   "Какую конкретную модель автомобиля берём?",
+   "Какие узлы собираются физически, а какие упрощаем?",
+   "Как объясняем диагностику новичку без маркера «починить»?",
+   "Какие запчасти нужны, где их брать и как влияют поломки на поездки?"
+  ]
+ },
+ {
+  "id": "mysteries",
+  "title": "Мифология и расследования",
+  "status": "Требует проработки",
+  "summary": "Разработать истории на стыке фольклора и рациональных версий с самостоятельным сбором свидетельств.",
+  "result": "Система журнала выводов и библиотека необязательных расследований без окончательного доказательства мистики.",
+  "known": [
+   "Существование мистики не подтверждается и не опровергается даже в финале.",
+   "Герой изначально скептически относится к поверьям.",
+   "Расследования не обязательны для бытовой песочницы или раннего отъезда."
+  ],
+  "questions": [
+   "Как игрок получает слухи, улики и противоречащие показания?",
+   "Как устроен журнал наблюдений и версий без шкалы веры?",
+   "Как обеспечить честные рациональные объяснения без ложных телепортаций?",
+   "Какие фольклорные мотивы действительно подходят выбранному региону?"
+  ]
+ },
+ {
+  "id": "people",
+  "title": "Жители и взаимодействия",
+  "status": "Требует проработки",
+  "summary": "Сделать Берёзовку обжитой: люди занимаются собственными делами, но не служат системой спасения героя.",
+  "result": "Список жителей, их роли, базовые расписания, отношения, торговля, общение и бытовые поручения.",
+  "known": [
+   "В мире есть люди, но герой не может рассчитывать на их помощь в любой беде.",
+   "У местных разные взгляды на слухи и мистику.",
+   "Не нужны десятки полноценно симулируемых NPC."
+  ],
+  "questions": [
+   "Сколько важных персонажей требуется для убедительной деревни?",
+   "Как выглядят их занятия утром, днём, вечером и ночью?",
+   "Как работают доверие, обмен, торговля и разговоры?",
+   "Какие действия NPC действительно должны влиять на игровой мир?"
+  ]
+ },
+ {
+  "id": "progression",
+  "title": "Прогрессия и концовки",
+  "status": "Требует проработки",
+  "summary": "Определить, как игрок осваивает мир и решает судьбу наследства, не выбирая одну сюжетную ветку в меню.",
+  "result": "Нелинейная структура прохождения: цели, условия завершения, последствия решений и реиграбельность.",
+  "known": [
+   "Можно продать дом и уехать, остаться и обустраиваться или заниматься расследованиями.",
+   "Эти направления свободно пересекаются.",
+   "Целевая длительность содержательного прохождения — 15–20 часов, не гарантия."
+  ],
+  "questions": [
+   "Какие конкретные действия позволяют уехать раньше?",
+   "Когда остающийся игрок получает новые возможности, а не просто новые шкалы?",
+   "Как результаты ремонта, общения и расследований меняют финальное состояние мира?",
+   "Как добавить реиграбельность без искусственных таймеров и спойлеров в путеводителе?"
+  ]
+ }
+];
 var decisions=[
 ["Песочница в компактном открытом мире","Принято"],
 ["Герой — обычный парень 18–25 лет, скептик","Принято"],
@@ -70,7 +181,7 @@ var decisions=[
 ];
 var order=["Образ","Объекты","Атмосфера","Действия","Утверждение"];
 var cats=["Все","Поселение","База","Природа","Инфраструктура","Постройка"];
-var nav=[["/","Обзор проекта"],["/world","Атлас мира"],["/progress","Прогресс локаций"],["/decisions","Реестр решений"],["/map","Будущая карта"],["/guide","Как читать путеводитель"]];
+var nav=[["/","Обзор проекта"],["/world","Атлас мира"],["/progress","Прогресс локаций"],["/roadmap","План проработки"],["/decisions","Реестр решений"],["/map","Будущая карта"],["/guide","Как читать путеводитель"]];
 var main=document.getElementById("main"),sidebar=document.getElementById("sidebar");
 function escape(s){return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function pct(x){return Math.round(x.checks.reduce(function(s,c){return s+c},0)*100/5)}
@@ -81,14 +192,18 @@ function header(t,k){return '<div class="eyebrow">'+escape(k||"FINAL COIL / Пу
 function card(x){return '<a class="tile" href="#/location/'+x.id+'"><div class="art"><span>'+escape(x.cat)+'</span></div><div class="tile-body"><div class="row"><h3>'+escape(x.title)+'</h3><span class="pill">'+pct(x)+'%</span></div><p>'+escape(x.lead)+'</p>'+line(x)+'<div class="side-note">Открыть паспорт →</div></div></a>'}
 function list(arr){return '<div class="data-list">'+arr.map(function(x){return '<div><span>'+escape(x)+'</span></div>'}).join("")+'</div>'}
 function overallSummary(){return '<div class="donut-wrap"><div class="donut" style="--percent:'+overall()+'"><div>'+overall()+'%<small>описаний</small></div></div><div><h3>Что означает процент?</h3><p class="muted small">Каждая из девяти локаций оценивается по пяти критериям: образ, объекты, атмосфера, действия и окончательное утверждение. Проценты показывают глубину документации, а не готовность Unreal Engine.</p><div class="check"><span class="key"></span>Описано &nbsp; <span class="key off"></span>Ещё обсуждаем</div></div></div>'}
-function pageHome(){var incomplete=places.filter(function(x){return pct(x)<100}).slice(0,5);return '<section class="hero"><div class="kicker">Мир, который не обязан тебя замечать</div><h1>FINAL COIL.<br>От идеи — к миру.</h1><p>Единый визуальный путеводитель: какие локации уже придуманы, что решено и какие вопросы остаются открытыми. Сюжетные тайны и концовки здесь не раскрываются.</p><div class="buttons"><a class="btn" href="#/world">Исследовать мир →</a><a class="btn secondary" href="#/progress">Посмотреть прогресс</a></div><p class="small">Берёзовка · Архангельская область · Старый Бор · песочница · выживание · неоднозначная мистика</p></section><div class="grid stats"><div class="stat"><div class="lab">Наполненность локаций</div><div class="number">'+overall()+'%</div><div class="lab">Документация, не UE5</div></div><div class="stat"><div class="lab">Локации в каталоге</div><div class="number">'+places.length+'</div><div class="lab">Все ещё в проработке</div></div><div class="stat"><div class="lab">Принятые положения</div><div class="number">'+decisions.filter(function(x){return x[1]==="Принято"}).length+'</div><div class="lab">И цели, и открытые вопросы отдельно</div></div><div class="stat"><div class="lab">Цель длительности</div><div class="number">15–20</div><div class="lab">часов, до плейтестов</div></div></div><div class="split"><div class="panel"><h3>Общая наполненность</h3>'+overallSummary()+'</div><div class="panel"><h3>В очереди на проработку</h3>'+incomplete.map(function(x){return '<div class="progress-entry"><div class="row"><a href="#/location/'+x.id+'">'+escape(x.title)+'</a><b>'+pct(x)+'%</b></div>'+line(x)+'</div>'}).join("")+'</div></div><h2>Путеводитель по местам</h2><div class="grid">'+places.slice(0,6).map(card).join("")+'</div><h2>Правило разработки мира</h2><div class="note">Сначала подробно описываем каждое место: среду, объекты, действия и атмосферу. Только потом определяем их размещение на карте, расстояния и дороги. Не превращаем черновую карту в утверждённый канон.</div>'}
+function pageHome(){var incomplete=places.filter(function(x){return pct(x)<100}).slice(0,5);return '<section class="hero"><div class="kicker">Мир, который не обязан тебя замечать</div><h1>FINAL COIL.<br>От идеи — к миру.</h1><p>Единый визуальный путеводитель: какие локации уже придуманы, что решено и какие вопросы остаются открытыми. Сюжетные тайны и концовки здесь не раскрываются.</p><div class="buttons"><a class="btn" href="#/world">Исследовать мир →</a><a class="btn secondary" href="#/progress">Посмотреть прогресс</a><a class="btn secondary" href="#/roadmap">План проработки</a></div><p class="small">Берёзовка · Архангельская область · Старый Бор · песочница · выживание · неоднозначная мистика</p></section><div class="grid stats"><div class="stat"><div class="lab">Наполненность локаций</div><div class="number">'+overall()+'%</div><div class="lab">Документация, не UE5</div></div><div class="stat"><div class="lab">Локации в каталоге</div><div class="number">'+places.length+'</div><div class="lab">Все ещё в проработке</div></div><div class="stat"><div class="lab">Принятые положения</div><div class="number">'+decisions.filter(function(x){return x[1]==="Принято"}).length+'</div><div class="lab">И цели, и открытые вопросы отдельно</div></div><div class="stat"><div class="lab">Цель длительности</div><div class="number">15–20</div><div class="lab">часов, до плейтестов</div></div></div><div class="split"><div class="panel"><h3>Общая наполненность</h3>'+overallSummary()+'</div><div class="panel"><h3>В очереди на проработку</h3>'+incomplete.map(function(x){return '<div class="progress-entry"><div class="row"><a href="#/location/'+x.id+'">'+escape(x.title)+'</a><b>'+pct(x)+'%</b></div>'+line(x)+'</div>'}).join("")+'</div></div><h2>Путеводитель по местам</h2><div class="grid">'+places.slice(0,6).map(card).join("")+'</div><h2>Правило разработки мира</h2><div class="note">Сначала подробно описываем каждое место: среду, объекты, действия и атмосферу. Только потом определяем их размещение на карте, расстояния и дороги. Не превращаем черновую карту в утверждённый канон.</div>'+roadmapTeaser()}
+function roadmapCard(w,i){return '<a class="tile stream" href="#/roadmap/'+w.id+'"><div class="tile-body"><div class="roadmap-head"><span class="stream-number">НАПРАВЛЕНИЕ '+String(i+1).padStart(2,"0")+'</span><span class="pill">'+escape(w.status)+'</span></div><h3>'+escape(w.title)+'</h3><p>'+escape(w.summary)+'</p><div class="side-note">Открыть план обсуждения →</div></div></a>'}
+function roadmapTeaser(){return '<h2>Шесть направлений проектирования</h2><p class="intro">Вопросы, которые нам предстоит детально разобрать. Принятые ранее базовые решения сохранены; завершённой спецификации пока нет ни у одного направления.</p><div class="grid">'+workstreams.map(roadmapCard).join("")+'</div><p class="side-note"><a href="#/roadmap">Весь план проработки →</a></p>'}
+function pageRoadmap(){return header("План проработки","6 направлений / пока без завершённых спецификаций")+'<p class="intro">Здесь собраны направления, которые ещё нужно разобрать подробно. Статус «В работе» означает, что обсуждение началось, а не что игровой код уже готов.</p><div class="roadmap-flag"><strong>Порядок работы над миром:</strong> сначала паспорта отдельных локаций — объекты, атмосфера, действия. Размещение на общей карте, дороги и расстояния обсудим после утверждения всех мест.</div><div class="grid">'+workstreams.map(roadmapCard).join("")+'</div><h2>Когда направление можно считать проработанным</h2><div class="data-list"><div><strong>1. Согласованы основные правила</strong><span>Фиксируем, как механика или часть мира должна работать и что мы намеренно не делаем.</span></div><div><strong>2. Закрыты основные вопросы</strong><span>Получены конкретные ответы, а не только список идей.</span></div><div><strong>3. Документировано в Obsidian</strong><span>Есть актуальный паспорт или дизайн-спецификация, на которую ссылается сайт.</span></div><div><strong>4. Определён прототип</strong><span>Понятен минимальный объём проверки в UE5; это отдельный этап, не процент документации.</span></div></div>'}
+function pageWorkstream(id){var w=workstreams.find(function(t){return t.id===id});if(!w)return header("Направление не найдено");return '<a class="crumb-link" href="#/roadmap">← К плану проработки</a>'+header(w.title,'ПЛАН ПРОЕКТИРОВАНИЯ')+'<p class="intro">'+escape(w.summary)+'</p><div class="meta"><span class="pill">'+escape(w.status)+'</span><span class="pill">Не утверждена полная спецификация</span></div><div class="note"><strong>Ожидаемый результат:</strong> '+escape(w.result)+'</div><h2>Что уже известно</h2>'+list(w.known)+'<h2>Что предстоит обсудить</h2>'+list(w.questions)+'<p class="side-note">В путеводителе нет спойлеров о конкретных миссиях и концовках. Подробные рабочие решения и история обсуждений остаются в Obsidian.</p>'}
 function pageWorld(){return header("Атлас мира","9 направлений проработки")+'<p class="intro">Деревня, дом, лес, озеро и следы лесной промышленности. Каждый объект мира должен быть полезен даже игроку, который не расследует мистические истории.</p><input id="find" class="searchbar" type="search" placeholder="Найти локацию по названию или описанию…"><div id="filters" class="filters">'+cats.map(function(c,i){return '<button class="filter '+(i===0?'on':'')+'" data-cat="'+c+'">'+c+'</button>'}).join("")+'</div><div class="grid" id="cards">'+places.map(card).join("")+'</div>'}
 function pageProgress(){return header("Прогресс локаций","Степень проработки, а не код и ассеты")+'<div class="split"><div class="panel">'+overallSummary()+'</div><div class="panel"><h3>Пять критериев</h3><div class="data-list">'+order.map(function(o,i){return '<div><strong>0'+(i+1)+'. '+o+'</strong><span>'+["Чёткий природный или архитектурный образ","Перечень построек, предметов и особенностей","Звуки, погода, время суток и настроение","Повторяемые бытовые и исследовательские действия","Паспорт проверен и согласован"][i]+'</span></div>'}).join("")+'</div></div></div><h2>Все локации</h2><div class="panel">'+places.map(function(x){return '<div class="progress-entry"><div class="row"><a href="#/location/'+x.id+'"><strong>'+escape(x.title)+'</strong></a><b>'+pct(x)+'%</b></div>'+line(x)+'<div class="check">'+order.map(function(s,i){return (x.checks[i]?"✓ ":"○ ")+escape(s)}).join(" · ")+'</div></div>'}).join("")+'</div>'}
 function pageLocation(id){var x=places.find(function(item){return item.id===id});if(!x)return header("Локация не найдена");return '<a class="crumb-link" href="#/world">← К атласу мира</a>'+header(x.title,x.cat+' / ПАСПОРТ ЛОКАЦИИ')+'<p class="intro">'+escape(x.lead)+'</p><div class="meta"><span class="pill">Проработано: '+pct(x)+'%</span><span class="pill">Статус: черновик</span><span class="pill">Расположение: ещё не утверждено</span></div><div class="note">'+escape(x.idea)+'</div><h2>Что находится здесь</h2>'+list(x.objects)+'<h2>Атмосфера и среда</h2>'+list(x.atmosphere)+'<h2>Чем может заниматься игрок</h2>'+list(x.actions)+'<h2>Что ещё нужно решить</h2>'+list(x.questions)+'<h2>Полнота паспорта</h2><div class="panel">'+order.map(function(o,i){return '<div class="progress-entry"><span class="'+(x.checks[i]?'status':'muted')+'">'+(x.checks[i]?'✓':'○')+'</span> &nbsp;'+o+'</div>'}).join("")+line(x)+'</div><p class="side-note">Внимание: здесь описаны окружающая среда и возможные действия, без спойлеров о миссиях и концовках.</p>'}
 function pageDecisions(){return header("Реестр решений","Что уже решили / что ещё обсуждаем")+'<div class="panel"><table><thead><tr><th>Положение</th><th>Статус</th></tr></thead><tbody>'+decisions.map(function(d){return '<tr><td>'+escape(d[0])+'</td><td class="'+(d[1]==="Принято"?"status":"warning")+'">'+escape(d[1])+'</td></tr>'}).join("")+'</tbody></table></div><p class="side-note">Исходная рабочая документация хранится в Obsidian. Этот сайт — удобный путеводитель, а не самостоятельный редактор.</p>'}
 function pageMap(){return header("Будущая карта","Сначала проектируем места")+'<div class="note">Детальную карту мира намеренно не утверждаем. В текущем порядке работы сначала прорабатываются паспорта всех локаций; затем — соседство зон, рельеф, дороги, пешие маршруты и поездки на машине.</div><h2>Текущие локации</h2><div class="grid">'+places.map(card).join("")+'</div>'}
 function pageGuide(){return header("Как устроен путеводитель","FINAL COIL · Документация")+'<div class="split"><div class="panel"><h3>Obsidian — источник истины</h3><p class="muted">Подробные заметки, история решений, GDD, dev diary, планы разработки и техническая документация находятся в Obsidian.</p></div><div class="panel"><h3>Сайт — публичная витрина знаний</h3><p class="muted">Здесь удобно проверять наполнение мира, смотреть паспорта локаций, утверждённые решения и открытые вопросы. Сайт статический, без бэкенда.</p></div></div><h2>Статусы</h2><div class="data-list"><div><strong>Принято</strong><span>Договорились использовать как основу проекта.</span></div><div><strong>Цель</strong><span>Желаемый результат, пока не проверенный на практике.</span></div><div><strong>Открыто</strong><span>Требует отдельного обсуждения.</span></div><div><strong>Наполненность</strong><span>Полнота текста и структуры — не процент реализации в UE5.</span></div></div><h2>Важное ограничение</h2><div class="note">Этот первоначальный GitHub-вариант содержит основные паспорта и решения. Для загрузки полной библиотеки Markdown из Obsidian предусмотрен отдельный экспорт в следующих версиях.</div>'}
-function render(){var path=pathname(),labels={"/":"Обзор проекта","/world":"Атлас мира","/progress":"Прогресс","/decisions":"Решения","/map":"Карта","/guide":"О путеводителе"};document.getElementById("breadcrumb").textContent="Путеводитель / "+(labels[path]||(path.startsWith("/location/")?"Паспорт места":"Раздел"));document.getElementById("nav").innerHTML=nav.map(function(x){return '<a class="'+(path===x[0]?"active":"")+'" href="#'+x[0]+'">'+x[1]+' <small>↗</small></a>'}).join("");document.getElementById("places").innerHTML=places.map(function(x){return '<a class="'+(path==="/location/"+x.id?"active":"")+'" href="#/location/'+x.id+'">'+escape(x.title)+' <small>'+pct(x)+'%</small></a>'}).join("");main.innerHTML=path==="/" ? pageHome():path==="/world"?pageWorld():path==="/progress"?pageProgress():path==="/decisions"?pageDecisions():path==="/map"?pageMap():path==="/guide"?pageGuide():path.startsWith("/location/")?pageLocation(path.split("/")[2]):pageHome();window.scrollTo(0,0);sidebar.classList.remove("open");document.getElementById("overlay").classList.remove("on");var search=document.getElementById("find"),filters=document.getElementById("filters");if(search&&filters){var category="Все";function apply(){var q=search.value.toLowerCase();document.getElementById("cards").innerHTML=places.filter(function(x){return (category==="Все"||category===x.cat)&&(x.title+" "+x.lead+" "+x.idea).toLowerCase().includes(q)}).map(card).join("")||'<p class="muted">Ничего не найдено</p>'}search.addEventListener("input",apply);filters.addEventListener("click",function(e){if(e.target.dataset.cat){category=e.target.dataset.cat;filters.querySelectorAll("button").forEach(function(b){b.classList.toggle("on",b.dataset.cat===category)});apply()}})}}
+function render(){var path=pathname(),labels={"/":"Обзор проекта","/world":"Атлас мира","/progress":"Прогресс","/roadmap":"План проработки","/decisions":"Решения","/map":"Карта","/guide":"О путеводителе"};document.getElementById("breadcrumb").textContent="Путеводитель / "+(labels[path]||(path.startsWith("/location/")?"Паспорт места":"Раздел"));document.getElementById("nav").innerHTML=nav.map(function(x){return '<a class="'+(path===x[0]?"active":"")+'" href="#'+x[0]+'">'+x[1]+' <small>↗</small></a>'}).join("");document.getElementById("places").innerHTML=places.map(function(x){return '<a class="'+(path==="/location/"+x.id?"active":"")+'" href="#/location/'+x.id+'">'+escape(x.title)+' <small>'+pct(x)+'%</small></a>'}).join("");main.innerHTML=path==="/" ? pageHome():path==="/world"?pageWorld():path==="/progress"?pageProgress():path==="/roadmap"?pageRoadmap():path.startsWith("/roadmap/")?pageWorkstream(path.split("/")[2]):path==="/decisions"?pageDecisions():path==="/map"?pageMap():path==="/guide"?pageGuide():path.startsWith("/location/")?pageLocation(path.split("/")[2]):pageHome();window.scrollTo(0,0);sidebar.classList.remove("open");document.getElementById("overlay").classList.remove("on");var search=document.getElementById("find"),filters=document.getElementById("filters");if(search&&filters){var category="Все";function apply(){var q=search.value.toLowerCase();document.getElementById("cards").innerHTML=places.filter(function(x){return (category==="Все"||category===x.cat)&&(x.title+" "+x.lead+" "+x.idea).toLowerCase().includes(q)}).map(card).join("")||'<p class="muted">Ничего не найдено</p>'}search.addEventListener("input",apply);filters.addEventListener("click",function(e){if(e.target.dataset.cat){category=e.target.dataset.cat;filters.querySelectorAll("button").forEach(function(b){b.classList.toggle("on",b.dataset.cat===category)});apply()}})}}
 document.getElementById("mobileBtn").addEventListener("click",function(){sidebar.classList.toggle("open");document.getElementById("overlay").classList.toggle("on")});document.getElementById("overlay").addEventListener("click",function(){sidebar.classList.remove("open");this.classList.remove("on")});window.addEventListener("hashchange",render);render();
 })();
 </script>
