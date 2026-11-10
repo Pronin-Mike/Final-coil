@@ -1,0 +1,43 @@
+name: Import licensed shop reference photographs
+
+on:
+  push:
+    paths:
+      - .github/workflows/import-store-references.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download Wikimedia Commons photo references
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets/shop
+          curl --fail --location --retry 4 --retry-delay 2 --user-agent "FinalCoilGuidebook/0.6 (GitHub Pages educational concept reference)" \
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Brynchagi-shop-01.jpg/960px-Brynchagi-shop-01.jpg" \
+            -o assets/shop/exterior.jpg
+          curl --fail --location --retry 4 --retry-delay 2 --user-agent "FinalCoilGuidebook/0.6 (GitHub Pages educational concept reference)" \
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Village_shop_Russia.jpg/960px-Village_shop_Russia.jpg" \
+            -o assets/shop/interior.jpg
+          curl --fail --location --retry 4 --retry-delay 2 --user-agent "FinalCoilGuidebook/0.6 (GitHub Pages educational concept reference)" \
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Grocery_store_shelf_in_Russia.jpg/960px-Grocery_store_shelf_in_Russia.jpg" \
+            -o assets/shop/shelves.jpg
+          test "$(find assets/shop -maxdepth 1 -name '*.jpg' -size +10k | wc -l)" -eq 3
+          file assets/shop/*.jpg
+      - name: Commit licensed reference photos
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/shop/*.jpg
+          if ! git diff --cached --quiet; then
+            git commit -m "Add licensed village shop reference images"
+            git push origin HEAD:main
+          fi
