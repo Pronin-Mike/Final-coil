@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1150" viewBox="0 0 1000 1150">
+<rect x="0.0" y="0.0" width="1000.0" height="1150.0" rx="0" fill="#f8f7f4" stroke="none" stroke-width="1" opacity="1"/>
+<text x="500" y="50" fill="#213b4c" font-family="DejaVu Sans,Arial,sans-serif" font-size="29" font-weight="750" text-anchor="middle">ГАРАЖ ДЕДА — ПЛАНИРОВКА v1</text>
+<text x="500" y="80" fill="#546b7a" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="500" text-anchor="middle">FINAL COIL  •  внутренние размеры 7,0 × 9,0 м  •  63 м²</text>
+<text x="500" y="109" fill="#8a6a40" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="550" text-anchor="middle">Рабочий вариант для UE5: положения и мебель ещё не утверждены</text>
+<path d="M 205 133 L765 133" stroke="#788c94" stroke-width="2" fill="none" />
+<path d="M 205 125 L205 141" stroke="#788c94" stroke-width="2" fill="none" />
+<path d="M 765 125 L765 141" stroke="#788c94" stroke-width="2" fill="none" />
+<text x="487" y="126" fill="#294253" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle">7,0 м</text>
+<path d="M 169 165 L169 885" stroke="#788c94" stroke-width="2" fill="none" />
+<path d="M 159 165 L179 165" stroke="#788c94" stroke-width="2" fill="none" />
+<path d="M 159 885 L179 885" stroke="#788c94" stroke-width="2" fill="none" />
+<text x="151" y="525" fill="#294253" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle" transform="rotate(-90,151,525)">9,0 м</text>
+<rect x="205.0" y="165.0" width="560.0" height="720.0" rx="3" fill="#e7e6df" stroke="#30495b" stroke-width="3" opacity="1"/>
+<path d="M 285 165 L285 885" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 365 165 L365 885" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 445 165 L445 885" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 525 165 L525 885" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 605 165 L605 885" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 685 165 L685 885" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 205 245 L765 245" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 205 325 L765 325" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 205 405 L765 405" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 205 485 L765 485" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 205 565 L765 565" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 205 645 L765 645" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 205 725 L765 725" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<path d="M 205 805 L765 805" stroke="#ccd0c9" stroke-width="1" fill="none" stroke-dasharray="4 5"/>
+<rect x="225.0" y="185.0" width="352.0" height="44.0" rx="6" fill="#a8895f" stroke="#775938" stroke-width="1.5" opacity="1"/>
+<text x="401.0" y="212.2" fill="#fff" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="650" text-anchor="middle">СТЕЛЛАЖ: ЗАПЧАСТИ</text>
+<rect x="237.0" y="257.0" width="92.0" height="84.0" rx="6" fill="#d7bda2" stroke="#986d48" stroke-width="1.5" opacity="1"/>
+<text x="283.4" y="293.0" fill="#60422c" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="700" text-anchor="middle">СТОЙКА</text>
+<text x="283.4" y="312.20000000000005" fill="#60422c" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="600" text-anchor="middle">АГРЕГАТА</text>
+<rect x="365.0" y="262.6" width="192.0" height="62.4" rx="6" fill="#e2c5a4" stroke="#bd875a" stroke-width="1.7" opacity="1"/>
+<text x="461.0" y="295.4" fill="#60422c" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="700" text-anchor="middle">СТОЛ ДЕТАЛЕЙ</text>
+<rect x="223.4" y="413.0" width="65.6" height="260.0" rx="6" fill="#718ea5" stroke="#40647c" stroke-width="1.5" opacity="1"/>
+<text x="255.4" y="515.4" fill="#fff" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="750" text-anchor="middle" transform="rotate(-90,255.4,515.4)">ВЕРСТАК</text>
+<path d="M 225.0 457.0 L287.4 457.0" stroke="#9fb5c5" stroke-width="1.7" fill="none" />
+<path d="M 225.0 545.0 L287.4 545.0" stroke="#9fb5c5" stroke-width="1.7" fill="none" />
+<path d="M 225.0 633.0 L287.4 633.0" stroke="#9fb5c5" stroke-width="1.7" fill="none" />
+<rect x="699.4" y="413.0" width="46.4" height="222.4" rx="6" fill="#b7b6a0" stroke="#797968" stroke-width="1.5" opacity="1"/>
+<text x="722.6" y="528.2" fill="#4b4e40" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="740" text-anchor="middle" transform="rotate(90,722.6,528.2)">ПОЛКИ</text>
+<rect x="651.4" y="305.0" width="84.0" height="76.8" rx="6" fill="#b0c1b3" stroke="#51745d" stroke-width="1.5" opacity="1"/>
+<circle cx="670.6" cy="327.4" r="13" fill="#506558"/>
+<circle cx="670.6" cy="327.4" r="6" fill="#8da899"/>
+<circle cx="708.2" cy="327.4" r="13" fill="#506558"/>
+<circle cx="708.2" cy="327.4" r="6" fill="#8da899"/>
+<circle cx="670.6" cy="363.4" r="13" fill="#506558"/>
+<circle cx="670.6" cy="363.4" r="6" fill="#8da899"/>
+<circle cx="708.2" cy="363.4" r="13" fill="#506558"/>
+<circle cx="708.2" cy="363.4" r="6" fill="#8da899"/>
+<rect x="414.6" y="369.0" width="140.8" height="348.0" rx="24" fill="#577d83" stroke="#264c57" stroke-width="3" opacity="1"/>
+<rect x="432.2" y="414.6" width="105.6" height="54.4" rx="10" fill="#bfd0cb" stroke="#44727a" stroke-width="1" opacity="1"/>
+<rect x="432.2" y="567.4" width="105.6" height="46.4" rx="10" fill="#bfd0cb" stroke="#44727a" stroke-width="1" opacity="1"/>
+<rect x="402.6" y="429.0" width="10.0" height="46.0" rx="3" fill="#273b3f" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="557.4" y="429.0" width="10.0" height="46.0" rx="3" fill="#273b3f" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="402.6" y="637.0" width="10.0" height="46.0" rx="3" fill="#273b3f" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="557.4" y="637.0" width="10.0" height="46.0" rx="3" fill="#273b3f" stroke="none" stroke-width="1" opacity="1"/>
+<rect x="429.0" y="625.8" width="112.0" height="64.0" rx="10" fill="#76989a" stroke="#3e666d" stroke-width="1.5" opacity="1"/>
+<text x="485.0" y="533.0" fill="#fff" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="750" text-anchor="middle">АВТО</text>
+<text x="485.0" y="669.0" fill="#fff" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle">КАПОТ ↓</text>
+<path d="M 301.8 525.0 L 397.8 525.0" stroke="#577e87" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="348.2" y="514.6" fill="#426976" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle">≈1,5 м</text>
+<path d="M 565.0 525.0 L 689.8 525.0" stroke="#577e87" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="627.4000000000001" y="514.6" fill="#426976" font-family="DejaVu Sans,Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle">≈1,7 м</text>
+<circle cx="341.0" cy="389.0" r="10" fill="#eedfac" stroke="#a48d56" stroke-width="1.4"/>
+<circle cx="633.0" cy="577.0" r="10" fill="#eedfac" stroke="#a48d56" stroke-width="1.4"/>
+<path d="M 205 261.0 L205 361.0" stroke="#6baeb6" stroke-width="7" fill="none" />
+<path d="M 765 453.0 L765 541.0" stroke="#6baeb6" stroke-width="7" fill="none" />
+<path d="M 765 243.4 L765 321.0" stroke="#f8f7f4" stroke-width="11" fill="none" />
+<path d="M 765 321.0 L694.6 321.0" stroke="#d17c5e" stroke-width="4" fill="none" />
+<path d="M 765 243.4 A 76.0 76.0 0 0 0 689.0 321.0" fill="none" stroke="#cb8974" stroke-width="1.6" stroke-dasharray="5 4"/>
+<path d="M 357.0 885 L613.0 885" stroke="#f8f7f4" stroke-width="13" fill="none" />
+<circle cx="357.0" cy="885" r="5" fill="#c17b5a"/>
+<circle cx="613.0" cy="885" r="5" fill="#c17b5a"/>
+<text x="485.0" y="909" fill="#a45d43" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="750" text-anchor="middle">ВОРОТА 3,2 м — ВЪЕЗД (НАРУЖУ)</text>
+<text x="817" y="243" fill="#a65c46" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="650" text-anchor="start">Боковая</text>
+<text x="817" y="261" fill="#a65c46" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="650" text-anchor="start">дверь</text>
+<text x="490" y="930" fill="#6b7985" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="550" text-anchor="middle">↑ Задняя стена     •     Выезд во двор ↓</text>
+<rect x="65.0" y="967.0" width="875.0" height="160.0" rx="14" fill="#fff" stroke="#d9dedb" stroke-width="1.5" opacity="1"/>
+<text x="86" y="997" fill="#293f50" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="750" text-anchor="start">ФУНКЦИОНАЛЬНЫЕ ЗОНЫ</text>
+<rect x="92.0" y="1022.0" width="25.0" height="23.0" rx="5" fill="#577d83" stroke="none" stroke-width="1" opacity="1"/>
+<text x="128" y="1039" fill="#33495a" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start">Автомобиль — условно 4,35 × 1,76 м</text>
+<rect x="512.0" y="1022.0" width="25.0" height="23.0" rx="5" fill="#718ea5" stroke="none" stroke-width="1" opacity="1"/>
+<text x="548" y="1039" fill="#33495a" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start">Верстак и инструменты</text>
+<rect x="92.0" y="1063.0" width="25.0" height="23.0" rx="5" fill="#a8895f" stroke="none" stroke-width="1" opacity="1"/>
+<text x="128" y="1080" fill="#33495a" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start">Стеллажи и полки с деталями</text>
+<rect x="512.0" y="1063.0" width="25.0" height="23.0" rx="5" fill="#d7bda2" stroke="none" stroke-width="1" opacity="1"/>
+<text x="548" y="1080" fill="#33495a" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="500" text-anchor="start">Зона снятых агрегатов</text>
+<text x="500" y="1120" fill="#7c8892" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="middle">Схема — вариант размещения, не утверждённая расстановка. Проверить масштаб на финальной машине.</text>
+</svg>

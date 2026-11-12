@@ -1,0 +1,10 @@
+{
+  "map": "/Game/FinalCoil/Maps/L_Berezovka_Shop_Bor",
+  "shop_entrance_clear": true,
+  "forest_capsule_sweeps_clear": true,
+  "trail_section_m": 127.44144305220651,
+  "wayfinding_forks": 4,
+  "trees": 19,
+  "chapel_marker": true,
+  "saved_reloaded": true
+}

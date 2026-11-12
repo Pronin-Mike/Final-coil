@@ -1,0 +1,26 @@
+{
+  "size": [
+    1024,
+    2048
+  ],
+  "bounds_cm": [
+    -37000.0,
+    -132666.66666666666,
+    129666.66666666666,
+    287333.3333333333
+  ],
+  "biome_RGBA": [
+    "forest",
+    "concavity_wetness",
+    "lake_proximity",
+    "convex_dryness"
+  ],
+  "use_RGBA": [
+    "road",
+    "path",
+    "yard",
+    "wheel_tracks"
+  ],
+  "source": "Authored from existing terrain geometry, approved road strips and yard extents. Linear, clamp, mipmapped.",
+  "generation_seconds": 173
+}

@@ -1,0 +1,1875 @@
+{
+  "section_x_cm": 62333,
+  "samples": [
+    {
+      "distance_m": 0.0,
+      "x_cm": 62333,
+      "y_cm": 110000,
+      "ground_m": 1.9964926147460937,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 5.0,
+      "x_cm": 62333,
+      "y_cm": 110500,
+      "ground_m": 2.0177426147460937,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 10.0,
+      "x_cm": 62333,
+      "y_cm": 111000,
+      "ground_m": 2.0400099182128906,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 15.0,
+      "x_cm": 62333,
+      "y_cm": 111500,
+      "ground_m": 2.045226287841797,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 20.0,
+      "x_cm": 62333,
+      "y_cm": 112000,
+      "ground_m": 2.0507162475585936,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 25.0,
+      "x_cm": 62333,
+      "y_cm": 112500,
+      "ground_m": 2.0381768798828124,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 30.0,
+      "x_cm": 62333,
+      "y_cm": 113000,
+      "ground_m": 2.0261358642578124,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 35.0,
+      "x_cm": 62333,
+      "y_cm": 113500,
+      "ground_m": 1.854640350341797,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 40.0,
+      "x_cm": 62333,
+      "y_cm": 114000,
+      "ground_m": 1.6865003967285157,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 45.0,
+      "x_cm": 62333,
+      "y_cm": 114500,
+      "ground_m": 1.3630459594726563,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 50.0,
+      "x_cm": 62333,
+      "y_cm": 115000,
+      "ground_m": 1.0449673461914062,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 55.0,
+      "x_cm": 62333,
+      "y_cm": 115500,
+      "ground_m": 0.6323678970336915,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 60.0,
+      "x_cm": 62333,
+      "y_cm": 116000,
+      "ground_m": 0.2262032699584961,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 65.0,
+      "x_cm": 62333,
+      "y_cm": 116500,
+      "ground_m": -0.21272871017456055,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 70.0,
+      "x_cm": 62333,
+      "y_cm": 117000,
+      "ground_m": -0.645135269165039,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 75.0,
+      "x_cm": 62333,
+      "y_cm": 117500,
+      "ground_m": -1.047625732421875,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 80.0,
+      "x_cm": 62333,
+      "y_cm": 118000,
+      "ground_m": -1.4444769287109376,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 85.0,
+      "x_cm": 62333,
+      "y_cm": 118500,
+      "ground_m": -1.7743513488769531,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 90.0,
+      "x_cm": 62333,
+      "y_cm": 119000,
+      "ground_m": -2.1210340881347656,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 95.0,
+      "x_cm": 62333,
+      "y_cm": 119500,
+      "ground_m": -2.293470611572266,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 100.0,
+      "x_cm": 62333,
+      "y_cm": 120000,
+      "ground_m": -2.4901251220703124,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 105.0,
+      "x_cm": 62333,
+      "y_cm": 120500,
+      "ground_m": -2.6536212158203125,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 110.0,
+      "x_cm": 62333,
+      "y_cm": 121000,
+      "ground_m": -2.8155938720703126,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 115.0,
+      "x_cm": 62333,
+      "y_cm": 121500,
+      "ground_m": -3.1205410766601562,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 120.0,
+      "x_cm": 62333,
+      "y_cm": 122000,
+      "ground_m": -3.4280950927734377,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 125.0,
+      "x_cm": 62333,
+      "y_cm": 122500,
+      "ground_m": -3.5199954223632814,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 130.0,
+      "x_cm": 62333,
+      "y_cm": 123000,
+      "ground_m": -3.620640869140625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 135.0,
+      "x_cm": 62333,
+      "y_cm": 123500,
+      "ground_m": -3.829700927734375,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 140.0,
+      "x_cm": 62333,
+      "y_cm": 124000,
+      "ground_m": -4.046545715332031,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 145.0,
+      "x_cm": 62333,
+      "y_cm": 124500,
+      "ground_m": -4.314508666992188,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 150.0,
+      "x_cm": 62333,
+      "y_cm": 125000,
+      "ground_m": -4.591101989746094,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 155.0,
+      "x_cm": 62333,
+      "y_cm": 125500,
+      "ground_m": -4.805348815917969,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 160.0,
+      "x_cm": 62333,
+      "y_cm": 126000,
+      "ground_m": -5.029634094238281,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 165.0,
+      "x_cm": 62333,
+      "y_cm": 126500,
+      "ground_m": -5.100510864257813,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 170.0,
+      "x_cm": 62333,
+      "y_cm": 127000,
+      "ground_m": -5.181736450195313,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 175.0,
+      "x_cm": 62333,
+      "y_cm": 127500,
+      "ground_m": -5.326881103515625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 180.0,
+      "x_cm": 62333,
+      "y_cm": 128000,
+      "ground_m": -5.476041259765625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 185.0,
+      "x_cm": 62333,
+      "y_cm": 128500,
+      "ground_m": -5.752885131835938,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 190.0,
+      "x_cm": 62333,
+      "y_cm": 129000,
+      "ground_m": -6.0277880859375,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 195.0,
+      "x_cm": 62333,
+      "y_cm": 129500,
+      "ground_m": -6.406364135742187,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 200.0,
+      "x_cm": 62333,
+      "y_cm": 130000,
+      "ground_m": -6.778167724609375,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 205.0,
+      "x_cm": 62333,
+      "y_cm": 130500,
+      "ground_m": -7.23163818359375,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 210.0,
+      "x_cm": 62333,
+      "y_cm": 131000,
+      "ground_m": -7.6773443603515625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 215.0,
+      "x_cm": 62333,
+      "y_cm": 131500,
+      "ground_m": -8.174856567382813,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 220.0,
+      "x_cm": 62333,
+      "y_cm": 132000,
+      "ground_m": -8.66424072265625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 225.0,
+      "x_cm": 62333,
+      "y_cm": 132500,
+      "ground_m": -9.174848022460937,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 230.0,
+      "x_cm": 62333,
+      "y_cm": 133000,
+      "ground_m": -9.677490234375,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 235.0,
+      "x_cm": 62333,
+      "y_cm": 133500,
+      "ground_m": -10.170250854492188,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 240.0,
+      "x_cm": 62333,
+      "y_cm": 134000,
+      "ground_m": -10.655753173828124,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 245.0,
+      "x_cm": 62333,
+      "y_cm": 134500,
+      "ground_m": -11.099736328125,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 250.0,
+      "x_cm": 62333,
+      "y_cm": 135000,
+      "ground_m": -11.537730712890625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 255.0,
+      "x_cm": 62333,
+      "y_cm": 135500,
+      "ground_m": -11.902017822265625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 260.0,
+      "x_cm": 62333,
+      "y_cm": 136000,
+      "ground_m": -12.26216796875,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 265.0,
+      "x_cm": 62333,
+      "y_cm": 136500,
+      "ground_m": -12.515855712890625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 270.0,
+      "x_cm": 62333,
+      "y_cm": 137000,
+      "ground_m": -12.767872314453125,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 275.0,
+      "x_cm": 62333,
+      "y_cm": 137500,
+      "ground_m": -12.880074462890626,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 280.0,
+      "x_cm": 62333,
+      "y_cm": 138000,
+      "ground_m": -12.993720703125,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 285.0,
+      "x_cm": 62333,
+      "y_cm": 138500,
+      "ground_m": -12.9965087890625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 290.0,
+      "x_cm": 62333,
+      "y_cm": 139000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 295.0,
+      "x_cm": 62333,
+      "y_cm": 139500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 300.0,
+      "x_cm": 62333,
+      "y_cm": 140000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 305.0,
+      "x_cm": 62333,
+      "y_cm": 140500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 310.0,
+      "x_cm": 62333,
+      "y_cm": 141000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 315.0,
+      "x_cm": 62333,
+      "y_cm": 141500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 320.0,
+      "x_cm": 62333,
+      "y_cm": 142000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 325.0,
+      "x_cm": 62333,
+      "y_cm": 142500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 330.0,
+      "x_cm": 62333,
+      "y_cm": 143000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 335.0,
+      "x_cm": 62333,
+      "y_cm": 143500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 340.0,
+      "x_cm": 62333,
+      "y_cm": 144000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 345.0,
+      "x_cm": 62333,
+      "y_cm": 144500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 350.0,
+      "x_cm": 62333,
+      "y_cm": 145000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 355.0,
+      "x_cm": 62333,
+      "y_cm": 145500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 360.0,
+      "x_cm": 62333,
+      "y_cm": 146000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 365.0,
+      "x_cm": 62333,
+      "y_cm": 146500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 370.0,
+      "x_cm": 62333,
+      "y_cm": 147000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 375.0,
+      "x_cm": 62333,
+      "y_cm": 147500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 380.0,
+      "x_cm": 62333,
+      "y_cm": 148000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 385.0,
+      "x_cm": 62333,
+      "y_cm": 148500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 390.0,
+      "x_cm": 62333,
+      "y_cm": 149000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 395.0,
+      "x_cm": 62333,
+      "y_cm": 149500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 400.0,
+      "x_cm": 62333,
+      "y_cm": 150000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 405.0,
+      "x_cm": 62333,
+      "y_cm": 150500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 410.0,
+      "x_cm": 62333,
+      "y_cm": 151000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 415.0,
+      "x_cm": 62333,
+      "y_cm": 151500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 420.0,
+      "x_cm": 62333,
+      "y_cm": 152000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 425.0,
+      "x_cm": 62333,
+      "y_cm": 152500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 430.0,
+      "x_cm": 62333,
+      "y_cm": 153000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 435.0,
+      "x_cm": 62333,
+      "y_cm": 153500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 440.0,
+      "x_cm": 62333,
+      "y_cm": 154000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 445.0,
+      "x_cm": 62333,
+      "y_cm": 154500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 450.0,
+      "x_cm": 62333,
+      "y_cm": 155000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 455.0,
+      "x_cm": 62333,
+      "y_cm": 155500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 460.0,
+      "x_cm": 62333,
+      "y_cm": 156000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 465.0,
+      "x_cm": 62333,
+      "y_cm": 156500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 470.0,
+      "x_cm": 62333,
+      "y_cm": 157000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 475.0,
+      "x_cm": 62333,
+      "y_cm": 157500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 480.0,
+      "x_cm": 62333,
+      "y_cm": 158000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 485.0,
+      "x_cm": 62333,
+      "y_cm": 158500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 490.0,
+      "x_cm": 62333,
+      "y_cm": 159000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 495.0,
+      "x_cm": 62333,
+      "y_cm": 159500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 500.0,
+      "x_cm": 62333,
+      "y_cm": 160000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 505.0,
+      "x_cm": 62333,
+      "y_cm": 160500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 510.0,
+      "x_cm": 62333,
+      "y_cm": 161000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 515.0,
+      "x_cm": 62333,
+      "y_cm": 161500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 520.0,
+      "x_cm": 62333,
+      "y_cm": 162000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 525.0,
+      "x_cm": 62333,
+      "y_cm": 162500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 530.0,
+      "x_cm": 62333,
+      "y_cm": 163000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 535.0,
+      "x_cm": 62333,
+      "y_cm": 163500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 540.0,
+      "x_cm": 62333,
+      "y_cm": 164000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 545.0,
+      "x_cm": 62333,
+      "y_cm": 164500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 550.0,
+      "x_cm": 62333,
+      "y_cm": 165000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 555.0,
+      "x_cm": 62333,
+      "y_cm": 165500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 560.0,
+      "x_cm": 62333,
+      "y_cm": 166000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 565.0,
+      "x_cm": 62333,
+      "y_cm": 166500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 570.0,
+      "x_cm": 62333,
+      "y_cm": 167000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 575.0,
+      "x_cm": 62333,
+      "y_cm": 167500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 580.0,
+      "x_cm": 62333,
+      "y_cm": 168000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 585.0,
+      "x_cm": 62333,
+      "y_cm": 168500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 590.0,
+      "x_cm": 62333,
+      "y_cm": 169000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 595.0,
+      "x_cm": 62333,
+      "y_cm": 169500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 600.0,
+      "x_cm": 62333,
+      "y_cm": 170000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 605.0,
+      "x_cm": 62333,
+      "y_cm": 170500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 610.0,
+      "x_cm": 62333,
+      "y_cm": 171000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 615.0,
+      "x_cm": 62333,
+      "y_cm": 171500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 620.0,
+      "x_cm": 62333,
+      "y_cm": 172000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 625.0,
+      "x_cm": 62333,
+      "y_cm": 172500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 630.0,
+      "x_cm": 62333,
+      "y_cm": 173000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 635.0,
+      "x_cm": 62333,
+      "y_cm": 173500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 640.0,
+      "x_cm": 62333,
+      "y_cm": 174000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 645.0,
+      "x_cm": 62333,
+      "y_cm": 174500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 650.0,
+      "x_cm": 62333,
+      "y_cm": 175000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 655.0,
+      "x_cm": 62333,
+      "y_cm": 175500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 660.0,
+      "x_cm": 62333,
+      "y_cm": 176000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 665.0,
+      "x_cm": 62333,
+      "y_cm": 176500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 670.0,
+      "x_cm": 62333,
+      "y_cm": 177000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 675.0,
+      "x_cm": 62333,
+      "y_cm": 177500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 680.0,
+      "x_cm": 62333,
+      "y_cm": 178000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 685.0,
+      "x_cm": 62333,
+      "y_cm": 178500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 690.0,
+      "x_cm": 62333,
+      "y_cm": 179000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 695.0,
+      "x_cm": 62333,
+      "y_cm": 179500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 700.0,
+      "x_cm": 62333,
+      "y_cm": 180000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 705.0,
+      "x_cm": 62333,
+      "y_cm": 180500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 710.0,
+      "x_cm": 62333,
+      "y_cm": 181000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 715.0,
+      "x_cm": 62333,
+      "y_cm": 181500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 720.0,
+      "x_cm": 62333,
+      "y_cm": 182000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 725.0,
+      "x_cm": 62333,
+      "y_cm": 182500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 730.0,
+      "x_cm": 62333,
+      "y_cm": 183000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 735.0,
+      "x_cm": 62333,
+      "y_cm": 183500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 740.0,
+      "x_cm": 62333,
+      "y_cm": 184000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 745.0,
+      "x_cm": 62333,
+      "y_cm": 184500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 750.0,
+      "x_cm": 62333,
+      "y_cm": 185000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 755.0,
+      "x_cm": 62333,
+      "y_cm": 185500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 760.0,
+      "x_cm": 62333,
+      "y_cm": 186000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 765.0,
+      "x_cm": 62333,
+      "y_cm": 186500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 770.0,
+      "x_cm": 62333,
+      "y_cm": 187000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 775.0,
+      "x_cm": 62333,
+      "y_cm": 187500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 780.0,
+      "x_cm": 62333,
+      "y_cm": 188000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 785.0,
+      "x_cm": 62333,
+      "y_cm": 188500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 790.0,
+      "x_cm": 62333,
+      "y_cm": 189000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 795.0,
+      "x_cm": 62333,
+      "y_cm": 189500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 800.0,
+      "x_cm": 62333,
+      "y_cm": 190000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 805.0,
+      "x_cm": 62333,
+      "y_cm": 190500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 810.0,
+      "x_cm": 62333,
+      "y_cm": 191000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 815.0,
+      "x_cm": 62333,
+      "y_cm": 191500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 820.0,
+      "x_cm": 62333,
+      "y_cm": 192000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 825.0,
+      "x_cm": 62333,
+      "y_cm": 192500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 830.0,
+      "x_cm": 62333,
+      "y_cm": 193000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 835.0,
+      "x_cm": 62333,
+      "y_cm": 193500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 840.0,
+      "x_cm": 62333,
+      "y_cm": 194000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 845.0,
+      "x_cm": 62333,
+      "y_cm": 194500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 850.0,
+      "x_cm": 62333,
+      "y_cm": 195000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 855.0,
+      "x_cm": 62333,
+      "y_cm": 195500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 860.0,
+      "x_cm": 62333,
+      "y_cm": 196000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 865.0,
+      "x_cm": 62333,
+      "y_cm": 196500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 870.0,
+      "x_cm": 62333,
+      "y_cm": 197000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 875.0,
+      "x_cm": 62333,
+      "y_cm": 197500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 880.0,
+      "x_cm": 62333,
+      "y_cm": 198000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 885.0,
+      "x_cm": 62333,
+      "y_cm": 198500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 890.0,
+      "x_cm": 62333,
+      "y_cm": 199000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 895.0,
+      "x_cm": 62333,
+      "y_cm": 199500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 900.0,
+      "x_cm": 62333,
+      "y_cm": 200000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 905.0,
+      "x_cm": 62333,
+      "y_cm": 200500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 910.0,
+      "x_cm": 62333,
+      "y_cm": 201000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 915.0,
+      "x_cm": 62333,
+      "y_cm": 201500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 920.0,
+      "x_cm": 62333,
+      "y_cm": 202000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 925.0,
+      "x_cm": 62333,
+      "y_cm": 202500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 930.0,
+      "x_cm": 62333,
+      "y_cm": 203000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 935.0,
+      "x_cm": 62333,
+      "y_cm": 203500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 940.0,
+      "x_cm": 62333,
+      "y_cm": 204000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 945.0,
+      "x_cm": 62333,
+      "y_cm": 204500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 950.0,
+      "x_cm": 62333,
+      "y_cm": 205000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 955.0,
+      "x_cm": 62333,
+      "y_cm": 205500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 960.0,
+      "x_cm": 62333,
+      "y_cm": 206000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 965.0,
+      "x_cm": 62333,
+      "y_cm": 206500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 970.0,
+      "x_cm": 62333,
+      "y_cm": 207000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 975.0,
+      "x_cm": 62333,
+      "y_cm": 207500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 980.0,
+      "x_cm": 62333,
+      "y_cm": 208000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 985.0,
+      "x_cm": 62333,
+      "y_cm": 208500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 990.0,
+      "x_cm": 62333,
+      "y_cm": 209000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 995.0,
+      "x_cm": 62333,
+      "y_cm": 209500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1000.0,
+      "x_cm": 62333,
+      "y_cm": 210000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1005.0,
+      "x_cm": 62333,
+      "y_cm": 210500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1010.0,
+      "x_cm": 62333,
+      "y_cm": 211000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1015.0,
+      "x_cm": 62333,
+      "y_cm": 211500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1020.0,
+      "x_cm": 62333,
+      "y_cm": 212000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1025.0,
+      "x_cm": 62333,
+      "y_cm": 212500,
+      "ground_m": -12.99989990234375,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1030.0,
+      "x_cm": 62333,
+      "y_cm": 213000,
+      "ground_m": -12.999866943359375,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1035.0,
+      "x_cm": 62333,
+      "y_cm": 213500,
+      "ground_m": -12.997236328125,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1040.0,
+      "x_cm": 62333,
+      "y_cm": 214000,
+      "ground_m": -12.996357421875,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1045.0,
+      "x_cm": 62333,
+      "y_cm": 214500,
+      "ground_m": -12.992410888671875,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1050.0,
+      "x_cm": 62333,
+      "y_cm": 215000,
+      "ground_m": -12.990323486328125,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1055.0,
+      "x_cm": 62333,
+      "y_cm": 215500,
+      "ground_m": -12.9876318359375,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1060.0,
+      "x_cm": 62333,
+      "y_cm": 216000,
+      "ground_m": -12.98496826171875,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1065.0,
+      "x_cm": 62333,
+      "y_cm": 216500,
+      "ground_m": -12.985030517578124,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1070.0,
+      "x_cm": 62333,
+      "y_cm": 217000,
+      "ground_m": -12.9840966796875,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1075.0,
+      "x_cm": 62333,
+      "y_cm": 217500,
+      "ground_m": -12.98697265625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1080.0,
+      "x_cm": 62333,
+      "y_cm": 218000,
+      "ground_m": -12.98855712890625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1085.0,
+      "x_cm": 62333,
+      "y_cm": 218500,
+      "ground_m": -12.992694091796874,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1090.0,
+      "x_cm": 62333,
+      "y_cm": 219000,
+      "ground_m": -12.99580322265625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1095.0,
+      "x_cm": 62333,
+      "y_cm": 219500,
+      "ground_m": -12.99809814453125,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1100.0,
+      "x_cm": 62333,
+      "y_cm": 220000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1105.0,
+      "x_cm": 62333,
+      "y_cm": 220500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1110.0,
+      "x_cm": 62333,
+      "y_cm": 221000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1115.0,
+      "x_cm": 62333,
+      "y_cm": 221500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1120.0,
+      "x_cm": 62333,
+      "y_cm": 222000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1125.0,
+      "x_cm": 62333,
+      "y_cm": 222500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1130.0,
+      "x_cm": 62333,
+      "y_cm": 223000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1135.0,
+      "x_cm": 62333,
+      "y_cm": 223500,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1140.0,
+      "x_cm": 62333,
+      "y_cm": 224000,
+      "ground_m": -13.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1145.0,
+      "x_cm": 62333,
+      "y_cm": 224500,
+      "ground_m": -12.973804931640625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1150.0,
+      "x_cm": 62333,
+      "y_cm": 225000,
+      "ground_m": -12.96505615234375,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1155.0,
+      "x_cm": 62333,
+      "y_cm": 225500,
+      "ground_m": -12.71076904296875,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1160.0,
+      "x_cm": 62333,
+      "y_cm": 226000,
+      "ground_m": -12.54448974609375,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1165.0,
+      "x_cm": 62333,
+      "y_cm": 226500,
+      "ground_m": -12.06285888671875,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1170.0,
+      "x_cm": 62333,
+      "y_cm": 227000,
+      "ground_m": -11.642691650390624,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1175.0,
+      "x_cm": 62333,
+      "y_cm": 227500,
+      "ground_m": -10.991099853515625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1180.0,
+      "x_cm": 62333,
+      "y_cm": 228000,
+      "ground_m": -10.376273193359374,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1185.0,
+      "x_cm": 62333,
+      "y_cm": 228500,
+      "ground_m": -9.61627197265625,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1190.0,
+      "x_cm": 62333,
+      "y_cm": 229000,
+      "ground_m": -8.871041259765626,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1195.0,
+      "x_cm": 62333,
+      "y_cm": 229500,
+      "ground_m": -8.067715454101563,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1200.0,
+      "x_cm": 62333,
+      "y_cm": 230000,
+      "ground_m": -7.259592895507812,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1205.0,
+      "x_cm": 62333,
+      "y_cm": 230500,
+      "ground_m": -6.48102294921875,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1210.0,
+      "x_cm": 62333,
+      "y_cm": 231000,
+      "ground_m": -5.680255126953125,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1215.0,
+      "x_cm": 62333,
+      "y_cm": 231500,
+      "ground_m": -4.997067260742187,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1220.0,
+      "x_cm": 62333,
+      "y_cm": 232000,
+      "ground_m": -4.276209716796875,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1225.0,
+      "x_cm": 62333,
+      "y_cm": 232500,
+      "ground_m": -3.761191711425781,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1230.0,
+      "x_cm": 62333,
+      "y_cm": 233000,
+      "ground_m": -3.194747314453125,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1235.0,
+      "x_cm": 62333,
+      "y_cm": 233500,
+      "ground_m": -2.9225308227539064,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1240.0,
+      "x_cm": 62333,
+      "y_cm": 234000,
+      "ground_m": -2.5866525268554685,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1245.0,
+      "x_cm": 62333,
+      "y_cm": 234500,
+      "ground_m": -1.9859530639648437,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1250.0,
+      "x_cm": 62333,
+      "y_cm": 235000,
+      "ground_m": -1.6263626098632813,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1255.0,
+      "x_cm": 62333,
+      "y_cm": 235500,
+      "ground_m": 0.34586990356445313,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1260.0,
+      "x_cm": 62333,
+      "y_cm": 236000,
+      "ground_m": 2.207383880615234,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1265.0,
+      "x_cm": 62333,
+      "y_cm": 236500,
+      "ground_m": 2.908428039550781,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1270.0,
+      "x_cm": 62333,
+      "y_cm": 237000,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1275.0,
+      "x_cm": 62333,
+      "y_cm": 237500,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1280.0,
+      "x_cm": 62333,
+      "y_cm": 238000,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1285.0,
+      "x_cm": 62333,
+      "y_cm": 238500,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1290.0,
+      "x_cm": 62333,
+      "y_cm": 239000,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1295.0,
+      "x_cm": 62333,
+      "y_cm": 239500,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1300.0,
+      "x_cm": 62333,
+      "y_cm": 240000,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1305.0,
+      "x_cm": 62333,
+      "y_cm": 240500,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1310.0,
+      "x_cm": 62333,
+      "y_cm": 241000,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1315.0,
+      "x_cm": 62333,
+      "y_cm": 241500,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1320.0,
+      "x_cm": 62333,
+      "y_cm": 242000,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1325.0,
+      "x_cm": 62333,
+      "y_cm": 242500,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    },
+    {
+      "distance_m": 1330.0,
+      "x_cm": 62333,
+      "y_cm": 243000,
+      "ground_m": 4.0,
+      "water_m": -2.5
+    }
+  ],
+  "source": "Native UE collision traces through final terrain and lake bed"
+}

@@ -1,0 +1,126 @@
+{
+  "flat_pad_count": 23,
+  "pads": [
+    {
+      "name": "H01",
+      "target_cm": 166.08033594662683,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H02",
+      "target_cm": 93.73536493083603,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H03",
+      "target_cm": 333.33702267300407,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H04",
+      "target_cm": 234.8809294225373,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H05",
+      "target_cm": 211.8110102324895,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H06",
+      "target_cm": 166.15302371173556,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H07",
+      "target_cm": 110.69919628597411,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H08",
+      "target_cm": 175.44344359869044,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H09",
+      "target_cm": 422.0126063089077,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H10",
+      "target_cm": 138.83540622091914,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H11",
+      "target_cm": 15.777881179179744,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "H12",
+      "target_cm": 218.21647670808937,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "E01",
+      "target_cm": 25.440004631899953,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "E02",
+      "target_cm": 240.8615741517633,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "E03",
+      "target_cm": 270.95831503728164,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "E04",
+      "target_cm": 565.9181102401808,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "E05",
+      "target_cm": 539.7282674500043,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "E06",
+      "target_cm": 75.19973819107608,
+      "spread_cm": 0.026265521722621088
+    },
+    {
+      "name": "E07",
+      "target_cm": 217.06535357014184,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "G01",
+      "target_cm": 653.5535540959177,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "STOP01",
+      "target_cm": 184.72005488056215,
+      "spread_cm": 7.46592597005241
+    },
+    {
+      "name": "SHOP01",
+      "target_cm": 211.8110102324895,
+      "spread_cm": 0.0
+    },
+    {
+      "name": "CHAPEL01",
+      "target_cm": 1295.1157940009589,
+      "spread_cm": 0.0
+    }
+  ],
+  "grid_vertices": 411736,
+  "grid_triangles": 820694,
+  "footprint_km2": 7.0,
+  "source_repository": "Pronin-Mike/Final-coil",
+  "branch": "main",
+  "blob": "0725a80b4bc79229f12b16e2632c7ca528316cfe"
+}

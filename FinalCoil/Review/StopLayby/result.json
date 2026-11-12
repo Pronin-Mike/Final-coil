@@ -1,0 +1,40 @@
+{
+  "saved": true,
+  "layby_extra_width_m": 3,
+  "standing_length_m": 12,
+  "tapers_m": 12,
+  "waiting_apron_m": [
+    6.2,
+    8
+  ],
+  "shelter_offset_m": 5,
+  "moved": [
+    "STOP01_Pad",
+    "STOP01_Post_-80_-140",
+    "STOP01_Post_-80_140",
+    "STOP01_Post_80_-140",
+    "STOP01_Post_80_140",
+    "STOP01_BackWall",
+    "STOP01_SideWall",
+    "STOP01_Roof",
+    "STOP01_BenchSeat",
+    "STOP01_BenchBack",
+    "STOP01_BenchLeg_-95",
+    "STOP01_BenchLeg_95",
+    "STOP01_BackSlat_25",
+    "STOP01_BackSlat_50",
+    "STOP01_BackSlat_75",
+    "STOP01_BackSlat_100",
+    "STOP01_BackSlat_125",
+    "STOP01_BackSlat_150",
+    "STOP01_BackSlat_175",
+    "STOP01_BackSlat_200"
+  ],
+  "grass_removed": {
+    "VEG_VillageRoad_LowGreen": 96,
+    "VEG_VillageRoad_LowDry": 8,
+    "VEG_VillageRoad_TallGreen": 0,
+    "VEG_VillageRoad_TallDry": 0
+  },
+  "ground_geometry_unchanged": true
+}

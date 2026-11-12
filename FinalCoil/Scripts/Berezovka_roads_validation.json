@@ -1,0 +1,426 @@
+{
+  "map": "/Game/FinalCoil/Maps/L_Berezovka_Region_Roads",
+  "area_km2": 7,
+  "saved_reloaded": true,
+  "routes": [
+    {
+      "name": "MainRoad",
+      "width_m": 7,
+      "length_m": 4186.940866139601,
+      "points_px": [
+        [
+          12,
+          532
+        ],
+        [
+          140,
+          497
+        ],
+        [
+          280,
+          451
+        ],
+        [
+          350,
+          447
+        ],
+        [
+          410,
+          447
+        ],
+        [
+          455,
+          439.08
+        ],
+        [
+          468,
+          436.792
+        ],
+        [
+          535,
+          425
+        ],
+        [
+          670,
+          371
+        ],
+        [
+          793,
+          358
+        ],
+        [
+          915,
+          382
+        ],
+        [
+          1022,
+          430
+        ],
+        [
+          1168,
+          449
+        ],
+        [
+          1220,
+          417
+        ]
+      ],
+      "segments": [
+        "NET_MainRoad_00",
+        "NET_MainRoad_01",
+        "NET_MainRoad_02",
+        "NET_MainRoad_03",
+        "NET_MainRoad_04",
+        "NET_MainRoad_05",
+        "NET_MainRoad_06",
+        "NET_MainRoad_07",
+        "NET_MainRoad_08",
+        "NET_MainRoad_09",
+        "NET_MainRoad_10",
+        "NET_MainRoad_11",
+        "NET_MainRoad_12"
+      ]
+    },
+    {
+      "name": "LakeRoad",
+      "width_m": 7,
+      "length_m": 1195.6672924106838,
+      "points_px": [
+        [
+          1220,
+          417
+        ],
+        [
+          1230,
+          350
+        ],
+        [
+          1203,
+          281
+        ],
+        [
+          1204,
+          207
+        ],
+        [
+          1160,
+          152
+        ],
+        [
+          1091,
+          130
+        ]
+      ],
+      "segments": [
+        "NET_LakeRoad_00",
+        "NET_LakeRoad_01",
+        "NET_LakeRoad_02",
+        "NET_LakeRoad_03",
+        "NET_LakeRoad_04"
+      ]
+    },
+    {
+      "name": "NorthRoad",
+      "width_m": 6,
+      "length_m": 1568.645552555046,
+      "points_px": [
+        [
+          468,
+          436.792
+        ],
+        [
+          515,
+          354
+        ],
+        [
+          554,
+          266
+        ],
+        [
+          620,
+          207
+        ],
+        [
+          714,
+          153
+        ],
+        [
+          753,
+          119
+        ],
+        [
+          765,
+          91
+        ]
+      ],
+      "segments": [
+        "NET_NorthRoad_00",
+        "NET_NorthRoad_01",
+        "NET_NorthRoad_02",
+        "NET_NorthRoad_03",
+        "NET_NorthRoad_04",
+        "NET_NorthRoad_05"
+      ]
+    },
+    {
+      "name": "GrandpaDrive",
+      "width_m": 4,
+      "length_m": 88.17903853518749,
+      "points_px": [
+        [
+          455,
+          439.08
+        ],
+        [
+          460,
+          451
+        ],
+        [
+          459,
+          460
+        ],
+        [
+          457,
+          464
+        ]
+      ],
+      "segments": [
+        "NET_GrandpaDrive_00",
+        "NET_GrandpaDrive_01",
+        "NET_GrandpaDrive_02"
+      ]
+    },
+    {
+      "name": "ShopPath",
+      "width_m": 2,
+      "length_m": 76.8788601356066,
+      "points_px": [
+        [
+          350,
+          447
+        ],
+        [
+          359,
+          440
+        ],
+        [
+          365,
+          430
+        ]
+      ],
+      "segments": [
+        "NET_ShopPath_00",
+        "NET_ShopPath_01"
+      ]
+    },
+    {
+      "name": "StopToShop",
+      "width_m": 2,
+      "length_m": 161.04144499940435,
+      "points_px": [
+        [
+          410,
+          447
+        ],
+        [
+          397,
+          440
+        ],
+        [
+          379,
+          435
+        ],
+        [
+          365,
+          430
+        ]
+      ],
+      "segments": [
+        "NET_StopToShop_00",
+        "NET_StopToShop_01",
+        "NET_StopToShop_02"
+      ]
+    },
+    {
+      "name": "OldBorPath",
+      "width_m": 2,
+      "length_m": 899.9161235538846,
+      "points_px": [
+        [
+          350,
+          447
+        ],
+        [
+          345,
+          418
+        ],
+        [
+          330,
+          395
+        ],
+        [
+          323,
+          370
+        ],
+        [
+          323,
+          342
+        ],
+        [
+          306,
+          317
+        ],
+        [
+          284,
+          294
+        ],
+        [
+          270,
+          268
+        ],
+        [
+          245,
+          240
+        ],
+        [
+          245,
+          210
+        ]
+      ],
+      "segments": [
+        "NET_OldBorPath_00",
+        "NET_OldBorPath_01",
+        "NET_OldBorPath_02",
+        "NET_OldBorPath_03",
+        "NET_OldBorPath_04",
+        "NET_OldBorPath_05",
+        "NET_OldBorPath_06",
+        "NET_OldBorPath_07",
+        "NET_OldBorPath_08"
+      ]
+    },
+    {
+      "name": "GrandpaFootpath",
+      "width_m": 2,
+      "length_m": 166.7844240369664,
+      "points_px": [
+        [
+          410,
+          447
+        ],
+        [
+          430,
+          455
+        ],
+        [
+          449,
+          462
+        ],
+        [
+          457,
+          464
+        ]
+      ],
+      "segments": [
+        "NET_GrandpaFootpath_00",
+        "NET_GrandpaFootpath_01",
+        "NET_GrandpaFootpath_02"
+      ]
+    },
+    {
+      "name": "RailCorridor",
+      "width_m": 10,
+      "length_m": 3937.5165111195934,
+      "points_px": [
+        [
+          90,
+          91
+        ],
+        [
+          190,
+          78
+        ],
+        [
+          310,
+          82
+        ],
+        [
+          480,
+          106
+        ],
+        [
+          600,
+          101
+        ],
+        [
+          750,
+          82
+        ],
+        [
+          850,
+          70
+        ],
+        [
+          958,
+          75
+        ],
+        [
+          1100,
+          92
+        ],
+        [
+          1265,
+          105
+        ]
+      ],
+      "segments": [
+        "NET_RailCorridor_00",
+        "NET_RailCorridor_01",
+        "NET_RailCorridor_02",
+        "NET_RailCorridor_03",
+        "NET_RailCorridor_04",
+        "NET_RailCorridor_05",
+        "NET_RailCorridor_06",
+        "NET_RailCorridor_07",
+        "NET_RailCorridor_08"
+      ]
+    },
+    {
+      "name": "RailPassingLoop",
+      "width_m": 10,
+      "length_m": 503.7813297473645,
+      "points_px": [
+        [
+          1035,
+          84.1
+        ],
+        [
+          1063,
+          115
+        ],
+        [
+          1091,
+          130
+        ],
+        [
+          1130,
+          119
+        ],
+        [
+          1160,
+          97.09
+        ]
+      ],
+      "segments": [
+        "NET_RailPassingLoop_00",
+        "NET_RailPassingLoop_01",
+        "NET_RailPassingLoop_02",
+        "NET_RailPassingLoop_03"
+      ]
+    }
+  ],
+  "replaced_actor_count": 30,
+  "road_top_cm": 5,
+  "provisional_poi": true,
+  "validation": "saved actors, widths, collision profiles, start and region area; no PIE"
+}

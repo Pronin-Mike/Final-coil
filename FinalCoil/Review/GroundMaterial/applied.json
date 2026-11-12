@@ -1,0 +1,119 @@
+{
+  "level": "L_Berezovka_Terrain",
+  "changes": [
+    {
+      "actor": "H01_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H02_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H03_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H04_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H05_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H06_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H07_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H08_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H09_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H10_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H11_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "H12_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "E01_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "E02_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "E03_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "E04_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "E05_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "E06_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "E07_Yard_30x40m",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "STOP01_Pad",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Road.MI_Berezovka_Road"
+    },
+    {
+      "actor": "G01_Yard",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Yard.MI_Berezovka_Yard"
+    },
+    {
+      "actor": "TERRAIN_Terrain",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Terrain.MI_Berezovka_Terrain"
+    },
+    {
+      "actor": "TERRAIN_Road",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Road.MI_Berezovka_Road"
+    },
+    {
+      "actor": "TERRAIN_Path",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Path.MI_Berezovka_Path"
+    },
+    {
+      "actor": "TERRAIN_Rail",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Rail.MI_Berezovka_Rail"
+    },
+    {
+      "actor": "TERRAIN_Forest",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Terrain.MI_Berezovka_Terrain"
+    },
+    {
+      "actor": "TERRAIN_OldBor",
+      "material": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Terrain.MI_Berezovka_Terrain"
+    }
+  ],
+  "compile_errors": [],
+  "surface_geometry_changed": false,
+  "textures": [
+    "/Game/FinalCoil/World/GroundMaterial/T_Berezovka_Biome.T_Berezovka_Biome",
+    "/Game/FinalCoil/World/GroundMaterial/T_Berezovka_Use.T_Berezovka_Use"
+  ]
+}

@@ -1,9 +1,6 @@
 name: Import licensed shop reference photographs
 
 on:
-  push:
-    paths:
-      - .github/workflows/import-store-references.yml
   workflow_dispatch:
 
 permissions:
@@ -15,6 +12,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: dev
       - name: Download Wikimedia Commons photo references
         shell: bash
         run: |
@@ -39,5 +38,5 @@ jobs:
           git add assets/shop/*.jpg
           if ! git diff --cached --quiet; then
             git commit -m "Add licensed village shop reference images"
-            git push origin HEAD:main
+            git push origin HEAD:dev
           fi

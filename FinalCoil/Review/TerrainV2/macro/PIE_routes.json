@@ -1,0 +1,75 @@
+{
+  "route": 6,
+  "point": 0,
+  "running": true,
+  "started": 1490863.015,
+  "last_write": 1491199.687,
+  "samples": 27664,
+  "distance_cm": 601576.8099905512,
+  "completed": [
+    {
+      "route": "stop_garage_forward",
+      "end": [
+        -8033.459030018485,
+        16299.517973967017,
+        756.7035557346214
+      ]
+    },
+    {
+      "route": "stop_garage_reverse",
+      "end": [
+        386.4256128227123,
+        2.9716717593613673,
+        285.93219161699375
+      ]
+    },
+    {
+      "route": "garage_shop_bor_forward",
+      "end": [
+        43289.77927706082,
+        -34637.195055700686,
+        1369.7442238877245
+      ]
+    },
+    {
+      "route": "garage_shop_bor_reverse",
+      "end": [
+        399.11841505605446,
+        3.2520649684933187,
+        285.9374845192673
+      ]
+    },
+    {
+      "route": "lake_forward",
+      "end": [
+        42981.508162075464,
+        129952.45923058123,
+        -87.79524721280795
+      ]
+    },
+    {
+      "route": "lake_reverse",
+      "end": [
+        397.47585889349165,
+        2.0927198948031904,
+        285.93069630820924
+      ]
+    }
+  ],
+  "captured": [],
+  "failures": [],
+  "min_z": -88.38981586383055,
+  "max_z": 1499.0308968823288,
+  "max_ground_error_cm": 7.15000163870377,
+  "stuck_since": 1491200.265,
+  "pause_until": 0,
+  "capture_pending": null,
+  "position": [
+    105.19225510341535,
+    597.3501223676184,
+    289.8271049075341
+  ],
+  "status": "passed",
+  "walking_speed_cm_s": 600,
+  "simulation_time_dilation": 3
+}

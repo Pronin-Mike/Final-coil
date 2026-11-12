@@ -1,0 +1,16 @@
+{
+  "saved": true,
+  "length_m": 41.385185892200276,
+  "from_edge": "5m carriageway edge, excludes shoulder",
+  "to_edge": "H11 plot boundary, 25x40m rectangle",
+  "start_cm": [
+    6303.663009018926,
+    37258.55558297182
+  ],
+  "end_cm": [
+    2227.79007939659,
+    37975.90903482911
+  ],
+  "route": "NET_MainRoad_06",
+  "perpendicular": true
+}

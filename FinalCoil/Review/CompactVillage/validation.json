@@ -1,0 +1,572 @@
+{
+  "plots": [
+    {
+      "id": "G01",
+      "area_m2": 999.9999996147001,
+      "setback_m": 10.463055970631329
+    },
+    {
+      "id": "H13",
+      "area_m2": 999.9999995773904,
+      "setback_m": 2.8545815350176476
+    },
+    {
+      "id": "E10",
+      "area_m2": 1000.0000001339153,
+      "setback_m": 4.20734559575405
+    },
+    {
+      "id": "H09",
+      "area_m2": 1000.0000003921092,
+      "setback_m": 5.129387699582002
+    },
+    {
+      "id": "H08",
+      "area_m2": 1000.0000003920953,
+      "setback_m": 4.663354812168256
+    },
+    {
+      "id": "E09",
+      "area_m2": 1000.0000001164626,
+      "setback_m": 2.1149788776176397
+    },
+    {
+      "id": "E07",
+      "area_m2": 999.9999996663388,
+      "setback_m": 4.637296544575983
+    },
+    {
+      "id": "E06",
+      "area_m2": 1000.0000000455208,
+      "setback_m": 4.942673417030225
+    },
+    {
+      "id": "H02",
+      "area_m2": 1000.0000002293341,
+      "setback_m": 4.180722358458446
+    },
+    {
+      "id": "H12",
+      "area_m2": 1000.0000002282823,
+      "setback_m": 4.210588099175562
+    },
+    {
+      "id": "H01",
+      "area_m2": 999.9999994950443,
+      "setback_m": 4.358690606700289
+    },
+    {
+      "id": "H04",
+      "area_m2": 1000.0000005520834,
+      "setback_m": 2.1065408434514468
+    },
+    {
+      "id": "E02",
+      "area_m2": 999.9999998128444,
+      "setback_m": 4.1021185160203935
+    },
+    {
+      "id": "E01",
+      "area_m2": 1000.000000552072,
+      "setback_m": 2.766414589816827
+    },
+    {
+      "id": "E04",
+      "area_m2": 1000.0000008161362,
+      "setback_m": 5.164479500189195
+    },
+    {
+      "id": "H06",
+      "area_m2": 999.9999999999985,
+      "setback_m": 2.597919863783505
+    },
+    {
+      "id": "E03",
+      "area_m2": 1000.0000005898335,
+      "setback_m": 4.237952050666426
+    },
+    {
+      "id": "H07",
+      "area_m2": 1000.0000004366934,
+      "setback_m": 3.077817697502635
+    },
+    {
+      "id": "H11",
+      "area_m2": 1000.0000002295269,
+      "setback_m": 3.2995236305581717
+    },
+    {
+      "id": "H05",
+      "area_m2": 1000.0000001178878,
+      "setback_m": 3.0811743886819762
+    },
+    {
+      "id": "E08",
+      "area_m2": 999.9999990861869,
+      "setback_m": 4.9580972073180405
+    },
+    {
+      "id": "H03",
+      "area_m2": 1000.0000002652437,
+      "setback_m": 5.640156031680853
+    },
+    {
+      "id": "H10",
+      "area_m2": 999.9999994471486,
+      "setback_m": 4.850329163440534
+    },
+    {
+      "id": "E11",
+      "area_m2": 999.999999543383,
+      "setback_m": 7.883587432693194
+    },
+    {
+      "id": "H14",
+      "area_m2": 1000.0000006267685,
+      "setback_m": 8.89406426204134
+    },
+    {
+      "id": "E05",
+      "area_m2": 999.9999994471501,
+      "setback_m": 8.9859684906713
+    }
+  ],
+  "collision_checks": [
+    {
+      "route": "Main",
+      "xy": [
+        -1389.5131086142321,
+        -33925.0936329588
+      ],
+      "error_cm": 1.661734387425895e-06
+    },
+    {
+      "route": "Main",
+      "xy": [
+        -655.4307116104868,
+        -26584.269662921346
+      ],
+      "error_cm": 2.0783592873385714e-05
+    },
+    {
+      "route": "Main",
+      "xy": [
+        -262.17231328651866,
+        -17932.58426966292
+      ],
+      "error_cm": 2.9352112278502318e-05
+    },
+    {
+      "route": "Main",
+      "xy": [
+        -137.2310094632146,
+        -10198.501872659175
+      ],
+      "error_cm": 1.4128880437169755e-05
+    },
+    {
+      "route": "Main",
+      "xy": [
+        -558.5792954276322,
+        -3460.6741573033705
+      ],
+      "error_cm": 5.40948522598228e-06
+    },
+    {
+      "route": "Main",
+      "xy": [
+        -215.49411665075922,
+        2438.202247191011
+      ],
+      "error_cm": 1.7345316621231177e-05
+    },
+    {
+      "route": "Main",
+      "xy": [
+        1254.528180091082,
+        7760.299625468164
+      ],
+      "error_cm": 4.144312379139592e-05
+    },
+    {
+      "route": "Main",
+      "xy": [
+        2411.9698620917015,
+        13003.74531835206
+      ],
+      "error_cm": 8.048779818636831e-06
+    },
+    {
+      "route": "Main",
+      "xy": [
+        3801.498127147613,
+        19295.880149812732
+      ],
+      "error_cm": 3.789654755337324e-05
+    },
+    {
+      "route": "Main",
+      "xy": [
+        5558.0524344569285,
+        27161.048689138574
+      ],
+      "error_cm": 1.8148006532214822e-05
+    },
+    {
+      "route": "Main",
+      "xy": [
+        7262.1722846441935,
+        34475.65543071161
+      ],
+      "error_cm": 6.06119748169931e-06
+    },
+    {
+      "route": "Main",
+      "xy": [
+        9543.071161048689,
+        43651.68539325842
+      ],
+      "error_cm": 2.5067777229992316e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        943.820224719101,
+        -7052.434456928839
+      ],
+      "error_cm": 1.1320374113665821e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        3460.6741573033705,
+        -7393.258426966291
+      ],
+      "error_cm": 4.133790739047072e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        6029.9625468164795,
+        -8101.123595505617
+      ],
+      "error_cm": 2.3292586803336235e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        8022.471910112359,
+        -9202.247191011236
+      ],
+      "error_cm": 3.4201440627157353e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        9857.677902621723,
+        -11063.670411985018
+      ],
+      "error_cm": 3.885307000928151e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        10958.80149812734,
+        -13501.87265917603
+      ],
+      "error_cm": 2.5836806116785738e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        11299.625468164793,
+        -16280.898876404495
+      ],
+      "error_cm": 3.773408309371007e-06
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        11745.318352059925,
+        -19164.794007490636
+      ],
+      "error_cm": 4.680634802411987e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        12951.31086142322,
+        -21602.996254681646
+      ],
+      "error_cm": 1.3552345080825035e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        15127.340823970037,
+        -23359.550561797754
+      ],
+      "error_cm": 1.9098156315067172e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        18194.756554307114,
+        -24565.543071161046
+      ],
+      "error_cm": 8.372330512429471e-05
+    },
+    {
+      "route": "NorthWest",
+      "xy": [
+        21760.299625468164,
+        -25509.363295880146
+      ],
+      "error_cm": 4.956380848852859e-06
+    },
+    {
+      "route": "NorthLoop",
+      "xy": [
+        11247.191011235955,
+        -13344.569288389514
+      ],
+      "error_cm": 1.67464010871754e-05
+    },
+    {
+      "route": "NorthLoop",
+      "xy": [
+        11273.408239700373,
+        -10460.67415730337
+      ],
+      "error_cm": 5.759837193863859e-06
+    },
+    {
+      "route": "NorthLoop",
+      "xy": [
+        11404.49438202247,
+        -7576.779026217228
+      ],
+      "error_cm": 4.516101799367789e-05
+    },
+    {
+      "route": "NorthLoop",
+      "xy": [
+        11719.101123595505,
+        -4614.232209737827
+      ],
+      "error_cm": 1.6555928255002073e-06
+    },
+    {
+      "route": "NorthLoop",
+      "xy": [
+        12217.228464419475,
+        -1468.1647940074904
+      ],
+      "error_cm": 2.4038574736096052e-05
+    },
+    {
+      "route": "NorthLoop",
+      "xy": [
+        12977.52808988764,
+        1782.7715355805244
+      ],
+      "error_cm": 8.3919419466838e-06
+    },
+    {
+      "route": "NorthLoop",
+      "xy": [
+        14209.737827715355,
+        4666.666666666666
+      ],
+      "error_cm": 7.661445692974667e-06
+    },
+    {
+      "route": "NorthLoop",
+      "xy": [
+        15704.119850187264,
+        6790.262172284643
+      ],
+      "error_cm": 1.965022306649189e-06
+    },
+    {
+      "route": "NorthLoop",
+      "xy": [
+        17355.80524344569,
+        8179.775280898876
+      ],
+      "error_cm": 1.2779264011442137e-05
+    },
+    {
+      "route": "NorthLoop",
+      "xy": [
+        18902.621722846437,
+        8835.205992509364
+      ],
+      "error_cm": 4.83587911048744e-05
+    },
+    {
+      "route": "SouthEast",
+      "xy": [
+        524.3445692883895,
+        10827.715355805243
+      ],
+      "error_cm": 2.783607271794608e-05
+    },
+    {
+      "route": "SouthEast",
+      "xy": [
+        -1782.7715355805242,
+        11614.232209737827
+      ],
+      "error_cm": 6.507109219455742e-06
+    },
+    {
+      "route": "SouthEast",
+      "xy": [
+        -3408.239700374532,
+        13108.614232209737
+      ],
+      "error_cm": 4.3326853415237565e-05
+    },
+    {
+      "route": "SouthEast",
+      "xy": [
+        -4352.059925093633,
+        15232.209737827714
+      ],
+      "error_cm": 3.8212273011595244e-05
+    },
+    {
+      "route": "SouthEast",
+      "xy": [
+        -5059.925093632959,
+        17985.01872659176
+      ],
+      "error_cm": 5.9526325912884204e-05
+    },
+    {
+      "route": "SouthEast",
+      "xy": [
+        -5820.224719101123,
+        21393.25842696629
+      ],
+      "error_cm": 7.496689693198277e-05
+    },
+    {
+      "route": "MainConnector",
+      "xy": [
+        -3008.078751741712,
+        -44535.580524344565
+      ],
+      "error_cm": 1.5726029644724804e-05
+    },
+    {
+      "route": "MainConnector",
+      "xy": [
+        13412.734113410228,
+        56222.846441947564
+      ],
+      "error_cm": 2.837897372387488e-05
+    },
+    {
+      "route": "BorLink",
+      "xy": [
+        24797.752808988764,
+        -27477.528089887637
+      ],
+      "error_cm": 0.00014521841376335942
+    }
+  ],
+  "remote_transforms_unchanged": [
+    "Lake_Mass_00",
+    "Lake_Mass_01",
+    "Lake_Mass_02",
+    "MARK_CHAPEL01_Chapel",
+    "POI_CHAPEL01_Chapel",
+    "LABEL_CHAPEL01_Chapel",
+    "MARK_DPS01_OldTrafficPost",
+    "POI_DPS01_OldTrafficPost",
+    "LABEL_DPS01_OldTrafficPost",
+    "MARK_SAWMILL01",
+    "POI_SAWMILL01",
+    "LABEL_SAWMILL01",
+    "MARK_RAIL01_PassingLoop",
+    "POI_RAIL01_PassingLoop",
+    "LABEL_RAIL01_PassingLoop",
+    "MARK_EXIT01_DistrictCentre",
+    "POI_EXIT01_DistrictCentre",
+    "LABEL_EXIT01_DistrictCentre",
+    "MARK_OLD_BOR",
+    "POI_OLD_BOR",
+    "LABEL_OLD_BOR",
+    "MARK_LAKE",
+    "POI_LAKE",
+    "LABEL_LAKE",
+    "CHAPEL01_Blockout",
+    "CHAPEL01_Porch",
+    "CHAPEL01_CrossVertical",
+    "CHAPEL01_CrossBar",
+    "CHAPEL01_Name",
+    "BOR_Pine_00_Trunk",
+    "BOR_Pine_00_Crown",
+    "BOR_Pine_01_Trunk",
+    "BOR_Pine_01_Crown",
+    "BOR_Pine_02_Trunk",
+    "BOR_Pine_02_Crown",
+    "BOR_Pine_03_Trunk",
+    "BOR_Pine_03_Crown",
+    "BOR_Pine_04_Trunk",
+    "BOR_Pine_04_Crown",
+    "BOR_Pine_05_Trunk",
+    "BOR_Pine_05_Crown",
+    "BOR_Pine_06_Trunk",
+    "BOR_Pine_06_Crown",
+    "BOR_Pine_07_Trunk",
+    "BOR_Pine_07_Crown",
+    "BOR_Pine_08_Trunk",
+    "BOR_Pine_08_Crown",
+    "BOR_Pine_09_Trunk",
+    "BOR_Pine_09_Crown",
+    "BOR_Pine_10_Trunk",
+    "BOR_Pine_10_Crown",
+    "BOR_Pine_11_Trunk",
+    "BOR_Pine_11_Crown",
+    "BOR_Pine_12_Trunk",
+    "BOR_Pine_12_Crown",
+    "BOR_Pine_13_Trunk",
+    "BOR_Pine_13_Crown",
+    "BOR_Pine_14_Trunk",
+    "BOR_Pine_14_Crown",
+    "BOR_Pine_15_Trunk",
+    "BOR_Pine_15_Crown",
+    "CHAPEL01_OldPine_0_Trunk",
+    "CHAPEL01_OldPine_0_Crown",
+    "CHAPEL01_OldPine_1_Trunk",
+    "CHAPEL01_OldPine_1_Crown",
+    "CHAPEL01_OldPine_2_Trunk",
+    "CHAPEL01_OldPine_2_Crown",
+    "BOR_ForkBoulder",
+    "SIGN_ChapelFork_Post",
+    "SIGN_ChapelFork_0",
+    "SIGN_ChapelFork_Text0",
+    "SIGN_ChapelFork_Arrow0",
+    "SIGN_ChapelFork_1",
+    "SIGN_ChapelFork_Text1",
+    "SIGN_ChapelFork_Arrow1",
+    "SIGN_ForestFork_Post",
+    "SIGN_ForestFork_0",
+    "SIGN_ForestFork_Text0",
+    "SIGN_ForestFork_Arrow0",
+    "SIGN_ForestFork_1",
+    "SIGN_ForestFork_Text1",
+    "SIGN_ForestFork_Arrow1"
+  ],
+  "anchor_horizontal_m": 140.0,
+  "counts": {
+    "occupied": 14,
+    "vacant": 11,
+    "hero": 1
+  },
+  "protected_original_assets_unchanged": 43,
+  "saved": true
+}

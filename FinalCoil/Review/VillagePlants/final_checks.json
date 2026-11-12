@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "name": "VEG_Village_Grass_00",
+      "count": 43650,
+      "upright": true,
+      "collision": "NoCollision"
+    },
+    {
+      "name": "VEG_Village_Grass_01",
+      "count": 43084,
+      "upright": true,
+      "collision": "NoCollision"
+    },
+    {
+      "name": "VEG_Village_Grass_02",
+      "count": 9990,
+      "upright": true,
+      "collision": "NoCollision"
+    },
+    {
+      "name": "VEG_Village_Grass_03",
+      "count": 10238,
+      "upright": true,
+      "collision": "NoCollision"
+    },
+    {
+      "name": "VEG_Village_Shrub_00",
+      "count": 9,
+      "upright": true,
+      "collision": "NoCollision"
+    },
+    {
+      "name": "VEG_Village_Shrub_01",
+      "count": 14,
+      "upright": true,
+      "collision": "NoCollision"
+    },
+    {
+      "name": "VEG_Village_Shrub_02",
+      "count": 13,
+      "upright": true,
+      "collision": "NoCollision"
+    }
+  ],
+  "shader_errors": [],
+  "uv_v_import_flip_corrected": true
+}

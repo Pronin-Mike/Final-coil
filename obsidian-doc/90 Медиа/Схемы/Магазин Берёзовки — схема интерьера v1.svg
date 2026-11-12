@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 940" role="img" aria-labelledby="name desc">
+<title id="name">Магазин Берёзовки — пример планировки</title><desc id="desc">Дальний левый угол — подсобка, дальний правый — продавец и полки. Перед прилавком — зона покупателей, на входе маленький тамбур. Все размеры предварительные.</desc>
+<defs><style>
+text{font-family:DejaVu Sans,Arial,sans-serif;fill:#ecf0e4}.t{font-size:19px;font-weight:700}.sub{font-size:14px;fill:#d7e0cf}.tiny{font-size:12px;fill:#becdbb}.wall{stroke:#9fb29c;stroke-width:6;fill:none}.partition{stroke:#b7c6ad;stroke-width:6}.block{stroke:#9dac8f;stroke-width:2}.note{fill:#a9bc9e;font-size:13px}
+</style></defs>
+<rect width="900" height="940" fill="#101a15"/>
+<text x="92" y="63" font-size="29" font-weight="bold">SHOP-01 · Берёзовка</text><text x="92" y="95" font-size="16" fill="#b7c5b1">Планировка интерьера — черновик v1 · не утверждена</text>
+<text x="430" y="143" class="note">6,0 м</text><path d="M110 154 H770" stroke="#738a79" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="40" y="485" class="note" transform="rotate(-90 40 485)">5,3 м — основной корпус</text>
+<rect x="110" y="174" width="660" height="583" rx="2" stroke="#d1ddca" stroke-width="8" fill="#20352a"/>
+<rect x="110" y="174" width="286" height="330" fill="#334335" />
+<rect x="396" y="174" width="374" height="330" fill="#3d4230"/>
+<rect x="110" y="504" width="660" height="253" fill="#233a30"/>
+<path class="partition" d="M396 174 V312 M396 382 V504 M110 504 H396" />
+<path d="M396 312 L433 343 L396 382" stroke="#b7c6ad" stroke-width="2" fill="none"/>
+<text x="155" y="208" class="t">ПОДСОБКА</text><text x="155" y="231" class="sub">~ 8 м²</text>
+<rect x="134" y="256" width="90" height="84" rx="6" fill="#536c4e" class="block"/><text x="148" y="286" class="tiny">Коробки</text><text x="150" y="306" class="tiny">и запас</text>
+<rect x="246" y="255" width="126" height="54" rx="5" fill="#526a4c" class="block"/><text x="257" y="284" class="tiny">Бакалея</text>
+<rect x="138" y="364" width="96" height="56" rx="5" fill="#6e6550" class="block"/><text x="152" y="393" class="tiny">Хоз. товары</text>
+<rect x="256" y="364" width="118" height="56" rx="5" fill="#52717b" class="block"/><text x="282" y="394" class="tiny">Мойка</text>
+<text x="441" y="210" class="t">ЗА ПРИЛАВКОМ</text><text x="441" y="233" class="sub">Рабочая зона ~10 м²</text>
+<rect x="438" y="257" width="231" height="40" rx="5" fill="#74755a" class="block"/><text x="466" y="283" class="tiny">Консервы, крупы, чай</text>
+<rect x="436" y="314" width="102" height="77" rx="6" fill="#716248" class="block"/><text x="455" y="345" class="tiny">Овощи</text><text x="449" y="366" class="tiny">в ящиках</text>
+<rect x="555" y="315" width="88" height="77" rx="6" fill="#3f6870" class="block"/><text x="561" y="350" class="tiny">Холод.</text>
+<rect x="661" y="315" width="84" height="77" rx="6" fill="#3f6870" class="block"/><text x="669" y="349" class="tiny">Мороз.</text>
+<rect x="429" y="416" width="322" height="58" rx="7" fill="#7c6242" stroke="#e0ba7a" stroke-width="3"/>
+<text x="516" y="448" font-size="18" font-weight="bold">ПРИЛАВОК</text>
+<rect x="445" y="420" width="50" height="47" rx="5" fill="#7f8061"/><text x="450" y="446" class="tiny">Весы</text>
+<text x="252" y="546" class="t">ТОРГОВЫЙ ЗАЛ</text><text x="253" y="570" class="sub">Покупатели ~14 м²</text>
+<rect x="132" y="596" width="162" height="51" rx="5" fill="#4e5d48" class="block"/><text x="145" y="625" class="tiny">Доска объявлений</text>
+<rect x="136" y="670" width="135" height="36" rx="5" fill="#665b44" class="block"/><text x="167" y="693" class="tiny">Скамья</text>
+<path d="M423 657 V579" stroke="#d3ad73" stroke-width="4" stroke-dasharray="8 7"/><path d="M423 579 l-10 16 h20 z" fill="#d3ad73"/>
+<text x="455" y="623" class="sub">Очередь</text><text x="455" y="645" class="tiny">2–3 человека</text>
+<path d="M418 757 V807 M604 757 V807" stroke="#d1ddca" stroke-width="6"/>
+<path d="M418 807 H604 V757" stroke="#d1ddca" stroke-width="6" fill="none"/>
+<rect x="418" y="755" width="186" height="104" fill="#37493b" opacity="0.85"/>
+<text x="448" y="797" class="t">ТАМБУР</text><text x="459" y="824" class="tiny">~ 2,5 м²</text>
+<path d="M470 757 H551 M470 859 H551" stroke="#d3ad73" stroke-width="7" />
+<text x="333" y="899" class="note">Вход с улицы — сторона условна</text>
+<text x="92" y="928" class="tiny">Зоны и мебель предлагаются для обсуждения; глобальная карта и доступные товары ещё не утверждены.</text>
+</svg>

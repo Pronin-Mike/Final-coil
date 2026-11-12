@@ -1,0 +1,33 @@
+{
+  "map": "/Game/FinalCoil/Maps/L_Berezovka_Stop_G01",
+  "garage_clear_m": [
+    7,
+    9
+  ],
+  "garage_area_m2": 63,
+  "inspection_pit": false,
+  "main_opening_m": [
+    3.2,
+    2.8
+  ],
+  "side_opening_m": [
+    1.1,
+    2.2
+  ],
+  "future_car_outline_m": [
+    2.2,
+    4.8
+  ],
+  "capsule_radius_cm": 42,
+  "capsule_half_height_cm": 96,
+  "main_entry_sweep_clear": true,
+  "side_entry_sweep_clear": true,
+  "stop_entry_sweep_clear": true,
+  "separate_house": true,
+  "stop_size_m": [
+    3.5,
+    2.3,
+    2.56
+  ],
+  "saved_reloaded": true
+}

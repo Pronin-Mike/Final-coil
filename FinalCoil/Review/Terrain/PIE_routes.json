@@ -1,0 +1,81 @@
+{
+  "route": 6,
+  "point": 0,
+  "running": true,
+  "started": 1488743.484,
+  "last_write": 1489091.281,
+  "samples": 28326,
+  "distance_cm": 601886.4286621663,
+  "completed": [
+    {
+      "route": "stop_garage_forward",
+      "end": [
+        -8049.924330500328,
+        16299.36952510347,
+        216.4615835604755
+      ]
+    },
+    {
+      "route": "stop_garage_reverse",
+      "end": [
+        381.689799938857,
+        3.48191142200566,
+        204.05862072193506
+      ]
+    },
+    {
+      "route": "garage_shop_bor_forward",
+      "end": [
+        43288.17113510377,
+        -34636.135502787896,
+        528.2735410795927
+      ]
+    },
+    {
+      "route": "garage_shop_bor_reverse",
+      "end": [
+        393.4387374177358,
+        2.471973428420776,
+        204.06770790825067
+      ]
+    },
+    {
+      "route": "lake_forward",
+      "end": [
+        42986.913447892766,
+        129966.36136915984,
+        -73.67330674184575
+      ]
+    },
+    {
+      "route": "lake_reverse",
+      "end": [
+        398.9350977734244,
+        2.463173648113883,
+        204.08904356097295
+      ]
+    }
+  ],
+  "captured": [
+    "stop",
+    "street",
+    "grandpa",
+    "bor",
+    "shore"
+  ],
+  "failures": [],
+  "min_z": -73.67330674184575,
+  "max_z": 535.4516416655302,
+  "max_ground_error_cm": 7.15000233747115,
+  "stuck_since": 1489091.421,
+  "pause_until": 1489014.312,
+  "capture_pending": null,
+  "position": [
+    161.46097260503478,
+    15.679685225065404,
+    204.08904356097295
+  ],
+  "status": "passed",
+  "walking_speed_cm_s": 600,
+  "simulation_time_dilation": 3
+}

@@ -1,0 +1,11 @@
+#!/bin/sh
+updates=$(cat)
+if printf '%s\n' "$updates" | grep -q 'refs/heads/master'; then
+  echo 'Direct pushes to master are disabled. Push dev and open a dev -> master Pull Request.' >&2
+  exit 1
+fi
+if ! command -v git-lfs >/dev/null 2>&1; then
+  echo 'Git LFS is required. Install it and run tools/Setup.ps1.' >&2
+  exit 1
+fi
+printf '%s\n' "$updates" | git lfs pre-push "$@"
