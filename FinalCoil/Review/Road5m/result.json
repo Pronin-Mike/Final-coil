@@ -1,0 +1,12 @@
+{
+  "saved": true,
+  "scope": "village",
+  "carriageway_m": 5,
+  "shoulder_each_m": [
+    0.5,
+    1
+  ],
+  "nominal_corridor_m": 6.5,
+  "layby_extra_width_m": 3,
+  "terrain_collision_unchanged": true
+}

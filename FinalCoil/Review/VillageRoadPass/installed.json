@@ -1,0 +1,61 @@
+{
+  "bounds_cm": [
+    -7200.0,
+    -47374.79899364107,
+    20174.668938689774,
+    58234.50536541032
+  ],
+  "new_plants": [
+    {
+      "name": "VEG_VillageRoad_LowGreen",
+      "count": 167034
+    },
+    {
+      "name": "VEG_VillageRoad_LowDry",
+      "count": 17862
+    },
+    {
+      "name": "VEG_VillageRoad_TallGreen",
+      "count": 1305
+    },
+    {
+      "name": "VEG_VillageRoad_TallDry",
+      "count": 696
+    }
+  ],
+  "tall_groups": 62,
+  "old_grass_outside_unchanged": [
+    {
+      "actor": "VEG_Village_Grass_00",
+      "instances_preserved": 43650
+    },
+    {
+      "actor": "VEG_Village_Grass_01",
+      "instances_preserved": 43084
+    },
+    {
+      "actor": "VEG_Village_Grass_02",
+      "instances_preserved": 9990
+    },
+    {
+      "actor": "VEG_Village_Grass_03",
+      "instances_preserved": 10238
+    }
+  ],
+  "road_geometry": [
+    {
+      "actor": "TERRAIN_Road",
+      "material_preserved": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Road.MI_Berezovka_Road",
+      "mesh": "/Game/FinalCoil/World/VillageRoadPass/SM_Road_OutsideVillage.SM_Road_OutsideVillage"
+    },
+    {
+      "actor": "TERRAIN_Path",
+      "material_preserved": "/Game/FinalCoil/World/GroundMaterial/MI_Berezovka_Path.MI_Berezovka_Path",
+      "mesh": "/Game/FinalCoil/World/VillageRoadPass/SM_Path_OutsideVillage.SM_Path_OutsideVillage"
+    }
+  ],
+  "all_original_asset_hashes_unchanged": 43,
+  "original_transforms_unchanged": 392,
+  "compile_errors": [],
+  "time": 1794465133.7036915
+}

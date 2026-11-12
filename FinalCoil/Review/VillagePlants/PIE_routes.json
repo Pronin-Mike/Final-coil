@@ -1,0 +1,43 @@
+{
+  "route": 2,
+  "point": 0,
+  "running": true,
+  "started": 1505843.343,
+  "last_write": 1505873.625,
+  "samples": 1864,
+  "distance_cm": 54521.708967597064,
+  "completed": [
+    {
+      "route": "stop_garage_forward",
+      "end": [
+        -8045.248550066419,
+        16299.15485466607,
+        756.6080630775458
+      ]
+    },
+    {
+      "route": "stop_garage_reverse",
+      "end": [
+        404.1004154166574,
+        4.194566553407618,
+        286.15375884081635
+      ]
+    }
+  ],
+  "captured": [],
+  "failures": [],
+  "min_z": 282.8700799547096,
+  "max_z": 805.7130998115931,
+  "max_ground_error_cm": 11.711295933320798,
+  "stuck_since": 1505874.343,
+  "pause_until": 0,
+  "capture_pending": null,
+  "position": [
+    144.39133932738022,
+    826.6443148407267,
+    293.52289196307635
+  ],
+  "status": "passed",
+  "walking_speed_cm_s": 600,
+  "simulation_time_dilation": 3
+}

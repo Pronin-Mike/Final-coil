@@ -1,0 +1,22 @@
+{
+  "M_Grass_Green": {
+    "path": "/Game/FinalCoil/World/VillagePlants/M_Grass_Green.M_Grass_Green",
+    "blend": "<BlendMode.BLEND_MASKED: 1>",
+    "shading": "<MaterialShadingModel.MSM_TWO_SIDED_FOLIAGE: 6>"
+  },
+  "M_Grass_Dry": {
+    "path": "/Game/FinalCoil/World/VillagePlants/M_Grass_Dry.M_Grass_Dry",
+    "blend": "<BlendMode.BLEND_MASKED: 1>",
+    "shading": "<MaterialShadingModel.MSM_TWO_SIDED_FOLIAGE: 6>"
+  },
+  "M_Shrub_Leaf": {
+    "path": "/Game/FinalCoil/World/VillagePlants/M_Shrub_Leaf.M_Shrub_Leaf",
+    "blend": "<BlendMode.BLEND_OPAQUE: 0>",
+    "shading": "<MaterialShadingModel.MSM_TWO_SIDED_FOLIAGE: 6>"
+  },
+  "M_Shrub_Bark": {
+    "path": "/Game/FinalCoil/World/VillagePlants/M_Shrub_Bark.M_Shrub_Bark",
+    "blend": "<BlendMode.BLEND_OPAQUE: 0>",
+    "shading": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>"
+  }
+}

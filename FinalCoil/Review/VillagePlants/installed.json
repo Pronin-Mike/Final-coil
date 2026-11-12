@@ -1,0 +1,58 @@
+{
+  "instances": [
+    {
+      "actor": "VEG_Village_Grass_00",
+      "count": 43650,
+      "mesh": "/Game/FinalCoil/World/VillagePlants/SM_VillageGrass_00.SM_VillageGrass_00",
+      "collision": "NoCollision",
+      "cull_end_cm": 9000
+    },
+    {
+      "actor": "VEG_Village_Grass_01",
+      "count": 43084,
+      "mesh": "/Game/FinalCoil/World/VillagePlants/SM_VillageGrass_01.SM_VillageGrass_01",
+      "collision": "NoCollision",
+      "cull_end_cm": 9000
+    },
+    {
+      "actor": "VEG_Village_Grass_02",
+      "count": 9990,
+      "mesh": "/Game/FinalCoil/World/VillagePlants/SM_VillageGrass_02.SM_VillageGrass_02",
+      "collision": "NoCollision",
+      "cull_end_cm": 9000
+    },
+    {
+      "actor": "VEG_Village_Grass_03",
+      "count": 10238,
+      "mesh": "/Game/FinalCoil/World/VillagePlants/SM_VillageGrass_03.SM_VillageGrass_03",
+      "collision": "NoCollision",
+      "cull_end_cm": 9000
+    },
+    {
+      "actor": "VEG_Village_Shrub_00",
+      "count": 9,
+      "mesh": "/Game/FinalCoil/World/VillagePlants/SM_VillageShrub_00.SM_VillageShrub_00",
+      "collision": "NoCollision",
+      "cull_end_cm": 32000
+    },
+    {
+      "actor": "VEG_Village_Shrub_01",
+      "count": 14,
+      "mesh": "/Game/FinalCoil/World/VillagePlants/SM_VillageShrub_01.SM_VillageShrub_01",
+      "collision": "NoCollision",
+      "cull_end_cm": 32000
+    },
+    {
+      "actor": "VEG_Village_Shrub_02",
+      "count": 13,
+      "mesh": "/Game/FinalCoil/World/VillagePlants/SM_VillageShrub_02.SM_VillageShrub_02",
+      "collision": "NoCollision",
+      "cull_end_cm": 32000
+    }
+  ],
+  "existing_actors_unchanged": 385,
+  "plots_and_forest_unchanged": true,
+  "compile_errors": [],
+  "constraints": "Existing village ellipse only; all plots +1.8m grass/+4.3m shrub exclusion; forest +6m; road/path edges +0.85m grass/+3.3m shrub. No existing actor edits.",
+  "timestamp": 1794415679.299932
+}

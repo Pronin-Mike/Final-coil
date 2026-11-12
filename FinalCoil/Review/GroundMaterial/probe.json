@@ -1,0 +1,2314 @@
+{
+  "level": "L_Berezovka_Terrain",
+  "actors": [
+    {
+      "label": "Lake_Mass_00",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Lake.M_Lake"
+      ]
+    },
+    {
+      "label": "Lake_Mass_01",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Lake.M_Lake"
+      ]
+    },
+    {
+      "label": "Lake_Mass_02",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Lake.M_Lake"
+      ]
+    },
+    {
+      "label": "MARK_CHAPEL01_Chapel",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Marker.M_Marker"
+      ]
+    },
+    {
+      "label": "MARK_DPS01_OldTrafficPost",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Marker.M_Marker"
+      ]
+    },
+    {
+      "label": "MARK_SAWMILL01",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Marker.M_Marker"
+      ]
+    },
+    {
+      "label": "MARK_RAIL01_PassingLoop",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Marker.M_Marker"
+      ]
+    },
+    {
+      "label": "MARK_EXIT01_DistrictCentre",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Marker.M_Marker"
+      ]
+    },
+    {
+      "label": "MARK_STOP01_Temporary",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Marker.M_Marker"
+      ]
+    },
+    {
+      "label": "MARK_OLD_BOR",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Marker.M_Marker"
+      ]
+    },
+    {
+      "label": "MARK_LAKE",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Marker.M_Marker"
+      ]
+    },
+    {
+      "label": "MARK_BEREZOVKA",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/Maps/RegionBlockout/M_Marker.M_Marker"
+      ]
+    },
+    {
+      "label": "H01_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H01_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H01_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H01_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H01_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H01_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H01_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H01_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H01_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H02_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H02_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H02_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H02_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H02_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H02_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H02_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H02_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H02_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H03_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H03_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H03_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H03_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H03_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H03_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H03_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H03_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H03_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H04_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H04_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H04_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H04_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H04_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H04_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H04_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H04_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H04_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H05_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H05_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H05_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H05_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H05_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H05_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H05_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H05_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H05_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H06_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H06_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H06_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H06_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H06_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H06_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H06_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H06_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H06_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H07_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H07_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H07_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H07_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H07_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H07_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H07_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H07_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H07_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H08_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H08_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H08_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H08_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H08_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H08_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H08_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H08_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H08_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H09_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H09_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H09_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H09_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H09_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H09_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H09_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H09_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H09_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H10_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H10_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H10_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H10_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H10_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H10_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H10_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H10_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H10_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H11_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H11_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H11_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H11_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H11_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H11_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H11_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H11_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H11_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H12_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardOccupied.M_YardOccupied"
+      ]
+    },
+    {
+      "label": "H12_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H12_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Occupied.M_Occupied"
+      ]
+    },
+    {
+      "label": "H12_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "H12_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H12_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H12_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H12_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "H12_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E01_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardVacant.M_YardVacant"
+      ]
+    },
+    {
+      "label": "E01_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E01_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E01_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "E01_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E01_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E01_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E01_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E01_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E02_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardVacant.M_YardVacant"
+      ]
+    },
+    {
+      "label": "E02_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E02_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E02_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "E02_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E02_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E02_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E02_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E02_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E03_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardVacant.M_YardVacant"
+      ]
+    },
+    {
+      "label": "E03_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E03_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E03_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "E03_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E03_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E03_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E03_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E03_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E04_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardVacant.M_YardVacant"
+      ]
+    },
+    {
+      "label": "E04_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E04_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E04_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "E04_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E04_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E04_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E04_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E04_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E05_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardVacant.M_YardVacant"
+      ]
+    },
+    {
+      "label": "E05_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E05_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E05_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "E05_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E05_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E05_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E05_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E05_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E06_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardVacant.M_YardVacant"
+      ]
+    },
+    {
+      "label": "E06_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E06_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E06_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "E06_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E06_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E06_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E06_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E06_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E07_Yard_30x40m",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_YardVacant.M_YardVacant"
+      ]
+    },
+    {
+      "label": "E07_LogHouse",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E07_ColdEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Vacant.M_Vacant"
+      ]
+    },
+    {
+      "label": "E07_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Porch.M_Porch"
+      ]
+    },
+    {
+      "label": "E07_Boundary_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E07_Boundary_SideL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E07_Boundary_SideR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E07_Boundary_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "E07_Boundary_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/Homesteads/M_Boundary.M_Boundary"
+      ]
+    },
+    {
+      "label": "STOP01_Pad",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Floor.M_Floor"
+      ]
+    },
+    {
+      "label": "STOP01_Post_-80_-140",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "STOP01_Post_-80_140",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "STOP01_Post_80_-140",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "STOP01_Post_80_140",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "STOP01_BackWall",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "STOP01_SideWall",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "STOP01_Roof",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_MetalRoof.M_MetalRoof"
+      ]
+    },
+    {
+      "label": "STOP01_BenchSeat",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "STOP01_BenchBack",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "STOP01_BenchLeg_-95",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "STOP01_BenchLeg_95",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "STOP01_BackSlat_25",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "STOP01_BackSlat_50",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "STOP01_BackSlat_75",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "STOP01_BackSlat_100",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "STOP01_BackSlat_125",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "STOP01_BackSlat_150",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "STOP01_BackSlat_175",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "STOP01_BackSlat_200",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Yard",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Yard.M_Yard"
+      ]
+    },
+    {
+      "label": "G01_House",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_House.M_House"
+      ]
+    },
+    {
+      "label": "G01_HouseEntrance",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "G01_HousePorch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_Floor",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Floor.M_Floor"
+      ]
+    },
+    {
+      "label": "G01_Garage_BackWall",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "G01_Garage_LeftWall",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "G01_Garage_RightWallFront",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "G01_Garage_RightWallBack",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "G01_Garage_SideDoorHeader",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "G01_Garage_FrontWallL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "G01_Garage_FrontWallR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "G01_Garage_GateHeader",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Timber.M_Timber"
+      ]
+    },
+    {
+      "label": "G01_Garage_RoofLeft",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_MetalRoof.M_MetalRoof"
+      ]
+    },
+    {
+      "label": "G01_Garage_RoofRight",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_MetalRoof.M_MetalRoof"
+      ]
+    },
+    {
+      "label": "G01_Garage_FutureCar_Front",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Reserved.M_Reserved"
+      ]
+    },
+    {
+      "label": "G01_Garage_FutureCar_Back",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Reserved.M_Reserved"
+      ]
+    },
+    {
+      "label": "G01_Garage_FutureCar_Left",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Reserved.M_Reserved"
+      ]
+    },
+    {
+      "label": "G01_Garage_FutureCar_Right",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_Reserved.M_Reserved"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_25",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_25",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_50",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_50",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_75",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_75",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_100",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_100",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_125",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_125",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_150",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_150",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_175",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_175",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_200",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_200",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_225",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_225",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_250",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_250",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_275",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_275",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_300",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_300",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/StopAndG01/M_WoodDark.M_WoodDark"
+      ]
+    },
+    {
+      "label": "SHOP01_Floor",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Floor.M_Floor"
+      ]
+    },
+    {
+      "label": "SHOP01_BackWall",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "SHOP01_WallL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "SHOP01_WallR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "SHOP01_FrontL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "SHOP01_FrontR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "SHOP01_EntranceHeader",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "SHOP01_RoofL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Roof.M_Roof"
+      ]
+    },
+    {
+      "label": "SHOP01_RoofR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Roof.M_Roof"
+      ]
+    },
+    {
+      "label": "SHOP01_Counter",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "SHOP01_StorageShelf",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "SHOP01_WindowL",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Window.M_Window"
+      ]
+    },
+    {
+      "label": "SHOP01_WindowR",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Window.M_Window"
+      ]
+    },
+    {
+      "label": "SHOP01_SignBoard",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "CHAPEL01_Blockout",
+      "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "CHAPEL01_Porch",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "CHAPEL01_CrossVertical",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "CHAPEL01_CrossBar",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Wood.M_Wood"
+      ]
+    },
+    {
+      "label": "BOR_Pine_00_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_00_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_01_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_01_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_02_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_02_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_03_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_03_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_04_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_04_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_05_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_05_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_06_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_06_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_07_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_07_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_08_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_08_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_09_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_09_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_10_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_10_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_11_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_11_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_12_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_12_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_13_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_13_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_14_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_14_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_Pine_15_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "BOR_Pine_15_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "CHAPEL01_OldPine_0_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "CHAPEL01_OldPine_0_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "CHAPEL01_OldPine_1_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "CHAPEL01_OldPine_1_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "CHAPEL01_OldPine_2_Trunk",
+      "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "CHAPEL01_OldPine_2_Crown",
+      "mesh": "/Engine/BasicShapes/Cone.Cone",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Pine.M_Pine"
+      ]
+    },
+    {
+      "label": "BOR_ForkBoulder",
+      "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Rock.M_Rock"
+      ]
+    },
+    {
+      "label": "SIGN_VillageJunction_Post",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "SIGN_VillageJunction_0",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_VillageJunction_Arrow0",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_VillageJunction_1",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_VillageJunction_Arrow1",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ShopSplit_Post",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "SIGN_ShopSplit_0",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ShopSplit_Arrow0",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ShopSplit_1",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ShopSplit_Arrow1",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ChapelFork_Post",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "SIGN_ChapelFork_0",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ChapelFork_Arrow0",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ChapelFork_1",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ChapelFork_Arrow1",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ForestFork_Post",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Trunk.M_Trunk"
+      ]
+    },
+    {
+      "label": "SIGN_ForestFork_0",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ForestFork_Arrow0",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ForestFork_1",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "SIGN_ForestFork_Arrow1",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "materials": [
+        "/Game/FinalCoil/World/ShopAndBor/M_Sign.M_Sign"
+      ]
+    },
+    {
+      "label": "TERRAIN_Terrain",
+      "mesh": "/Game/FinalCoil/World/Terrain/SM_Berezovka_Terrain.SM_Berezovka_Terrain",
+      "materials": [
+        "/Game/FinalCoil/World/Terrain/M_Meadow.M_Meadow"
+      ]
+    },
+    {
+      "label": "TERRAIN_Road",
+      "mesh": "/Game/FinalCoil/World/Terrain/SM_Conform_Road.SM_Conform_Road",
+      "materials": [
+        "/Game/FinalCoil/World/Terrain/M_DirtRoad.M_DirtRoad"
+      ]
+    },
+    {
+      "label": "TERRAIN_Path",
+      "mesh": "/Game/FinalCoil/World/Terrain/SM_Conform_Path.SM_Conform_Path",
+      "materials": [
+        "/Game/FinalCoil/World/Terrain/M_Footpath.M_Footpath"
+      ]
+    },
+    {
+      "label": "TERRAIN_Rail",
+      "mesh": "/Game/FinalCoil/World/Terrain/SM_Conform_Rail.SM_Conform_Rail",
+      "materials": [
+        "/Game/FinalCoil/World/Terrain/M_RailCorridor.M_RailCorridor"
+      ]
+    },
+    {
+      "label": "TERRAIN_Forest",
+      "mesh": "/Game/FinalCoil/World/Terrain/SM_Forest_Zones.SM_Forest_Zones",
+      "materials": [
+        "/Game/FinalCoil/World/Terrain/M_Forest.M_Forest"
+      ]
+    },
+    {
+      "label": "TERRAIN_OldBor",
+      "mesh": "/Game/FinalCoil/World/Terrain/SM_OldBor_Zone.SM_OldBor_Zone",
+      "materials": [
+        "/Game/FinalCoil/World/Terrain/M_OldBor.M_OldBor"
+      ]
+    }
+  ],
+  "api": {
+    "MaterialExpressionCustom": "Material Expression Custom\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: Engine\r\n- **File**: MaterialExpressionCustom.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``additional_defines`` (Array[CustomDefine]):  [Read-Write]\r\n- ``additional_outputs`` (Array[CustomOutput]):  [Read-Write]\r\n- ``code`` (str):  [Read-Write]\r\n- ``contains_clip_instruction`` (CustomMaterialClipInstruction):  [Read-Write] Controls whether this expression is considered to contain a clip() or discard instruction that may conditionally discard pixels.\r\n- ``desc`` (str):  [Read-Write] A description that level designers can add (shows in the material editor UI).\r\n- ``description`` (str):  [Read-Write]\r\n- ``include_file_paths`` (Array[str]):  [Read-Write]\r\n- ``inputs`` (Array[CustomInput]):  [Read-Write]\r\n- ``material_expression_editor_x`` (int32):  [Read-Write]\r\n- ``material_expression_editor_y`` (int32):  [Read-Write]\r\n- ``output_type`` (CustomMaterialOutputType):  [Read-Write]\r\n- ``show_code`` (bool):  [Read-Only]",
+    "CustomInput": "Custom Input\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: Engine\r\n- **File**: MaterialExpressionCustom.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``input_name`` (Name):  [Read-Write]",
+    "CustomOutput": "Custom Output\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: Engine\r\n- **File**: MaterialExpressionCustom.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``output_name`` (Name):  [Read-Write]\r\n- ``output_type`` (CustomMaterialOutputType):  [Read-Write]",
+    "MaterialEditingLibrary": "Blueprint library for creating/editing Materials\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: MaterialEditor\r\n- **File**: MaterialEditingLibrary.h\r\n"
+  }
+}

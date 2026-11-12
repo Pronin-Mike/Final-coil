@@ -1,0 +1,31 @@
+* text=auto
+.githooks/* text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+*.ubulk filter=lfs diff=lfs merge=lfs -text
+*.uexp filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+FinalCoil/**/*.png filter=lfs diff=lfs merge=lfs -text
+FinalCoil/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+FinalCoil/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+FinalCoil/**/*.webp filter=lfs diff=lfs merge=lfs -text
+FinalCoil/**/*.tga filter=lfs diff=lfs merge=lfs -text
+FinalCoil/**/*.exr filter=lfs diff=lfs merge=lfs -text
+FinalCoil/**/*.psd filter=lfs diff=lfs merge=lfs -text
+obsidian-doc/**/*.png filter=lfs diff=lfs merge=lfs -text
+obsidian-doc/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+obsidian-doc/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+obsidian-doc/**/*.webp filter=lfs diff=lfs merge=lfs -text
+obsidian-doc/**/*.tga filter=lfs diff=lfs merge=lfs -text
+obsidian-doc/**/*.exr filter=lfs diff=lfs merge=lfs -text
+obsidian-doc/**/*.psd filter=lfs diff=lfs merge=lfs -text

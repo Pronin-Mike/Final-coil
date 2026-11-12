@@ -1,0 +1,26 @@
+# Local repository migration and safety copies
+.publishing/
+.git-backups/
+obsidian-doc.7z
+# Unreal-generated files: Unreal recreates these on launch
+**/Binaries/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+**/.vs/
+*.sln
+*.suo
+*.VC.db
+**/__pycache__/
+*.py[cod]
+# Per-computer Obsidian layout and credential prompts
+**/.obsidian/workspace*.json
+**/.obsidian/cache/
+**/.obsidian/plugins/obsidian-git/obsidian_askpass.sh
+# Never version credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key

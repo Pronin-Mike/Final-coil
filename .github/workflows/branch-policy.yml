@@ -1,0 +1,19 @@
+name: Master source policy
+on:
+  pull_request_target:
+    branches: [master]
+    types: [opened, reopened, synchronize, edited]
+permissions:
+  contents: read
+jobs:
+  master-from-dev:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Accept master changes only from this repository's dev branch
+        env:
+          SOURCE_BRANCH: ${{ github.event.pull_request.head.ref }}
+          SOURCE_REPOSITORY: ${{ github.event.pull_request.head.repo.full_name }}
+          TARGET_REPOSITORY: ${{ github.repository }}
+        run: |
+          test "$SOURCE_BRANCH" = "dev"
+          test "$SOURCE_REPOSITORY" = "$TARGET_REPOSITORY"

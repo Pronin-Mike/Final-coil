@@ -1,0 +1,63 @@
+# FINAL COIL
+
+Полный рабочий проект Unreal Engine **5.8**, исходные материалы и хранилище Obsidian.
+
+## Скачать и открыть
+
+Установить Git, Git LFS и Unreal Engine 5.8. Затем:
+
+```powershell
+git clone --branch dev https://github.com/Pronin-Mike/Final-coil.git
+cd Final-coil
+powershell -ExecutionPolicy Bypass -File tools/Setup.ps1
+```
+
+Открыть `FinalCoil/FinalCoil.uproject`. Текущий уровень: `/Game/FinalCoil/Maps/L_Berezovka_Terrain`.
+Нужны плагины, перечисленные в `.uproject`: Modeling Tools, Gameplay StateTree, Python, Editor Scripting Utilities, ModelContextProtocol и AllToolsets. Два последних используются инструментами разработки и должны присутствовать в вашей установке UE; их сторонние бинарники в репозиторий не копируются.
+
+**Не скачивать проект через Download ZIP:** для бинарных ассетов нужен Git LFS.
+
+## Ветки
+
+- `dev` — разработка, обычные коммиты и синхронизация Obsidian. Ветка по умолчанию.
+- `master` — проверенная версия. Изменения только через Pull Request **из `dev` этого репозитория**. Прямой push и force push запрещены защитой GitHub; локальный hook также блокирует push в master.
+- `main` — прежняя история сайта, сохранена без удаления. Для дальнейшей работы использовать dev/master.
+
+Для выпуска открыть PR `dev → master`. Проверки `master-from-dev` и `repository-check` должны пройти. Самостоятельное одобрение вторым участником не требуется. Слияние выполняется merge-коммитом.
+
+## Отправить / получить изменения
+
+Сначала сохранить и закрыть Unreal Editor. Не редактировать одну `.umap` одновременно на нескольких компьютерах: бинарные уровни нельзя объединить как Markdown.
+
+```powershell
+# Получить; локальные изменения должны быть сохранены коммитом
+powershell -ExecutionPolicy Bypass -File tools/Sync-Project.ps1 -Mode Pull
+# Отправить проект и заметки
+powershell -ExecutionPolicy Bypass -File tools/Sync-Project.ps1 -Mode Push -Message "Изменил деревню"
+```
+
+Никаких reset/force push в этих командах нет. При расхождении истории синхронизация останавливается, сохраняя локальные изменения.
+
+## Obsidian
+
+Открыть существующее хранилище **`obsidian-doc` внутри этого клона**. Git-плагин и его настройки включены в репозиторий. Разрешить community plugins для этого доверенного хранилища.
+
+- `Ctrl+Shift+S` — **Git: Commit-and-sync**, отправить изменения проекта и заметок в dev.
+- `Ctrl+Shift+U` — **Git: Pull**, получить изменения из dev.
+- Те же команды доступны через `Ctrl+P`.
+
+Автоматические pull/push выключены. Плагин работает с **всем репозиторием**, а не только с заметками. Git LFS запускается через Git hooks. На новом компьютере вход в GitHub выполняется локально средствами Git; пароли и токены в заметки не добавлять.
+
+## Содержимое
+
+- `FinalCoil/Content`, `Config`, `.uproject` — рабочий UE-проект.
+- `FinalCoil/SourceArt`, `Scripts`, `Review` — исходники, генераторы, проверки и кадры.
+- `obsidian-doc` — документация игры и процесс разработки.
+- `index.html`, `assets` — прежний справочник; GitHub Pages публикует только эти файлы из master.
+- `tools` — настройка Git, синхронизация и быстрая проверка репозитория.
+
+Кэши UE, `Intermediate`, `Saved`, локальные Git-резервные копии и раскладка окон Obsidian не версионируются. Они не нужны для открытия проекта.
+
+Актуальная компактная деревня: 14 жилых домов, 11 пустующих, отдельная усадьба героя; 26 участков по 10 соток; остановка → дом героя 140 м в плане. Источник дальнейших правок — `FinalCoil/SourceArt/CompactVillage/plan.json`.
+
+Проверка `python tools/verify_repository.py` проверяет структуру, синтаксис генераторов и контрольные размеры. Она **не заменяет** запуск Unreal; результаты последнего прохода в Play находятся в `FinalCoil/Review/CompactVillage`.

@@ -1,0 +1,13 @@
+{
+  "errors": [],
+  "road_segments": 28,
+  "parameters": {
+    "WaterLevel": -250,
+    "Wetness": 1,
+    "MacroScale": 2300,
+    "ForestAmount": 1,
+    "GravelAmount": 0.72,
+    "NormalStrength": 0.65,
+    "SurfaceKind": 0
+  }
+}

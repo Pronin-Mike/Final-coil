@@ -1,0 +1,295 @@
+{
+  "map": "/Game/FinalCoil/Maps/L_Berezovka_Homesteads",
+  "occupied": 12,
+  "vacant": 7,
+  "shared_mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout",
+  "import_bounds": "<Struct 'Vector' (0x0000024B385FE8B0) {x: 1100.000000, y: 900.000000, z: 520.000000}>",
+  "saved_reloaded": true,
+  "houses": [
+    {
+      "id": "H01",
+      "source_px": [
+        108,
+        881
+      ],
+      "center_cm": [
+        -5677.419354838709,
+        -45032.25806451613,
+        0
+      ],
+      "road_distance_m": 35.96694698441155,
+      "yaw": -18.189045699651277,
+      "provisional": false
+    },
+    {
+      "id": "H02",
+      "source_px": [
+        199,
+        875
+      ],
+      "center_cm": [
+        -4903.225806451613,
+        -33290.32258064516,
+        0
+      ],
+      "road_distance_m": 41.37029971954101,
+      "yaw": -3.2704879231835213,
+      "provisional": false
+    },
+    {
+      "id": "H03",
+      "source_px": [
+        286,
+        884
+      ],
+      "center_cm": [
+        -6064.5161290322585,
+        -22064.516129032258,
+        0
+      ],
+      "road_distance_m": 59.36858847652993,
+      "yaw": -3.2704879231835515,
+      "provisional": false
+    },
+    {
+      "id": "H04",
+      "source_px": [
+        178,
+        795
+      ],
+      "center_cm": [
+        5419.354838709677,
+        -36000.0,
+        0
+      ],
+      "road_distance_m": 63.23325170655822,
+      "yaw": 176.7295120768164,
+      "provisional": false
+    },
+    {
+      "id": "H05",
+      "source_px": [
+        325,
+        775
+      ],
+      "center_cm": [
+        8000.0,
+        -17032.25806451613,
+        0
+      ],
+      "road_distance_m": 80.0,
+      "yaw": 180.0,
+      "provisional": true
+    },
+    {
+      "id": "H06",
+      "source_px": [
+        269,
+        751
+      ],
+      "center_cm": [
+        11096.774193548386,
+        -24258.064516129034,
+        0
+      ],
+      "road_distance_m": 113.21622948159086,
+      "yaw": 176.72951207681643,
+      "provisional": false
+    },
+    {
+      "id": "H07",
+      "source_px": [
+        406,
+        762
+      ],
+      "center_cm": [
+        9677.41935483871,
+        -6580.645161290323,
+        0
+      ],
+      "road_distance_m": 96.7741935483871,
+      "yaw": 180.0,
+      "provisional": false
+    },
+    {
+      "id": "H08",
+      "source_px": [
+        374,
+        696
+      ],
+      "center_cm": [
+        18193.548387096773,
+        -10709.677419354839,
+        0
+      ],
+      "road_distance_m": 181.93548387096772,
+      "yaw": 180.0,
+      "provisional": false
+    },
+    {
+      "id": "H09",
+      "source_px": [
+        576,
+        754
+      ],
+      "center_cm": [
+        10709.677419354839,
+        15354.838709677419,
+        0
+      ],
+      "road_distance_m": 70.67220501646433,
+      "yaw": 119.5830444255222,
+      "provisional": false
+    },
+    {
+      "id": "H10",
+      "source_px": [
+        718,
+        758
+      ],
+      "center_cm": [
+        10193.548387096775,
+        33677.41935483871,
+        0
+      ],
+      "road_distance_m": 42.01742291783055,
+      "yaw": 170.0181707122669,
+      "provisional": false
+    },
+    {
+      "id": "H11",
+      "source_px": [
+        754,
+        835
+      ],
+      "center_cm": [
+        258.06451612903226,
+        38322.58064516129,
+        0
+      ],
+      "road_distance_m": 63.88518887385616,
+      "yaw": -9.981829287733154,
+      "provisional": false
+    },
+    {
+      "id": "H12",
+      "source_px": [
+        841,
+        835
+      ],
+      "center_cm": [
+        258.06451612903226,
+        49548.3870967742,
+        0
+      ],
+      "road_distance_m": 94.96419659893105,
+      "yaw": -21.801409486351815,
+      "provisional": false
+    },
+    {
+      "id": "E01",
+      "source_px": [
+        94,
+        788
+      ],
+      "center_cm": [
+        6322.580645161291,
+        -46838.709677419356,
+        0
+      ],
+      "road_distance_m": 83.67576102378436,
+      "yaw": 161.81095430034875,
+      "provisional": false
+    },
+    {
+      "id": "E02",
+      "source_px": [
+        199,
+        729
+      ],
+      "center_cm": [
+        13935.483870967742,
+        -33290.32258064516,
+        0
+      ],
+      "road_distance_m": 146.70997747516944,
+      "yaw": 176.72951207681646,
+      "provisional": false
+    },
+    {
+      "id": "E03",
+      "source_px": [
+        309,
+        688
+      ],
+      "center_cm": [
+        19225.8064516129,
+        -19096.774193548386,
+        0
+      ],
+      "road_distance_m": 192.25806451612902,
+      "yaw": 180.0,
+      "provisional": false
+    },
+    {
+      "id": "E04",
+      "source_px": [
+        504,
+        751
+      ],
+      "center_cm": [
+        11096.774193548386,
+        6064.5161290322585,
+        0
+      ],
+      "road_distance_m": 98.77601767956494,
+      "yaw": 170.01817071226682,
+      "provisional": false
+    },
+    {
+      "id": "E05",
+      "source_px": [
+        470,
+        685
+      ],
+      "center_cm": [
+        19612.90322580645,
+        1677.4193548387098,
+        0
+      ],
+      "road_distance_m": 190.25261371504516,
+      "yaw": 170.01817071226682,
+      "provisional": false
+    },
+    {
+      "id": "E06",
+      "source_px": [
+        784,
+        744
+      ],
+      "center_cm": [
+        12000.0,
+        42193.54838709677,
+        0
+      ],
+      "road_distance_m": 41.37212265622059,
+      "yaw": 158.1985905136482,
+      "provisional": false
+    },
+    {
+      "id": "E07",
+      "source_px": [
+        904,
+        800
+      ],
+      "center_cm": [
+        4774.193548387097,
+        57677.41935483871,
+        0
+      ],
+      "road_distance_m": 83.22345908838197,
+      "yaw": -21.80140948635184,
+      "provisional": false
+    }
+  ]
+}

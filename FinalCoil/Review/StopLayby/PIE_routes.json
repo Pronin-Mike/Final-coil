@@ -1,0 +1,35 @@
+{
+  "route": 1,
+  "point": 0,
+  "running": true,
+  "started": 1557682.734,
+  "last_write": 1557686.828,
+  "samples": 219,
+  "distance_cm": 6738.392510275996,
+  "completed": [
+    {
+      "route": "waiting_shelter_road",
+      "end": [
+        914.7462379851128,
+        293.5696734329325,
+        284.88835335541813
+      ]
+    }
+  ],
+  "captured": [],
+  "failures": [],
+  "min_z": 280.52775049973576,
+  "max_z": 293.12294817734806,
+  "max_ground_error_cm": 12.114677760216296,
+  "stuck_since": 1557687.125,
+  "pause_until": 0,
+  "capture_pending": null,
+  "position": [
+    722.0645004941626,
+    435.33871226374174,
+    286.1023564415082
+  ],
+  "status": "passed",
+  "walking_speed_cm_s": 600,
+  "simulation_time_dilation": 3
+}

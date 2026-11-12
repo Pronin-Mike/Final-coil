@@ -1,0 +1,11 @@
+{
+  "first_old_rotations": [
+    "<Struct 'Rotator' (0x0000024B385FFFD0) {pitch: 0.000000, yaw: 74.707016, roll: -0.000000}>",
+    "<Struct 'Rotator' (0x0000024B385FF170) {pitch: 71.810951, yaw: 0.000000, roll: -0.000000}>",
+    "<Struct 'Rotator' (0x0000024B385FF1C0) {pitch: 86.729515, yaw: 0.000000, roll: -0.000000}>",
+    "<Struct 'Rotator' (0x0000024B385FF120) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+    "<Struct 'Rotator' (0x0000024B385FF210) {pitch: 80.018173, yaw: 0.000000, roll: -0.000000}>"
+  ],
+  "segments_fixed": 57,
+  "horizontal_bounds_checked": true
+}

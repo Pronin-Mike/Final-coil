@@ -1,0 +1,31 @@
+// Strictly regional: caller tests the current extreme-house rectangle first.
+float4 rd=g.villageRoad(P.xy);
+float dist=rd.x, width=rd.y;
+float irregular=(g.fbm(P.xy/330+warp*1.8)-.5)*150;
+float shoulder=1-smoothstep(width*.67,width+100+irregular,dist);
+float worn=shoulder*smoothstep(.30,.62,macro+.15*patch);
+float sparse=1-smoothstep(-30,170,dist-width-irregular*.45);
+float greens=saturate(.68+.38*macro+.20*wet-dry*.32);
+greens*=smoothstep(.21,.42,patch+.15*macro);
+float3 field=lerp(soil*.95,grassCol*1.05,greens);
+float3 usedSoil=soil*lerp(.88,1.04,patch);
+float lane=(1-smoothstep(28,64,abs(dist-105)));
+float firmness=smoothstep(.28,.62,g.fbm(P.xy/820+17));
+float marks=lane*(.24+.76*wet)*(.18+.82*firmness);
+usedSoil*=1-marks*lerp(.025,.19,wet);
+usedSoil+=lane*(1-wet)*.008;
+float center=(1-smoothstep(35,72,dist))*smoothstep(.36,.68,macro+.15*small)*(.14+.24*wet);
+usedSoil=lerp(usedSoil,grassCol*.92,center);
+float edge=exp(-pow((dist-width*.91)/90,2));
+float chips=smoothstep(.74,.90,g.noise(P.xy/3.7))*edge*microFade;
+usedSoil=lerp(usedSoil,float3(.20,.185,.145)*(grain*.3+.8),chips*.58);
+float3 nextColor=lerp(field,usedSoil,shoulder);
+// Keep existing footpath controls as readable, gently frayed worn strips.
+nextColor=lerp(nextColor,soil*.88,Use.g*.80);
+float nextRough=lerp(.93,lerp(.90,.40,wet)-marks*.035,shoulder);
+float edgeBlend=smoothstep(0,250,P.x-BOUNDS.x)*smoothstep(0,250,BOUNDS.z-P.x)*smoothstep(0,250,P.y-BOUNDS.y)*smoothstep(0,250,BOUNDS.w-P.y);
+float protect=(1-smoothstep(.04,.34,Use.b))*(1-smoothstep(.02,.18,Biome.r));
+float mixWeight=edgeBlend*protect;
+color=lerp(color,nextColor,mixWeight);
+Roughness=lerp(Roughness,nextRough,mixWeight);
+AO=lerp(AO,.96,mixWeight*shoulder);

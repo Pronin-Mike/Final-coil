@@ -1,0 +1,19 @@
+{
+  "surface_samples": 1645,
+  "missing_ground": 0,
+  "max_surface_difference_cm": 26.0,
+  "entry_capsules_clear": [
+    "garage_main",
+    "garage_side",
+    "shop",
+    "stop"
+  ],
+  "shop_pad_height_cm": 109.25741291326145,
+  "garage_inside_m": [
+    7,
+    9
+  ],
+  "flat_garage_floor": true,
+  "inspection_pit": false,
+  "final_max_route_grade_percent": 5.129899153263954
+}

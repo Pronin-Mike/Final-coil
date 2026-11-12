@@ -1,0 +1,1918 @@
+{
+  "phase": "macro",
+  "xy_preserved": true,
+  "surface_samples": 3153,
+  "missing_collision": [],
+  "road_mesh_offset_max_cm": 5.741860839176368,
+  "clear_entries": [
+    "garage_main",
+    "garage_side",
+    "shop",
+    "stop"
+  ],
+  "lake_bed_samples": [
+    {
+      "xy": [
+        62333,
+        166666
+      ],
+      "bed_cm": -1300.0,
+      "water_cm": -250,
+      "depth_cm": 1050.0
+    },
+    {
+      "xy": [
+        62333,
+        123000
+      ],
+      "bed_cm": -362.0640869140625,
+      "water_cm": -250,
+      "depth_cm": 112.0640869140625
+    },
+    {
+      "xy": [
+        80333,
+        179333
+      ],
+      "bed_cm": -1300.0,
+      "water_cm": -250,
+      "depth_cm": 1050.0
+    },
+    {
+      "xy": [
+        100000,
+        185000
+      ],
+      "bed_cm": -1300.0,
+      "water_cm": -250,
+      "depth_cm": 1050.0
+    }
+  ],
+  "moves": [
+    {
+      "label": "MARK_CHAPEL01_Chapel",
+      "old_datum": 427.049826611437,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "POI_CHAPEL01_Chapel",
+      "old_datum": 427.049826611437,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "LABEL_CHAPEL01_Chapel",
+      "old_datum": 427.049826611437,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "MARK_DPS01_OldTrafficPost",
+      "old_datum": 95.02193546440955,
+      "new_datum": 95.05952075938157
+    },
+    {
+      "label": "POI_DPS01_OldTrafficPost",
+      "old_datum": 95.02193546440955,
+      "new_datum": 95.05952075938157
+    },
+    {
+      "label": "LABEL_DPS01_OldTrafficPost",
+      "old_datum": 95.02193546440955,
+      "new_datum": 95.05952075938157
+    },
+    {
+      "label": "MARK_SAWMILL01",
+      "old_datum": 221.16264667496884,
+      "new_datum": 221.1636550744559
+    },
+    {
+      "label": "POI_SAWMILL01",
+      "old_datum": 221.16264667496884,
+      "new_datum": 221.1636550744559
+    },
+    {
+      "label": "LABEL_SAWMILL01",
+      "old_datum": 221.16264667496884,
+      "new_datum": 221.1636550744559
+    },
+    {
+      "label": "MARK_RAIL01_PassingLoop",
+      "old_datum": -32.40742933542446,
+      "new_datum": 400.0
+    },
+    {
+      "label": "POI_RAIL01_PassingLoop",
+      "old_datum": -32.40742933542446,
+      "new_datum": 400.0
+    },
+    {
+      "label": "LABEL_RAIL01_PassingLoop",
+      "old_datum": -32.40742933542446,
+      "new_datum": 400.0
+    },
+    {
+      "label": "MARK_EXIT01_DistrictCentre",
+      "old_datum": 41.444598601337134,
+      "new_datum": 41.43308843681488
+    },
+    {
+      "label": "POI_EXIT01_DistrictCentre",
+      "old_datum": 41.444598601337134,
+      "new_datum": 41.43308843681488
+    },
+    {
+      "label": "LABEL_EXIT01_DistrictCentre",
+      "old_datum": 41.444598601337134,
+      "new_datum": 41.43308843681488
+    },
+    {
+      "label": "MARK_STOP01_Temporary",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "POI_STOP01_Temporary",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "LABEL_STOP01_Temporary",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "MARK_OLD_BOR",
+      "old_datum": 599.0350162461418,
+      "new_datum": 602.6648437108458
+    },
+    {
+      "label": "POI_OLD_BOR",
+      "old_datum": 599.0350162461418,
+      "new_datum": 602.6648437108458
+    },
+    {
+      "label": "LABEL_OLD_BOR",
+      "old_datum": 599.0350162461418,
+      "new_datum": 602.6648437108458
+    },
+    {
+      "label": "MARK_LAKE",
+      "old_datum": -470.0,
+      "new_datum": -1300.0
+    },
+    {
+      "label": "POI_LAKE",
+      "old_datum": -470.0,
+      "new_datum": -1300.0
+    },
+    {
+      "label": "LABEL_LAKE",
+      "old_datum": -470.0,
+      "new_datum": -1300.0
+    },
+    {
+      "label": "MARK_BEREZOVKA",
+      "old_datum": 248.09977672649083,
+      "new_datum": 197.821231460792
+    },
+    {
+      "label": "POI_BEREZOVKA",
+      "old_datum": 248.09977672649083,
+      "new_datum": 197.821231460792
+    },
+    {
+      "label": "LABEL_BEREZOVKA",
+      "old_datum": 248.09977672649083,
+      "new_datum": 197.821231460792
+    },
+    {
+      "label": "PlayerStart_STOP01_Temporary",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.79068847521737
+    },
+    {
+      "label": "POI_SHOP01_Provisional",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "LABEL_SHOP01_Provisional",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "POI_G01_GrandpaEntrance_Provisional",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "LABEL_G01_GrandpaEntrance_Provisional",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "H01_Yard_30x40m",
+      "old_datum": 56.98203891578059,
+      "new_datum": 166.08033594662683
+    },
+    {
+      "label": "H01_LogHouse",
+      "old_datum": 56.98203891578059,
+      "new_datum": 166.08033594662683
+    },
+    {
+      "label": "H01_ColdEntrance",
+      "old_datum": 56.98203891578059,
+      "new_datum": 166.08033594662683
+    },
+    {
+      "label": "H01_Porch",
+      "old_datum": 56.98203891578059,
+      "new_datum": 166.08033594662683
+    },
+    {
+      "label": "H01_Boundary_Back",
+      "old_datum": 56.98203891578059,
+      "new_datum": 166.08033594662683
+    },
+    {
+      "label": "H01_Boundary_SideL",
+      "old_datum": 56.98203891578059,
+      "new_datum": 166.08033594662683
+    },
+    {
+      "label": "H01_Boundary_SideR",
+      "old_datum": 56.98203891578059,
+      "new_datum": 166.08033594662683
+    },
+    {
+      "label": "H01_Boundary_FrontL",
+      "old_datum": 56.98203891578059,
+      "new_datum": 166.08033594662683
+    },
+    {
+      "label": "H01_Boundary_FrontR",
+      "old_datum": 56.98203891578059,
+      "new_datum": 166.08033594662683
+    },
+    {
+      "label": "H01_Label",
+      "old_datum": 56.98203891578059,
+      "new_datum": 166.08033594662683
+    },
+    {
+      "label": "H02_Yard_30x40m",
+      "old_datum": 3.225418830820125,
+      "new_datum": 93.73536493083603
+    },
+    {
+      "label": "H02_LogHouse",
+      "old_datum": 3.225418830820125,
+      "new_datum": 93.73536493083603
+    },
+    {
+      "label": "H02_ColdEntrance",
+      "old_datum": 3.225418830820125,
+      "new_datum": 93.73536493083603
+    },
+    {
+      "label": "H02_Porch",
+      "old_datum": 3.225418830820125,
+      "new_datum": 93.73536493083603
+    },
+    {
+      "label": "H02_Boundary_Back",
+      "old_datum": 3.225418830820125,
+      "new_datum": 93.73536493083603
+    },
+    {
+      "label": "H02_Boundary_SideL",
+      "old_datum": 3.225418830820125,
+      "new_datum": 93.73536493083603
+    },
+    {
+      "label": "H02_Boundary_SideR",
+      "old_datum": 3.225418830820125,
+      "new_datum": 93.73536493083603
+    },
+    {
+      "label": "H02_Boundary_FrontL",
+      "old_datum": 3.225418830820125,
+      "new_datum": 93.73536493083603
+    },
+    {
+      "label": "H02_Boundary_FrontR",
+      "old_datum": 3.225418830820125,
+      "new_datum": 93.73536493083603
+    },
+    {
+      "label": "H02_Label",
+      "old_datum": 3.225418830820125,
+      "new_datum": 93.73536493083603
+    },
+    {
+      "label": "H03_Yard_30x40m",
+      "old_datum": -51.02157054522041,
+      "new_datum": 333.33702267300407
+    },
+    {
+      "label": "H03_LogHouse",
+      "old_datum": -51.02157054522041,
+      "new_datum": 333.33702267300407
+    },
+    {
+      "label": "H03_ColdEntrance",
+      "old_datum": -51.02157054522041,
+      "new_datum": 333.33702267300407
+    },
+    {
+      "label": "H03_Porch",
+      "old_datum": -51.02157054522041,
+      "new_datum": 333.33702267300407
+    },
+    {
+      "label": "H03_Boundary_Back",
+      "old_datum": -51.02157054522041,
+      "new_datum": 333.33702267300407
+    },
+    {
+      "label": "H03_Boundary_SideL",
+      "old_datum": -51.02157054522041,
+      "new_datum": 333.33702267300407
+    },
+    {
+      "label": "H03_Boundary_SideR",
+      "old_datum": -51.02157054522041,
+      "new_datum": 333.33702267300407
+    },
+    {
+      "label": "H03_Boundary_FrontL",
+      "old_datum": -51.02157054522041,
+      "new_datum": 333.33702267300407
+    },
+    {
+      "label": "H03_Boundary_FrontR",
+      "old_datum": -51.02157054522041,
+      "new_datum": 333.33702267300407
+    },
+    {
+      "label": "H03_Label",
+      "old_datum": -51.02157054522041,
+      "new_datum": 333.33702267300407
+    },
+    {
+      "label": "H04_Yard_30x40m",
+      "old_datum": 98.95644085811608,
+      "new_datum": 234.8809294225373
+    },
+    {
+      "label": "H04_LogHouse",
+      "old_datum": 98.95644085811608,
+      "new_datum": 234.8809294225373
+    },
+    {
+      "label": "H04_ColdEntrance",
+      "old_datum": 98.95644085811608,
+      "new_datum": 234.8809294225373
+    },
+    {
+      "label": "H04_Porch",
+      "old_datum": 98.95644085811608,
+      "new_datum": 234.8809294225373
+    },
+    {
+      "label": "H04_Boundary_Back",
+      "old_datum": 98.95644085811608,
+      "new_datum": 234.8809294225373
+    },
+    {
+      "label": "H04_Boundary_SideL",
+      "old_datum": 98.95644085811608,
+      "new_datum": 234.8809294225373
+    },
+    {
+      "label": "H04_Boundary_SideR",
+      "old_datum": 98.95644085811608,
+      "new_datum": 234.8809294225373
+    },
+    {
+      "label": "H04_Boundary_FrontL",
+      "old_datum": 98.95644085811608,
+      "new_datum": 234.8809294225373
+    },
+    {
+      "label": "H04_Boundary_FrontR",
+      "old_datum": 98.95644085811608,
+      "new_datum": 234.8809294225373
+    },
+    {
+      "label": "H04_Label",
+      "old_datum": 98.95644085811608,
+      "new_datum": 234.8809294225373
+    },
+    {
+      "label": "H05_Yard_30x40m",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "H05_LogHouse",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "H05_ColdEntrance",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "H05_Porch",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "H05_Boundary_Back",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "H05_Boundary_SideL",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "H05_Boundary_SideR",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "H05_Boundary_FrontL",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "H05_Boundary_FrontR",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "H05_Label",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "H06_Yard_30x40m",
+      "old_datum": 136.82503891997686,
+      "new_datum": 166.15302371173556
+    },
+    {
+      "label": "H06_LogHouse",
+      "old_datum": 136.82503891997686,
+      "new_datum": 166.15302371173556
+    },
+    {
+      "label": "H06_ColdEntrance",
+      "old_datum": 136.82503891997686,
+      "new_datum": 166.15302371173556
+    },
+    {
+      "label": "H06_Porch",
+      "old_datum": 136.82503891997686,
+      "new_datum": 166.15302371173556
+    },
+    {
+      "label": "H06_Boundary_Back",
+      "old_datum": 136.82503891997686,
+      "new_datum": 166.15302371173556
+    },
+    {
+      "label": "H06_Boundary_SideL",
+      "old_datum": 136.82503891997686,
+      "new_datum": 166.15302371173556
+    },
+    {
+      "label": "H06_Boundary_SideR",
+      "old_datum": 136.82503891997686,
+      "new_datum": 166.15302371173556
+    },
+    {
+      "label": "H06_Boundary_FrontL",
+      "old_datum": 136.82503891997686,
+      "new_datum": 166.15302371173556
+    },
+    {
+      "label": "H06_Boundary_FrontR",
+      "old_datum": 136.82503891997686,
+      "new_datum": 166.15302371173556
+    },
+    {
+      "label": "H06_Label",
+      "old_datum": 136.82503891997686,
+      "new_datum": 166.15302371173556
+    },
+    {
+      "label": "H07_Yard_30x40m",
+      "old_datum": 191.21453098591962,
+      "new_datum": 110.69919628597411
+    },
+    {
+      "label": "H07_LogHouse",
+      "old_datum": 191.21453098591962,
+      "new_datum": 110.69919628597411
+    },
+    {
+      "label": "H07_ColdEntrance",
+      "old_datum": 191.21453098591962,
+      "new_datum": 110.69919628597411
+    },
+    {
+      "label": "H07_Porch",
+      "old_datum": 191.21453098591962,
+      "new_datum": 110.69919628597411
+    },
+    {
+      "label": "H07_Boundary_Back",
+      "old_datum": 191.21453098591962,
+      "new_datum": 110.69919628597411
+    },
+    {
+      "label": "H07_Boundary_SideL",
+      "old_datum": 191.21453098591962,
+      "new_datum": 110.69919628597411
+    },
+    {
+      "label": "H07_Boundary_SideR",
+      "old_datum": 191.21453098591962,
+      "new_datum": 110.69919628597411
+    },
+    {
+      "label": "H07_Boundary_FrontL",
+      "old_datum": 191.21453098591962,
+      "new_datum": 110.69919628597411
+    },
+    {
+      "label": "H07_Boundary_FrontR",
+      "old_datum": 191.21453098591962,
+      "new_datum": 110.69919628597411
+    },
+    {
+      "label": "H07_Label",
+      "old_datum": 191.21453098591962,
+      "new_datum": 110.69919628597411
+    },
+    {
+      "label": "H08_Yard_30x40m",
+      "old_datum": 288.0223833566878,
+      "new_datum": 175.44344359869044
+    },
+    {
+      "label": "H08_LogHouse",
+      "old_datum": 288.0223833566878,
+      "new_datum": 175.44344359869044
+    },
+    {
+      "label": "H08_ColdEntrance",
+      "old_datum": 288.0223833566878,
+      "new_datum": 175.44344359869044
+    },
+    {
+      "label": "H08_Porch",
+      "old_datum": 288.0223833566878,
+      "new_datum": 175.44344359869044
+    },
+    {
+      "label": "H08_Boundary_Back",
+      "old_datum": 288.0223833566878,
+      "new_datum": 175.44344359869044
+    },
+    {
+      "label": "H08_Boundary_SideL",
+      "old_datum": 288.0223833566878,
+      "new_datum": 175.44344359869044
+    },
+    {
+      "label": "H08_Boundary_SideR",
+      "old_datum": 288.0223833566878,
+      "new_datum": 175.44344359869044
+    },
+    {
+      "label": "H08_Boundary_FrontL",
+      "old_datum": 288.0223833566878,
+      "new_datum": 175.44344359869044
+    },
+    {
+      "label": "H08_Boundary_FrontR",
+      "old_datum": 288.0223833566878,
+      "new_datum": 175.44344359869044
+    },
+    {
+      "label": "H08_Label",
+      "old_datum": 288.0223833566878,
+      "new_datum": 175.44344359869044
+    },
+    {
+      "label": "H09_Yard_30x40m",
+      "old_datum": 267.7143615537454,
+      "new_datum": 422.0126063089077
+    },
+    {
+      "label": "H09_LogHouse",
+      "old_datum": 267.7143615537454,
+      "new_datum": 422.0126063089077
+    },
+    {
+      "label": "H09_ColdEntrance",
+      "old_datum": 267.7143615537454,
+      "new_datum": 422.0126063089077
+    },
+    {
+      "label": "H09_Porch",
+      "old_datum": 267.7143615537454,
+      "new_datum": 422.0126063089077
+    },
+    {
+      "label": "H09_Boundary_Back",
+      "old_datum": 267.7143615537454,
+      "new_datum": 422.0126063089077
+    },
+    {
+      "label": "H09_Boundary_SideL",
+      "old_datum": 267.7143615537454,
+      "new_datum": 422.0126063089077
+    },
+    {
+      "label": "H09_Boundary_SideR",
+      "old_datum": 267.7143615537454,
+      "new_datum": 422.0126063089077
+    },
+    {
+      "label": "H09_Boundary_FrontL",
+      "old_datum": 267.7143615537454,
+      "new_datum": 422.0126063089077
+    },
+    {
+      "label": "H09_Boundary_FrontR",
+      "old_datum": 267.7143615537454,
+      "new_datum": 422.0126063089077
+    },
+    {
+      "label": "H09_Label",
+      "old_datum": 267.7143615537454,
+      "new_datum": 422.0126063089077
+    },
+    {
+      "label": "H10_Yard_30x40m",
+      "old_datum": 195.8839015279049,
+      "new_datum": 138.83540622091914
+    },
+    {
+      "label": "H10_LogHouse",
+      "old_datum": 195.8839015279049,
+      "new_datum": 138.83540622091914
+    },
+    {
+      "label": "H10_ColdEntrance",
+      "old_datum": 195.8839015279049,
+      "new_datum": 138.83540622091914
+    },
+    {
+      "label": "H10_Porch",
+      "old_datum": 195.8839015279049,
+      "new_datum": 138.83540622091914
+    },
+    {
+      "label": "H10_Boundary_Back",
+      "old_datum": 195.8839015279049,
+      "new_datum": 138.83540622091914
+    },
+    {
+      "label": "H10_Boundary_SideL",
+      "old_datum": 195.8839015279049,
+      "new_datum": 138.83540622091914
+    },
+    {
+      "label": "H10_Boundary_SideR",
+      "old_datum": 195.8839015279049,
+      "new_datum": 138.83540622091914
+    },
+    {
+      "label": "H10_Boundary_FrontL",
+      "old_datum": 195.8839015279049,
+      "new_datum": 138.83540622091914
+    },
+    {
+      "label": "H10_Boundary_FrontR",
+      "old_datum": 195.8839015279049,
+      "new_datum": 138.83540622091914
+    },
+    {
+      "label": "H10_Label",
+      "old_datum": 195.8839015279049,
+      "new_datum": 138.83540622091914
+    },
+    {
+      "label": "H11_Yard_30x40m",
+      "old_datum": 124.98220926548336,
+      "new_datum": 15.777881179179744
+    },
+    {
+      "label": "H11_LogHouse",
+      "old_datum": 124.98220926548336,
+      "new_datum": 15.777881179179744
+    },
+    {
+      "label": "H11_ColdEntrance",
+      "old_datum": 124.98220926548336,
+      "new_datum": 15.777881179179744
+    },
+    {
+      "label": "H11_Porch",
+      "old_datum": 124.98220926548336,
+      "new_datum": 15.777881179179744
+    },
+    {
+      "label": "H11_Boundary_Back",
+      "old_datum": 124.98220926548336,
+      "new_datum": 15.777881179179744
+    },
+    {
+      "label": "H11_Boundary_SideL",
+      "old_datum": 124.98220926548336,
+      "new_datum": 15.777881179179744
+    },
+    {
+      "label": "H11_Boundary_SideR",
+      "old_datum": 124.98220926548336,
+      "new_datum": 15.777881179179744
+    },
+    {
+      "label": "H11_Boundary_FrontL",
+      "old_datum": 124.98220926548336,
+      "new_datum": 15.777881179179744
+    },
+    {
+      "label": "H11_Boundary_FrontR",
+      "old_datum": 124.98220926548336,
+      "new_datum": 15.777881179179744
+    },
+    {
+      "label": "H11_Label",
+      "old_datum": 124.98220926548336,
+      "new_datum": 15.777881179179744
+    },
+    {
+      "label": "H12_Yard_30x40m",
+      "old_datum": 55.015808823022994,
+      "new_datum": 218.21647670808937
+    },
+    {
+      "label": "H12_LogHouse",
+      "old_datum": 55.015808823022994,
+      "new_datum": 218.21647670808937
+    },
+    {
+      "label": "H12_ColdEntrance",
+      "old_datum": 55.015808823022994,
+      "new_datum": 218.21647670808937
+    },
+    {
+      "label": "H12_Porch",
+      "old_datum": 55.015808823022994,
+      "new_datum": 218.21647670808937
+    },
+    {
+      "label": "H12_Boundary_Back",
+      "old_datum": 55.015808823022994,
+      "new_datum": 218.21647670808937
+    },
+    {
+      "label": "H12_Boundary_SideL",
+      "old_datum": 55.015808823022994,
+      "new_datum": 218.21647670808937
+    },
+    {
+      "label": "H12_Boundary_SideR",
+      "old_datum": 55.015808823022994,
+      "new_datum": 218.21647670808937
+    },
+    {
+      "label": "H12_Boundary_FrontL",
+      "old_datum": 55.015808823022994,
+      "new_datum": 218.21647670808937
+    },
+    {
+      "label": "H12_Boundary_FrontR",
+      "old_datum": 55.015808823022994,
+      "new_datum": 218.21647670808937
+    },
+    {
+      "label": "H12_Label",
+      "old_datum": 55.015808823022994,
+      "new_datum": 218.21647670808937
+    },
+    {
+      "label": "E01_Yard_30x40m",
+      "old_datum": 174.71876526346549,
+      "new_datum": 25.440004631899953
+    },
+    {
+      "label": "E01_LogHouse",
+      "old_datum": 174.71876526346549,
+      "new_datum": 25.440004631899953
+    },
+    {
+      "label": "E01_ColdEntrance",
+      "old_datum": 174.71876526346549,
+      "new_datum": 25.440004631899953
+    },
+    {
+      "label": "E01_Porch",
+      "old_datum": 174.71876526346549,
+      "new_datum": 25.440004631899953
+    },
+    {
+      "label": "E01_Boundary_Back",
+      "old_datum": 174.71876526346549,
+      "new_datum": 25.440004631899953
+    },
+    {
+      "label": "E01_Boundary_SideL",
+      "old_datum": 174.71876526346549,
+      "new_datum": 25.440004631899953
+    },
+    {
+      "label": "E01_Boundary_SideR",
+      "old_datum": 174.71876526346549,
+      "new_datum": 25.440004631899953
+    },
+    {
+      "label": "E01_Boundary_FrontL",
+      "old_datum": 174.71876526346549,
+      "new_datum": 25.440004631899953
+    },
+    {
+      "label": "E01_Boundary_FrontR",
+      "old_datum": 174.71876526346549,
+      "new_datum": 25.440004631899953
+    },
+    {
+      "label": "E01_Label",
+      "old_datum": 174.71876526346549,
+      "new_datum": 25.440004631899953
+    },
+    {
+      "label": "E02_Yard_30x40m",
+      "old_datum": 177.62805440256807,
+      "new_datum": 240.8615741517633
+    },
+    {
+      "label": "E02_LogHouse",
+      "old_datum": 177.62805440256807,
+      "new_datum": 240.8615741517633
+    },
+    {
+      "label": "E02_ColdEntrance",
+      "old_datum": 177.62805440256807,
+      "new_datum": 240.8615741517633
+    },
+    {
+      "label": "E02_Porch",
+      "old_datum": 177.62805440256807,
+      "new_datum": 240.8615741517633
+    },
+    {
+      "label": "E02_Boundary_Back",
+      "old_datum": 177.62805440256807,
+      "new_datum": 240.8615741517633
+    },
+    {
+      "label": "E02_Boundary_SideL",
+      "old_datum": 177.62805440256807,
+      "new_datum": 240.8615741517633
+    },
+    {
+      "label": "E02_Boundary_SideR",
+      "old_datum": 177.62805440256807,
+      "new_datum": 240.8615741517633
+    },
+    {
+      "label": "E02_Boundary_FrontL",
+      "old_datum": 177.62805440256807,
+      "new_datum": 240.8615741517633
+    },
+    {
+      "label": "E02_Boundary_FrontR",
+      "old_datum": 177.62805440256807,
+      "new_datum": 240.8615741517633
+    },
+    {
+      "label": "E02_Label",
+      "old_datum": 177.62805440256807,
+      "new_datum": 240.8615741517633
+    },
+    {
+      "label": "E03_Yard_30x40m",
+      "old_datum": 274.35327440236574,
+      "new_datum": 270.95831503728164
+    },
+    {
+      "label": "E03_LogHouse",
+      "old_datum": 274.35327440236574,
+      "new_datum": 270.95831503728164
+    },
+    {
+      "label": "E03_ColdEntrance",
+      "old_datum": 274.35327440236574,
+      "new_datum": 270.95831503728164
+    },
+    {
+      "label": "E03_Porch",
+      "old_datum": 274.35327440236574,
+      "new_datum": 270.95831503728164
+    },
+    {
+      "label": "E03_Boundary_Back",
+      "old_datum": 274.35327440236574,
+      "new_datum": 270.95831503728164
+    },
+    {
+      "label": "E03_Boundary_SideL",
+      "old_datum": 274.35327440236574,
+      "new_datum": 270.95831503728164
+    },
+    {
+      "label": "E03_Boundary_SideR",
+      "old_datum": 274.35327440236574,
+      "new_datum": 270.95831503728164
+    },
+    {
+      "label": "E03_Boundary_FrontL",
+      "old_datum": 274.35327440236574,
+      "new_datum": 270.95831503728164
+    },
+    {
+      "label": "E03_Boundary_FrontR",
+      "old_datum": 274.35327440236574,
+      "new_datum": 270.95831503728164
+    },
+    {
+      "label": "E03_Label",
+      "old_datum": 274.35327440236574,
+      "new_datum": 270.95831503728164
+    },
+    {
+      "label": "E04_Yard_30x40m",
+      "old_datum": 266.0774830224541,
+      "new_datum": 565.9181102401808
+    },
+    {
+      "label": "E04_LogHouse",
+      "old_datum": 266.0774830224541,
+      "new_datum": 565.9181102401808
+    },
+    {
+      "label": "E04_ColdEntrance",
+      "old_datum": 266.0774830224541,
+      "new_datum": 565.9181102401808
+    },
+    {
+      "label": "E04_Porch",
+      "old_datum": 266.0774830224541,
+      "new_datum": 565.9181102401808
+    },
+    {
+      "label": "E04_Boundary_Back",
+      "old_datum": 266.0774830224541,
+      "new_datum": 565.9181102401808
+    },
+    {
+      "label": "E04_Boundary_SideL",
+      "old_datum": 266.0774830224541,
+      "new_datum": 565.9181102401808
+    },
+    {
+      "label": "E04_Boundary_SideR",
+      "old_datum": 266.0774830224541,
+      "new_datum": 565.9181102401808
+    },
+    {
+      "label": "E04_Boundary_FrontL",
+      "old_datum": 266.0774830224541,
+      "new_datum": 565.9181102401808
+    },
+    {
+      "label": "E04_Boundary_FrontR",
+      "old_datum": 266.0774830224541,
+      "new_datum": 565.9181102401808
+    },
+    {
+      "label": "E04_Label",
+      "old_datum": 266.0774830224541,
+      "new_datum": 565.9181102401808
+    },
+    {
+      "label": "E05_Yard_30x40m",
+      "old_datum": 314.83837534072507,
+      "new_datum": 539.7282674500043
+    },
+    {
+      "label": "E05_LogHouse",
+      "old_datum": 314.83837534072507,
+      "new_datum": 539.7282674500043
+    },
+    {
+      "label": "E05_ColdEntrance",
+      "old_datum": 314.83837534072507,
+      "new_datum": 539.7282674500043
+    },
+    {
+      "label": "E05_Porch",
+      "old_datum": 314.83837534072507,
+      "new_datum": 539.7282674500043
+    },
+    {
+      "label": "E05_Boundary_Back",
+      "old_datum": 314.83837534072507,
+      "new_datum": 539.7282674500043
+    },
+    {
+      "label": "E05_Boundary_SideL",
+      "old_datum": 314.83837534072507,
+      "new_datum": 539.7282674500043
+    },
+    {
+      "label": "E05_Boundary_SideR",
+      "old_datum": 314.83837534072507,
+      "new_datum": 539.7282674500043
+    },
+    {
+      "label": "E05_Boundary_FrontL",
+      "old_datum": 314.83837534072507,
+      "new_datum": 539.7282674500043
+    },
+    {
+      "label": "E05_Boundary_FrontR",
+      "old_datum": 314.83837534072507,
+      "new_datum": 539.7282674500043
+    },
+    {
+      "label": "E05_Label",
+      "old_datum": 314.83837534072507,
+      "new_datum": 539.7282674500043
+    },
+    {
+      "label": "E06_Yard_30x40m",
+      "old_datum": 171.12422373010386,
+      "new_datum": 75.19973819107608
+    },
+    {
+      "label": "E06_LogHouse",
+      "old_datum": 171.12422373010386,
+      "new_datum": 75.19973819107608
+    },
+    {
+      "label": "E06_ColdEntrance",
+      "old_datum": 171.12422373010386,
+      "new_datum": 75.19973819107608
+    },
+    {
+      "label": "E06_Porch",
+      "old_datum": 171.12422373010386,
+      "new_datum": 75.19973819107608
+    },
+    {
+      "label": "E06_Boundary_Back",
+      "old_datum": 171.12422373010386,
+      "new_datum": 75.19973819107608
+    },
+    {
+      "label": "E06_Boundary_SideL",
+      "old_datum": 171.12422373010386,
+      "new_datum": 75.19973819107608
+    },
+    {
+      "label": "E06_Boundary_SideR",
+      "old_datum": 171.12422373010386,
+      "new_datum": 75.19973819107608
+    },
+    {
+      "label": "E06_Boundary_FrontL",
+      "old_datum": 171.12422373010386,
+      "new_datum": 75.19973819107608
+    },
+    {
+      "label": "E06_Boundary_FrontR",
+      "old_datum": 171.12422373010386,
+      "new_datum": 75.19973819107608
+    },
+    {
+      "label": "E06_Label",
+      "old_datum": 171.12422373010386,
+      "new_datum": 75.19973819107608
+    },
+    {
+      "label": "E07_Yard_30x40m",
+      "old_datum": 75.32933212990233,
+      "new_datum": 217.06535357014184
+    },
+    {
+      "label": "E07_LogHouse",
+      "old_datum": 75.32933212990233,
+      "new_datum": 217.06535357014184
+    },
+    {
+      "label": "E07_ColdEntrance",
+      "old_datum": 75.32933212990233,
+      "new_datum": 217.06535357014184
+    },
+    {
+      "label": "E07_Porch",
+      "old_datum": 75.32933212990233,
+      "new_datum": 217.06535357014184
+    },
+    {
+      "label": "E07_Boundary_Back",
+      "old_datum": 75.32933212990233,
+      "new_datum": 217.06535357014184
+    },
+    {
+      "label": "E07_Boundary_SideL",
+      "old_datum": 75.32933212990233,
+      "new_datum": 217.06535357014184
+    },
+    {
+      "label": "E07_Boundary_SideR",
+      "old_datum": 75.32933212990233,
+      "new_datum": 217.06535357014184
+    },
+    {
+      "label": "E07_Boundary_FrontL",
+      "old_datum": 75.32933212990233,
+      "new_datum": 217.06535357014184
+    },
+    {
+      "label": "E07_Boundary_FrontR",
+      "old_datum": 75.32933212990233,
+      "new_datum": 217.06535357014184
+    },
+    {
+      "label": "E07_Label",
+      "old_datum": 75.32933212990233,
+      "new_datum": 217.06535357014184
+    },
+    {
+      "label": "STOP01_Pad",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_Post_-80_-140",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_Post_-80_140",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_Post_80_-140",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_Post_80_140",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BackWall",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_SideWall",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_Roof",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BenchSeat",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BenchBack",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BenchLeg_-95",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BenchLeg_95",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BackSlat_25",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BackSlat_50",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BackSlat_75",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BackSlat_100",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BackSlat_125",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BackSlat_150",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BackSlat_175",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "STOP01_BackSlat_200",
+      "old_datum": 102.69638599439952,
+      "new_datum": 184.72005488056215
+    },
+    {
+      "label": "G01_Yard",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_House",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_HouseEntrance",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_HousePorch",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_Floor",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_BackWall",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LeftWall",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_RightWallFront",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_RightWallBack",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_SideDoorHeader",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_FrontWallL",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_FrontWallR",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_GateHeader",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_RoofLeft",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_RoofRight",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_FutureCar_Front",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_FutureCar_Back",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_FutureCar_Left",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_FutureCar_Right",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_25",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_25",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_50",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_50",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_75",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_75",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_100",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_100",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_125",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_125",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_150",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_150",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_175",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_175",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_200",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_200",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_225",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_225",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_250",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_250",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_275",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_275",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Back_300",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "G01_Garage_LogJoint_Left_300",
+      "old_datum": 113.31158399146882,
+      "new_datum": 653.5535540959177
+    },
+    {
+      "label": "SHOP01_Floor",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_BackWall",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_WallL",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_WallR",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_FrontL",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_FrontR",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_EntranceHeader",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_RoofL",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_RoofR",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_Counter",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_StorageShelf",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_WindowL",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_WindowR",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_SignBoard",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "SHOP01_FacadeSign",
+      "old_datum": 109.25741291326145,
+      "new_datum": 211.8110102324895
+    },
+    {
+      "label": "CHAPEL01_Blockout",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "CHAPEL01_Porch",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "CHAPEL01_CrossVertical",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "CHAPEL01_CrossBar",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "CHAPEL01_Name",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "BOR_Pine_00_Trunk",
+      "old_datum": 426.3756691055454,
+      "new_datum": 1296.598447978698
+    },
+    {
+      "label": "BOR_Pine_00_Crown",
+      "old_datum": 426.3756691055454,
+      "new_datum": 1296.598447978698
+    },
+    {
+      "label": "BOR_Pine_01_Trunk",
+      "old_datum": 427.0507365113534,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "BOR_Pine_01_Crown",
+      "old_datum": 427.0507365113534,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "BOR_Pine_02_Trunk",
+      "old_datum": 425.6954005491813,
+      "new_datum": 1302.7144061710762
+    },
+    {
+      "label": "BOR_Pine_02_Crown",
+      "old_datum": 425.6954005491813,
+      "new_datum": 1302.7144061710762
+    },
+    {
+      "label": "BOR_Pine_03_Trunk",
+      "old_datum": 430.38662782246587,
+      "new_datum": 1297.3466131023633
+    },
+    {
+      "label": "BOR_Pine_03_Crown",
+      "old_datum": 430.38662782246587,
+      "new_datum": 1297.3466131023633
+    },
+    {
+      "label": "BOR_Pine_04_Trunk",
+      "old_datum": 428.9925736230734,
+      "new_datum": 1303.7839278518245
+    },
+    {
+      "label": "BOR_Pine_04_Crown",
+      "old_datum": 428.9925736230734,
+      "new_datum": 1303.7839278518245
+    },
+    {
+      "label": "BOR_Pine_05_Trunk",
+      "old_datum": 436.2309567262595,
+      "new_datum": 1299.7194591460907
+    },
+    {
+      "label": "BOR_Pine_05_Crown",
+      "old_datum": 436.2309567262595,
+      "new_datum": 1299.7194591460907
+    },
+    {
+      "label": "BOR_Pine_06_Trunk",
+      "old_datum": 431.44102741364867,
+      "new_datum": 1300.7948092087645
+    },
+    {
+      "label": "BOR_Pine_06_Crown",
+      "old_datum": 431.44102741364867,
+      "new_datum": 1300.7948092087645
+    },
+    {
+      "label": "BOR_Pine_07_Trunk",
+      "old_datum": 436.7078784754253,
+      "new_datum": 1297.9073450065862
+    },
+    {
+      "label": "BOR_Pine_07_Crown",
+      "old_datum": 436.7078784754253,
+      "new_datum": 1297.9073450065862
+    },
+    {
+      "label": "BOR_Pine_08_Trunk",
+      "old_datum": 431.1603872646912,
+      "new_datum": 1293.6033985570482
+    },
+    {
+      "label": "BOR_Pine_08_Crown",
+      "old_datum": 431.1603872646912,
+      "new_datum": 1293.6033985570482
+    },
+    {
+      "label": "BOR_Pine_09_Trunk",
+      "old_datum": 436.1217239035602,
+      "new_datum": 1293.3669375760048
+    },
+    {
+      "label": "BOR_Pine_09_Crown",
+      "old_datum": 436.1217239035602,
+      "new_datum": 1293.3669375760048
+    },
+    {
+      "label": "BOR_Pine_10_Trunk",
+      "old_datum": 431.3634334295074,
+      "new_datum": 1286.7346853592453
+    },
+    {
+      "label": "BOR_Pine_10_Crown",
+      "old_datum": 431.3634334295074,
+      "new_datum": 1286.7346853592453
+    },
+    {
+      "label": "BOR_Pine_11_Trunk",
+      "old_datum": 435.47892790873317,
+      "new_datum": 1288.819163363858
+    },
+    {
+      "label": "BOR_Pine_11_Crown",
+      "old_datum": 435.47892790873317,
+      "new_datum": 1288.819163363858
+    },
+    {
+      "label": "BOR_Pine_12_Trunk",
+      "old_datum": 430.3761984548646,
+      "new_datum": 1279.7202966081884
+    },
+    {
+      "label": "BOR_Pine_12_Crown",
+      "old_datum": 430.3761984548646,
+      "new_datum": 1279.7202966081884
+    },
+    {
+      "label": "BOR_Pine_13_Trunk",
+      "old_datum": 432.7781081974197,
+      "new_datum": 1282.466631514128
+    },
+    {
+      "label": "BOR_Pine_13_Crown",
+      "old_datum": 432.7781081974197,
+      "new_datum": 1282.466631514128
+    },
+    {
+      "label": "BOR_Pine_14_Trunk",
+      "old_datum": 426.972838644789,
+      "new_datum": 1268.6859449853132
+    },
+    {
+      "label": "BOR_Pine_14_Crown",
+      "old_datum": 426.972838644789,
+      "new_datum": 1268.6859449853132
+    },
+    {
+      "label": "BOR_Pine_15_Trunk",
+      "old_datum": 429.0249756007732,
+      "new_datum": 1274.2414163762544
+    },
+    {
+      "label": "BOR_Pine_15_Crown",
+      "old_datum": 429.0249756007732,
+      "new_datum": 1274.2414163762544
+    },
+    {
+      "label": "CHAPEL01_OldPine_0_Trunk",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "CHAPEL01_OldPine_0_Crown",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "CHAPEL01_OldPine_1_Trunk",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "CHAPEL01_OldPine_1_Crown",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "CHAPEL01_OldPine_2_Trunk",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "CHAPEL01_OldPine_2_Crown",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "BOR_ForkBoulder",
+      "old_datum": 413.13193958200327,
+      "new_datum": 1221.189646734128
+    },
+    {
+      "label": "SIGN_VillageJunction_Post",
+      "old_datum": -1.2480263996663121,
+      "new_datum": 184.5349823147566
+    },
+    {
+      "label": "SIGN_VillageJunction_0",
+      "old_datum": -1.2914884403502682,
+      "new_datum": 184.49738929000495
+    },
+    {
+      "label": "SIGN_VillageJunction_Text0",
+      "old_datum": -1.4167000536808683,
+      "new_datum": 186.20065411798944
+    },
+    {
+      "label": "SIGN_VillageJunction_Arrow0",
+      "old_datum": -1.2530532577328626,
+      "new_datum": 182.3399927027145
+    },
+    {
+      "label": "SIGN_VillageJunction_1",
+      "old_datum": -1.2914884403502682,
+      "new_datum": 184.49738929000495
+    },
+    {
+      "label": "SIGN_VillageJunction_Text1",
+      "old_datum": -1.4167000536808683,
+      "new_datum": 186.20065411798944
+    },
+    {
+      "label": "SIGN_VillageJunction_Arrow1",
+      "old_datum": -1.348298988876482,
+      "new_datum": 186.61867713168746
+    },
+    {
+      "label": "SIGN_ShopSplit_Post",
+      "old_datum": 100.73958893714511,
+      "new_datum": 126.87048472483696
+    },
+    {
+      "label": "SIGN_ShopSplit_0",
+      "old_datum": 100.6802366961126,
+      "new_datum": 126.82210245499117
+    },
+    {
+      "label": "SIGN_ShopSplit_Text0",
+      "old_datum": 99.83109504878648,
+      "new_datum": 123.9408662949724
+    },
+    {
+      "label": "SIGN_ShopSplit_Arrow0",
+      "old_datum": 101.54467535104345,
+      "new_datum": 130.10799305808047
+    },
+    {
+      "label": "SIGN_ShopSplit_1",
+      "old_datum": 100.6802366961126,
+      "new_datum": 126.82210245499117
+    },
+    {
+      "label": "SIGN_ShopSplit_Text1",
+      "old_datum": 99.83109504878648,
+      "new_datum": 123.9408662949724
+    },
+    {
+      "label": "SIGN_ShopSplit_Arrow1",
+      "old_datum": 99.79013542444238,
+      "new_datum": 123.54326048472025
+    },
+    {
+      "label": "SIGN_ChapelFork_Post",
+      "old_datum": 427.0501328027915,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "SIGN_ChapelFork_0",
+      "old_datum": 427.0501328027915,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "SIGN_ChapelFork_Text0",
+      "old_datum": 427.05010074313583,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "SIGN_ChapelFork_Arrow0",
+      "old_datum": 427.05016272513683,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "SIGN_ChapelFork_1",
+      "old_datum": 427.0501328027915,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "SIGN_ChapelFork_Text1",
+      "old_datum": 427.05010074313583,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "SIGN_ChapelFork_Arrow1",
+      "old_datum": 427.05009433120466,
+      "new_datum": 1295.1157940009589
+    },
+    {
+      "label": "SIGN_ForestFork_Post",
+      "old_datum": 427.4373204440744,
+      "new_datum": 1270.259468688304
+    },
+    {
+      "label": "SIGN_ForestFork_0",
+      "old_datum": 427.4433113954058,
+      "new_datum": 1270.2685653369797
+    },
+    {
+      "label": "SIGN_ForestFork_Text0",
+      "old_datum": 427.07600458964987,
+      "new_datum": 1269.2194718498522
+    },
+    {
+      "label": "SIGN_ForestFork_Arrow0",
+      "old_datum": 427.89995558334124,
+      "new_datum": 1271.4744868628331
+    },
+    {
+      "label": "SIGN_ForestFork_1",
+      "old_datum": 427.4433113954058,
+      "new_datum": 1270.2685653369797
+    },
+    {
+      "label": "SIGN_ForestFork_Text1",
+      "old_datum": 427.07600458964987,
+      "new_datum": 1269.2194718498522
+    },
+    {
+      "label": "SIGN_ForestFork_Arrow1",
+      "old_datum": 426.9896626831361,
+      "new_datum": 1268.9899734170729
+    }
+  ],
+  "garage_inside_m": [
+    7,
+    9
+  ],
+  "pit": false
+}

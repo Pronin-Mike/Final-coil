@@ -1,0 +1,37 @@
+{
+  "map": "/Game/FinalCoil/Maps/L_Berezovka_Blockout",
+  "cm_per_pixel": 129.03225806451613,
+  "scale_pixels": [
+    [
+      35,
+      632
+    ],
+    [
+      190,
+      632
+    ]
+  ],
+  "scale_distance_cm": 20000.0,
+  "crop_pixels": [
+    12,
+    600,
+    972,
+    940
+  ],
+  "stop_pixel": [
+    457,
+    837
+  ],
+  "player_start_cm": [
+    0,
+    0,
+    110
+  ],
+  "north": "+X",
+  "east": "+Y",
+  "width_m": 1238.7096774193549,
+  "height_m": 438.7096774193549,
+  "saved_and_reloaded": true,
+  "houses": false,
+  "terrain": false
+}
