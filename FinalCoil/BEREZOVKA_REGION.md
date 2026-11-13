@@ -1,4 +1,4 @@
-# Берёзовка — общий черновой уровень
+# Сосновка — общий черновой уровень
 
 Карта: /Game/FinalCoil/Maps/L_Berezovka_Region_Blockout.
 Назначена стартовой. Исходный L_Berezovka_Blockout сохранён отдельно.

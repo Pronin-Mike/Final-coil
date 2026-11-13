@@ -54,7 +54,7 @@ powershell -ExecutionPolicy Bypass -File tools/Sync-Project.ps1 -Mode Push -Mess
 - `FinalCoil/Content`, `Config`, `.uproject` — рабочий UE-проект.
 - `FinalCoil/SourceArt`, `Scripts`, `Review` — исходники, генераторы, проверки и кадры.
 - `obsidian-doc` — документация игры и процесс разработки.
-- `index.html`, `assets` — прежний справочник; GitHub Pages публикует только эти файлы из master.
+- `index.html`, `moskvich-3d.html`, `assets` — справочник и интерактивная 3D-страница ИЖ-412; GitHub Pages публикует только эти файлы из master.
 - `tools` — настройка Git, синхронизация и быстрая проверка репозитория.
 
 Кэши UE, `Intermediate`, `Saved`, локальные Git-резервные копии и раскладка окон Obsidian не версионируются. Они не нужны для открытия проекта.

@@ -1,0 +1,84 @@
+
+/* FINAL COIL: Moskvich-412 assembly stage 2 — part cards and interactive dependency graph */
+.fa-links{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 22px}
+.fa-links a{display:inline-block;border:1px solid #62735d;border-radius:8px;padding:10px 13px;font-size:13px;color:#d5e9ca;background:#203129}
+.fa-links a:hover{border-color:#aac59c;background:#2c4030}
+.fa-measures{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;margin:15px 0 18px}
+.fa-measure{background:#1d3024;border:1px solid #39553e;border-radius:10px;padding:13px}
+.fa-measure strong{font-size:24px;display:block;color:#daebd1;line-height:1.35}
+.fa-measure span{font-size:11px;color:#a6baa2;display:block}
+.fa-toolbar{background:#1c2b21;border:1px solid #39503c;border-radius:10px;padding:16px;margin:12px 0 20px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px}
+.fa-field{display:grid;gap:5px;min-width:0;color:#a8bca8;font-size:12px}
+.fa-control{width:100%;min-height:41px;border-radius:7px;border:1px solid #546b55;background:#121e17;color:#e2efde;padding:9px 11px;font:inherit;font-size:13px;outline:none}
+.fa-control:focus{border-color:#b7d29f}
+.fa-quiet{color:#9eb49d;font-size:12px;line-height:1.7}
+.fa-pagebar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:space-between;color:#b5c9b0;margin:14px 0}
+.fa-pagebar button,.fa-btn{background:#2b4031;border:1px solid #557056;color:#daedda;padding:9px 12px;border-radius:7px;font:inherit;cursor:pointer}
+.fa-pagebar button:hover:not(:disabled),.fa-btn:hover{background:#395741}
+.fa-pagebar button:disabled{opacity:.38;cursor:default}
+.fa-cards{display:grid;gap:10px}
+.fa-card{background:#192820;border:1px solid #324c38;border-radius:10px;overflow:hidden}
+.fa-card[open]{border-color:#779974}
+.fa-card summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:11px;padding:13px 16px}
+.fa-card summary::-webkit-details-marker{display:none}
+.fa-card summary:after{content:"⌄";color:#a9c399;font-size:18px}
+.fa-card[open] summary:after{content:"⌃"}
+.fa-card-title{font-weight:680;flex:1;min-width:0;font-size:15px;line-height:1.4}
+.fa-card-id{color:#829a82;font-size:11px;white-space:nowrap}
+.fa-status{font-size:10px;letter-spacing:.025em;background:#2b432e;border:1px solid #617e5e;color:#d9edce;border-radius:6px;padding:4px 7px;white-space:nowrap}
+.fa-status-part{background:#293942;border-color:#5c7180;color:#ccd9e0}
+.fa-status-fixed{background:#3b3428;border-color:#7c6849;color:#eed6ab}
+.fa-status-use{background:#2c3550;border-color:#526994;color:#cbdbfb}
+.fa-status-open{background:#48402c;border-color:#8f7845;color:#f1d995}
+.fa-cardbody{border-top:1px solid #354c3c;padding:17px;display:grid;gap:15px}
+.fa-cardfields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.fa-fieldvalue{background:#1c3024;border:1px solid #314a37;padding:11px 13px;border-radius:7px;min-width:0}
+.fa-fieldvalue strong{display:block;font-size:11px;color:#94b08f;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px}
+.fa-fieldvalue div{font-size:13px;line-height:1.55;color:#d9e5d6;overflow-wrap:anywhere}
+.fa-card-mono{font:11px/1.4 ui-monospace,monospace;color:#a8baac}
+.fa-cards a,.fa-part-links a{color:#c5e0b1}
+.fa-card-list{display:grid;gap:6px}
+.fa-linkpill{display:inline-block;background:#263f2e;border:1px solid #416d47;border-radius:6px;padding:6px 9px;margin:3px 5px 3px 0;cursor:pointer;color:#e0f1dc!important;font-size:12px}
+.fa-linkpill:hover{background:#395940}
+.fa-source-note{border-left:3px solid #aa8556;background:#38302070;padding:10px 13px;border-radius:0 6px 6px 0;font-size:12px;color:#e9d3b2}
+.fa-expandrow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.fa-empty{padding:20px;background:#1a2820;border:1px solid #35503a;border-radius:9px;color:#d4ddc9}
+.fa-tabs{display:flex;gap:7px;flex-wrap:wrap;margin:16px 0 12px}
+.fa-tabs button{cursor:pointer;border:1px solid #425e47;color:#bed3b5;background:#18291e;border-radius:7px;padding:9px 12px;font:inherit;font-size:12px}
+.fa-tabs button[aria-pressed="true"]{border-color:#a4ce98;color:#f0fff1;background:#35553b}
+.fa-graph-grid{display:grid;grid-template-columns:minmax(225px,290px) minmax(0,1fr);gap:14px;margin-top:14px}
+.fa-explorer{background:#1d2d22;border:1px solid #354d39;border-radius:9px;padding:14px;min-width:0;max-height:760px;overflow:auto}
+.fa-explorer h3{margin:0 0 10px;font-size:15px}
+.fa-results{display:grid;gap:5px;max-height:550px;overflow:auto;margin-top:10px}
+.fa-result{width:100%;text-align:left;cursor:pointer;background:#15251b;border:1px solid #344b38;border-radius:7px;color:#d8e6d2;padding:10px 11px;font:inherit;font-size:12px}
+.fa-result:hover,.fa-result.active{background:#355039;border-color:#9cc292}
+.fa-result small{color:#94ae8d;display:block;margin-top:2px}
+.fa-graph-panel{background:#15231b;border:1px solid #354b38;border-radius:10px;min-width:0;overflow:hidden}
+.fa-graph-topbar{display:flex;gap:8px;justify-content:space-between;align-items:center;padding:10px 13px;border-bottom:1px solid #304537}
+.fa-graph-topbar strong{font-size:12px;color:#d6e8d4}
+.fa-graph-topbar button{cursor:pointer;color:#d6e5d0;background:#2b4032;border:1px solid #486b4a;border-radius:5px;padding:6px 10px;font:inherit;font-size:12px}
+.fa-graph-scroll{overflow:auto;max-height:730px;position:relative;min-height:390px}
+.fa-graph-scroll svg{display:block;max-width:none;user-select:none}
+.fa-graph-node{cursor:pointer}
+.fa-graph-node rect{fill:#26432c;stroke:#789c73;stroke-width:1.3}
+.fa-graph-node:hover rect{stroke:#e9ebc1;stroke-width:2.2}
+.fa-graph-node text{font:12px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#e7efe2;pointer-events:none}
+.fa-graph-node .fa-node-small{font-size:10px;fill:#b6cfad}
+.fa-graph-node.focus rect{fill:#4d6b40;stroke:#daedc0;stroke-width:2.2}
+.fa-edge{fill:none;stroke:#8fc188;stroke-width:1.5;opacity:.75;marker-end:url(#fa-arrow)}
+.fa-edge.design{stroke:#b69a63;stroke-dasharray:6 5;marker-end:url(#fa-arrow-plan)}
+.fa-edge.mount{stroke:#9aafc0;stroke-dasharray:2 5;opacity:.68;marker-end:none}
+.fa-edge.access{stroke:#b48c8c;stroke-dasharray:3 4;opacity:.8;marker-end:none}
+.fa-graph-legend{display:flex;flex-wrap:wrap;gap:14px;padding:10px 14px;border-top:1px solid #304537;color:#abc2ab;font-size:11px}
+.fa-dot{display:inline-block;width:24px;border-top:2px solid #8fc188;vertical-align:middle;margin-right:6px}
+.fa-dot.design{border-top-color:#b69a63;border-top-style:dashed}
+.fa-dot.mount{border-top-color:#9aafc0;border-top-style:dotted}
+.fa-dot.access{border-top-color:#b48c8c;border-top-style:dashed}
+.fa-focused-info{padding:13px 15px;border-top:1px solid #344a38;font-size:12px;color:#c4d5be;line-height:1.6}
+.fa-focused-info h3{font-size:14px;margin:0 0 7px}
+.fa-focused-info p{margin:0 0 8px}
+.fa-focused-info button{cursor:pointer;border-radius:6px;padding:8px 12px;background:#3b5a3c;border:1px solid #719170;color:#e7f2e2}
+.fa-section{margin-top:28px}
+.fa-section h2{margin:0 0 12px}
+@media(max-width:1020px){.fa-graph-grid{grid-template-columns:1fr}.fa-explorer{max-height:none}.fa-results{max-height:210px}.fa-measures{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.fa-toolbar{grid-template-columns:1fr}.fa-cardfields{grid-template-columns:1fr}.fa-measures{grid-template-columns:repeat(2,minmax(0,1fr))}.fa-card summary{flex-wrap:wrap}.fa-card-title{flex-basis:100%}.fa-card-id{display:none}.fa-graph-scroll{min-height:330px;max-height:590px}}
