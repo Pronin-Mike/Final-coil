@@ -4,11 +4,12 @@
 "use strict";
 var data=window.FCAssyData;
 if(!data||!Array.isArray(data.parts)){window.FCAssembly={error:"Данные схемы недоступны"};return}
-var parts=data.parts,byId={},categories=[],groupMap={},reverse={};
-for(var i=0;i<parts.length;i++){byId[parts[i].id]=parts[i];if(!groupMap[parts[i].category]){groupMap[parts[i].category]=true;categories.push(parts[i].category)}reverse[parts[i].id]=[]}
+var parts=data.parts,byId={},byIdentity={},categories=[],groupMap={},reverse={};
+for(var i=0;i<parts.length;i++){byId[parts[i].id]=parts[i];byIdentity[parts[i].category+"|"+parts[i].section+"|"+parts[i].name]=parts[i].id;if(!groupMap[parts[i].category]){groupMap[parts[i].category]=true;categories.push(parts[i].category)}reverse[parts[i].id]=[]}
 for(i=0;i<parts.length;i++)for(var j=0;j<parts[i].requires.length;j++){var req=parts[i].requires[j];if(reverse[req.id])reverse[req.id].push({id:parts[i].id,grade:req.grade})}
 function e(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function a(url,title){if(!/^https:\/\//.test(url))return e(title);return '<a target="_blank" rel="noopener noreferrer" href="'+e(url)+'">'+e(title)+' ↗</a>'}
+function normalized(s){return String(s==null?"":s).toLocaleLowerCase("ru").replace(/ё/g,"е").replace(/порш(?:ень|ня|ни|нев(?:ые|ых)?)/g,"поршн")}
 function tag(status){return '<span class="fa-status fa-status-'+e(status)+'">'+e(({remove:"Снимается",part:"Часть сборки",fixed:"Несъёмная",use:"Работает, не снимается",open:"На уточнении"})[status]||status)+'</span>'}
 function linkP(id,text){return '<a class="fa-linkpill" href="#/moskvich-parts" data-go-part="'+e(id)+'">'+e(text||byId[id]&&byId[id].name||id)+'</a>'}
 function graphP(id,text){return '<a class="fa-linkpill" href="#/moskvich-assembly" data-focus-part="'+e(id)+'">'+e(text||byId[id]&&byId[id].name||id)+'</a>'}
@@ -20,18 +21,19 @@ function measures(){return '<div class="fa-measures"><div class="fa-measure"><st
 function cardsHtml(){return '<a class="crumb-link" href="#/moskvich-412">← К каталогу деталей</a><div class="eyebrow">МОСКВИЧ-412 / ЭТАП 2</div><h1>Карточки креплений</h1><p class="intro">Для каждой позиции — назначение, к чему крепится, тип соединения, размер и количество крепежа, известные блокеры установки и ограничения доступа при снятии.</p>'+basicLinks()+measures()+
 '<div class="note">Точный крепёж нельзя безопасно выдумать. Если диаметр, шаг или длина не подтверждены для выбранного исполнения АЗЛК/ИЖ, в карточке стоит «не подтверждено». Для установки отличаем <strong>место крепления</strong> от <strong>обязательного предшественника</strong> и от <strong>демонтажа ради доступа</strong>.</div>'+
 '<div class="fa-toolbar"><label class="fa-field">Название / ID<input id="fa-q" class="fa-control" type="search" autocomplete="off" placeholder="Например: двигатель, тормозной диск, M412-03..."></label><label class="fa-field">Система<select id="fa-cat" class="fa-control"><option value="all">Все 13 систем</option>'+categories.map(function(c){return '<option value="'+e(c)+'">'+e(c)+'</option>'}).join("")+'</select></label><label class="fa-field">Съёмность<select id="fa-status" class="fa-control"><option value="all">Любой статус</option><option value="remove">Снимается</option><option value="part">Часть сборки</option><option value="fixed">Не снимается</option><option value="use">Работает без снятия</option><option value="open">На уточнении</option></select></label></div><div id="fa-cards-summary" class="fa-quiet"></div><div id="fa-cards-list" class="fa-cards"></div><div id="fa-cards-pager"></div><p class="fa-source-note">Первоисточники и уровень достоверности доступны в каждой карточке. Общие логические зависимости — проектные правила, а не заводские универсальные запреты. Завод и год выпуска ещё не выбраны.</p>'}
-function filteredCards(){var q=cardState.q.toLocaleLowerCase("ru").trim();return parts.filter(function(p){return (cardState.category==="all"||p.category===cardState.category)&&(cardState.status==="all"||p.status===cardState.status)&&(!q||(p.name+" "+p.id+" "+p.category+" "+p.section).toLocaleLowerCase("ru").includes(q))})}
+function filteredCards(){var q=normalized(cardState.q).trim();return parts.filter(function(p){return (cardState.category==="all"||p.category===cardState.category)&&(cardState.status==="all"||p.status===cardState.status)&&(!q||normalized(p.name+" "+p.id+" "+p.category+" "+p.section).includes(q))})}
 function cardField(title,val){return '<div class="fa-fieldvalue"><strong>'+e(title)+'</strong><div>'+val+'</div></div>'}
 function cardHtml(p){
  var before=p.requires.length?p.requires.map(function(x){return linkP(x.id,x.label)+' <small class="fa-card-mono">'+(x.grade==="supported"?"есть источник":"правило проекта")+'</small>'}).join("<div></div>"):'<span class="fa-quiet">Обязательный предшественник пока не установлен. Это не доказательство свободной сборки.</span>';
  var access=p.access.length?p.access.map(function(x){return linkP(x.id,x.label)}).join(" "):'<span class="fa-quiet">Отдельные требования доступа не описаны.</span>';
+ var outgoing=reverse[p.id].length?reverse[p.id].map(function(x){return linkP(x.id,byId[x.id].name)}).join(" "):'<span class="fa-quiet">Ни одна следующая установка явно не заблокирована этой деталью.</span>';
  var source=p.fastener.source?a(p.fastener.source,"Каталог крепежа"):'Размеры ещё не проверены по выбранной модификации';
  var row='<details class="fa-card" id="fa-card-'+e(p.id)+'"'+(cardState.expanded===p.id?' open':'')+'><summary><span class="fa-card-id">'+e(p.id)+'</span><span class="fa-card-title">'+e(p.name)+'</span>'+tag(p.status)+'</summary><div class="fa-cardbody">'+
  '<div class="fa-expandrow"><span class="fa-card-mono">'+e(p.category)+" / "+e(p.section)+'</span>'+graphP(p.id,"Показать связи на схеме")+'</div>'+
  cardField("Что это за деталь",e(p.description))+
  '<div class="fa-cardfields">'+cardField("К чему крепится",e(p.mount)+(p.parent?'<div>'+linkP(p.parent)+'</div>':""))+cardField("Способ крепления",e(p.fastener.type))+
  cardField("Болты / размер резьбы",e(p.fastener.size)+'<div class="fa-quiet">'+e(p.fastener.quantity)+'</div><div class="fa-quiet">'+source+'</div>')+
- cardField("Условия установки",before)+cardField("Что снять для доступа",access)+cardField("Игровая логика",e(p.rule))+'</div>'+
+ cardField("Условия установки",before)+cardField("Что она блокирует",outgoing)+cardField("Что снять для доступа",access)+cardField("Игровая логика",e(p.rule))+'</div>'+
  '<div class="fa-source-note">'+e(p.sourceLevel)+(p.notes.length?'<p>'+p.notes.map(e).join(" ")+'</p>':"")+'</div></div></details>';
  return row;
 }
@@ -57,7 +59,7 @@ function initCards(){
  document.getElementById("fa-cards-list").addEventListener("click",function(ev){var a=ev.target.closest("[data-go-part],[data-focus-part]");if(!a)return;if(a.dataset.focusPart){graphState.focus=a.dataset.focusPart;graphState.mode="focus"}else if(a.dataset.goPart){openCard(a.dataset.goPart)}});
  drawCardList();if(cardState.expanded)requestAnimationFrame(function(){var el=document.getElementById("fa-card-"+cardState.expanded);if(el){el.open=true;el.scrollIntoView({block:"nearest"})}});
 }
-function openCard(id){var p=byId[id];if(!p)return;cardState.q="";cardState.category=p.category;cardState.status="all";cardState.page=0;cardState.expanded=id;var arr=filteredCards();cardState.page=Math.floor(Math.max(0,arr.findIndex(function(n){return n.id===id}))/cardPageSize);if(location.hash!=="#/moskvich-parts")location.hash="#/moskvich-parts";else initCards()}
+function openCard(id){var p=byId[id];if(!p)return;cardState.q="";cardState.category=p.category;cardState.status="all";cardState.page=0;cardState.expanded=id;var arr=filteredCards();cardState.page=Math.floor(Math.max(0,arr.findIndex(function(n){return n.id===id}))/cardPageSize);if(location.hash!=="#/moskvich-parts")location.hash="#/moskvich-parts";else{var q=document.getElementById("fa-q"),cat=document.getElementById("fa-cat"),status=document.getElementById("fa-status");if(q)q.value="";if(cat)cat.value=cardState.category;if(status)status.value="all";drawCardList();var el=document.getElementById("fa-card-"+id);if(el){el.open=true;el.scrollIntoView({block:"nearest"})}}}
 var graphState={mode:"overview",focus:null,q:"",scale:1};
 function graphHtml(){return '<a class="crumb-link" href="#/moskvich-412">← К каталогу деталей</a><div class="eyebrow">МОСКВИЧ-412 / ЭТАП 2</div><h1>Схема порядка установки</h1><p class="intro">Посмотри весь автомобиль по 13 системам, переключись на полную схему из '+parts.length+' узлов или выбери конкретную деталь, чтобы увидеть, что её блокирует и что зависит от неё.</p>'+basicLinks()+measures()+
 '<div class="note"><strong>Три разных типа связи:</strong> сплошная стрелка — подтверждённая последовательность, пунктир — проектное условие для реализации, синяя линия — место крепления (не является запретом сборки). Логика доступа при разборке показана отдельно. У всех систем может быть несколько допустимых последовательностей монтажа.</div>'+
@@ -113,7 +115,7 @@ function drawGraph(){
  }else info.innerHTML=mode==="full"?'<p><strong>Все '+parts.length+' узла показаны.</strong> Прокручивайте схему; нажмите на любую деталь, чтобы увидеть входящие и исходящие зависимости. Стрелки отображают только внесённые условия установки.</p>':'<p>Нажмите на категорию для выбора деталей этой системы или найдите конкретную деталь слева. Категории — навигация по всем 13 системам, а не единственная строгая последовательность сборки.</p>';
 }
 function drawResults(){
- var q=graphState.q.toLocaleLowerCase("ru").trim(),arr=parts.filter(function(p){return !q||(p.name+" "+p.id+" "+p.category).toLocaleLowerCase("ru").includes(q)}),list=document.getElementById("fa-gresults");
+ var q=normalized(graphState.q).trim(),arr=parts.filter(function(p){return !q||normalized(p.name+" "+p.id+" "+p.category).includes(q)}),list=document.getElementById("fa-gresults");
  if(!list)return;
  if(!q&&graphState.mode==="focus"&&graphState.focus){var a=byId[graphState.focus];arr=[a].concat(arr.filter(function(p){return p.category===a.category&&p.id!==a.id}).slice(0,23))}
  else if(!q)arr=parts.filter(function(p){return p.status==="remove"}).slice(0,28);
@@ -131,5 +133,5 @@ function initGraph(){
  document.getElementById("fa-zoom-reset").addEventListener("click",function(){graphState.scale=1;drawGraph()});
  drawGraph();drawResults();
 }
-window.FCAssembly={cardsHtml:cardsHtml,initCards:initCards,graphHtml:graphHtml,initGraph:initGraph,openCard:openCard,parts:parts,byId:byId};
+window.FCAssembly={cardsHtml:cardsHtml,initCards:initCards,graphHtml:graphHtml,initGraph:initGraph,openCard:openCard,getId:function(category,section,name){return byIdentity[category+"|"+section+"|"+name]||""},parts:parts,byId:byId};
 })();
