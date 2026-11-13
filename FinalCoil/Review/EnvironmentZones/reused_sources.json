@@ -1,0 +1,38 @@
+{
+  "SourceArt/CompactVillage/plants.json": {
+    "type": "list",
+    "length": 4,
+    "shape": [
+      51392,
+      7632,
+      839,
+      215
+    ]
+  },
+  "SourceArt/VillagePlants/planting.json": {
+    "type": "dict",
+    "length": 5,
+    "shape": [
+      "meshes",
+      "plants",
+      "seed",
+      "constraints",
+      "counts"
+    ]
+  },
+  "SourceArt/Terrain/manifest.json": {
+    "type": "dict",
+    "length": 9,
+    "shape": [
+      "replace_labels",
+      "routes",
+      "shore",
+      "z_range_cm",
+      "max_route_grade",
+      "pads",
+      "grid",
+      "terrain_vertices",
+      "terrain_triangles"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "saved",
+  "house_center": [
+    -9018.745043667539,
+    26920.63447359117
+  ],
+  "yaw": -11.310286350081578,
+  "ground_z": 28.711096623372928,
+  "house_size_cm": [
+    1000,
+    800
+  ],
+  "porch_size_cm": [
+    250,
+    600
+  ],
+  "garage_size_cm": [
+    900,
+    700
+  ],
+  "ground_floor_height_cm": 60,
+  "loft_height_cm": 360,
+  "roof_eave_height_cm": 420,
+  "roof_ridge_height_cm": 780,
+  "main_stair": {
+    "steps": 18,
+    "rise_cm": 16.666666666666668,
+    "tread_cm": 28,
+    "width_cm": 120,
+    "start_x": -350,
+    "end_x": 154,
+    "y": -190
+  },
+  "garage_link": {
+    "x": -100,
+    "y": 390,
+    "width_cm": 140,
+    "headroom_at_house_cm": 230,
+    "steps": 4,
+    "rise_cm": 13.75,
+    "tread_cm": 35
+  },
+  "porch_gap_to_garage_cm": 100,
+  "porch_roof_gap_to_garage_cm": 80,
+  "original_garage_contents_unchanged": true
+}

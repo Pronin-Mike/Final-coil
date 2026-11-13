@@ -2,7 +2,7 @@
   "FileVersion": 3,
   "EngineAssociation": "5.8",
   "Category": "",
-  "Description": "FINAL COIL: Последний виток",
+  "Description": "FINAL COIL: \u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439 \u0432\u0438\u0442\u043e\u043a",
   "Plugins": [
     {
       "Name": "ModelingToolsEditorMode",
@@ -30,6 +30,10 @@
     {
       "Enabled": true,
       "Name": "EditorScriptingUtilities"
+    },
+    {
+      "Name": "PCG",
+      "Enabled": true
     }
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "floor_and_headroom": [
+    {
+      "name": "living",
+      "floor_error_cm": 0,
+      "headroom_cm": 278
+    },
+    {
+      "name": "stair_bottom",
+      "floor_error_cm": 0,
+      "headroom_cm": 452.7877502441406
+    },
+    {
+      "name": "stair_top",
+      "floor_error_cm": 0,
+      "headroom_cm": 310.5743408203125
+    },
+    {
+      "name": "landing",
+      "floor_error_cm": 0,
+      "headroom_cm": 256.5743713378906
+    },
+    {
+      "name": "dormer_bay",
+      "floor_error_cm": 0,
+      "headroom_cm": 335.9650573730469
+    },
+    {
+      "name": "front_door",
+      "floor_error_cm": 0,
+      "headroom_cm": 229.99998474121094
+    },
+    {
+      "name": "garage_link",
+      "floor_error_cm": 0,
+      "headroom_cm": 285
+    },
+    {
+      "name": "porch",
+      "floor_error_cm": 0,
+      "headroom_cm": 279.02490234375
+    }
+  ],
+  "porch_gap_to_garage_cm": 100,
+  "wall_contact_gap_cm": 0,
+  "play_status": "passed"
+}

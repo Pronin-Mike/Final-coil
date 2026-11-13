@@ -1,0 +1,187 @@
+{
+  "status": "passed",
+  "roof_collision_samples": [
+    {
+      "x": -440,
+      "y": -340,
+      "roof_underside_cm": 388,
+      "error_cm": 0.0
+    },
+    {
+      "x": -440,
+      "y": -170,
+      "roof_underside_cm": 371,
+      "error_cm": 0.0
+    },
+    {
+      "x": -440,
+      "y": 0,
+      "roof_underside_cm": 354.00000381469727,
+      "error_cm": 3.814697265625e-06
+    },
+    {
+      "x": -440,
+      "y": 170,
+      "roof_underside_cm": 337,
+      "error_cm": 0.0
+    },
+    {
+      "x": -440,
+      "y": 340,
+      "roof_underside_cm": 320.00000190734863,
+      "error_cm": 1.9073486328125e-06
+    },
+    {
+      "x": -220,
+      "y": -340,
+      "roof_underside_cm": 388,
+      "error_cm": 0.0
+    },
+    {
+      "x": -220,
+      "y": -170,
+      "roof_underside_cm": 371,
+      "error_cm": 0.0
+    },
+    {
+      "x": -220,
+      "y": 0,
+      "roof_underside_cm": 354.00000381469727,
+      "error_cm": 3.814697265625e-06
+    },
+    {
+      "x": -220,
+      "y": 170,
+      "roof_underside_cm": 337,
+      "error_cm": 0.0
+    },
+    {
+      "x": -220,
+      "y": 340,
+      "roof_underside_cm": 320.00000190734863,
+      "error_cm": 1.9073486328125e-06
+    },
+    {
+      "x": 0,
+      "y": -340,
+      "roof_underside_cm": 388,
+      "error_cm": 0.0
+    },
+    {
+      "x": 0,
+      "y": -170,
+      "roof_underside_cm": 371,
+      "error_cm": 0.0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "roof_underside_cm": 354.00000381469727,
+      "error_cm": 3.814697265625e-06
+    },
+    {
+      "x": 0,
+      "y": 170,
+      "roof_underside_cm": 337,
+      "error_cm": 0.0
+    },
+    {
+      "x": 0,
+      "y": 340,
+      "roof_underside_cm": 320.00000190734863,
+      "error_cm": 1.9073486328125e-06
+    },
+    {
+      "x": 220,
+      "y": -340,
+      "roof_underside_cm": 388,
+      "error_cm": 0.0
+    },
+    {
+      "x": 220,
+      "y": -170,
+      "roof_underside_cm": 371,
+      "error_cm": 0.0
+    },
+    {
+      "x": 220,
+      "y": 0,
+      "roof_underside_cm": 354.00000381469727,
+      "error_cm": 3.814697265625e-06
+    },
+    {
+      "x": 220,
+      "y": 170,
+      "roof_underside_cm": 337,
+      "error_cm": 0.0
+    },
+    {
+      "x": 220,
+      "y": 340,
+      "roof_underside_cm": 320.00000190734863,
+      "error_cm": 1.9073486328125e-06
+    },
+    {
+      "x": 440,
+      "y": -340,
+      "roof_underside_cm": 388,
+      "error_cm": 0.0
+    },
+    {
+      "x": 440,
+      "y": -170,
+      "roof_underside_cm": 371,
+      "error_cm": 0.0
+    },
+    {
+      "x": 440,
+      "y": 0,
+      "roof_underside_cm": 354.00000381469727,
+      "error_cm": 3.814697265625e-06
+    },
+    {
+      "x": 440,
+      "y": 170,
+      "roof_underside_cm": 337,
+      "error_cm": 0.0
+    },
+    {
+      "x": 440,
+      "y": 340,
+      "roof_underside_cm": 320.00000190734863,
+      "error_cm": 1.9073486328125e-06
+    }
+  ],
+  "closed_upper_wall_probes": [
+    {
+      "end": "back",
+      "y": 0,
+      "z": 350,
+      "hit_cm": 20
+    },
+    {
+      "end": "back",
+      "y": -300,
+      "z": 370,
+      "hit_cm": 19.999998092651367
+    },
+    {
+      "end": "front",
+      "y": 0,
+      "z": 350,
+      "hit_cm": 20
+    },
+    {
+      "end": "front",
+      "y": -300,
+      "z": 370,
+      "hit_cm": 20.000001907348633
+    }
+  ],
+  "meshes_closed_manifold": true,
+  "fall_verified_from_house_to_outer_wall": true,
+  "minimum_ceiling_above_garage_floor_cm": 315.00000190734863,
+  "max_roof_error_cm": 3.814697265625e-06,
+  "doors_and_floor_unchanged": true,
+  "play_walk_not_repeated": "Only roof and upper walls changed; floor, doorways, stairs and vehicle remain unchanged"
+}

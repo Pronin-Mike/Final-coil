@@ -1,0 +1,1 @@
+{"jsonrpc": "2.0", "id": 1, "result": {"content": [{"type": "text", "text": "{\"returnValue\":{\"actor\":{\"refPath\":\"/Game/FinalCoil/Maps/L_Berezovka_Terrain.L_Berezovka_Terrain:PersistentLevel.ENV_PCG_Environment_bzx20kvvvrbg2_1276748014\"},\"graph\":{\"refPath\":\"/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master\"}}}"}]}}

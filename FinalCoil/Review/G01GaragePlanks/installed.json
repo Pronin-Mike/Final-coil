@@ -1,0 +1,22 @@
+{
+  "status": "saved",
+  "center": [
+    -8867.730956214666,
+    27675.680661178907,
+    33.711096623372896
+  ],
+  "yaw": -11.310286350081578,
+  "floor_size_cm": [
+    940,
+    740
+  ],
+  "finished_floor_world_z": 33.711096623372896,
+  "plank_rows": 34,
+  "board_count": 131,
+  "nominal_width_cm": 21.764705882352942,
+  "seam_width_cm": 0.25,
+  "thickness_cm": 5,
+  "layout": "Longitudinal boards with staggered end joints and four restrained wood tones",
+  "collision": "Original continuous slab at unchanged height; render-only boards",
+  "car_and_equipment_unchanged": true
+}

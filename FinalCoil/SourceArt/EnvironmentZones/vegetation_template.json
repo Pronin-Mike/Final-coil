@@ -1,0 +1,30 @@
+{
+  "BiomeID": "Z04",
+  "VegetationGroup": "short_grass",
+  "MeshReference": null,
+  "Density": 0.8,
+  "MinScale": 0.7,
+  "MaxScale": 1.2,
+  "MinSlope": 0,
+  "MaxSlope": 30,
+  "HeightRange": [
+    -20000,
+    20000
+  ],
+  "WetnessRange": [
+    0,
+    0.8
+  ],
+  "ClusterRadius": 350,
+  "ClusterStrength": 0.7,
+  "MinDistance": 25,
+  "ExclusionRules": [
+    "water",
+    "physical_objects",
+    "access",
+    "manual"
+  ],
+  "RandomSeed": 412,
+  "CullDistance": 12000,
+  "CollisionMode": "none"
+}

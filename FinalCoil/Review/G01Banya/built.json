@@ -1,0 +1,49 @@
+{
+  "id": "G01_Banya",
+  "center": [
+    -7625.348836672442,
+    25474.26937088312
+  ],
+  "plot_local_center": [
+    1000,
+    -1050
+  ],
+  "yaw": -11.310286350081578,
+  "ground_z": 47.50496683863287,
+  "foundation_datum_z": 47.50496683863287,
+  "terrain_center_z": 32.106352897338574,
+  "max_terrain_under_building_z": 65.50496683863287,
+  "entrance_terrain_z": 28.711096623372928,
+  "entry_steps": 3,
+  "entry_step_rise_cm": 16.26462340508665,
+  "size_cm": [
+    600,
+    500
+  ],
+  "floor_above_foundation_datum_cm": 30,
+  "clear_ceiling_cm": 250,
+  "entrance": "towards courtyard, local -X",
+  "rooms": [
+    {
+      "name": "Shower / washing room",
+      "x_range": [
+        -290,
+        -10
+      ]
+    },
+    {
+      "name": "Steam room",
+      "x_range": [
+        10,
+        290
+      ]
+    }
+  ],
+  "door_clear_width_cm": 120,
+  "door_clear_height_cm": 210,
+  "door_state": "fixed open blockout leaves",
+  "steam_benches": "L-shaped, two tiers at 45 and 90cm above floor",
+  "stove": "brick placeholder with stone charge and chimney",
+  "shower": "tray, drain, mixer, pipe, overhead shower head",
+  "existing_actors_unchanged": true
+}

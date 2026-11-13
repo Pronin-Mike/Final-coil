@@ -1,6 +1,6 @@
 """Terrain V2: visible street ridge, Bor slope, asymmetric lake basin. Centimeters."""
 import json,math,os,bisect
-ROOT="D:/GameDevelop/FinalCoil"
+ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INV=json.load(open(ROOT+"/Scripts/terrain_inventory.json",encoding="utf-8"))["actors"]
 DETAILS=True
 def smooth(a,b,x):

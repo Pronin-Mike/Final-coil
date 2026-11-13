@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "point": 7,
+  "points": 7,
+  "samples": 35,
+  "failures": [],
+  "completed": [
+    [
+      310,
+      0
+    ],
+    [
+      300,
+      -200
+    ],
+    [
+      -300,
+      -200
+    ],
+    [
+      -300,
+      200
+    ],
+    [
+      300,
+      200
+    ],
+    [
+      310,
+      0
+    ],
+    [
+      620,
+      0
+    ]
+  ],
+  "start": 1576495.562,
+  "last_progress": 1576509.359,
+  "last_distance": 1000000000.0,
+  "collision_probe_actor": "StaticMeshActor_66",
+  "collision_probe_hit": true,
+  "last_write": 1576508.359
+}

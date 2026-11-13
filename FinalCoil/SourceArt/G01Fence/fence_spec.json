@@ -1,0 +1,47 @@
+{
+  "plot": "G01",
+  "center": [
+    -8400.0,
+    26700.0
+  ],
+  "yaw": -11.310286350081578,
+  "hx": 1600,
+  "hy": 1562.5,
+  "height_cm": 145,
+  "gate_center_local": [
+    1600,
+    -232.96986035558507
+  ],
+  "gate_opening_cm": 960,
+  "projected_driveway_width_cm": 856.6625057012221,
+  "gate_posts_y": [
+    -712.9698603555851,
+    247.03013964441493
+  ],
+  "leaf_length_cm": 468.0,
+  "gate_floor_z": 66.68823458875791,
+  "gate_state": "two fixed-open leaves, 90 degrees; lower leaf inward, upper leaf outward to clear angled lane",
+  "road_crossing_local": [
+    [
+      2294.5698036532754,
+      -1784.6426578344945
+    ],
+    [
+      1372.8112501595215,
+      274.571068096134
+    ]
+  ],
+  "counts": {
+    "Pickets0": 145,
+    "Pickets1": 136,
+    "Pickets2": 129,
+    "Pickets3": 141,
+    "Pickets4": 139,
+    "Posts": 55,
+    "Rails": 104,
+    "GateFrame": 6,
+    "GateBoards": 56,
+    "Hinges": 4
+  },
+  "existing_actor_transforms_unchanged": true
+}

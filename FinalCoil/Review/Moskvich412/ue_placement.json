@@ -1,0 +1,47 @@
+{
+  "status": "placed_and_saved",
+  "level": "/Game/FinalCoil/Maps/L_Berezovka_Terrain",
+  "asset": "/Game/FinalCoil/Vehicles/Moskvich412/SM_Moskvich412_Blockout.SM_Moskvich412_Blockout",
+  "actor": "/Game/FinalCoil/Maps/L_Berezovka_Terrain.L_Berezovka_Terrain:PersistentLevel.StaticMeshActor_66",
+  "label": "G01_Moskvich412",
+  "dimensions_cm": [
+    410.5000305175781,
+    161.50006103515625,
+    150.0
+  ],
+  "position_cm": [
+    -8867.730956214666,
+    27675.680661178907,
+    33.711096623372896
+  ],
+  "yaw_deg": 348.68971252441406,
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "floor_top_cm": 33.711096623372896,
+  "tyre_contact_error_cm": 0,
+  "side_clearance_cm": 269.2499694824219,
+  "front_back_clearance_cm": 244.74998474121094,
+  "gate_width_cm": 320,
+  "gate_clearance_each_side_cm": 79.24996948242188,
+  "materials": [
+    "Paint_OliveCream",
+    "Glass",
+    "Chrome",
+    "Grille",
+    "Rubber",
+    "Headlamp",
+    "Amber",
+    "TailRed",
+    "Plate"
+  ],
+  "collision": "Complex as simple, BlockAll, static prop; no driving rig",
+  "garage_unchanged": true,
+  "previous_position_before_forest_move": [
+    -941.34557817425,
+    15921.943938425828,
+    548.2835908879842
+  ]
+}

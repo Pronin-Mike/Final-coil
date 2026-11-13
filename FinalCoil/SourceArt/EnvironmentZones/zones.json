@@ -1,0 +1,657 @@
+{
+  "version": 1,
+  "seed": 412,
+  "water_level_cm": -250,
+  "plot_transition_cm": 200,
+  "edge_width_cm": 1800,
+  "forest_boundary_noise_cm": 600,
+  "shore_distance_cm": 2000,
+  "wetland_min_wetness": 0.67,
+  "wetland_hint": [
+    95000,
+    250000
+  ],
+  "wetland_hint_strength": 0.8,
+  "roadside_width_cm": [
+    100,
+    300
+  ],
+  "route_clearance_cm": 35,
+  "plot_overrides": {
+    "G01": {
+      "maintenance": 0.85
+    },
+    "H13": {
+      "maintenance": 0.85
+    },
+    "E10": {
+      "abandonment": 0.9
+    },
+    "H09": {
+      "maintenance": 0.85
+    },
+    "H08": {
+      "maintenance": 0.85
+    },
+    "E09": {
+      "abandonment": 0.9
+    },
+    "E07": {
+      "abandonment": 0.9
+    },
+    "E06": {
+      "abandonment": 0.9
+    },
+    "H02": {
+      "maintenance": 0.85
+    },
+    "H12": {
+      "maintenance": 0.85
+    },
+    "H01": {
+      "maintenance": 0.85
+    },
+    "H04": {
+      "maintenance": 0.85
+    },
+    "E02": {
+      "abandonment": 0.9
+    },
+    "E01": {
+      "abandonment": 0.9
+    },
+    "E04": {
+      "abandonment": 0.9
+    },
+    "H06": {
+      "maintenance": 0.85
+    },
+    "E03": {
+      "abandonment": 0.9
+    },
+    "H07": {
+      "maintenance": 0.85
+    },
+    "H11": {
+      "maintenance": 0.85
+    },
+    "H05": {
+      "maintenance": 0.85
+    },
+    "E08": {
+      "abandonment": 0.9
+    },
+    "H03": {
+      "maintenance": 0.85
+    },
+    "H10": {
+      "maintenance": 0.85
+    },
+    "E11": {
+      "abandonment": 0.9
+    },
+    "H14": {
+      "maintenance": 0.85
+    },
+    "E05": {
+      "abandonment": 0.9
+    }
+  },
+  "additional_forests": [
+    {
+      "center": [
+        -9000,
+        29500
+      ],
+      "radius": [
+        5200,
+        5000
+      ],
+      "source": "Existing G01 forest blockout extent; manually adjustable"
+    }
+  ],
+  "protected_pads": [
+    {
+      "id": "STOP01",
+      "center": [
+        0,
+        0
+      ],
+      "radius_cm": 650
+    },
+    {
+      "id": "SHOP01",
+      "center": [
+        -2254.681647940075,
+        -786.5168539325842
+      ],
+      "radius_cm": 800
+    }
+  ],
+  "zones": [
+    {
+      "id": "Z01",
+      "name": "Road",
+      "enabled": true,
+      "source": [
+        "Biome.RGBA",
+        "Use.RGBA",
+        "current plan",
+        "surface",
+        "overrides"
+      ],
+      "density": 0.02,
+      "allowed_groups": [
+        "short_grass"
+      ],
+      "height_range_cm": [
+        -20000,
+        20000
+      ],
+      "slope_range_deg": [
+        0,
+        30
+      ],
+      "exclusions": [
+        "water",
+        "physical_objects",
+        "access",
+        "manual"
+      ],
+      "priority": 100,
+      "transition_cm": 150,
+      "debug_color": [
+        0.6,
+        0.19,
+        0.07
+      ],
+      "seed": 41200
+    },
+    {
+      "id": "Z02",
+      "name": "Roadside",
+      "enabled": true,
+      "source": [
+        "Biome.RGBA",
+        "Use.RGBA",
+        "current plan",
+        "surface",
+        "overrides"
+      ],
+      "density": 0.45,
+      "allowed_groups": [
+        "short_grass",
+        "herbs"
+      ],
+      "height_range_cm": [
+        -20000,
+        20000
+      ],
+      "slope_range_deg": [
+        0,
+        30
+      ],
+      "exclusions": [
+        "water",
+        "physical_objects",
+        "access",
+        "manual"
+      ],
+      "priority": 90,
+      "transition_cm": 150,
+      "debug_color": [
+        0.95,
+        0.65,
+        0.1
+      ],
+      "seed": 41201
+    },
+    {
+      "id": "Z03",
+      "name": "Maintained",
+      "enabled": true,
+      "source": [
+        "Biome.RGBA",
+        "Use.RGBA",
+        "current plan",
+        "surface",
+        "overrides"
+      ],
+      "density": 0.25,
+      "allowed_groups": [
+        "short_grass",
+        "herbs"
+      ],
+      "height_range_cm": [
+        -20000,
+        20000
+      ],
+      "slope_range_deg": [
+        0,
+        30
+      ],
+      "exclusions": [
+        "water",
+        "physical_objects",
+        "access",
+        "manual"
+      ],
+      "priority": 85,
+      "transition_cm": 150,
+      "debug_color": [
+        0.4,
+        0.9,
+        0.45
+      ],
+      "seed": 41202
+    },
+    {
+      "id": "Z04",
+      "name": "Meadow",
+      "enabled": true,
+      "source": [
+        "Biome.RGBA",
+        "Use.RGBA",
+        "current plan",
+        "surface",
+        "overrides"
+      ],
+      "density": 0.8,
+      "allowed_groups": [
+        "short_grass",
+        "tall_grass",
+        "herbs",
+        "shrubs"
+      ],
+      "height_range_cm": [
+        -20000,
+        20000
+      ],
+      "slope_range_deg": [
+        0,
+        30
+      ],
+      "exclusions": [
+        "water",
+        "physical_objects",
+        "access",
+        "manual"
+      ],
+      "priority": 0,
+      "transition_cm": 150,
+      "debug_color": [
+        0.65,
+        0.9,
+        0.15
+      ],
+      "seed": 41203
+    },
+    {
+      "id": "Z05",
+      "name": "Abandoned",
+      "enabled": true,
+      "source": [
+        "Biome.RGBA",
+        "Use.RGBA",
+        "current plan",
+        "surface",
+        "overrides"
+      ],
+      "density": 0.9,
+      "allowed_groups": [
+        "tall_grass",
+        "weeds",
+        "shrubs",
+        "pioneer_trees"
+      ],
+      "height_range_cm": [
+        -20000,
+        20000
+      ],
+      "slope_range_deg": [
+        0,
+        30
+      ],
+      "exclusions": [
+        "water",
+        "physical_objects",
+        "access",
+        "manual"
+      ],
+      "priority": 80,
+      "transition_cm": 150,
+      "debug_color": [
+        0.8,
+        0.25,
+        0.6
+      ],
+      "seed": 41204
+    },
+    {
+      "id": "Z06",
+      "name": "ForestEdge",
+      "enabled": true,
+      "source": [
+        "Biome.RGBA",
+        "Use.RGBA",
+        "current plan",
+        "surface",
+        "overrides"
+      ],
+      "density": 0.85,
+      "allowed_groups": [
+        "tall_grass",
+        "shrubs",
+        "young_trees"
+      ],
+      "height_range_cm": [
+        -20000,
+        20000
+      ],
+      "slope_range_deg": [
+        0,
+        30
+      ],
+      "exclusions": [
+        "water",
+        "physical_objects",
+        "access",
+        "manual"
+      ],
+      "priority": 55,
+      "transition_cm": 1800,
+      "debug_color": [
+        0.12,
+        0.8,
+        0.7
+      ],
+      "seed": 41205
+    },
+    {
+      "id": "Z07",
+      "name": "MixedForest",
+      "enabled": true,
+      "source": [
+        "Biome.RGBA",
+        "Use.RGBA",
+        "current plan",
+        "surface",
+        "overrides"
+      ],
+      "density": 0.6,
+      "allowed_groups": [
+        "conifers",
+        "deciduous",
+        "understory"
+      ],
+      "height_range_cm": [
+        -20000,
+        20000
+      ],
+      "slope_range_deg": [
+        0,
+        45
+      ],
+      "exclusions": [
+        "water",
+        "physical_objects",
+        "access",
+        "manual"
+      ],
+      "priority": 50,
+      "transition_cm": 1800,
+      "debug_color": [
+        0.05,
+        0.4,
+        0.12
+      ],
+      "seed": 41206
+    },
+    {
+      "id": "Z08",
+      "name": "OldForest",
+      "enabled": true,
+      "source": [
+        "Biome.RGBA",
+        "Use.RGBA",
+        "current plan",
+        "surface",
+        "overrides"
+      ],
+      "density": 0.45,
+      "allowed_groups": [
+        "old_conifers",
+        "moss",
+        "deadwood"
+      ],
+      "height_range_cm": [
+        -20000,
+        20000
+      ],
+      "slope_range_deg": [
+        0,
+        45
+      ],
+      "exclusions": [
+        "water",
+        "physical_objects",
+        "access",
+        "manual"
+      ],
+      "priority": 60,
+      "transition_cm": 1800,
+      "debug_color": [
+        0.15,
+        0.18,
+        0.55
+      ],
+      "seed": 41207
+    },
+    {
+      "id": "Z09",
+      "name": "Wetland",
+      "enabled": true,
+      "source": [
+        "Biome.RGBA",
+        "Use.RGBA",
+        "current plan",
+        "surface",
+        "overrides"
+      ],
+      "density": 0.8,
+      "allowed_groups": [
+        "sedges",
+        "wet_grass",
+        "willow"
+      ],
+      "height_range_cm": [
+        -20000,
+        20000
+      ],
+      "slope_range_deg": [
+        0,
+        30
+      ],
+      "exclusions": [
+        "water",
+        "physical_objects",
+        "access",
+        "manual"
+      ],
+      "priority": 70,
+      "transition_cm": 1800,
+      "debug_color": [
+        0.3,
+        0.35,
+        0.9
+      ],
+      "seed": 41208
+    },
+    {
+      "id": "Z10",
+      "name": "Shore",
+      "enabled": true,
+      "source": [
+        "Biome.RGBA",
+        "Use.RGBA",
+        "current plan",
+        "surface",
+        "overrides"
+      ],
+      "density": 0.65,
+      "allowed_groups": [
+        "shore_grass",
+        "reeds"
+      ],
+      "height_range_cm": [
+        -20000,
+        20000
+      ],
+      "slope_range_deg": [
+        0,
+        30
+      ],
+      "exclusions": [
+        "water",
+        "physical_objects",
+        "access",
+        "manual"
+      ],
+      "priority": 75,
+      "transition_cm": 1800,
+      "debug_color": [
+        0.1,
+        0.8,
+        1
+      ],
+      "seed": 41209
+    }
+  ],
+  "test_cells": [
+    {
+      "id": "stop",
+      "bounds_cm": [
+        -6400,
+        -6400,
+        6400,
+        6400
+      ],
+      "step_cm": 400
+    },
+    {
+      "id": "occupied_H04",
+      "bounds_cm": [
+        -1000,
+        -18800,
+        5400,
+        -12400
+      ],
+      "step_cm": 200
+    },
+    {
+      "id": "abandoned_E02",
+      "bounds_cm": [
+        10600,
+        -18400,
+        17000,
+        -12000
+      ],
+      "step_cm": 200
+    },
+    {
+      "id": "meadow",
+      "bounds_cm": [
+        11600,
+        23600,
+        24400,
+        36400
+      ],
+      "step_cm": 400
+    },
+    {
+      "id": "forest_edge",
+      "bounds_cm": [
+        -22400,
+        22600,
+        -9600,
+        35400
+      ],
+      "step_cm": 400
+    },
+    {
+      "id": "old_bor",
+      "bounds_cm": [
+        43600,
+        -62400,
+        56400,
+        -49600
+      ],
+      "step_cm": 400
+    },
+    {
+      "id": "shore",
+      "bounds_cm": [
+        36600,
+        123600,
+        49400,
+        136400
+      ],
+      "step_cm": 400
+    },
+    {
+      "id": "wetland",
+      "bounds_cm": [
+        83600,
+        238600,
+        96400,
+        251400
+      ],
+      "step_cm": 400
+    },
+    {
+      "id": "G01",
+      "bounds_cm": [
+        -12300,
+        23700,
+        -5900,
+        30100
+      ],
+      "step_cm": 200
+    },
+    {
+      "id": "world_overview",
+      "bounds_cm": [
+        -37000,
+        -132600,
+        129600,
+        287300
+      ],
+      "step_cm": 5000
+    }
+  ],
+  "scales": {
+    "large_trees": {
+      "cell_cm": 25600,
+      "cull_cm": 150000,
+      "collision": "query_and_physics",
+      "cast_shadow": true
+    },
+    "shrubs": {
+      "cell_cm": 12800,
+      "cull_cm": 45000,
+      "collision": "none",
+      "cast_shadow": false
+    },
+    "grass": {
+      "cell_cm": 6400,
+      "cull_cm": 12000,
+      "collision": "none",
+      "cast_shadow": false
+    }
+  },
+  "quality": {
+    "low": 0.35,
+    "medium": 0.65,
+    "high": 1
+  }
+}

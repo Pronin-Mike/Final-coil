@@ -1,0 +1,39 @@
+{
+  "name": "SM_Moskvich412_Blockout",
+  "units": "metres",
+  "axis": "+X forward, Z up",
+  "dimensions_m": [
+    4.105000019073486,
+    1.6150000095367432,
+    1.5
+  ],
+  "bounds": [
+    [
+      -2.052500009536743,
+      -0.8075000047683716,
+      0.0
+    ],
+    [
+      2.052500009536743,
+      0.8075000047683716,
+      1.5
+    ]
+  ],
+  "wheelbase_m": 2.4,
+  "track_m": 1.27,
+  "triangles": 21108,
+  "vertices": 10849,
+  "materials": [
+    "Paint_OliveCream",
+    "Glass",
+    "Chrome",
+    "Grille",
+    "Rubber",
+    "Headlamp",
+    "Amber",
+    "TailRed",
+    "Plate"
+  ],
+  "source": "Original procedural Blender blockout, user supplied IZH-412 dimension reference",
+  "scope": "Static placeholder; no rig, driving physics or detailed interior"
+}
