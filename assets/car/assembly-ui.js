@@ -34,7 +34,7 @@ function cardHtml(p){
  '<div class="fa-cardfields">'+cardField("К чему крепится",e(p.mount)+(p.parent?'<div>'+linkP(p.parent)+'</div>':""))+cardField("Способ крепления",e(p.fastener.type))+
  cardField("Болты / размер резьбы",e(p.fastener.size)+'<div class="fa-quiet">'+e(p.fastener.quantity)+'</div><div class="fa-quiet">'+source+'</div>')+
  cardField("Условия установки",before)+cardField("Что она блокирует",outgoing)+cardField("Что снять для доступа",access)+cardField("Игровая логика",e(p.rule))+'</div>'+
- '<div class="fa-source-note">'+e(p.sourceLevel)+(p.notes.length?'<p>'+p.notes.map(e).join(" ")+'</p>':"")+'</div>'+(p.fixationMode?'<div class="fa-mount-reference"><strong>Три опоры силового агрегата:</strong> помимо передней балки есть задняя поперечина и подушка. <a href="#/moskvich-assembly#engine-mount-check">Проверить полную фиксацию на схеме</a>. Подушки и кронштейны можно подготовить на двигателе заранее.</div>':'')+'</div></details>';
+ '<div class="fa-source-note">'+e(p.sourceLevel)+(p.notes.length?'<p>'+p.notes.map(e).join(" ")+'</p>':"")+'</div>'+(p.fixationMode?'<div class="fa-mount-reference"><strong>Три опоры силового агрегата:</strong> помимо передней балки есть задняя поперечина и подушка. <a href="#/moskvich-assembly">Проверить полную фиксацию на схеме</a>. Подушки и кронштейны можно подготовить на двигателе заранее.</div>':'')+'</div></details>';
  return row;
 }
 function drawCardList(){
