@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "checks": [
+    "10 unique zone IDs",
+    "manifest axes and scale",
+    "linear pixel-centre sample 0,0",
+    "linear pixel-centre sample 512,1024",
+    "linear pixel-centre sample 1023,2047",
+    "all 10 zones present in sampled world",
+    "normalized smooth weights",
+    "unit surface normals",
+    "hard exclusions suppress all plant groups",
+    "no terrestrial candidates below actual water level",
+    "physical footprint blocks generation",
+    "current road centre protected",
+    "E02 keeps vacant identifier",
+    "per-biome disable",
+    "manual complete exclusion",
+    "manual zone override",
+    "future adapter same surface contract",
+    "identical local point streams and seeds",
+    "local rebuild leaves other cells byte-identical"
+  ],
+  "counts": {
+    "Z01": 282,
+    "Z02": 192,
+    "Z03": 738,
+    "Z04": 6784,
+    "Z05": 295,
+    "Z06": 592,
+    "Z07": 1226,
+    "Z08": 1359,
+    "Z09": 58,
+    "Z10": 270
+  },
+  "points": 11796,
+  "local_regeneration_seconds": 0.38611990003846586,
+  "seconds": 5.901255000149831
+}

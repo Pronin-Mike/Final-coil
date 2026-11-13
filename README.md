@@ -65,6 +65,8 @@ powershell -ExecutionPolicy Bypass -File tools/Sync-Project.ps1 -Mode Push -Mess
 
 ## Природное окружение — этап 1
 
+Этап 2: [луговая растительность и PCG](obsidian-doc/05%20Разработка/48%20Луговая%20растительность%20и%20PCG.md), [кадры и технический отчёт](FinalCoil/Review/MeadowVegetation/REPORT.md). Генерация ограничена одним участком 50 × 50 м; художественная приёмка остаётся отдельным условием.
+
 Добавлен PCG и единый расчёт зон Z01–Z10 поверх существующего Static Mesh Terrain. Геометрия мира сохранена. Настройки: `FinalCoil/SourceArt/EnvironmentZones/zones.json`; редакторское меню: **Tools → FINAL COIL — Environment Zones**. Отладка по умолчанию выключена.
 
 Технический паспорт: [Природные зоны и PCG](obsidian-doc/05%20Разработка/47%20Природные%20зоны%20и%20PCG.md). Проверки и измерения: [отчёт](FinalCoil/Review/EnvironmentZones/REPORT.md).

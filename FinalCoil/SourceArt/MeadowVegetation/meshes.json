@@ -1,0 +1,261 @@
+{
+  "provenance": "Original procedural geometry authored for Final Coil; no external dependencies",
+  "units": "cm",
+  "meshes": [
+    {
+      "name": "SM_Meadow_short_00",
+      "triangles": 240,
+      "vertices": 270,
+      "height_cm": 14.600731786506696,
+      "radius_cm": 16.806274685758723,
+      "slots": [
+        "Leaf"
+      ],
+      "group": "short",
+      "variant": 0,
+      "species": "short"
+    },
+    {
+      "name": "SM_Meadow_short_01",
+      "triangles": 240,
+      "vertices": 270,
+      "height_cm": 14.823633215950617,
+      "radius_cm": 15.440179304024747,
+      "slots": [
+        "Leaf"
+      ],
+      "group": "short",
+      "variant": 1,
+      "species": "short"
+    },
+    {
+      "name": "SM_Meadow_short_02",
+      "triangles": 240,
+      "vertices": 270,
+      "height_cm": 14.792015016953663,
+      "radius_cm": 17.7598091507614,
+      "slots": [
+        "Leaf"
+      ],
+      "group": "short",
+      "variant": 2,
+      "species": "short"
+    },
+    {
+      "name": "SM_Meadow_medium_00",
+      "triangles": 240,
+      "vertices": 270,
+      "height_cm": 38.82157642693333,
+      "radius_cm": 31.489756680595246,
+      "slots": [
+        "Leaf"
+      ],
+      "group": "medium",
+      "variant": 0,
+      "species": "medium"
+    },
+    {
+      "name": "SM_Meadow_medium_01",
+      "triangles": 240,
+      "vertices": 270,
+      "height_cm": 37.69696364684914,
+      "radius_cm": 36.52974892045745,
+      "slots": [
+        "Leaf"
+      ],
+      "group": "medium",
+      "variant": 1,
+      "species": "medium"
+    },
+    {
+      "name": "SM_Meadow_medium_02",
+      "triangles": 240,
+      "vertices": 270,
+      "height_cm": 37.82071286986466,
+      "radius_cm": 34.66010913739366,
+      "slots": [
+        "Leaf"
+      ],
+      "group": "medium",
+      "variant": 2,
+      "species": "medium"
+    },
+    {
+      "name": "SM_Meadow_tall_00",
+      "triangles": 264,
+      "vertices": 306,
+      "height_cm": 79.64193220896412,
+      "radius_cm": 51.37953151115689,
+      "slots": [
+        "Leaf",
+        "Seed",
+        "Stem"
+      ],
+      "group": "tall",
+      "variant": 0,
+      "species": "tall"
+    },
+    {
+      "name": "SM_Meadow_tall_01",
+      "triangles": 264,
+      "vertices": 306,
+      "height_cm": 85.19775640217553,
+      "radius_cm": 47.910911370040395,
+      "slots": [
+        "Leaf",
+        "Seed",
+        "Stem"
+      ],
+      "group": "tall",
+      "variant": 1,
+      "species": "tall"
+    },
+    {
+      "name": "SM_Meadow_tall_02",
+      "triangles": 264,
+      "vertices": 306,
+      "height_cm": 82.97007348208953,
+      "radius_cm": 61.61257458222321,
+      "slots": [
+        "Leaf",
+        "Seed",
+        "Stem"
+      ],
+      "group": "tall",
+      "variant": 2,
+      "species": "tall"
+    },
+    {
+      "name": "SM_Meadow_herbs_00",
+      "triangles": 228,
+      "vertices": 288,
+      "height_cm": 17.55,
+      "radius_cm": 13.507997284360295,
+      "slots": [
+        "Leaf",
+        "Pink",
+        "Stem"
+      ],
+      "group": "herbs",
+      "variant": 0,
+      "species": "clover"
+    },
+    {
+      "name": "SM_Meadow_herbs_01",
+      "triangles": 228,
+      "vertices": 288,
+      "height_cm": 17.55,
+      "radius_cm": 14.038551486683858,
+      "slots": [
+        "Leaf",
+        "Pink",
+        "Stem"
+      ],
+      "group": "herbs",
+      "variant": 1,
+      "species": "clover"
+    },
+    {
+      "name": "SM_Meadow_herbs_02",
+      "triangles": 308,
+      "vertices": 446,
+      "height_cm": 41.460546727483106,
+      "radius_cm": 6.280127387243032,
+      "slots": [
+        "Cream",
+        "Leaf",
+        "Stem"
+      ],
+      "group": "herbs",
+      "variant": 2,
+      "species": "yarrow"
+    },
+    {
+      "name": "SM_Meadow_herbs_03",
+      "triangles": 308,
+      "vertices": 446,
+      "height_cm": 41.506338224316394,
+      "radius_cm": 6.280127387243032,
+      "slots": [
+        "Cream",
+        "Leaf",
+        "Stem"
+      ],
+      "group": "herbs",
+      "variant": 3,
+      "species": "yarrow"
+    },
+    {
+      "name": "SM_Meadow_herbs_04",
+      "triangles": 164,
+      "vertices": 184,
+      "height_cm": 25.55,
+      "radius_cm": 10.50509064859364,
+      "slots": [
+        "Leaf",
+        "Stem",
+        "Yellow"
+      ],
+      "group": "herbs",
+      "variant": 4,
+      "species": "dandelion"
+    },
+    {
+      "name": "SM_Meadow_herbs_05",
+      "triangles": 164,
+      "vertices": 184,
+      "height_cm": 25.55,
+      "radius_cm": 12.2654936766652,
+      "slots": [
+        "Leaf",
+        "Stem",
+        "Yellow"
+      ],
+      "group": "herbs",
+      "variant": 5,
+      "species": "dandelion"
+    },
+    {
+      "name": "SM_Meadow_dry_00",
+      "triangles": 180,
+      "vertices": 222,
+      "height_cm": 51.90119173059331,
+      "radius_cm": 32.026720247111996,
+      "slots": [
+        "Dry",
+        "Seed"
+      ],
+      "group": "dry",
+      "variant": 0,
+      "species": "dry"
+    },
+    {
+      "name": "SM_Meadow_dry_01",
+      "triangles": 180,
+      "vertices": 222,
+      "height_cm": 55.34117947417859,
+      "radius_cm": 39.21075274672558,
+      "slots": [
+        "Dry",
+        "Seed"
+      ],
+      "group": "dry",
+      "variant": 1,
+      "species": "dry"
+    },
+    {
+      "name": "SM_Meadow_dry_02",
+      "triangles": 180,
+      "vertices": 222,
+      "height_cm": 54.01333056420762,
+      "radius_cm": 30.942849472407705,
+      "slots": [
+        "Dry",
+        "Seed"
+      ],
+      "group": "dry",
+      "variant": 2,
+      "species": "dry"
+    }
+  ]
+}
