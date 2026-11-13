@@ -1,0 +1,16 @@
+{
+  "source": "Original Blender procedural model; user provided dimensions",
+  "external_assets": false,
+  "blender_version": "5.3.0",
+  "glb_inspection": {
+    "version": 2,
+    "meshes": 1,
+    "triangles": 21108,
+    "materials": 9
+  },
+  "sha256": {
+    "Moskvich412_Blockout.blend": "a12f9bad5de868aa371d612d7b66663b12b1ef42935084b0ac250c756d5a58aa",
+    "SM_Moskvich412_Blockout.fbx": "79a7cfaffa22a4ecc38b64df4fb07457432bfe2941da655e6de3411a6ce7a4ba",
+    "SM_Moskvich412_Blockout.glb": "195d2b4e644203292a2d6018b41b2883db5ec7edc7ad25c05b2a9b069528ae46"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "phase": "before",
+  "status": "passed",
+  "views": [
+    {
+      "name": "stop",
+      "frames": 300,
+      "average_fps": 24.569434736728834,
+      "frame_ms": 40.70097707641196,
+      "wall_seconds": 12.156999999890104,
+      "viewport_size": [
+        1014,
+        550
+      ],
+      "csv_metrics": {
+        "FrameTime": 40.70097707641196,
+        "GameThreadTime": 16.024957475083056,
+        "RenderThreadTime": 0.0017142857142857142,
+        "GPUTime": 33.70574717607973,
+        "GPUMem/LocalUsedMB": 4363.495881727575,
+        "TransientMemoryUsedMB": 506.89700996677743
+      },
+      "csv_file": "csv_before/Profile(20261113_135843).csv",
+      "slate_callback_fps": 28.49309096763768,
+      "slate_callback_ms": 35.09622740248839
+    },
+    {
+      "name": "occupied",
+      "frames": 300,
+      "average_fps": 18.85471771628051,
+      "frame_ms": 53.03712392026578,
+      "wall_seconds": 15.952999999979511,
+      "viewport_size": [
+        1014,
+        550
+      ],
+      "csv_metrics": {
+        "FrameTime": 53.03712392026578,
+        "GameThreadTime": 14.96290365448505,
+        "RenderThreadTime": 0.002084717607973422,
+        "GPUTime": 44.461142524916944,
+        "GPUMem/LocalUsedMB": 4176.489003322259,
+        "TransientMemoryUsedMB": 510.2990033222591
+      },
+      "csv_file": "csv_before/Profile(20261113_135900).csv",
+      "slate_callback_fps": 24.52031102725723,
+      "slate_callback_ms": 40.78251694639524
+    },
+    {
+      "name": "abandoned",
+      "frames": 300,
+      "average_fps": 31.3607864059972,
+      "frame_ms": 31.886955481727576,
+      "wall_seconds": 9.578000000212342,
+      "viewport_size": [
+        1014,
+        550
+      ],
+      "csv_metrics": {
+        "FrameTime": 31.886955481727576,
+        "GameThreadTime": 9.645506312292358,
+        "RenderThreadTime": 0.002735548172757475,
+        "GPUTime": 31.32070830564784,
+        "GPUMem/LocalUsedMB": 3598.232300662252,
+        "TransientMemoryUsedMB": 512.0
+      },
+      "csv_file": "csv_before/Profile(20261113_135918).csv",
+      "slate_callback_fps": 31.393137345568427,
+      "slate_callback_ms": 31.854095657666523
+    },
+    {
+      "name": "meadow",
+      "frames": 300,
+      "average_fps": 31.5547364602924,
+      "frame_ms": 31.6909634551495,
+      "wall_seconds": 9.547000000020489,
+      "viewport_size": [
+        1014,
+        550
+      ],
+      "csv_metrics": {
+        "FrameTime": 31.6909634551495,
+        "GameThreadTime": 10.178014285714285,
+        "RenderThreadTime": 0.0023674418604651163,
+        "GPUTime": 29.958096677740865,
+        "GPUMem/LocalUsedMB": 3610.3277568106314,
+        "TransientMemoryUsedMB": 512.0
+      },
+      "csv_file": "csv_before/Profile(20261113_135931).csv",
+      "slate_callback_fps": 32.56666977576893,
+      "slate_callback_ms": 30.70624067137639
+    },
+    {
+      "name": "edge",
+      "frames": 300,
+      "average_fps": 30.581420364736775,
+      "frame_ms": 32.699593023255815,
+      "wall_seconds": 9.844000000040978,
+      "viewport_size": [
+        1014,
+        550
+      ],
+      "csv_metrics": {
+        "FrameTime": 32.699593023255815,
+        "GameThreadTime": 9.424026245847177,
+        "RenderThreadTime": 0.0017970099667774086,
+        "GPUTime": 35.84205282392026,
+        "GPUMem/LocalUsedMB": 3376.326131456954,
+        "TransientMemoryUsedMB": 474.578073089701
+      },
+      "csv_file": "csv_before/Profile(20261113_135943).csv",
+      "slate_callback_fps": 50.62368894255333,
+      "slate_callback_ms": 19.753597987194855
+    }
+  ],
+  "actors": 937,
+  "static_mesh_components": 860,
+  "instances": 286611,
+  "measurement_notes": [
+    "FrameTime and FPS use engine CSV, not Slate callback dt.",
+    "PIE embedded viewport actual size 1014x550; 1920x1080 launch arguments do not force embedded viewport size.",
+    "RenderThreadTime samples near zero are not a credible full render-thread measurement; use Unreal Insights.",
+    "Exploratory run: main editor was open and caches differed; do not infer optimization from before/after differences."
+  ]
+}

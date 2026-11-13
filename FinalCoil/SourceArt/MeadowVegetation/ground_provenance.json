@@ -1,0 +1,11 @@
+{
+  "authoring": "Original procedural material inputs derived from the existing author-owned GroundMaterial vocabulary; no third-party images",
+  "seed": 41220261,
+  "tile_width_cm": 120,
+  "textures": [
+    "T_Meadow_LitterColor",
+    "T_Meadow_LitterNormal",
+    "T_Meadow_Ecology"
+  ],
+  "sampling_budget": "two color + one normal + one shared ecological mask for the local ground decal; one mask sample for foliage"
+}

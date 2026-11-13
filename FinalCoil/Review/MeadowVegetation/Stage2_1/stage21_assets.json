@@ -1,0 +1,229 @@
+{
+  "meshes": [
+    {
+      "name": "SM_Meadow_short_00",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        152,
+        63
+      ]
+    },
+    {
+      "name": "SM_Meadow_short_01",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        144,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_short_02",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        160,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_medium_00",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        288,
+        81
+      ]
+    },
+    {
+      "name": "SM_Meadow_medium_01",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        252,
+        71
+      ]
+    },
+    {
+      "name": "SM_Meadow_medium_02",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        288,
+        81
+      ]
+    },
+    {
+      "name": "SM_Meadow_tall_00",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        120,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_tall_01",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        280,
+        78
+      ]
+    },
+    {
+      "name": "SM_Meadow_tall_02",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        160,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_00",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        200,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_01",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        200,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_02",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        308,
+        87
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_03",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        308,
+        87
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_04",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        140,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_05",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        140,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_dry_00",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        80,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_dry_01",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        80,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_dry_02",
+      "slots": 1,
+      "sections": [
+        1,
+        1
+      ],
+      "triangles": [
+        80,
+        64
+      ]
+    }
+  ],
+  "shared_material": "/Game/FinalCoil/Environment/Meadow/M_Meadow_Integrated.M_Meadow_Integrated",
+  "ground_material": "/Game/FinalCoil/Environment/Meadow/M_Meadow_GroundDetail.M_Meadow_GroundDetail",
+  "ground_component": "MeadowGroundDetail",
+  "textures": [
+    "/Game/FinalCoil/Environment/Meadow/Textures/T_Meadow_LitterColor.T_Meadow_LitterColor",
+    "/Game/FinalCoil/Environment/Meadow/Textures/T_Meadow_LitterNormal.T_Meadow_LitterNormal",
+    "/Game/FinalCoil/Environment/Meadow/Textures/T_Meadow_Ecology.T_Meadow_Ecology"
+  ],
+  "instance_count_unchanged": true
+}

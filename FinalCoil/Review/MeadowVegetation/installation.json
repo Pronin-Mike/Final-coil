@@ -1,0 +1,35 @@
+{
+  "quality": "Medium",
+  "assets": [
+    {
+      "group": "short",
+      "points": 13032,
+      "data": "/Game/FinalCoil/Environment/Meadow/Data/DA_Meadow_short.DA_Meadow_short"
+    },
+    {
+      "group": "medium",
+      "points": 11572,
+      "data": "/Game/FinalCoil/Environment/Meadow/Data/DA_Meadow_medium.DA_Meadow_medium"
+    },
+    {
+      "group": "tall",
+      "points": 649,
+      "data": "/Game/FinalCoil/Environment/Meadow/Data/DA_Meadow_tall.DA_Meadow_tall"
+    },
+    {
+      "group": "herbs",
+      "points": 520,
+      "data": "/Game/FinalCoil/Environment/Meadow/Data/DA_Meadow_herbs.DA_Meadow_herbs"
+    },
+    {
+      "group": "dry",
+      "points": 140,
+      "data": "/Game/FinalCoil/Environment/Meadow/Data/DA_Meadow_dry.DA_Meadow_dry"
+    }
+  ],
+  "sha256": "0867edec5496f23463cad7b753f4088773e0bdbf66c31a2a433350cb15b5ab5b",
+  "distribution_seconds": 26.98032800015062,
+  "data_import_seconds": 4.3128891999367625,
+  "status": "generated",
+  "pcg_generation_seconds": 0.1362765000667423
+}

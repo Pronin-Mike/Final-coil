@@ -1,0 +1,164 @@
+[
+  {
+    "name": "SM_Meadow_short_00",
+    "lods": 3,
+    "lod_vertices": [
+      270,
+      166,
+      124
+    ]
+  },
+  {
+    "name": "SM_Meadow_short_01",
+    "lods": 3,
+    "lod_vertices": [
+      270,
+      167,
+      122
+    ]
+  },
+  {
+    "name": "SM_Meadow_short_02",
+    "lods": 3,
+    "lod_vertices": [
+      270,
+      167,
+      124
+    ]
+  },
+  {
+    "name": "SM_Meadow_medium_00",
+    "lods": 3,
+    "lod_vertices": [
+      270,
+      163,
+      124
+    ]
+  },
+  {
+    "name": "SM_Meadow_medium_01",
+    "lods": 3,
+    "lod_vertices": [
+      270,
+      164,
+      124
+    ]
+  },
+  {
+    "name": "SM_Meadow_medium_02",
+    "lods": 3,
+    "lod_vertices": [
+      271,
+      164,
+      122
+    ]
+  },
+  {
+    "name": "SM_Meadow_tall_00",
+    "lods": 3,
+    "lod_vertices": [
+      306,
+      156,
+      96
+    ]
+  },
+  {
+    "name": "SM_Meadow_tall_01",
+    "lods": 3,
+    "lod_vertices": [
+      306,
+      156,
+      96
+    ]
+  },
+  {
+    "name": "SM_Meadow_tall_02",
+    "lods": 3,
+    "lod_vertices": [
+      306,
+      156,
+      96
+    ]
+  },
+  {
+    "name": "SM_Meadow_herbs_00",
+    "lods": 3,
+    "lod_vertices": [
+      288,
+      178,
+      106
+    ]
+  },
+  {
+    "name": "SM_Meadow_herbs_01",
+    "lods": 3,
+    "lod_vertices": [
+      288,
+      178,
+      106
+    ]
+  },
+  {
+    "name": "SM_Meadow_herbs_02",
+    "lods": 3,
+    "lod_vertices": [
+      446,
+      256,
+      128
+    ]
+  },
+  {
+    "name": "SM_Meadow_herbs_03",
+    "lods": 3,
+    "lod_vertices": [
+      446,
+      256,
+      128
+    ]
+  },
+  {
+    "name": "SM_Meadow_herbs_04",
+    "lods": 3,
+    "lod_vertices": [
+      184,
+      92,
+      80
+    ]
+  },
+  {
+    "name": "SM_Meadow_herbs_05",
+    "lods": 3,
+    "lod_vertices": [
+      184,
+      92,
+      80
+    ]
+  },
+  {
+    "name": "SM_Meadow_dry_00",
+    "lods": 3,
+    "lod_vertices": [
+      222,
+      115,
+      91
+    ]
+  },
+  {
+    "name": "SM_Meadow_dry_01",
+    "lods": 3,
+    "lod_vertices": [
+      222,
+      119,
+      91
+    ]
+  },
+  {
+    "name": "SM_Meadow_dry_02",
+    "lods": 3,
+    "lod_vertices": [
+      222,
+      134,
+      91
+    ]
+  }
+]

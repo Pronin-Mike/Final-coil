@@ -1,0 +1,69 @@
+{
+  "phase": "before1080",
+  "status": "passed",
+  "views": [
+    {
+      "name": "stop",
+      "frames": 300,
+      "average_fps": 24.364997404848765,
+      "frame_ms": 41.04248333722353,
+      "wall_seconds": 12.359999999869615,
+      "viewport_size": [
+        1280,
+        722
+      ]
+    },
+    {
+      "name": "occupied",
+      "frames": 300,
+      "average_fps": 24.55406081028786,
+      "frame_ms": 40.72646100074053,
+      "wall_seconds": 12.264999999897555,
+      "viewport_size": [
+        1280,
+        722
+      ]
+    },
+    {
+      "name": "abandoned",
+      "frames": 300,
+      "average_fps": 25.171822020412968,
+      "frame_ms": 39.72696132957935,
+      "wall_seconds": 11.952999999979511,
+      "viewport_size": [
+        1280,
+        722
+      ]
+    },
+    {
+      "name": "meadow",
+      "frames": 300,
+      "average_fps": 24.04418647464709,
+      "frame_ms": 41.59009501338005,
+      "wall_seconds": 12.515000000130385,
+      "viewport_size": [
+        1280,
+        722
+      ]
+    },
+    {
+      "name": "edge",
+      "frames": 300,
+      "average_fps": 45.14709710242543,
+      "frame_ms": 22.14981835335493,
+      "wall_seconds": 12.577999999979511,
+      "viewport_size": [
+        1280,
+        722
+      ]
+    }
+  ],
+  "transient_control_world": true,
+  "actors": 937,
+  "static_mesh_components": 860,
+  "instances": 286611,
+  "measurement_notes": [
+    "Attempted Full HD floating PIE was actually 1280x722.",
+    "This exploratory report used Slate callback dt; use before/after CSV-based performance_summary.json for frame metrics."
+  ]
+}

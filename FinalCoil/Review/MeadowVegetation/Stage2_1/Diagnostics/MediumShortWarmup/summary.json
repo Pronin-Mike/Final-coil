@@ -1,0 +1,25 @@
+{
+  "phases": {
+    "A": {
+      "frame_ms": 25.912423333333333,
+      "gpu_ms": 25.318365555555555,
+      "draw_calls": 112.93333333333334,
+      "fps": 38.59152759030514
+    },
+    "B": {
+      "frame_ms": 28.87051611111111,
+      "gpu_ms": 28.224338333333332,
+      "draw_calls": 571.0222222222222,
+      "fps": 34.6374133441674
+    },
+    "C": {
+      "frame_ms": 28.696990555555555,
+      "gpu_ms": 28.110829444444445,
+      "draw_calls": 218.88888888888889,
+      "fps": 34.846859571008444
+    }
+  },
+  "raw_csv": "Diagnostics\\AllRuns\\Profile(20261113_211528).csv",
+  "log": "logs\\standalone_Medium-backup-2026.11.13-18.17.22.log",
+  "note": "Earlier visible run, retained to show run variability; final acceptance uses the longer-warmup matrix"
+}

@@ -1,0 +1,11463 @@
+[
+  {
+    "label": "Lake_Mass_00",
+    "p": [
+      80333.33333333333,
+      179333.3333333333,
+      -270.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      600.0,
+      1240.0,
+      0.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "Lake_Mass_01",
+    "p": [
+      62333.33333333333,
+      166666.66666666666,
+      -270.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      560.0,
+      930.0,
+      0.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "Lake_Mass_02",
+    "p": [
+      69666.66666666666,
+      200666.66666666666,
+      -270.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      570.0,
+      700.0,
+      0.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "MARK_CHAPEL01_Chapel",
+    "p": [
+      35000.0,
+      -29000.0,
+      2695.1157940009593
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      8.0,
+      8.0,
+      24.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "POI_CHAPEL01_Chapel",
+    "p": [
+      35000.0,
+      -29000.0,
+      4095.1157940009584
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_CHAPEL01_Chapel",
+    "p": [
+      35000.0,
+      -29000.0,
+      4695.115794000958
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "MARK_DPS01_OldTrafficPost",
+    "p": [
+      -17666.666666666664,
+      -90000.0,
+      1495.0595207593815
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      8.0,
+      8.0,
+      24.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "POI_DPS01_OldTrafficPost",
+    "p": [
+      -17666.666666666664,
+      -90000.0,
+      2895.0595207593815
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_DPS01_OldTrafficPost",
+    "p": [
+      -17666.666666666664,
+      -90000.0,
+      3495.0595207593815
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "MARK_SAWMILL01",
+    "p": [
+      17333.333333333332,
+      244000.0,
+      1621.1636550744558
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      8.0,
+      8.0,
+      24.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "POI_SAWMILL01",
+    "p": [
+      17333.333333333332,
+      244000.0,
+      3021.163655074456
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_SAWMILL01",
+    "p": [
+      17333.333333333332,
+      244000.0,
+      3621.163655074456
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "MARK_RAIL01_PassingLoop",
+    "p": [
+      105666.66666666666,
+      227000.0,
+      1800.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      8.0,
+      8.0,
+      24.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "POI_RAIL01_PassingLoop",
+    "p": [
+      105666.66666666666,
+      227000.0,
+      3200.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_RAIL01_PassingLoop",
+    "p": [
+      105666.66666666666,
+      227000.0,
+      3800.0
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "MARK_EXIT01_DistrictCentre",
+    "p": [
+      -25333.333333333332,
+      -125000.0,
+      1441.4330884368146
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      8.0,
+      8.0,
+      24.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "POI_EXIT01_DistrictCentre",
+    "p": [
+      -25333.333333333332,
+      -125000.0,
+      2841.433088436815
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_EXIT01_DistrictCentre",
+    "p": [
+      -25333.333333333332,
+      -125000.0,
+      3441.433088436815
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "MARK_STOP01_Temporary",
+    "p": [
+      0.0,
+      0.0,
+      341.8209486931752
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      8.0,
+      8.0,
+      24.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "POI_STOP01_Temporary",
+    "p": [
+      0.0,
+      0.0,
+      341.8209486931752
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_STOP01_Temporary",
+    "p": [
+      0.0,
+      0.0,
+      3584.720054880562
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "MARK_OLD_BOR",
+    "p": [
+      79000.0,
+      -55000.0,
+      2002.664843710846
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      8.0,
+      8.0,
+      24.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "POI_OLD_BOR",
+    "p": [
+      79000.0,
+      -55000.0,
+      3402.664843710846
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_OLD_BOR",
+    "p": [
+      79000.0,
+      -55000.0,
+      4002.664843710846
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "MARK_LAKE",
+    "p": [
+      75666.66666666666,
+      175333.3333333333,
+      100.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      8.0,
+      8.0,
+      24.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "POI_LAKE",
+    "p": [
+      75666.66666666666,
+      175333.3333333333,
+      1500.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_LAKE",
+    "p": [
+      75666.66666666666,
+      175333.3333333333,
+      2100.0
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "MARK_BEREZOVKA",
+    "p": [
+      14000.0,
+      -6666.666666666666,
+      1597.821231460792
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      8.0,
+      8.0,
+      24.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "POI_BEREZOVKA",
+    "p": [
+      14000.0,
+      -6666.666666666666,
+      2997.821231460792
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_BEREZOVKA",
+    "p": [
+      14000.0,
+      -6666.666666666666,
+      3597.821231460792
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "PlayerStart_STOP01_Temporary",
+    "p": [
+      -240.0,
+      220.0,
+      304.68649510686134
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "PlayerStart",
+    "hidden": false
+  },
+  {
+    "label": "POI_SHOP01_Provisional",
+    "p": [
+      -2254.681647940075,
+      -786.5168539325842,
+      317.8475576166257
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_SHOP01_Provisional",
+    "p": [
+      5666.666666666666,
+      -15000.0,
+      3201.071921264335
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "POI_G01_GrandpaEntrance_Provisional",
+    "p": [
+      0.0,
+      14000.0,
+      693.2835908879842
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TargetPoint",
+    "hidden": true
+  },
+  {
+    "label": "LABEL_G01_GrandpaEntrance_Provisional",
+    "p": [
+      -5666.666666666666,
+      15666.666666666666,
+      3653.5535540959177
+    ],
+    "r": [
+      90.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "H01_Yard_30x40m",
+    "p": [
+      -5677.419354838709,
+      -45032.25806451613,
+      168.0803359466268
+    ],
+    "r": [
+      0.0,
+      -18.189044952392578,
+      0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H01_LogHouse",
+    "p": [
+      -2726.591760299625,
+      -5715.3558052434455,
+      32.51972005726043
+    ],
+    "r": [
+      0.0,
+      7.269018173217774,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H01_ColdEntrance",
+    "p": [
+      -2151.253216062042,
+      -5641.969433793565,
+      162.51972005726043
+    ],
+    "r": [
+      0.0,
+      7.269018173217774,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H01_Porch",
+    "p": [
+      -1992.5391348930561,
+      -5621.72491753153,
+      42.51972005726043
+    ],
+    "r": [
+      0.0,
+      7.269018173217774,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H01_Boundary_Back",
+    "p": [
+      -7577.482852919689,
+      -44407.951486575235,
+      171.0803359466268
+    ],
+    "r": [
+      0.0,
+      -18.189044952392578,
+      0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H01_Boundary_SideL",
+    "p": [
+      -6145.6492882943785,
+      -46457.30568807686,
+      171.0803359466268
+    ],
+    "r": [
+      0.0,
+      -18.189044952392578,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H01_Boundary_SideR",
+    "p": [
+      -5209.18942138304,
+      -43607.210440955394,
+      171.0803359466268
+    ],
+    "r": [
+      0.0,
+      -18.189044952392578,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H01_Boundary_FrontL",
+    "p": [
+      -4034.882320158347,
+      -46440.34083541542,
+      171.0803359466268
+    ],
+    "r": [
+      0.0,
+      -18.189044952392578,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H01_Boundary_FrontR",
+    "p": [
+      -3519.829393357111,
+      -44872.78844949862,
+      171.0803359466268
+    ],
+    "r": [
+      0.0,
+      -18.189044952392578,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H01_Label",
+    "p": [
+      -2726.591760299625,
+      -5715.3558052434455,
+      1626.5197200572604
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H02_Yard_30x40m",
+    "p": [
+      -4903.225806451613,
+      -33290.32258064516,
+      95.73536493083603
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H02_LogHouse",
+    "p": [
+      -1205.9925093632955,
+      7865.168539325845,
+      567.8443561150829
+    ],
+    "r": [
+      0.0,
+      -13.371338844299318,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H02_ColdEntrance",
+    "p": [
+      -641.7153319986437,
+      7731.037010200955,
+      697.8443561150829
+    ],
+    "r": [
+      0.0,
+      -13.371338844299318,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H02_Porch",
+    "p": [
+      -486.0526623808073,
+      7694.035209063062,
+      577.8443561150829
+    ],
+    "r": [
+      0.0,
+      -13.371338844299318,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H02_Boundary_Back",
+    "p": [
+      -6899.968475299565,
+      -33176.222999568134,
+      98.73536493083603
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H02_Boundary_SideL",
+    "p": [
+      -4988.800492259381,
+      -34787.87958228112,
+      98.73536493083603
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H02_Boundary_SideR",
+    "p": [
+      -4817.6511206438445,
+      -31792.765579009196,
+      98.73536493083603
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H02_Boundary_FrontL",
+    "p": [
+      -2953.549214797932,
+      -34228.07851262196,
+      98.73536493083603
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H02_Boundary_FrontR",
+    "p": [
+      -2859.417060409387,
+      -32580.765810822402,
+      98.73536493083603
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H02_Label",
+    "p": [
+      -1205.9925093632955,
+      7865.168539325845,
+      2161.844356115083
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H03_Yard_30x40m",
+    "p": [
+      -6064.5161290322585,
+      -22064.516129032258,
+      335.33702267300407
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H03_LogHouse",
+    "p": [
+      -7131.086142322097,
+      14996.254681647937,
+      659.5535540959177
+    ],
+    "r": [
+      0.0,
+      12.528807640075689,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H03_ColdEntrance",
+    "p": [
+      -6564.897647636262,
+      15122.074348176619,
+      789.5535540959175
+    ],
+    "r": [
+      0.0,
+      12.528807640075689,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H03_Porch",
+    "p": [
+      -6408.707718067756,
+      15156.783221701775,
+      669.5535540959177
+    ],
+    "r": [
+      0.0,
+      12.528807640075689,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H03_Boundary_Back",
+    "p": [
+      -8061.258797880211,
+      -21950.416547955232,
+      338.33702267300407
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H03_Boundary_SideL",
+    "p": [
+      -6150.090814840028,
+      -23562.07313066822,
+      338.33702267300407
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H03_Boundary_SideR",
+    "p": [
+      -5978.941443224489,
+      -20566.959127396294,
+      338.33702267300407
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H03_Boundary_FrontL",
+    "p": [
+      -4114.839537378578,
+      -23002.272061009066,
+      338.33702267300407
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H03_Boundary_FrontR",
+    "p": [
+      -4020.7073829900323,
+      -21354.9593592095,
+      338.33702267300407
+    ],
+    "r": [
+      0.0,
+      -3.2704880237579355,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H03_Label",
+    "p": [
+      -7131.086142322097,
+      14996.254681647937,
+      2253.5535540959177
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H04_Yard_30x40m",
+    "p": [
+      5419.354838709677,
+      -36000.0,
+      236.8809294225373
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H04_LogHouse",
+    "p": [
+      2254.681647940075,
+      -15573.033707865168,
+      154.38736846829136
+    ],
+    "r": [
+      0.0,
+      178.65211486816406,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H04_ColdEntrance",
+    "p": [
+      1674.8421337479172,
+      -15559.390475791999,
+      284.38736846829136
+    ],
+    "r": [
+      0.0,
+      178.65211486816406,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H04_Porch",
+    "p": [
+      1514.8864056949078,
+      -15555.626825564923,
+      164.38736846829136
+    ],
+    "r": [
+      0.0,
+      178.65211486816406,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H04_Boundary_Back",
+    "p": [
+      7416.09750755763,
+      -36114.099581077026,
+      239.8809294225373
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H04_Boundary_SideL",
+    "p": [
+      5504.929524517447,
+      -34502.44299836404,
+      239.8809294225373
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H04_Boundary_SideR",
+    "p": [
+      5333.780152901907,
+      -37497.55700163596,
+      239.8809294225373
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H04_Boundary_FrontL",
+    "p": [
+      3469.678247055998,
+      -35062.244068023196,
+      239.8809294225373
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H04_Boundary_FrontR",
+    "p": [
+      3375.546092667451,
+      -36709.55676982275,
+      239.8809294225373
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H04_Label",
+    "p": [
+      2254.681647940075,
+      -15573.033707865168,
+      1748.3873684682912
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H05_Yard_30x40m",
+    "p": [
+      8000.0,
+      -17032.25806451613,
+      213.8110102324895
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H05_LogHouse",
+    "p": [
+      4561.797752808989,
+      -10224.719101123595,
+      114.29596290030892
+    ],
+    "r": [
+      0.0,
+      68.45902252197267,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H05_ColdEntrance",
+    "p": [
+      4774.754342955896,
+      -9685.229072751428,
+      244.29596290030892
+    ],
+    "r": [
+      0.0,
+      68.45902252197267,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H05_Porch",
+    "p": [
+      4833.500988513664,
+      -9536.404237338416,
+      124.29596290030892
+    ],
+    "r": [
+      0.0,
+      68.45902252197267,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H05_Boundary_Back",
+    "p": [
+      10000.0,
+      -17032.25806451613,
+      216.8110102324895
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H05_Boundary_SideL",
+    "p": [
+      8000.0,
+      -15532.258064516129,
+      216.8110102324895
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H05_Boundary_SideR",
+    "p": [
+      8000.0,
+      -18532.25806451613,
+      216.8110102324895
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H05_Boundary_FrontL",
+    "p": [
+      6000.0,
+      -16207.258064516129,
+      216.8110102324895
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H05_Boundary_FrontR",
+    "p": [
+      6000.0,
+      -17857.25806451613,
+      216.8110102324895
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H05_Label",
+    "p": [
+      4561.797752808989,
+      -10224.719101123595,
+      1708.295962900309
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H06_Yard_30x40m",
+    "p": [
+      11096.774193548386,
+      -24258.064516129034,
+      168.15302371173556
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H06_LogHouse",
+    "p": [
+      13737.827715355805,
+      -9962.5468164794,
+      217.58931985075077
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H06_ColdEntrance",
+    "p": [
+      13157.827715355807,
+      -9962.54686335381,
+      347.58931985075077
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H06_Porch",
+    "p": [
+      12997.827715355808,
+      -9962.546876284683,
+      227.58931985075077
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H06_Boundary_Back",
+    "p": [
+      13093.51686239634,
+      -24372.16409720606,
+      171.15302371173556
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H06_Boundary_SideL",
+    "p": [
+      11182.348879356156,
+      -22760.50751449307,
+      171.15302371173556
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H06_Boundary_SideR",
+    "p": [
+      11011.199507740617,
+      -25755.621517764997,
+      171.15302371173556
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H06_Boundary_FrontL",
+    "p": [
+      9147.097601894706,
+      -23320.308584152226,
+      171.15302371173556
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H06_Boundary_FrontR",
+    "p": [
+      9052.96544750616,
+      -24967.62128595179,
+      171.15302371173556
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H06_Label",
+    "p": [
+      13737.827715355805,
+      -9962.5468164794,
+      1811.5893198507508
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H07_Yard_30x40m",
+    "p": [
+      9677.41935483871,
+      -6580.645161290323,
+      112.6991962859741
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H07_LogHouse",
+    "p": [
+      9018.7265917603,
+      -6397.003745318351,
+      116.69919628597412
+    ],
+    "r": [
+      0.0,
+      -5.19442892074585,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H07_ColdEntrance",
+    "p": [
+      9596.344651511568,
+      -6449.514478023012,
+      246.6991962859741
+    ],
+    "r": [
+      0.0,
+      -5.19442892074585,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H07_Porch",
+    "p": [
+      9755.6875645464,
+      -6464.000197389815,
+      126.69919628597412
+    ],
+    "r": [
+      0.0,
+      -5.19442892074585,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H07_Boundary_Back",
+    "p": [
+      11677.41935483871,
+      -6580.645161290323,
+      115.6991962859741
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H07_Boundary_SideL",
+    "p": [
+      9677.41935483871,
+      -5080.645161290323,
+      115.6991962859741
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H07_Boundary_SideR",
+    "p": [
+      9677.41935483871,
+      -8080.645161290323,
+      115.6991962859741
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H07_Boundary_FrontL",
+    "p": [
+      7677.41935483871,
+      -5755.645161290323,
+      115.6991962859741
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H07_Boundary_FrontR",
+    "p": [
+      7677.41935483871,
+      -7405.645161290323,
+      115.6991962859741
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H07_Label",
+    "p": [
+      9018.7265917603,
+      -6397.003745318351,
+      1710.699196285974
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H08_Yard_30x40m",
+    "p": [
+      18193.548387096773,
+      -10709.677419354839,
+      177.44344359869046
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H08_LogHouse",
+    "p": [
+      13947.56554307116,
+      -3093.632958801498,
+      258.50091363101524
+    ],
+    "r": [
+      0.0,
+      169.0459442138672,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H08_ColdEntrance",
+    "p": [
+      13378.133229728795,
+      -2983.420252993299,
+      388.50091363101524
+    ],
+    "r": [
+      0.0,
+      169.0459442138672,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H08_Porch",
+    "p": [
+      13221.048453634352,
+      -2953.016747942761,
+      268.50091363101524
+    ],
+    "r": [
+      0.0,
+      169.0459442138672,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H08_Boundary_Back",
+    "p": [
+      20193.548387096773,
+      -10709.677419354839,
+      180.44344359869046
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H08_Boundary_SideL",
+    "p": [
+      18193.548387096773,
+      -9209.677419354839,
+      180.44344359869046
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H08_Boundary_SideR",
+    "p": [
+      18193.548387096773,
+      -12209.677419354839,
+      180.44344359869046
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H08_Boundary_FrontL",
+    "p": [
+      16193.548387096773,
+      -9884.677419354839,
+      180.44344359869046
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H08_Boundary_FrontR",
+    "p": [
+      16193.548387096773,
+      -11534.677419354839,
+      180.44344359869046
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H08_Label",
+    "p": [
+      13947.56554307116,
+      -3093.632958801498,
+      1852.5009136310152
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H09_Yard_30x40m",
+    "p": [
+      10709.677419354839,
+      15354.838709677419,
+      424.01260630890766
+    ],
+    "r": [
+      0.0,
+      119.58304595947266,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H09_LogHouse",
+    "p": [
+      10486.891385767789,
+      -209.73782771535662,
+      335.78778997528724
+    ],
+    "r": [
+      0.0,
+      -10.954062461853024,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H09_ColdEntrance",
+    "p": [
+      11056.323696159483,
+      -319.9505487686747,
+      465.7877899752871
+    ],
+    "r": [
+      0.0,
+      -10.954062461853024,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H09_Porch",
+    "p": [
+      11213.40847143995,
+      -350.3540580247609,
+      345.78778997528724
+    ],
+    "r": [
+      0.0,
+      -10.954062461853024,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H09_Boundary_Back",
+    "p": [
+      11697.046488959428,
+      13615.556581790119,
+      427.01260630890766
+    ],
+    "r": [
+      0.0,
+      119.58304595947266,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H09_Boundary_SideL",
+    "p": [
+      12014.139015270313,
+      16095.36551188086,
+      427.01260630890766
+    ],
+    "r": [
+      0.0,
+      119.58304595947266,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H09_Boundary_SideR",
+    "p": [
+      9405.215823439365,
+      14614.311907473977,
+      427.01260630890766
+    ],
+    "r": [
+      0.0,
+      119.58304595947266,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H09_Boundary_FrontL",
+    "p": [
+      10439.762227503761,
+      17501.41057877661,
+      427.01260630890766
+    ],
+    "r": [
+      0.0,
+      119.58304595947266,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H09_Boundary_FrontR",
+    "p": [
+      9004.85447199674,
+      16686.831096352827,
+      427.01260630890766
+    ],
+    "r": [
+      0.0,
+      119.58304595947266,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H09_Label",
+    "p": [
+      10486.891385767789,
+      -209.73782771535662,
+      1929.787789975287
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H10_Yard_30x40m",
+    "p": [
+      10193.548387096775,
+      33677.41935483871,
+      140.8354062209191
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H10_LogHouse",
+    "p": [
+      16149.812734082396,
+      2254.681647940073,
+      529.0839486771322
+    ],
+    "r": [
+      0.0,
+      147.99461364746097,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H10_ColdEntrance",
+    "p": [
+      15657.973731201815,
+      2562.0810546497123,
+      659.0839486771322
+    ],
+    "r": [
+      0.0,
+      147.99461364746097,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H10_Porch",
+    "p": [
+      15522.294006269243,
+      2646.8808909834042,
+      539.0839486771322
+    ],
+    "r": [
+      0.0,
+      147.99461364746097,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H10_Boundary_Back",
+    "p": [
+      12163.273935204608,
+      33330.747658371736,
+      143.8354062209191
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H10_Boundary_SideL",
+    "p": [
+      10453.552159447008,
+      35154.71351591959,
+      143.8354062209191
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H10_Boundary_SideR",
+    "p": [
+      9933.54461474654,
+      32200.125193757834,
+      143.8354062209191
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H10_Boundary_FrontL",
+    "p": [
+      8366.82491378157,
+      34836.602839900166,
+      143.8354062209191
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H10_Boundary_FrontR",
+    "p": [
+      8080.820764196313,
+      33211.57926271121,
+      143.8354062209191
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H10_Label",
+    "p": [
+      16149.812734082396,
+      2254.681647940073,
+      2123.083948677132
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H11_Yard_30x40m",
+    "p": [
+      258.06451612903226,
+      38322.58064516129,
+      17.77788117917973
+    ],
+    "r": [
+      0.0,
+      -9.98182964324951,
+      0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H11_LogHouse",
+    "p": [
+      3146.067415730337,
+      4561.7977528089905,
+      472.1049133872376
+    ],
+    "r": [
+      0.0,
+      166.628662109375,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H11_ColdEntrance",
+    "p": [
+      2581.790237768855,
+      4695.929279423079,
+      602.1049133872376
+    ],
+    "r": [
+      0.0,
+      166.628662109375,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H11_Porch",
+    "p": [
+      2426.127567986378,
+      4732.931079868344,
+      482.1049133872376
+    ],
+    "r": [
+      0.0,
+      166.628662109375,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H11_Boundary_Back",
+    "p": [
+      -1711.661031978802,
+      38669.252341628264,
+      20.77788117917973
+    ],
+    "r": [
+      0.0,
+      -9.98182964324951,
+      0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H11_Boundary_SideL",
+    "p": [
+      -1.9392562212015605,
+      36845.28648408041,
+      20.77788117917973
+    ],
+    "r": [
+      0.0,
+      -9.98182964324951,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H11_Boundary_SideR",
+    "p": [
+      518.0682884792661,
+      39799.874806242166,
+      20.77788117917973
+    ],
+    "r": [
+      0.0,
+      -9.98182964324951,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H11_Boundary_FrontL",
+    "p": [
+      2084.7879894442376,
+      37163.397160099834,
+      20.77788117917973
+    ],
+    "r": [
+      0.0,
+      -9.98182964324951,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H11_Boundary_FrontR",
+    "p": [
+      2370.792139029495,
+      38788.42073728879,
+      20.77788117917973
+    ],
+    "r": [
+      0.0,
+      -9.98182964324951,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H11_Label",
+    "p": [
+      3146.067415730337,
+      4561.7977528089905,
+      2066.1049133872375
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "H12_Yard_30x40m",
+    "p": [
+      258.06451612903226,
+      49548.3870967742,
+      220.21647670808937
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H12_LogHouse",
+    "p": [
+      3880.149812734082,
+      8337.078651685393,
+      658.498790670689
+    ],
+    "r": [
+      0.0,
+      166.628662109375,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H12_ColdEntrance",
+    "p": [
+      3315.8726372872675,
+      8471.210188878418,
+      788.498790670689
+    ],
+    "r": [
+      0.0,
+      166.628662109375,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H12_Porch",
+    "p": [
+      3160.2099681984905,
+      8508.211992242015,
+      668.498790670689
+    ],
+    "r": [
+      0.0,
+      166.628662109375,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H12_Boundary_Back",
+    "p": [
+      -1598.8888656414865,
+      50291.16844948241,
+      223.21647670808937
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H12_Boundary_SideL",
+    "p": [
+      -299.0214984021234,
+      48155.672060446304,
+      223.21647670808937
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H12_Boundary_SideR",
+    "p": [
+      815.150530660188,
+      50941.10213310209,
+      223.21647670808937
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H12_Boundary_FrontL",
+    "p": [
+      1808.6205899074153,
+      48039.61247408565,
+      223.21647670808937
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H12_Boundary_FrontR",
+    "p": [
+      2421.4152058916866,
+      49571.599014046325,
+      223.21647670808937
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H12_Label",
+    "p": [
+      3880.149812734082,
+      8337.078651685393,
+      2252.4987906706892
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "E01_Yard_30x40m",
+    "p": [
+      6322.580645161291,
+      -46838.709677419356,
+      27.44000463189994
+    ],
+    "r": [
+      0.0,
+      161.8109588623047,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E01_LogHouse",
+    "p": [
+      -2726.591760299624,
+      -15258.426966292136,
+      74.67302855884289
+    ],
+    "r": [
+      0.0,
+      -1.3478869199752808,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E01_ColdEntrance",
+    "p": [
+      -2146.7522482963823,
+      -15272.070291394237,
+      204.6730285588429
+    ],
+    "r": [
+      0.0,
+      -1.3478869199752808,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E01_Porch",
+    "p": [
+      -1986.7965208472124,
+      -15275.833967284463,
+      84.67302855884289
+    ],
+    "r": [
+      0.0,
+      -1.3478869199752808,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E01_Boundary_Back",
+    "p": [
+      8222.64414324227,
+      -47463.01625536025,
+      30.44000463189994
+    ],
+    "r": [
+      0.0,
+      161.8109588623047,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E01_Boundary_SideL",
+    "p": [
+      6790.81057861696,
+      -45413.66205385862,
+      30.44000463189994
+    ],
+    "r": [
+      0.0,
+      161.8109588623047,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E01_Boundary_SideR",
+    "p": [
+      5854.3507117056215,
+      -48263.75730098009,
+      30.44000463189994
+    ],
+    "r": [
+      0.0,
+      161.8109588623047,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E01_Boundary_FrontL",
+    "p": [
+      4680.043610480928,
+      -45430.62690652006,
+      30.44000463189994
+    ],
+    "r": [
+      0.0,
+      161.8109588623047,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E01_Boundary_FrontR",
+    "p": [
+      4164.990683679692,
+      -46998.179292436864,
+      30.44000463189994
+    ],
+    "r": [
+      0.0,
+      161.8109588623047,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E01_Label",
+    "p": [
+      -2726.591760299624,
+      -15258.426966292136,
+      1668.6730285588428
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "E02_Yard_30x40m",
+    "p": [
+      13935.483870967742,
+      -33290.32258064516,
+      242.8615741517633
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E02_LogHouse",
+    "p": [
+      13632.958801498127,
+      -15205.992509363296,
+      321.7663409443028
+    ],
+    "r": [
+      0.0,
+      -176.98721313476562,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E02_ColdEntrance",
+    "p": [
+      13053.760462948938,
+      -15236.476679384119,
+      451.7663409443028
+    ],
+    "r": [
+      0.0,
+      -176.98721313476562,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E02_Porch",
+    "p": [
+      12893.981610935369,
+      -15244.886105596765,
+      331.7663409443028
+    ],
+    "r": [
+      0.0,
+      -176.98721313476562,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E02_Boundary_Back",
+    "p": [
+      15932.226539815696,
+      -33404.422161722185,
+      245.8615741517633
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E02_Boundary_SideL",
+    "p": [
+      14021.058556775512,
+      -31792.765579009196,
+      245.8615741517633
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E02_Boundary_SideR",
+    "p": [
+      13849.909185159973,
+      -34787.87958228112,
+      245.8615741517633
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E02_Boundary_FrontL",
+    "p": [
+      11985.807279314062,
+      -32352.56664866835,
+      245.8615741517633
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E02_Boundary_FrontR",
+    "p": [
+      11891.675124925516,
+      -33999.87935046791,
+      245.8615741517633
+    ],
+    "r": [
+      0.0,
+      176.72950744628906,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E02_Label",
+    "p": [
+      13632.958801498127,
+      -15205.992509363296,
+      1915.7663409443028
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "E03_Yard_30x40m",
+    "p": [
+      19225.8064516129,
+      -19096.774193548386,
+      272.95831503728164
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E03_LogHouse",
+    "p": [
+      18876.404494382023,
+      6187.265917602996,
+      626.9899873868783
+    ],
+    "r": [
+      0.0,
+      119.05460357666017,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E03_ColdEntrance",
+    "p": [
+      18594.731594298417,
+      6694.277137753487,
+      756.9899873868783
+    ],
+    "r": [
+      0.0,
+      119.05460357666017,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E03_Porch",
+    "p": [
+      18517.028725309832,
+      6834.142301932933,
+      636.9899873868783
+    ],
+    "r": [
+      0.0,
+      119.05460357666017,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E03_Boundary_Back",
+    "p": [
+      21225.8064516129,
+      -19096.774193548386,
+      275.95831503728164
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E03_Boundary_SideL",
+    "p": [
+      19225.8064516129,
+      -17596.774193548386,
+      275.95831503728164
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E03_Boundary_SideR",
+    "p": [
+      19225.8064516129,
+      -20596.774193548386,
+      275.95831503728164
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E03_Boundary_FrontL",
+    "p": [
+      17225.8064516129,
+      -18271.774193548386,
+      275.95831503728164
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E03_Boundary_FrontR",
+    "p": [
+      17225.8064516129,
+      -19921.774193548386,
+      275.95831503728164
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E03_Label",
+    "p": [
+      18876.404494382023,
+      6187.265917602996,
+      2220.989987386878
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "E04_Yard_30x40m",
+    "p": [
+      11096.774193548386,
+      6064.5161290322585,
+      567.9181102401808
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E04_LogHouse",
+    "p": [
+      7131.086142322097,
+      -11588.014981273409,
+      176.65968397116012
+    ],
+    "r": [
+      0.0,
+      54.60520553588869,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E04_ColdEntrance",
+    "p": [
+      7467.0262996672645,
+      -11115.21035916941,
+      306.6596839711601
+    ],
+    "r": [
+      0.0,
+      54.60520553588869,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E04_Porch",
+    "p": [
+      7559.699446521102,
+      -10984.781497899341,
+      186.65968397116012
+    ],
+    "r": [
+      0.0,
+      54.60520553588869,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E04_Boundary_Back",
+    "p": [
+      13066.49974165622,
+      5717.844432565279,
+      570.9181102401808
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E04_Boundary_SideL",
+    "p": [
+      11356.77796589862,
+      7541.810290113134,
+      570.9181102401808
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E04_Boundary_SideR",
+    "p": [
+      10836.770421198153,
+      4587.221967951383,
+      570.9181102401808
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E04_Boundary_FrontL",
+    "p": [
+      9270.050720233181,
+      7223.699614093719,
+      570.9181102401808
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E04_Boundary_FrontR",
+    "p": [
+      8984.046570647924,
+      5598.676036904757,
+      570.9181102401808
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E04_Label",
+    "p": [
+      7131.086142322097,
+      -11588.014981273409,
+      1770.6596839711601
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "E05_Yard_30x40m",
+    "p": [
+      19612.90322580645,
+      1677.4193548387098,
+      541.7282674500043
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E05_LogHouse",
+    "p": [
+      11273.408239700373,
+      5767.790262172284,
+      571.9181102401808
+    ],
+    "r": [
+      0.0,
+      -32.005382537841804,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E05_ColdEntrance",
+    "p": [
+      11765.24724258095,
+      5460.390855462646,
+      701.9181102401808
+    ],
+    "r": [
+      0.0,
+      -32.005382537841804,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E05_Porch",
+    "p": [
+      11900.926967513526,
+      5375.59101912895,
+      581.9181102401808
+    ],
+    "r": [
+      0.0,
+      -32.005382537841804,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E05_Boundary_Back",
+    "p": [
+      21582.628773914286,
+      1330.7476583717303,
+      544.7282674500043
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E05_Boundary_SideL",
+    "p": [
+      19872.906998156686,
+      3154.713515919585,
+      544.7282674500043
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E05_Boundary_SideR",
+    "p": [
+      19352.899453456215,
+      200.1251937578345,
+      544.7282674500043
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E05_Boundary_FrontL",
+    "p": [
+      17786.179752491244,
+      2836.6028399001707,
+      544.7282674500043
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E05_Boundary_FrontR",
+    "p": [
+      17500.175602905987,
+      1211.5792627112078,
+      544.7282674500043
+    ],
+    "r": [
+      0.0,
+      170.01817321777344,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E05_Label",
+    "p": [
+      11273.408239700373,
+      5767.790262172284,
+      2165.918110240181
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "E06_Yard_30x40m",
+    "p": [
+      12000.0,
+      42193.54838709677,
+      77.19973819107608
+    ],
+    "r": [
+      0.0,
+      158.19859313964847,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E06_LogHouse",
+    "p": [
+      14943.8202247191,
+      9385.767790262173,
+      721.0924200885912
+    ],
+    "r": [
+      0.0,
+      -49.68590164184576,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E06_ColdEntrance",
+    "p": [
+      15319.067124402656,
+      8943.512474547504,
+      851.0924200885912
+    ],
+    "r": [
+      0.0,
+      -49.68590164184576,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E06_Porch",
+    "p": [
+      15422.583510522258,
+      8821.511008143461,
+      731.0924200885912
+    ],
+    "r": [
+      0.0,
+      -49.68590164184576,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E06_Boundary_Back",
+    "p": [
+      13856.95338177052,
+      41450.76703438857,
+      80.19973819107608
+    ],
+    "r": [
+      0.0,
+      158.19859313964847,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E06_Boundary_SideL",
+    "p": [
+      12557.086014531154,
+      43586.263423424665,
+      80.19973819107608
+    ],
+    "r": [
+      0.0,
+      158.19859313964847,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E06_Boundary_SideR",
+    "p": [
+      11442.913985468846,
+      40800.83335076888,
+      80.19973819107608
+    ],
+    "r": [
+      0.0,
+      158.19859313964847,
+      -0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E06_Boundary_FrontL",
+    "p": [
+      10449.443926221616,
+      43702.323009785316,
+      80.19973819107608
+    ],
+    "r": [
+      0.0,
+      158.19859313964847,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E06_Boundary_FrontR",
+    "p": [
+      9836.649310237344,
+      42170.33646982464,
+      80.19973819107608
+    ],
+    "r": [
+      0.0,
+      158.19859313964847,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E06_Label",
+    "p": [
+      14943.8202247191,
+      9385.767790262173,
+      2315.092420088591
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "E07_Yard_30x40m",
+    "p": [
+      4774.193548387097,
+      57677.41935483871,
+      219.06535357014187
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E07_LogHouse",
+    "p": [
+      -5033.707865168539,
+      11535.580524344565,
+      622.1521475424223
+    ],
+    "r": [
+      0.0,
+      35.837654113769545,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E07_ColdEntrance",
+    "p": [
+      -4563.513908437258,
+      11875.165039676736,
+      752.1521475424223
+    ],
+    "r": [
+      0.0,
+      35.837654113769545,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E07_Porch",
+    "p": [
+      -4433.80523071828,
+      11968.84352666491,
+      632.1521475424223
+    ],
+    "r": [
+      0.0,
+      35.837654113769545,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E07_Boundary_Back",
+    "p": [
+      2917.240166616578,
+      58420.20070754692,
+      222.06535357014187
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      0.2,
+      30.0,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E07_Boundary_SideL",
+    "p": [
+      4217.10753385594,
+      56284.70431851082,
+      222.06535357014187
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E07_Boundary_SideR",
+    "p": [
+      5331.279562918253,
+      59070.134391166604,
+      222.06535357014187
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      40.0,
+      0.2,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E07_Boundary_FrontL",
+    "p": [
+      6324.749622165479,
+      56168.64473215016,
+      222.06535357014187
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E07_Boundary_FrontR",
+    "p": [
+      6937.544238149751,
+      57700.63127211084,
+      222.06535357014187
+    ],
+    "r": [
+      0.0,
+      -21.801408767700195,
+      0.0
+    ],
+    "s": [
+      0.2,
+      13.5,
+      0.02
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E07_Label",
+    "p": [
+      -5033.707865168539,
+      11535.580524344565,
+      2216.1521475424224
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "STOP01_Pad",
+    "p": [
+      0.0,
+      0.0,
+      196.82094869317513
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      2.1,
+      3.3,
+      0.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Post_-80_-140",
+    "p": [
+      -80.0,
+      -140.0,
+      321.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.14,
+      0.14,
+      2.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Post_-80_140",
+    "p": [
+      -80.0,
+      140.0,
+      321.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.14,
+      0.14,
+      2.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Post_80_-140",
+    "p": [
+      80.0,
+      -140.0,
+      321.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.14,
+      0.14,
+      2.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Post_80_140",
+    "p": [
+      80.0,
+      140.0,
+      321.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.14,
+      0.14,
+      2.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BackWall",
+    "p": [
+      85.0,
+      0.0,
+      311.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      2.85,
+      2.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_SideWall",
+    "p": [
+      0.0,
+      -145.0,
+      311.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.7,
+      0.12,
+      2.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Roof",
+    "p": [
+      0.0,
+      0.0,
+      444.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      2.3,
+      3.5,
+      0.16
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BenchSeat",
+    "p": [
+      45.0,
+      0.0,
+      244.82094869317513
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.42,
+      2.4,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BenchBack",
+    "p": [
+      70.0,
+      0.0,
+      276.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.08,
+      2.4,
+      0.65
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BenchLeg_-95",
+    "p": [
+      45.0,
+      -95.0,
+      221.82094869317513
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.28,
+      0.12,
+      0.42
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BenchLeg_95",
+    "p": [
+      45.0,
+      95.0,
+      221.82094869317513
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.28,
+      0.12,
+      0.42
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BackSlat_25",
+    "p": [
+      77.0,
+      0.0,
+      221.82094869317513
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.02,
+      2.8,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BackSlat_50",
+    "p": [
+      77.0,
+      0.0,
+      246.82094869317513
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.02,
+      2.8,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BackSlat_75",
+    "p": [
+      77.0,
+      0.0,
+      271.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.02,
+      2.8,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BackSlat_100",
+    "p": [
+      77.0,
+      0.0,
+      296.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.02,
+      2.8,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BackSlat_125",
+    "p": [
+      77.0,
+      0.0,
+      321.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.02,
+      2.8,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BackSlat_150",
+    "p": [
+      77.0,
+      0.0,
+      346.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.02,
+      2.8,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BackSlat_175",
+    "p": [
+      77.0,
+      0.0,
+      371.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.02,
+      2.8,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_BackSlat_200",
+    "p": [
+      77.0,
+      0.0,
+      396.8209486931751
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.02,
+      2.8,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Yard",
+    "p": [
+      -7350.0,
+      15500.0,
+      655.5535540959177
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      40.0,
+      30.0,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_House",
+    "p": [
+      0.0,
+      14000.0,
+      549.2835908879842
+    ],
+    "r": [
+      0.0,
+      -11.310286521911621,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "G01_HouseEntrance",
+    "p": [
+      568.7360893518018,
+      13886.249128931602,
+      679.283590887984
+    ],
+    "r": [
+      0.0,
+      -11.310286521911621,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.8,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_HousePorch",
+    "p": [
+      725.628803655747,
+      13854.869578292044,
+      559.283590887984
+    ],
+    "r": [
+      0.0,
+      -11.310286521911621,
+      0.0
+    ],
+    "s": [
+      1.6,
+      1.8,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_Floor",
+    "p": [
+      -941.34557817425,
+      15921.943938425828,
+      543.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      9.4,
+      7.4,
+      0.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_BackWall",
+    "p": [
+      -1392.4121317980928,
+      16012.160146514558,
+      710.783590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      7.4,
+      3.25
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LeftWall",
+    "p": [
+      -870.7415892352441,
+      16274.952545609705,
+      710.783590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      9.0,
+      0.2,
+      3.25
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_RightWallFront",
+    "p": [
+      -813.3822255723251,
+      15529.220587463762,
+      710.783590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      4.95,
+      0.2,
+      3.25
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_RightWallBack",
+    "p": [
+      -1308.5748550941526,
+      15628.262294169866,
+      710.783590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      2.95,
+      0.2,
+      3.25
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_SideDoorHeader",
+    "p": [
+      -1110.0075135532218,
+      15588.547550391677,
+      820.783590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      1.1,
+      0.2,
+      1.05
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_FrontWallL",
+    "p": [
+      -440.26786571861135,
+      16081.775493759013,
+      710.783590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      1.9,
+      3.25
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_FrontWallR",
+    "p": [
+      -540.290183382203,
+      15581.679966915188,
+      710.783590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      1.9,
+      3.25
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_GateHeader",
+    "p": [
+      -490.2790245504072,
+      15831.7277303371,
+      850.783590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      3.2,
+      0.45
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_RoofLeft",
+    "p": [
+      -904.0823617897746,
+      16108.254036661763,
+      943.2835908879845
+    ],
+    "r": [
+      3.975693351829396e-16,
+      168.68971252441406,
+      -20.22485923767089
+    ],
+    "s": [
+      9.8,
+      4.05,
+      0.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_RoofRight",
+    "p": [
+      -978.6087945587253,
+      15735.633840189894,
+      943.2835908879845
+    ],
+    "r": [
+      -3.975693351829396e-16,
+      168.68971252441406,
+      20.224859237670895
+    ],
+    "s": [
+      9.8,
+      4.05,
+      0.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_FutureCar_Front",
+    "p": [
+      -706.006506718332,
+      15874.87461246649,
+      549.0835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      2.2,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_FutureCar_Back",
+    "p": [
+      -1176.684649630168,
+      15969.013264385165,
+      549.0835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      2.2,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_FutureCar_Left",
+    "p": [
+      -919.7721371095538,
+      16029.807679509791,
+      549.0835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      4.8,
+      0.04,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_FutureCar_Right",
+    "p": [
+      -962.9190192389462,
+      15814.080197341866,
+      549.0835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      4.8,
+      0.04,
+      0.01
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": true,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_25",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      568.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_25",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      568.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_50",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      593.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_50",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      593.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_75",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      618.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_75",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      618.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_100",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      643.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_100",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      643.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_125",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      668.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_125",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      668.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_150",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      693.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_150",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      693.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_175",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      718.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_175",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      718.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_200",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      743.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_200",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      743.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_225",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      768.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_225",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      768.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_250",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      793.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_250",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      793.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_275",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      818.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_275",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      818.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Back_300",
+    "p": [
+      -1380.6451782252968,
+      16009.80668021659,
+      843.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      6.95,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Garage_LogJoint_Left_300",
+    "p": [
+      -873.0950555332109,
+      16263.185592036909,
+      843.283590887984
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      8.95,
+      0.02,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_Floor",
+    "p": [
+      -2254.681647940075,
+      -786.5168539325842,
+      172.84755761662572
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      5.7,
+      6.4,
+      0.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_BackWall",
+    "p": [
+      -2529.681647940075,
+      -786.5168539325842,
+      325.34755761662564
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      6.4,
+      2.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_WallL",
+    "p": [
+      -2254.681647940075,
+      -476.51685393258424,
+      325.34755761662564
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      5.3,
+      0.2,
+      2.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_WallR",
+    "p": [
+      -2254.681647940075,
+      -1096.5168539325841,
+      325.34755761662564
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      5.3,
+      0.2,
+      2.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_FrontL",
+    "p": [
+      -1979.681647940075,
+      -596.5168539325842,
+      325.34755761662564
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      2.2,
+      2.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_FrontR",
+    "p": [
+      -1979.681647940075,
+      -976.5168539325842,
+      325.34755761662564
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      2.2,
+      2.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_EntranceHeader",
+    "p": [
+      -1979.681647940075,
+      -786.5168539325842,
+      440.34755761662564
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.2,
+      1.6,
+      0.65
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_RoofL",
+    "p": [
+      -2254.681647940075,
+      -616.5168539325842,
+      522.8475576166256
+    ],
+    "r": [
+      1.7655625192200634e-31,
+      180.0,
+      -16.389539718627915
+    ],
+    "s": [
+      6.2,
+      3.57,
+      0.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_RoofR",
+    "p": [
+      -2254.681647940075,
+      -956.5168539325842,
+      522.8475576166256
+    ],
+    "r": [
+      0.0,
+      180.0,
+      16.389539718627926
+    ],
+    "s": [
+      6.2,
+      3.57,
+      0.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_Counter",
+    "p": [
+      -2299.681647940075,
+      -736.5168539325842,
+      225.34755761662566
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.65,
+      4.5,
+      0.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_StorageShelf",
+    "p": [
+      -2474.681647940075,
+      -666.5168539325842,
+      272.84755761662564
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.45,
+      2.8,
+      1.9
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_WindowL",
+    "p": [
+      -1967.681647940075,
+      -581.5168539325842,
+      332.84755761662564
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.03,
+      1.1,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_WindowR",
+    "p": [
+      -1967.681647940075,
+      -991.5168539325842,
+      332.84755761662564
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.03,
+      1.1,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_SignBoard",
+    "p": [
+      -1964.681647940075,
+      -786.5168539325842,
+      427.84755761662564
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.08,
+      3.0,
+      0.42
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SHOP01_FacadeSign",
+    "p": [
+      -1958.681647940075,
+      -656.5168539325842,
+      422.84755761662564
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "CHAPEL01_Blockout",
+    "p": [
+      35000.0,
+      -27800.0,
+      1301.1157940009589
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      0.5454545454545454,
+      0.4444444444444444,
+      0.7
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "CHAPEL01_Porch",
+    "p": [
+      34620.0,
+      -27800.0,
+      1310.1157940009589
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.8,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "CHAPEL01_CrossVertical",
+    "p": [
+      35000.0,
+      -27800.0,
+      1730.1157940009589
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      0.12,
+      1.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "CHAPEL01_CrossBar",
+    "p": [
+      35000.0,
+      -27800.0,
+      1761.1157940009589
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      0.95,
+      0.12
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "CHAPEL01_Name",
+    "p": [
+      34580.0,
+      -27970.0,
+      1495.1157940009589
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "BOR_Pine_00_Trunk",
+    "p": [
+      34951.14615489266,
+      -29631.89290947157,
+      1656.598447978698
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      7.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_00_Crown",
+    "p": [
+      34951.14615489266,
+      -29631.89290947157,
+      2136.598447978698
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      9.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_01_Trunk",
+    "p": [
+      36157.99771434288,
+      -28977.209243613415,
+      1694.1157940009589
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      7.98
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_01_Crown",
+    "p": [
+      36157.99771434288,
+      -28977.209243613415,
+      2226.115794000959
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      9.975
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_02_Trunk",
+    "p": [
+      35857.858416421586,
+      -30538.688603301594,
+      1740.7144061710765
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      8.76
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_02_Crown",
+    "p": [
+      35857.858416421586,
+      -30538.688603301594,
+      2324.7144061710765
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      10.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_03_Trunk",
+    "p": [
+      37132.18717844067,
+      -29784.773757195093,
+      1774.3466131023633
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      9.54
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_03_Crown",
+    "p": [
+      37132.18717844067,
+      -29784.773757195093,
+      2410.3466131023633
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      11.925
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_04_Trunk",
+    "p": [
+      36967.00228565712,
+      -31147.790756386585,
+      1663.7839278518245
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      7.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_04_Crown",
+    "p": [
+      36967.00228565712,
+      -31147.790756386585,
+      2143.7839278518245
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      9.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_05_Trunk",
+    "p": [
+      38308.808250245085,
+      -30294.644730031738,
+      1698.7194591460907
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      7.98
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_05_Crown",
+    "p": [
+      38308.808250245085,
+      -30294.644730031738,
+      2230.7194591460907
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      9.975
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_06_Trunk",
+    "p": [
+      38076.14615489267,
+      -31756.89290947157,
+      1738.7948092087647
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      8.76
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_06_Crown",
+    "p": [
+      38076.14615489267,
+      -31756.89290947157,
+      2322.7948092087645
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      10.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_07_Trunk",
+    "p": [
+      39282.99771434288,
+      -31102.209243613415,
+      1774.9073450065862
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      9.54
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_07_Crown",
+    "p": [
+      39282.99771434288,
+      -31102.209243613415,
+      2410.907345006586
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      11.925
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_08_Trunk",
+    "p": [
+      38982.858416421586,
+      -32663.68860330159,
+      1653.6033985570482
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      7.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_08_Crown",
+    "p": [
+      38982.858416421586,
+      -32663.68860330159,
+      2133.6033985570484
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      9.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_09_Trunk",
+    "p": [
+      40257.187178440676,
+      -31909.773757195093,
+      1692.3669375760048
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      7.98
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_09_Crown",
+    "p": [
+      40257.187178440676,
+      -31909.773757195093,
+      2224.3669375760046
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      9.975
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_10_Trunk",
+    "p": [
+      40092.00228565712,
+      -33272.79075638658,
+      1724.7346853592453
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      8.76
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_10_Crown",
+    "p": [
+      40092.00228565712,
+      -33272.79075638658,
+      2308.7346853592453
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      10.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_11_Trunk",
+    "p": [
+      41433.808250245085,
+      -32419.644730031738,
+      1765.819163363858
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      9.54
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_11_Crown",
+    "p": [
+      41433.808250245085,
+      -32419.644730031738,
+      2401.819163363858
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      11.925
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_12_Trunk",
+    "p": [
+      41201.14615489267,
+      -33881.89290947157,
+      1639.7202966081886
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      7.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_12_Crown",
+    "p": [
+      41201.14615489267,
+      -33881.89290947157,
+      2119.7202966081886
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      9.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_13_Trunk",
+    "p": [
+      42407.99771434288,
+      -33227.20924361342,
+      1681.4666315141278
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      7.98
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_13_Crown",
+    "p": [
+      42407.99771434288,
+      -33227.20924361342,
+      2213.4666315141276
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      9.975
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_14_Trunk",
+    "p": [
+      42107.858416421586,
+      -34788.68860330159,
+      1706.6859449853132
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      8.76
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_14_Crown",
+    "p": [
+      42107.858416421586,
+      -34788.68860330159,
+      2290.685944985313
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      10.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_Pine_15_Trunk",
+    "p": [
+      43382.187178440676,
+      -34034.773757195086,
+      1751.2414163762544
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      9.54
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "BOR_Pine_15_Crown",
+    "p": [
+      43382.187178440676,
+      -34034.773757195086,
+      2387.241416376254
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      11.925
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "CHAPEL01_OldPine_0_Trunk",
+    "p": [
+      35600.0,
+      -28350.0,
+      1865.1157940009589
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      11.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "CHAPEL01_OldPine_0_Crown",
+    "p": [
+      35600.0,
+      -28350.0,
+      2625.115794000959
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      14.25
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "CHAPEL01_OldPine_1_Trunk",
+    "p": [
+      35700.0,
+      -27500.0,
+      1895.1157940009589
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      12.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "CHAPEL01_OldPine_1_Crown",
+    "p": [
+      35700.0,
+      -27500.0,
+      2695.115794000959
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      15.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "CHAPEL01_OldPine_2_Trunk",
+    "p": [
+      34800.0,
+      -27150.0,
+      1925.1157940009589
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.45,
+      0.45,
+      12.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "CHAPEL01_OldPine_2_Crown",
+    "p": [
+      34800.0,
+      -27150.0,
+      2765.115794000959
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      4.2,
+      4.2,
+      15.75
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cone.Cone"
+  },
+  {
+    "label": "BOR_ForkBoulder",
+    "p": [
+      44813.333333333336,
+      -37086.666666666664,
+      1331.189646734128
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      3.6,
+      2.6,
+      2.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere"
+  },
+  {
+    "label": "SIGN_VillageJunction_Post",
+    "p": [
+      150.0,
+      -19760.0,
+      304.5349823147566
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.15,
+      0.15,
+      2.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_VillageJunction_0",
+    "p": [
+      146.0,
+      -19760.0,
+      394.49738929000495
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      2.2,
+      0.38
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_VillageJunction_Text0",
+    "p": [
+      138.0,
+      -19860.0,
+      386.2006541179894
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "SIGN_VillageJunction_Arrow0",
+    "p": [
+      145.0,
+      -19640.0,
+      392.33999270271454
+    ],
+    "r": [
+      0.0,
+      45.00000000000003,
+      -0.0
+    ],
+    "s": [
+      0.12,
+      0.35,
+      0.35
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_VillageJunction_1",
+    "p": [
+      146.0,
+      -19760.0,
+      344.49738929000495
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      2.2,
+      0.38
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_VillageJunction_Text1",
+    "p": [
+      138.0,
+      -19860.0,
+      336.2006541179894
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "SIGN_VillageJunction_Arrow1",
+    "p": [
+      145.0,
+      -19880.0,
+      346.61867713168743
+    ],
+    "r": [
+      0.0,
+      45.00000000000003,
+      -0.0
+    ],
+    "s": [
+      0.12,
+      0.35,
+      0.35
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ShopSplit_Post",
+    "p": [
+      2483.3333333333335,
+      -4093.333333333333,
+      246.87048472483696
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.15,
+      0.15,
+      2.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ShopSplit_0",
+    "p": [
+      2479.3333333333335,
+      -4093.333333333333,
+      336.8221024549912
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      2.2,
+      0.38
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ShopSplit_Text0",
+    "p": [
+      2471.3333333333335,
+      -4193.333333333333,
+      323.9408662949724
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "SIGN_ShopSplit_Arrow0",
+    "p": [
+      2478.3333333333335,
+      -3973.333333333333,
+      340.10799305808047
+    ],
+    "r": [
+      0.0,
+      45.00000000000003,
+      -0.0
+    ],
+    "s": [
+      0.12,
+      0.35,
+      0.35
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ShopSplit_1",
+    "p": [
+      2479.3333333333335,
+      -4093.333333333333,
+      286.8221024549912
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      2.2,
+      0.38
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ShopSplit_Text1",
+    "p": [
+      2471.3333333333335,
+      -4193.333333333333,
+      273.9408662949724
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "SIGN_ShopSplit_Arrow1",
+    "p": [
+      2478.3333333333335,
+      -4213.333333333333,
+      283.54326048472024
+    ],
+    "r": [
+      0.0,
+      45.00000000000003,
+      -0.0
+    ],
+    "s": [
+      0.12,
+      0.35,
+      0.35
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ChapelFork_Post",
+    "p": [
+      35150.0,
+      -28760.0,
+      1415.1157940009589
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.15,
+      0.15,
+      2.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ChapelFork_0",
+    "p": [
+      35146.0,
+      -28760.0,
+      1505.1157940009589
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      2.2,
+      0.38
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ChapelFork_Text0",
+    "p": [
+      35138.0,
+      -28860.0,
+      1495.1157940009589
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "SIGN_ChapelFork_Arrow0",
+    "p": [
+      35145.0,
+      -28640.0,
+      1505.1157940009589
+    ],
+    "r": [
+      0.0,
+      45.00000000000003,
+      -0.0
+    ],
+    "s": [
+      0.12,
+      0.35,
+      0.35
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ChapelFork_1",
+    "p": [
+      35146.0,
+      -28760.0,
+      1455.1157940009589
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      2.2,
+      0.38
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ChapelFork_Text1",
+    "p": [
+      35138.0,
+      -28860.0,
+      1445.1157940009589
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "SIGN_ChapelFork_Arrow1",
+    "p": [
+      35145.0,
+      -28880.0,
+      1455.1157940009589
+    ],
+    "r": [
+      0.0,
+      45.00000000000003,
+      -0.0
+    ],
+    "s": [
+      0.12,
+      0.35,
+      0.35
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ForestFork_Post",
+    "p": [
+      43483.333333333336,
+      -34426.666666666664,
+      1390.259468688304
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.15,
+      0.15,
+      2.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ForestFork_0",
+    "p": [
+      43479.333333333336,
+      -34426.666666666664,
+      1480.2685653369797
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      2.2,
+      0.38
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ForestFork_Text0",
+    "p": [
+      43471.333333333336,
+      -34526.666666666664,
+      1469.2194718498522
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "SIGN_ForestFork_Arrow0",
+    "p": [
+      43478.333333333336,
+      -34306.666666666664,
+      1481.4744868628331
+    ],
+    "r": [
+      0.0,
+      45.00000000000003,
+      -0.0
+    ],
+    "s": [
+      0.12,
+      0.35,
+      0.35
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ForestFork_1",
+    "p": [
+      43479.333333333336,
+      -34426.666666666664,
+      1430.2685653369797
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      2.2,
+      0.38
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "SIGN_ForestFork_Text1",
+    "p": [
+      43471.333333333336,
+      -34526.666666666664,
+      1419.2194718498522
+    ],
+    "r": [
+      0.0,
+      180.0,
+      -0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "SIGN_ForestFork_Arrow1",
+    "p": [
+      43478.333333333336,
+      -34546.666666666664,
+      1428.989973417073
+    ],
+    "r": [
+      0.0,
+      45.00000000000003,
+      -0.0
+    ],
+    "s": [
+      0.12,
+      0.35,
+      0.35
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "TERRAIN_Terrain",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/CompactVillage/SM_CompactTerrain.SM_CompactTerrain"
+  },
+  {
+    "label": "TERRAIN_Road",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/CompactVillage/SM_RegionalRoad.SM_RegionalRoad"
+  },
+  {
+    "label": "TERRAIN_Path",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/CompactVillage/SM_RegionalPath.SM_RegionalPath"
+  },
+  {
+    "label": "TERRAIN_Rail",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Terrain/SM_Conform_Rail.SM_Conform_Rail"
+  },
+  {
+    "label": "Terrain_Sun",
+    "p": [
+      0.0,
+      0.0,
+      10000.0
+    ],
+    "r": [
+      -30.000000000000004,
+      -40.000000000000014,
+      -0.0
+    ],
+    "s": [
+      2.5,
+      2.5,
+      2.5
+    ],
+    "class_name": "DirectionalLight",
+    "hidden": false
+  },
+  {
+    "label": "Terrain_Sky",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "SkyAtmosphere",
+    "hidden": false
+  },
+  {
+    "label": "Terrain_SkyLight",
+    "p": [
+      0.0,
+      0.0,
+      1000.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "SkyLight",
+    "hidden": false
+  },
+  {
+    "label": "Terrain_FixedExposure",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "PostProcessVolume",
+    "hidden": false
+  },
+  {
+    "label": "TERRAIN_Forest",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Terrain/SM_Forest_Zones.SM_Forest_Zones"
+  },
+  {
+    "label": "TERRAIN_OldBor",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Terrain/SM_OldBor_Zone.SM_OldBor_Zone"
+  },
+  {
+    "label": "VEG_Village_Grass_00",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_Village_Grass_01",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_Village_Grass_02",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_Village_Grass_03",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_Village_Shrub_00",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_Village_Shrub_01",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_Village_Shrub_02",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_VillageRoad_LowGreen",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_VillageRoad_LowDry",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_VillageRoad_TallGreen",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_VillageRoad_TallDry",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E01_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E02_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E03_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E04_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E05_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E06_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E07_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H01_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H02_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H03_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H04_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H05_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H06_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H07_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H08_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H09_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H10_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H11_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H12_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_G01_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "G01_Label",
+    "p": [
+      0.0,
+      14000.0,
+      2143.2835908879842
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "DIM_H11_RoadToPlot",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": true
+  },
+  {
+    "label": "DIM_H11_Metres",
+    "p": [
+      4265.726544207758,
+      37617.232308900464,
+      2348.3154869303353
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": true
+  },
+  {
+    "label": "H13_LogHouse",
+    "p": [
+      4561.797752808989,
+      14419.475655430711,
+      644.5035474401766
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H13_ColdEntrance",
+    "p": [
+      3993.06166494074,
+      14533.226533916637,
+      774.5035474401766
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H13_Porch",
+    "p": [
+      3836.1689510460515,
+      14564.606086602407,
+      654.5035474401766
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E10_LogHouse",
+    "p": [
+      -4037.453183520599,
+      21917.60299625468,
+      226.28117085129688
+    ],
+    "r": [
+      0.0,
+      -170.2724151611328,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E10_ColdEntrance",
+    "p": [
+      -4609.114099115087,
+      21819.604029006696,
+      356.2811708512969
+    ],
+    "r": [
+      0.0,
+      -170.2724151611328,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E10_Porch",
+    "p": [
+      -4766.813662037703,
+      21792.569831145174,
+      236.28117085129688
+    ],
+    "r": [
+      0.0,
+      -170.2724151611328,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E09_LogHouse",
+    "p": [
+      -2883.895131086142,
+      18142.322097378277,
+      522.5286298970359
+    ],
+    "r": [
+      0.0,
+      -164.18080139160156,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E09_ColdEntrance",
+    "p": [
+      -3441.928644937924,
+      17984.21264978505,
+      652.5286298970359
+    ],
+    "r": [
+      0.0,
+      -164.18080139160156,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E09_Porch",
+    "p": [
+      -3595.868924621172,
+      17940.59625044899,
+      532.5286298970359
+    ],
+    "r": [
+      0.0,
+      -164.18080139160156,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E08_LogHouse",
+    "p": [
+      -2883.895131086142,
+      -10329.588014981273,
+      23.71260937078837
+    ],
+    "r": [
+      0.0,
+      -0.3509296774864197,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E08_ColdEntrance",
+    "p": [
+      -2303.906010434864,
+      -10333.140468521888,
+      153.71260937078839
+    ],
+    "r": [
+      0.0,
+      -0.3509296774864197,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E08_Porch",
+    "p": [
+      -2143.909011634513,
+      -10334.1204557055,
+      33.71260937078837
+    ],
+    "r": [
+      0.0,
+      -0.3509296774864197,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E11_LogHouse",
+    "p": [
+      -8389.513108614232,
+      18876.404494382023,
+      470.5469059654913
+    ],
+    "r": [
+      0.0,
+      13.298570632934576,
+      -0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "E11_ColdEntrance",
+    "p": [
+      -7825.066022581277,
+      19009.819212718896,
+      600.5469059654913
+    ],
+    "r": [
+      0.0,
+      13.298570632934576,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "E11_Porch",
+    "p": [
+      -7669.356481606672,
+      19046.623272949764,
+      480.5469059654913
+    ],
+    "r": [
+      0.0,
+      13.298570632934576,
+      -0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H14_LogHouse",
+    "p": [
+      3617.9775280898875,
+      -4299.625468164793,
+      143.1854911693228
+    ],
+    "r": [
+      0.0,
+      -101.309928894043,
+      0.0
+    ],
+    "s": [
+      0.9090909090909091,
+      0.8888888888888888,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/World/Homesteads/SM_LogHouse_Blockout.SM_LogHouse_Blockout"
+  },
+  {
+    "label": "H14_ColdEntrance",
+    "p": [
+      3504.230162292203,
+      -4868.362258582019,
+      273.1854911693228
+    ],
+    "r": [
+      0.0,
+      -101.309928894043,
+      0.0
+    ],
+    "s": [
+      1.6,
+      3.0,
+      2.6
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "H14_Porch",
+    "p": [
+      3472.8515786238804,
+      -5025.255166283323,
+      153.1854911693228
+    ],
+    "r": [
+      0.0,
+      -101.309928894043,
+      0.0
+    ],
+    "s": [
+      1.6,
+      2.0,
+      0.2
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "PLOT10_H13_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "H13_Label",
+    "p": [
+      4561.797752808989,
+      14419.475655430711,
+      2238.5035474401766
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E10_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "E10_Label",
+    "p": [
+      -4037.453183520599,
+      21917.60299625468,
+      1820.2811708512968
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E09_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "E09_Label",
+    "p": [
+      -2883.895131086142,
+      18142.322097378277,
+      2116.528629897036
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E08_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "E08_Label",
+    "p": [
+      -2883.895131086142,
+      -10329.588014981273,
+      1617.7126093707884
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_E11_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "E11_Label",
+    "p": [
+      -8389.513108614232,
+      18876.404494382023,
+      2064.546905965491
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "PLOT10_H14_1000m2",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "H14_Label",
+    "p": [
+      3617.9775280898875,
+      -4299.625468164793,
+      1737.1854911693229
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "STOP01_MapLabel",
+    "p": [
+      0.0,
+      0.0,
+      1791.820948693175
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "SHOP01_MapLabel",
+    "p": [
+      -2254.681647940075,
+      -786.5168539325842,
+      1767.8475576166256
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "STOP01_Well_Rim_0",
+    "p": [
+      -70.0,
+      850.0,
+      250.84107434304013
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.2,
+      1.6,
+      0.8
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Well_Rim_1",
+    "p": [
+      70.0,
+      850.0,
+      243.55908724848635
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.2,
+      1.6,
+      0.8
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Well_Rim_2",
+    "p": [
+      0.0,
+      780.0,
+      243.34433506579862
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.2,
+      0.2,
+      0.8
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Well_Rim_3",
+    "p": [
+      0.0,
+      920.0,
+      251.45100065440573
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.2,
+      0.2,
+      0.8
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Well_Post_0",
+    "p": [
+      -85.0,
+      850.0,
+      331.6528248386553
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      0.15,
+      2.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Well_Post_1",
+    "p": [
+      85.0,
+      850.0,
+      322.80432437818115
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      0.12,
+      0.15,
+      2.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "STOP01_Well_Beam",
+    "p": [
+      0.0,
+      850.0,
+      447.08131397657735
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      2.0,
+      0.2,
+      0.15
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "DIM_StopToHero_140m",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "DIM_StopToHero_Text",
+    "p": [
+      0.0,
+      7000.0,
+      2861.844356115083
+    ],
+    "r": [
+      90.0,
+      180.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "TextRenderActor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_Compact_Low_Green",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_Compact_Low_Dry",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_Compact_Tall_Green",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "VEG_Compact_Tall_Dry",
+    "p": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "r": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "Actor",
+    "hidden": false
+  },
+  {
+    "label": "G01_Moskvich412",
+    "p": [
+      -941.34557817425,
+      15921.943938425828,
+      548.2835908879842
+    ],
+    "r": [
+      0.0,
+      -11.310302734375,
+      0.0
+    ],
+    "s": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Game/FinalCoil/Vehicles/Moskvich412/SM_Moskvich412_Blockout.SM_Moskvich412_Blockout"
+  },
+  {
+    "label": "G01_Fitout_A_TableTop",
+    "p": [
+      -1288.469253918397,
+      16225.926098655458,
+      630.7835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.8,
+      1.8,
+      0.05
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_A_Leg00",
+    "p": [
+      -1236.3018832133848,
+      16303.195532675165,
+      588.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      0.8
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_A_Leg01",
+    "p": [
+      -1306.9036043727747,
+      16317.31633184985,
+      588.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      0.8
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_A_Leg10",
+    "p": [
+      -1270.0349034640194,
+      16134.535865461066,
+      588.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      0.8
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_A_Leg11",
+    "p": [
+      -1340.6366246234093,
+      16148.656664635751,
+      588.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      0.8
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_A_LowerShelf",
+    "p": [
+      -1288.469253918397,
+      16225.926098655458,
+      568.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.68,
+      1.7,
+      0.04
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_A_EngineBlock",
+    "p": [
+      -1282.9778320171308,
+      16253.382323550777,
+      652.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.56,
+      0.48,
+      0.38
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_A_ValveCover",
+    "p": [
+      -1282.9778320171308,
+      16253.382323550777,
+      675.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.49,
+      0.35,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_A_Gearbox",
+    "p": [
+      -1298.6675456913902,
+      16185.134005733998,
+      646.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.51,
+      0.28,
+      0.26
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_A_EngineSump",
+    "p": [
+      -1282.9778320171308,
+      16253.382323550777,
+      637.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.43,
+      0.36,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Leg00",
+    "p": [
+      -1308.8664693293922,
+      16042.361522542642,
+      653.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      2.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Leg01",
+    "p": [
+      -1359.8566012778406,
+      16052.559877502137,
+      653.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      2.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Leg10",
+    "p": [
+      -1362.211710655977,
+      15775.643909273836,
+      653.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      2.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Leg11",
+    "p": [
+      -1413.2018426044253,
+      15785.842264233332,
+      653.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      2.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Shelf0",
+    "p": [
+      -1361.0341559669087,
+      15914.101893387986,
+      560.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.6,
+      2.8,
+      0.04
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Shelf1",
+    "p": [
+      -1361.0341559669087,
+      15914.101893387986,
+      620.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.6,
+      2.8,
+      0.04
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Shelf2",
+    "p": [
+      -1361.0341559669087,
+      15914.101893387986,
+      680.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.6,
+      2.8,
+      0.04
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Shelf3",
+    "p": [
+      -1361.0341559669087,
+      15914.101893387986,
+      750.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.6,
+      2.8,
+      0.04
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_PartsBox0",
+    "p": [
+      -1343.383125405303,
+      16007.453064350719,
+      580.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.4,
+      0.54,
+      0.36
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Label0",
+    "p": [
+      -1323.575420302252,
+      16003.491395693378,
+      580.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.005,
+      0.18,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_PartsBox1",
+    "p": [
+      -1356.9155579477085,
+      15939.793081572969,
+      575.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.42,
+      0.44,
+      0.26
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Label1",
+    "p": [
+      -1336.1272733841104,
+      15935.635290704868,
+      575.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.005,
+      0.18,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_PartsBox2",
+    "p": [
+      -1374.7626791268233,
+      15850.560350663185,
+      582.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.44,
+      0.65,
+      0.4
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Label2",
+    "p": [
+      -1352.9938151026781,
+      15846.206437584326,
+      582.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.005,
+      0.18,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_PartsBox3",
+    "p": [
+      -1338.8723777443354,
+      16019.808352916312,
+      637.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.41,
+      0.58,
+      0.3
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Label3",
+    "p": [
+      -1318.5743829110106,
+      16015.748623153591,
+      637.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.005,
+      0.18,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_PartsBox4",
+    "p": [
+      -1358.0923228055162,
+      15928.810585296193,
+      639.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.43,
+      0.52,
+      0.34
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Label4",
+    "p": [
+      -1336.8137485116445,
+      15924.554733322711,
+      639.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.005,
+      0.18,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_PartsBox5",
+    "p": [
+      -1377.900666092226,
+      15829.772059780938,
+      634.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.4,
+      0.43,
+      0.24
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Label5",
+    "p": [
+      -1358.0929609891748,
+      15825.810391123596,
+      634.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.005,
+      0.18,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_PartsBox6",
+    "p": [
+      -1341.2258442734494,
+      16008.041399389745,
+      699.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.4,
+      0.66,
+      0.34
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Label6",
+    "p": [
+      -1321.4181391703983,
+      16004.079730732406,
+      699.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.005,
+      0.18,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_PartsBox7",
+    "p": [
+      -1361.8186448099468,
+      15910.179575545799,
+      697.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.38,
+      0.42,
+      0.3
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Label7",
+    "p": [
+      -1342.991519167443,
+      15906.414029099216,
+      697.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.005,
+      0.18,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_PartsBox8",
+    "p": [
+      -1377.3123626464483,
+      15822.51575913559,
+      698.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.42,
+      0.56,
+      0.32
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_B_Label8",
+    "p": [
+      -1356.52407808285,
+      15818.357968267486,
+      698.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.005,
+      0.18,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_Worktop",
+    "p": [
+      -960.9552717901656,
+      16231.807553450712,
+      635.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      2.6,
+      0.8,
+      0.06
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_Leg00",
+    "p": [
+      -830.3418601738913,
+      16242.39701547471,
+      590.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      0.84
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_Leg01",
+    "p": [
+      -1077.4478842317558,
+      16291.819812586105,
+      590.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      0.84
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_Leg10",
+    "p": [
+      -844.4626593485755,
+      16171.79529431532,
+      590.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      0.84
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_Leg11",
+    "p": [
+      -1091.56868340644,
+      16221.218091426716,
+      590.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      0.84
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_Stretcher",
+    "p": [
+      -960.9552717901656,
+      16231.807553450712,
+      567.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      2.47,
+      0.65,
+      0.04
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolPanel",
+    "p": [
+      -952.3258945167474,
+      16274.953049714783,
+      703.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      2.6,
+      0.03,
+      1.1
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolStem0",
+    "p": [
+      -854.9543761996977,
+      16251.908800526919,
+      702.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.03,
+      0.03,
+      0.26
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolHead0",
+    "p": [
+      -855.0916617472293,
+      16251.222394904536,
+      716.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.13,
+      0.04,
+      0.06
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolStem1",
+    "p": [
+      -884.3717600161101,
+      16257.792466849703,
+      714.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.03,
+      0.03,
+      0.26
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolHead1",
+    "p": [
+      -884.5090455636417,
+      16257.106061227321,
+      728.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.13,
+      0.04,
+      0.06
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolStem2",
+    "p": [
+      -915.7503027536167,
+      16264.068377594007,
+      702.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.03,
+      0.03,
+      0.26
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolHead2",
+    "p": [
+      -915.8875883011483,
+      16263.381971971625,
+      716.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.13,
+      0.04,
+      0.06
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolStem3",
+    "p": [
+      -953.0123222544057,
+      16271.521021602868,
+      714.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.03,
+      0.03,
+      0.26
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolHead3",
+    "p": [
+      -953.1496078019373,
+      16270.834615980486,
+      728.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.13,
+      0.04,
+      0.06
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolStem4",
+    "p": [
+      -988.3131828341008,
+      16278.58142119021,
+      702.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.03,
+      0.03,
+      0.26
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolHead4",
+    "p": [
+      -988.4504683816324,
+      16277.895015567829,
+      716.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.19,
+      0.04,
+      0.06
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolStem5",
+    "p": [
+      -1024.5946228743428,
+      16285.837942988312,
+      714.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.03,
+      0.03,
+      0.26
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolHead5",
+    "p": [
+      -1024.7319084218743,
+      16285.15153736593,
+      728.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.19,
+      0.04,
+      0.06
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolStem6",
+    "p": [
+      -1055.9731656118495,
+      16292.113853732617,
+      702.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.03,
+      0.03,
+      0.26
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ToolHead6",
+    "p": [
+      -1056.110451159381,
+      16291.427448110235,
+      716.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.19,
+      0.04,
+      0.06
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ViseBase",
+    "p": [
+      -875.2527406740523,
+      16196.31000198175,
+      642.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.25,
+      0.25,
+      0.08
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_C_ViseJaws",
+    "p": [
+      -875.6449850955713,
+      16194.348843060656,
+      654.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.21,
+      0.18,
+      0.16
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_D_Leg00",
+    "p": [
+      -1204.9270684794292,
+      15695.23531933846,
+      633.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      1.7
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_D_Leg01",
+    "p": [
+      -1334.3635572716441,
+      15721.123451158715,
+      633.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      1.7
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_D_Leg10",
+    "p": [
+      -1217.0866455465184,
+      15634.439392784541,
+      633.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      1.7
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_D_Leg11",
+    "p": [
+      -1346.5231343387334,
+      15660.327524604796,
+      633.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.04,
+      0.04,
+      1.7
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_D_RackShelf0",
+    "p": [
+      -1275.7251014090814,
+      15677.781421971627,
+      558.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      1.4,
+      0.7,
+      0.04
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_D_RackShelf1",
+    "p": [
+      -1275.7251014090814,
+      15677.781421971627,
+      632.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      1.4,
+      0.7,
+      0.04
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_D_RackShelf2",
+    "p": [
+      -1275.7251014090814,
+      15677.781421971627,
+      712.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      1.4,
+      0.7,
+      0.04
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_D_Tyre0",
+    "p": [
+      -1228.6572873028213,
+      15668.367555855171,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.6,
+      0.6,
+      0.17
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Rim0_0",
+    "p": [
+      -1220.1262459960617,
+      15666.661292621564,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.29,
+      0.29,
+      0.012
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Rim0_1",
+    "p": [
+      -1237.188328609581,
+      15670.073819088779,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.29,
+      0.29,
+      0.012
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Tyre1",
+    "p": [
+      -1260.035830040328,
+      15674.643466599477,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.6,
+      0.6,
+      0.17
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Rim1_0",
+    "p": [
+      -1251.5047887335684,
+      15672.937203365867,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.29,
+      0.29,
+      0.012
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Rim1_1",
+    "p": [
+      -1268.5668713470875,
+      15676.349729833084,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.29,
+      0.29,
+      0.012
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Tyre2",
+    "p": [
+      -1291.4143727778346,
+      15680.91937734378,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.6,
+      0.6,
+      0.17
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Rim2_0",
+    "p": [
+      -1282.8833314710748,
+      15679.213114110173,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.29,
+      0.29,
+      0.012
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Rim2_1",
+    "p": [
+      -1299.9454140845942,
+      15682.625640577387,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.29,
+      0.29,
+      0.012
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Tyre3",
+    "p": [
+      -1322.7929155153413,
+      15687.195288088084,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.6,
+      0.6,
+      0.17
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Rim3_0",
+    "p": [
+      -1314.2618742085815,
+      15685.489024854476,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.29,
+      0.29,
+      0.012
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_Rim3_1",
+    "p": [
+      -1331.3239568221009,
+      15688.901551321691,
+      590.2835908879842
+    ],
+    "r": [
+      90.0,
+      168.68971252441406,
+      0.0
+    ],
+    "s": [
+      0.29,
+      0.29,
+      0.012
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cylinder.Cylinder"
+  },
+  {
+    "label": "G01_Fitout_D_StorageBox0",
+    "p": [
+      -1240.4242408293862,
+      15670.721022384285,
+      652.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.46,
+      0.45,
+      0.36
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_D_StorageBox1",
+    "p": [
+      -1305.1424852254938,
+      15683.665088294412,
+      652.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.46,
+      0.45,
+      0.36
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_E_Cabinet",
+    "p": [
+      -605.0048328318238,
+      16175.912249485498,
+      595.7835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.8,
+      0.45,
+      0.95
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_E_CabinetTop",
+    "p": [
+      -605.0048328318238,
+      16175.912249485498,
+      644.7835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.8,
+      0.45,
+      0.03
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_E_Door0",
+    "p": [
+      -589.9432789105026,
+      16149.240361785616,
+      593.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.37,
+      0.015,
+      0.83
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_E_Handle0",
+    "p": [
+      -600.2001546007202,
+      16148.946251133952,
+      610.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      0.03,
+      0.14
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_E_Door1",
+    "p": [
+      -629.1664573323858,
+      16157.085250215996,
+      593.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.37,
+      0.015,
+      0.83
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "G01_Fitout_E_Handle1",
+    "p": [
+      -619.8117438116619,
+      16152.868695349141,
+      610.2835908879842
+    ],
+    "r": [
+      0.0,
+      168.68971252441406,
+      -0.0
+    ],
+    "s": [
+      0.02,
+      0.03,
+      0.14
+    ],
+    "class_name": "StaticMeshActor",
+    "hidden": false,
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  }
+]

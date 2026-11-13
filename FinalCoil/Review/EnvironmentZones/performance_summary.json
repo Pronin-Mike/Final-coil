@@ -1,0 +1,254 @@
+{
+  "hardware": {
+    "cpu": "Intel Core i5-12400F",
+    "gpu": "NVIDIA GeForce GTX 1660",
+    "dedicated_vram_mb": 5966,
+    "ram_mb": 32621,
+    "os": "Windows 11 22H2",
+    "engine": "5.8",
+    "rhi": "D3D12 SM6"
+  },
+  "target": "60 FPS at 1920x1080",
+  "actual_viewport": [
+    1014,
+    550
+  ],
+  "target_confirmed": false,
+  "views": [
+    {
+      "name": "stop",
+      "before": {
+        "name": "stop",
+        "frames": 300,
+        "average_fps": 24.569434736728834,
+        "frame_ms": 40.70097707641196,
+        "wall_seconds": 12.156999999890104,
+        "viewport_size": [
+          1014,
+          550
+        ],
+        "csv_metrics": {
+          "FrameTime": 40.70097707641196,
+          "GameThreadTime": 16.024957475083056,
+          "RenderThreadTime": 0.0017142857142857142,
+          "GPUTime": 33.70574717607973,
+          "GPUMem/LocalUsedMB": 4363.495881727575,
+          "TransientMemoryUsedMB": 506.89700996677743
+        },
+        "csv_file": "csv_before/Profile(20261113_135843).csv",
+        "slate_callback_fps": 28.49309096763768,
+        "slate_callback_ms": 35.09622740248839
+      },
+      "after": {
+        "name": "stop",
+        "frames": 300,
+        "average_fps": 30.562565033026154,
+        "frame_ms": 32.71976677740864,
+        "wall_seconds": 9.812999999849126,
+        "viewport_size": [
+          1014,
+          550
+        ],
+        "csv_metrics": {
+          "FrameTime": 32.71976677740864,
+          "GameThreadTime": 14.280954485049834,
+          "RenderThreadTime": 0.0003418604651162791,
+          "GPUTime": 26.033501993355483,
+          "GPUMem/LocalUsedMB": 4335.759467441861,
+          "TransientMemoryUsedMB": 506.89700996677743
+        },
+        "csv_file": "csv_after/Profile(20261113_142308).csv",
+        "slate_callback_fps": 34.29566792915746,
+        "slate_callback_ms": 29.158201615015663
+      }
+    },
+    {
+      "name": "occupied",
+      "before": {
+        "name": "occupied",
+        "frames": 300,
+        "average_fps": 18.85471771628051,
+        "frame_ms": 53.03712392026578,
+        "wall_seconds": 15.952999999979511,
+        "viewport_size": [
+          1014,
+          550
+        ],
+        "csv_metrics": {
+          "FrameTime": 53.03712392026578,
+          "GameThreadTime": 14.96290365448505,
+          "RenderThreadTime": 0.002084717607973422,
+          "GPUTime": 44.461142524916944,
+          "GPUMem/LocalUsedMB": 4176.489003322259,
+          "TransientMemoryUsedMB": 510.2990033222591
+        },
+        "csv_file": "csv_before/Profile(20261113_135900).csv",
+        "slate_callback_fps": 24.52031102725723,
+        "slate_callback_ms": 40.78251694639524
+      },
+      "after": {
+        "name": "occupied",
+        "frames": 300,
+        "average_fps": 22.152796714779992,
+        "frame_ms": 45.14102724252491,
+        "wall_seconds": 13.594000000040978,
+        "viewport_size": [
+          1014,
+          550
+        ],
+        "csv_metrics": {
+          "FrameTime": 45.14102724252491,
+          "GameThreadTime": 15.213601993355482,
+          "RenderThreadTime": 0.0003521594684385382,
+          "GPUTime": 39.14501893687708,
+          "GPUMem/LocalUsedMB": 4520.466303986711,
+          "TransientMemoryUsedMB": 510.5166225165563
+        },
+        "csv_file": "csv_after/Profile(20261113_142321).csv",
+        "slate_callback_fps": 25.461586118536236,
+        "slate_callback_ms": 39.274850959579155
+      }
+    },
+    {
+      "name": "abandoned",
+      "before": {
+        "name": "abandoned",
+        "frames": 300,
+        "average_fps": 31.3607864059972,
+        "frame_ms": 31.886955481727576,
+        "wall_seconds": 9.578000000212342,
+        "viewport_size": [
+          1014,
+          550
+        ],
+        "csv_metrics": {
+          "FrameTime": 31.886955481727576,
+          "GameThreadTime": 9.645506312292358,
+          "RenderThreadTime": 0.002735548172757475,
+          "GPUTime": 31.32070830564784,
+          "GPUMem/LocalUsedMB": 3598.232300662252,
+          "TransientMemoryUsedMB": 512.0
+        },
+        "csv_file": "csv_before/Profile(20261113_135918).csv",
+        "slate_callback_fps": 31.393137345568427,
+        "slate_callback_ms": 31.854095657666523
+      },
+      "after": {
+        "name": "abandoned",
+        "frames": 300,
+        "average_fps": 41.54974244750263,
+        "frame_ms": 24.06753787375415,
+        "wall_seconds": 7.25,
+        "viewport_size": [
+          1014,
+          550
+        ],
+        "csv_metrics": {
+          "FrameTime": 24.06753787375415,
+          "GameThreadTime": 9.774761794019934,
+          "RenderThreadTime": 0.0021777408637873755,
+          "GPUTime": 23.427026245847177,
+          "GPUMem/LocalUsedMB": 3618.862911627907,
+          "TransientMemoryUsedMB": 510.3046357615894
+        },
+        "csv_file": "csv_after/Profile(20261113_142343).csv",
+        "slate_callback_fps": 41.536281383585795,
+        "slate_callback_ms": 24.075337673226993
+      }
+    },
+    {
+      "name": "meadow",
+      "before": {
+        "name": "meadow",
+        "frames": 300,
+        "average_fps": 31.5547364602924,
+        "frame_ms": 31.6909634551495,
+        "wall_seconds": 9.547000000020489,
+        "viewport_size": [
+          1014,
+          550
+        ],
+        "csv_metrics": {
+          "FrameTime": 31.6909634551495,
+          "GameThreadTime": 10.178014285714285,
+          "RenderThreadTime": 0.0023674418604651163,
+          "GPUTime": 29.958096677740865,
+          "GPUMem/LocalUsedMB": 3610.3277568106314,
+          "TransientMemoryUsedMB": 512.0
+        },
+        "csv_file": "csv_before/Profile(20261113_135931).csv",
+        "slate_callback_fps": 32.56666977576893,
+        "slate_callback_ms": 30.70624067137639
+      },
+      "after": {
+        "name": "meadow",
+        "frames": 300,
+        "average_fps": 47.75899333181319,
+        "frame_ms": 20.938464784053156,
+        "wall_seconds": 6.313000000081956,
+        "viewport_size": [
+          1014,
+          550
+        ],
+        "csv_metrics": {
+          "FrameTime": 20.938464784053156,
+          "GameThreadTime": 8.456454817275748,
+          "RenderThreadTime": 0.002063455149501661,
+          "GPUTime": 20.323379401993357,
+          "GPUMem/LocalUsedMB": 3610.4414,
+          "TransientMemoryUsedMB": 512.0
+        },
+        "csv_file": "csv_after/Profile(20261113_142353).csv",
+        "slate_callback_fps": 47.72933267811884,
+        "slate_callback_ms": 20.95147666831811
+      }
+    },
+    {
+      "name": "edge",
+      "before": {
+        "name": "edge",
+        "frames": 300,
+        "average_fps": 30.581420364736775,
+        "frame_ms": 32.699593023255815,
+        "wall_seconds": 9.844000000040978,
+        "viewport_size": [
+          1014,
+          550
+        ],
+        "csv_metrics": {
+          "FrameTime": 32.699593023255815,
+          "GameThreadTime": 9.424026245847177,
+          "RenderThreadTime": 0.0017970099667774086,
+          "GPUTime": 35.84205282392026,
+          "GPUMem/LocalUsedMB": 3376.326131456954,
+          "TransientMemoryUsedMB": 474.578073089701
+        },
+        "csv_file": "csv_before/Profile(20261113_135943).csv",
+        "slate_callback_fps": 50.62368894255333,
+        "slate_callback_ms": 19.753597987194855
+      },
+      "after": {
+        "name": "edge",
+        "frames": 300,
+        "average_fps": 45.7082760847299,
+        "frame_ms": 21.877876079734218,
+        "wall_seconds": 6.578999999910593,
+        "viewport_size": [
+          1014,
+          550
+        ],
+        "csv_metrics": {
+          "FrameTime": 21.877876079734218,
+          "GameThreadTime": 9.37231661129568,
+          "RenderThreadTime": 0.0018903654485049833,
+          "GPUTime": 22.40639634551495,
+          "GPUMem/LocalUsedMB": 3434.06055397351,
+          "TransientMemoryUsedMB": 479.6810631229236
+        },
+        "csv_file": "csv_after/Profile(20261113_142401).csv",
+        "slate_callback_fps": 53.556036116333,
+        "slate_callback_ms": 18.67203162362178
+      }
+    }
+  ]
+}

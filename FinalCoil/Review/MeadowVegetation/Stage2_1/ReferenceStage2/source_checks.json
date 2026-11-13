@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "checks": [
+    "identical seed reproduces every transform, variant and metadata value",
+    "local group rebuild does not shift its stream",
+    "authorised area exactly 50 x 50 metres",
+    "all five groups nonempty",
+    "Low subset Medium subset High",
+    "all roots within bounded area",
+    "all retained points pass zone/exclusion/density metadata",
+    "minimum distances respected",
+    "positions independent of 400 cm diagnostic lattice",
+    "height and orientation variation",
+    "roots follow exact terrain triangles within 0.001 cm, buried 0.5 cm",
+    "boundary density fades continuously to zero",
+    "group disabling supported",
+    "18 original variants including three identifiable herb species"
+  ],
+  "maximum_root_height_error_cm": 5.0682548547342776e-05,
+  "seconds": 30.483844000147656,
+  "quality_counts": {
+    "Low": {
+      "short": 7241,
+      "medium": 6336,
+      "tall": 366,
+      "herbs": 280,
+      "dry": 92
+    },
+    "Medium": {
+      "short": 13032,
+      "medium": 11572,
+      "tall": 649,
+      "herbs": 520,
+      "dry": 140
+    },
+    "High": {
+      "short": 17576,
+      "medium": 15642,
+      "tall": 900,
+      "herbs": 685,
+      "dry": 187
+    }
+  }
+}

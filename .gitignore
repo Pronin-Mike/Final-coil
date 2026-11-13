@@ -13,6 +13,8 @@ obsidian-doc.7z
 *.VC.db
 **/__pycache__/
 *.py[cod]
+*.blend1
+*.blend2
 # Per-computer Obsidian layout and credential prompts
 **/.obsidian/workspace*.json
 **/.obsidian/cache/
@@ -24,3 +26,6 @@ obsidian-doc.7z
 *.pem
 *.pfx
 *.key
+
+# Generated diagnostic logs; retain structured Review reports instead
+FinalCoil/Review/**/*.log

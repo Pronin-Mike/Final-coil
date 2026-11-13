@@ -1,0 +1,37 @@
+{
+  "technical": {
+    "pcg_structure": true,
+    "deterministic_instances_and_seeds": true,
+    "local_rebuild": true,
+    "no_duplicates": true,
+    "exclusion_masks": true,
+    "original_world_preserved": true,
+    "collision_disabled": true,
+    "wind_control": true,
+    "quality_presets": true,
+    "character_movement": true,
+    "map_check": true,
+    "old_zone_checks": true,
+    "benchmarks": true,
+    "real_screenshots": true,
+    "documentation": true
+  },
+  "artistic": {
+    "ground_gaps": "improved, acceptance open",
+    "visible_lower_tier": "passed",
+    "main_grass_silhouettes": "partial",
+    "distinct_groups": "partial",
+    "natural_palette": "partial",
+    "tall_clusters": "passed",
+    "moderate_flowers": "passed",
+    "dry_not_dominant": "passed",
+    "nonflat_models": "open: angular edges and flat broad leaves",
+    "soil_integration": "partial",
+    "near_far_continuity": "open: limited horizon volume",
+    "no_distribution_grid": "passed within bounded new generation",
+    "continuous_lod_popping": "open: discrete sequence captured, long continuous pass still needed",
+    "realism_at_2_3m": "open",
+    "no_instance_count_increase": "passed"
+  },
+  "fully_complete": false
+}

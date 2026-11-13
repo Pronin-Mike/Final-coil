@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "before": {
+    "sha256": "1d6aba16e1c50d2bde05c012e4c5cfe7802de346b501d8dd219f79f64a8ea763",
+    "components": 18,
+    "instances": 25913
+  },
+  "after": {
+    "sha256": "1d6aba16e1c50d2bde05c012e4c5cfe7802de346b501d8dd219f79f64a8ea763",
+    "components": 18,
+    "instances": 25913
+  },
+  "local_pcg_wall_seconds": 0.07382069993764162,
+  "duplicate_components": false
+}

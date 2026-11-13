@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "ecology_source_reproduced": true,
+  "ecology_sha256": "2cdc362db57a68b2f455750ccaf7ca5a85664c14fb1b3321897e85d76e3746d3",
+  "reference_sources_sealed": [
+    "SM_Meadow_dry_00",
+    "SM_Meadow_dry_01",
+    "SM_Meadow_dry_02",
+    "SM_Meadow_herbs_00",
+    "SM_Meadow_herbs_01",
+    "SM_Meadow_herbs_02",
+    "SM_Meadow_herbs_03",
+    "SM_Meadow_herbs_04",
+    "SM_Meadow_herbs_05",
+    "SM_Meadow_medium_00",
+    "SM_Meadow_medium_01",
+    "SM_Meadow_medium_02",
+    "SM_Meadow_short_00",
+    "SM_Meadow_short_01",
+    "SM_Meadow_short_02",
+    "SM_Meadow_tall_00",
+    "SM_Meadow_tall_01",
+    "SM_Meadow_tall_02"
+  ],
+  "editor_fps_limit_restored": 0
+}

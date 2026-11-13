@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "diagnostic_points": 8116,
+  "dense_meadow_points": 34990,
+  "exclusion_violations": 0,
+  "terrain_ray_samples": 25,
+  "maximum_terrain_trace_error_cm": 4.486254630364783e-05,
+  "wind_parameter_off_and_restore": true,
+  "wind_restored": 1.0,
+  "menu_registered": true,
+  "pcg_generation_trigger": "<PCGComponentGenerationTrigger.GENERATE_ON_DEMAND: 1>"
+}

@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "seed": 4122026,
+  "bounds_cm": [
+    15500,
+    27500,
+    20500,
+    32500
+  ],
+  "edge_fade_cm": 650,
+  "quality": "Medium",
+  "density": 1.0,
+  "height_scale": 1.0,
+  "width_scale": 1.0,
+  "cluster_scale": 1.0,
+  "wind_strength": 1.0,
+  "presets": {
+    "Low": {
+      "density": 0.55,
+      "cull_start_cm": 1800,
+      "cull_end_cm": 3200,
+      "wind": 0.35,
+      "lod_scale": 0.65
+    },
+    "Medium": {
+      "density": 1.0,
+      "cull_start_cm": 3000,
+      "cull_end_cm": 5000,
+      "wind": 0.7,
+      "lod_scale": 1.0
+    },
+    "High": {
+      "density": 1.35,
+      "cull_start_cm": 4000,
+      "cull_end_cm": 6500,
+      "wind": 1.0,
+      "lod_scale": 1.25
+    }
+  },
+  "groups": {
+    "short": {
+      "enabled": true,
+      "density_m2": 24,
+      "height_cm": [
+        6,
+        15
+      ],
+      "min_distance_cm": 9,
+      "cluster_cm": 420,
+      "variants": 3,
+      "wind_cm": 0.35
+    },
+    "medium": {
+      "enabled": true,
+      "density_m2": 13,
+      "height_cm": [
+        18,
+        39
+      ],
+      "min_distance_cm": 11,
+      "cluster_cm": 650,
+      "variants": 3,
+      "wind_cm": 1.5
+    },
+    "tall": {
+      "enabled": true,
+      "density_m2": 2.1,
+      "height_cm": [
+        48,
+        86
+      ],
+      "min_distance_cm": 24,
+      "cluster_cm": 850,
+      "variants": 3,
+      "wind_cm": 3.5
+    },
+    "herbs": {
+      "enabled": true,
+      "density_m2": 1.1,
+      "height_cm": [
+        12,
+        42
+      ],
+      "min_distance_cm": 28,
+      "cluster_cm": 340,
+      "variants": 6,
+      "wind_cm": 1.0
+    },
+    "dry": {
+      "enabled": true,
+      "density_m2": 1.2,
+      "height_cm": [
+        20,
+        56
+      ],
+      "min_distance_cm": 22,
+      "cluster_cm": 520,
+      "variants": 3,
+      "wind_cm": 2.0
+    }
+  },
+  "art_stage": "2.1",
+  "ground_strength": 0.85,
+  "ground_tile_cm": 120,
+  "geometry_lods": [
+    {
+      "fraction": 1.0,
+      "screen_size": 1.0
+    },
+    {
+      "fraction": 0.28,
+      "screen_size": 0.018
+    }
+  ]
+}

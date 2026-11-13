@@ -1,0 +1,171 @@
+{
+  "original_actors": 949,
+  "changed_original_objects": [],
+  "protected_file_changes": [],
+  "components": [
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_medium_00_6",
+      "mesh": "SM_Meadow_medium_00",
+      "count": 3884,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_medium_02_6",
+      "mesh": "SM_Meadow_medium_02",
+      "count": 3889,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_medium_01_6",
+      "mesh": "SM_Meadow_medium_01",
+      "count": 3799,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_short_01_6",
+      "mesh": "SM_Meadow_short_01",
+      "count": 4300,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_short_00_6",
+      "mesh": "SM_Meadow_short_00",
+      "count": 4339,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_short_02_6",
+      "mesh": "SM_Meadow_short_02",
+      "count": 4393,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_dry_00_6",
+      "mesh": "SM_Meadow_dry_00",
+      "count": 55,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_dry_01_6",
+      "mesh": "SM_Meadow_dry_01",
+      "count": 40,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_dry_02_6",
+      "mesh": "SM_Meadow_dry_02",
+      "count": 45,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_herbs_00_6",
+      "mesh": "SM_Meadow_herbs_00",
+      "count": 84,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_herbs_05_6",
+      "mesh": "SM_Meadow_herbs_05",
+      "count": 95,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_herbs_02_6",
+      "mesh": "SM_Meadow_herbs_02",
+      "count": 97,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_herbs_01_6",
+      "mesh": "SM_Meadow_herbs_01",
+      "count": 82,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_herbs_04_6",
+      "mesh": "SM_Meadow_herbs_04",
+      "count": 90,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_herbs_03_6",
+      "mesh": "SM_Meadow_herbs_03",
+      "count": 72,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_tall_00_6",
+      "mesh": "SM_Meadow_tall_00",
+      "count": 201,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_tall_01_6",
+      "mesh": "SM_Meadow_tall_01",
+      "count": 214,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    },
+    {
+      "actor": "MEADOW_Output",
+      "component": "HISM_SM_Meadow_tall_02_6",
+      "mesh": "SM_Meadow_tall_02",
+      "count": 234,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "cull_end": 5000
+    }
+  ],
+  "total_instances": 25913,
+  "output_actor_name": "Actor_75"
+}

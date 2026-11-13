@@ -1,0 +1,170 @@
+{
+  "status": "passed",
+  "components": [
+    {
+      "component": "HISM_SM_Meadow_medium_00_5",
+      "instances": 5265,
+      "lod_triangles": [
+        288,
+        81
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_medium_02_5",
+      "instances": 5237,
+      "lod_triangles": [
+        288,
+        81
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_medium_01_5",
+      "instances": 5140,
+      "lod_triangles": [
+        252,
+        71
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_short_01_5",
+      "instances": 5823,
+      "lod_triangles": [
+        144,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_short_00_5",
+      "instances": 5856,
+      "lod_triangles": [
+        152,
+        63
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_short_02_5",
+      "instances": 5897,
+      "lod_triangles": [
+        160,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_dry_00_5",
+      "instances": 73,
+      "lod_triangles": [
+        80,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_dry_01_5",
+      "instances": 53,
+      "lod_triangles": [
+        80,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_dry_02_5",
+      "instances": 61,
+      "lod_triangles": [
+        80,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_herbs_00_5",
+      "instances": 108,
+      "lod_triangles": [
+        200,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_herbs_03_5",
+      "instances": 95,
+      "lod_triangles": [
+        308,
+        87
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_herbs_05_5",
+      "instances": 122,
+      "lod_triangles": [
+        140,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_herbs_02_5",
+      "instances": 126,
+      "lod_triangles": [
+        308,
+        87
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_herbs_01_5",
+      "instances": 109,
+      "lod_triangles": [
+        200,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_herbs_04_5",
+      "instances": 125,
+      "lod_triangles": [
+        140,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_tall_02_5",
+      "instances": 323,
+      "lod_triangles": [
+        160,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_tall_00_5",
+      "instances": 289,
+      "lod_triangles": [
+        120,
+        64
+      ],
+      "materials": 1
+    },
+    {
+      "component": "HISM_SM_Meadow_tall_01_5",
+      "instances": 288,
+      "lod_triangles": [
+        280,
+        78
+      ],
+      "materials": 1
+    }
+  ],
+  "one_output_actor": true,
+  "one_local_ground_decal": true,
+  "compiled_materials": true
+}

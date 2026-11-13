@@ -1,0 +1,185 @@
+{
+  "seconds": 3.916331799933687,
+  "cells": {
+    "stop": {
+      "changed": true,
+      "sha256": "a9f00aeb8734e789a195330417e21e8d11654fcf53eb1160f0d45a03e265b260",
+      "points": 1024,
+      "counts": {
+        "Z01": 44,
+        "Z02": 29,
+        "Z03": 209,
+        "Z04": 742,
+        "Z05": 0,
+        "Z06": 0,
+        "Z07": 0,
+        "Z08": 0,
+        "Z09": 0,
+        "Z10": 0
+      },
+      "excluded": 105
+    },
+    "occupied_H04": {
+      "changed": true,
+      "sha256": "90fe038585b74891fccf468d4b3ae6e9a4cde13123b90f9ffe0217169c094d27",
+      "points": 1024,
+      "counts": {
+        "Z01": 83,
+        "Z02": 52,
+        "Z03": 276,
+        "Z04": 589,
+        "Z05": 24,
+        "Z06": 0,
+        "Z07": 0,
+        "Z08": 0,
+        "Z09": 0,
+        "Z10": 0
+      },
+      "excluded": 125
+    },
+    "abandoned_E02": {
+      "changed": true,
+      "sha256": "2c15321b17faad67bb157e6eab19b4fb51f574da13032e611de25aca4b638e6f",
+      "points": 1024,
+      "counts": {
+        "Z01": 79,
+        "Z02": 55,
+        "Z03": 6,
+        "Z04": 615,
+        "Z05": 269,
+        "Z06": 0,
+        "Z07": 0,
+        "Z08": 0,
+        "Z09": 0,
+        "Z10": 0
+      },
+      "excluded": 116
+    },
+    "meadow": {
+      "changed": true,
+      "sha256": "102a5345914ecc596b7ca60f7281e11a2f2a55704f2c986fda9e60642d00b0c7",
+      "points": 1024,
+      "counts": {
+        "Z01": 0,
+        "Z02": 0,
+        "Z03": 0,
+        "Z04": 1024,
+        "Z05": 0,
+        "Z06": 0,
+        "Z07": 0,
+        "Z08": 0,
+        "Z09": 0,
+        "Z10": 0
+      },
+      "excluded": 0
+    },
+    "forest_edge": {
+      "changed": true,
+      "sha256": "09764ec8725c60afa72b2683ced801049bfe5402aa84cf58eedd6074f43dc564",
+      "points": 992,
+      "counts": {
+        "Z01": 0,
+        "Z02": 0,
+        "Z03": 9,
+        "Z04": 680,
+        "Z05": 0,
+        "Z06": 162,
+        "Z07": 141,
+        "Z08": 0,
+        "Z09": 0,
+        "Z10": 0
+      },
+      "excluded": 0
+    },
+    "old_bor": {
+      "changed": true,
+      "sha256": "47d39091acdd38f9a1fe79db40632619f2fbbb7eefd2c3cb775dbabe7914dcdd",
+      "points": 1024,
+      "counts": {
+        "Z01": 0,
+        "Z02": 0,
+        "Z03": 0,
+        "Z04": 0,
+        "Z05": 0,
+        "Z06": 0,
+        "Z07": 0,
+        "Z08": 1024,
+        "Z09": 0,
+        "Z10": 0
+      },
+      "excluded": 0
+    },
+    "shore": {
+      "changed": true,
+      "sha256": "e4563c4d5106e64ee3c82057b396a723ee19aaa4f028e5f4d6cd3f376ffd8c54",
+      "points": 992,
+      "counts": {
+        "Z01": 0,
+        "Z02": 0,
+        "Z03": 17,
+        "Z04": 800,
+        "Z05": 0,
+        "Z06": 0,
+        "Z07": 0,
+        "Z08": 0,
+        "Z09": 0,
+        "Z10": 175
+      },
+      "excluded": 323
+    },
+    "wetland": {
+      "changed": true,
+      "sha256": "617b82010fcc78d8157ab5ae2896a498b2f6265a22498b3a2232583ad1d9e127",
+      "points": 992,
+      "counts": {
+        "Z01": 0,
+        "Z02": 1,
+        "Z03": 0,
+        "Z04": 258,
+        "Z05": 0,
+        "Z06": 154,
+        "Z07": 447,
+        "Z08": 0,
+        "Z09": 58,
+        "Z10": 74
+      },
+      "excluded": 34
+    },
+    "G01": {
+      "changed": true,
+      "sha256": "56ea3606506f36f0e88615c3a075d7f2fa8ed1da656a2dec4d66c969e2c1a3c4",
+      "points": 961,
+      "counts": {
+        "Z01": 49,
+        "Z02": 49,
+        "Z03": 216,
+        "Z04": 15,
+        "Z05": 0,
+        "Z06": 204,
+        "Z07": 428,
+        "Z08": 0,
+        "Z09": 0,
+        "Z10": 0
+      },
+      "excluded": 126
+    },
+    "world_overview": {
+      "changed": true,
+      "sha256": "cb5c1c05410549a8a8a6df8913f127e115ec1561d93781fe83d60d3a62c7cc7d",
+      "points": 2739,
+      "counts": {
+        "Z01": 27,
+        "Z02": 6,
+        "Z03": 5,
+        "Z04": 2061,
+        "Z05": 2,
+        "Z06": 72,
+        "Z07": 210,
+        "Z08": 335,
+        "Z09": 0,
+        "Z10": 21
+      },
+      "excluded": 322
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "index": 15,
+  "frames": 0,
+  "started": 1686301.468,
+  "views": [
+    {
+      "name": "after_sweep_00m",
+      "camera": [
+        17480.3532001296,
+        30200.763946246214,
+        273.0403747351642
+      ],
+      "eye_height_cm": 167.40859336830857,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_02m",
+      "camera": [
+        17480.3532001296,
+        30000.763946246214,
+        272.60402824298365
+      ],
+      "eye_height_cm": 167.3977984945123,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_05m",
+      "camera": [
+        17480.3532001296,
+        29700.763946246214,
+        272.2769464621449
+      ],
+      "eye_height_cm": 167.3750259312783,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_10m",
+      "camera": [
+        17480.3532001296,
+        29200.763946246214,
+        272.56333278997084
+      ],
+      "eye_height_cm": 167.3508379243691,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_15m",
+      "camera": [
+        17480.3532001296,
+        28700.763946246214,
+        274.03857662471853
+      ],
+      "eye_height_cm": 167.31235083122257,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_20m",
+      "camera": [
+        17480.3532001296,
+        28200.763946246214,
+        276.6998801962051
+      ],
+      "eye_height_cm": 167.28552875355007,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_25m",
+      "camera": [
+        17480.3532001296,
+        27700.763946246214,
+        280.65237705454444
+      ],
+      "eye_height_cm": 167.24406019965224,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_30m",
+      "camera": [
+        17480.3532001296,
+        27200.763946246214,
+        285.87017419412086
+      ],
+      "eye_height_cm": 167.21586542017258,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_35m",
+      "camera": [
+        17480.3532001296,
+        26700.763946246214,
+        292.4243237087328
+      ],
+      "eye_height_cm": 167.17315567292212,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_40m",
+      "camera": [
+        17480.3532001296,
+        26200.763946246214,
+        300.27475697079797
+      ],
+      "eye_height_cm": 167.144592859686,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_45m",
+      "camera": [
+        17480.3532001296,
+        25700.763946246214,
+        309.46500046073027
+      ],
+      "eye_height_cm": 167.10184302043737,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_50m",
+      "camera": [
+        17480.3532001296,
+        25200.763946246214,
+        319.9520452153424
+      ],
+      "eye_height_cm": 167.0734823097223,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_55m",
+      "camera": [
+        17480.3532001296,
+        24700.763946246214,
+        331.7626781277633
+      ],
+      "eye_height_cm": 167.03118830982353,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_60m",
+      "camera": [
+        17480.3532001296,
+        24200.763946246214,
+        344.8610293487178
+      ],
+      "eye_height_cm": 167.00313367133094,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "after_sweep_65m",
+      "camera": [
+        17480.3532001296,
+        23700.763946246214,
+        359.26806209348115
+      ],
+      "eye_height_cm": 166.96116987088985,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    }
+  ],
+  "status": "passed"
+}

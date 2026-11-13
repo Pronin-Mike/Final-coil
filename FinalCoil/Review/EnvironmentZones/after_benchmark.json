@@ -1,0 +1,136 @@
+{
+  "phase": "after",
+  "status": "passed",
+  "views": [
+    {
+      "name": "stop",
+      "frames": 300,
+      "average_fps": 30.562565033026154,
+      "frame_ms": 32.71976677740864,
+      "wall_seconds": 9.812999999849126,
+      "viewport_size": [
+        1014,
+        550
+      ],
+      "csv_metrics": {
+        "FrameTime": 32.71976677740864,
+        "GameThreadTime": 14.280954485049834,
+        "RenderThreadTime": 0.0003418604651162791,
+        "GPUTime": 26.033501993355483,
+        "GPUMem/LocalUsedMB": 4335.759467441861,
+        "TransientMemoryUsedMB": 506.89700996677743
+      },
+      "csv_file": "csv_after/Profile(20261113_142308).csv",
+      "slate_callback_fps": 34.29566792915746,
+      "slate_callback_ms": 29.158201615015663
+    },
+    {
+      "name": "occupied",
+      "frames": 300,
+      "average_fps": 22.152796714779992,
+      "frame_ms": 45.14102724252491,
+      "wall_seconds": 13.594000000040978,
+      "viewport_size": [
+        1014,
+        550
+      ],
+      "csv_metrics": {
+        "FrameTime": 45.14102724252491,
+        "GameThreadTime": 15.213601993355482,
+        "RenderThreadTime": 0.0003521594684385382,
+        "GPUTime": 39.14501893687708,
+        "GPUMem/LocalUsedMB": 4520.466303986711,
+        "TransientMemoryUsedMB": 510.5166225165563
+      },
+      "csv_file": "csv_after/Profile(20261113_142321).csv",
+      "slate_callback_fps": 25.461586118536236,
+      "slate_callback_ms": 39.274850959579155
+    },
+    {
+      "name": "abandoned",
+      "frames": 300,
+      "average_fps": 41.54974244750263,
+      "frame_ms": 24.06753787375415,
+      "wall_seconds": 7.25,
+      "viewport_size": [
+        1014,
+        550
+      ],
+      "csv_metrics": {
+        "FrameTime": 24.06753787375415,
+        "GameThreadTime": 9.774761794019934,
+        "RenderThreadTime": 0.0021777408637873755,
+        "GPUTime": 23.427026245847177,
+        "GPUMem/LocalUsedMB": 3618.862911627907,
+        "TransientMemoryUsedMB": 510.3046357615894
+      },
+      "csv_file": "csv_after/Profile(20261113_142343).csv",
+      "slate_callback_fps": 41.536281383585795,
+      "slate_callback_ms": 24.075337673226993
+    },
+    {
+      "name": "meadow",
+      "frames": 300,
+      "average_fps": 47.75899333181319,
+      "frame_ms": 20.938464784053156,
+      "wall_seconds": 6.313000000081956,
+      "viewport_size": [
+        1014,
+        550
+      ],
+      "csv_metrics": {
+        "FrameTime": 20.938464784053156,
+        "GameThreadTime": 8.456454817275748,
+        "RenderThreadTime": 0.002063455149501661,
+        "GPUTime": 20.323379401993357,
+        "GPUMem/LocalUsedMB": 3610.4414,
+        "TransientMemoryUsedMB": 512.0
+      },
+      "csv_file": "csv_after/Profile(20261113_142353).csv",
+      "slate_callback_fps": 47.72933267811884,
+      "slate_callback_ms": 20.95147666831811
+    },
+    {
+      "name": "edge",
+      "frames": 300,
+      "average_fps": 45.7082760847299,
+      "frame_ms": 21.877876079734218,
+      "wall_seconds": 6.578999999910593,
+      "viewport_size": [
+        1014,
+        550
+      ],
+      "csv_metrics": {
+        "FrameTime": 21.877876079734218,
+        "GameThreadTime": 9.37231661129568,
+        "RenderThreadTime": 0.0018903654485049833,
+        "GPUTime": 22.40639634551495,
+        "GPUMem/LocalUsedMB": 3434.06055397351,
+        "TransientMemoryUsedMB": 479.6810631229236
+      },
+      "csv_file": "csv_after/Profile(20261113_142401).csv",
+      "slate_callback_fps": 53.556036116333,
+      "slate_callback_ms": 18.67203162362178
+    }
+  ],
+  "original_scene_unchanged": true,
+  "changed_original_actors": [],
+  "surface_collision_validation": {
+    "samples": 52,
+    "max_error_cm": 9.556783561492921e-05,
+    "minimum_normal_dot": 0.9999908902499595
+  },
+  "actors": 949,
+  "static_mesh_components": 870,
+  "instances": 298407,
+  "pcg_validation": {
+    "points": 8116,
+    "exclusion_violations": 0
+  },
+  "measurement_notes": [
+    "FrameTime and FPS use engine CSV, not Slate callback dt.",
+    "PIE embedded viewport actual size 1014x550; 1920x1080 launch arguments do not force embedded viewport size.",
+    "RenderThreadTime samples near zero are not a credible full render-thread measurement; use Unreal Insights.",
+    "Exploratory run: main editor was open and caches differed; do not infer optimization from before/after differences."
+  ]
+}

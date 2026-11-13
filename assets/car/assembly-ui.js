@@ -34,7 +34,7 @@ function cardHtml(p){
  '<div class="fa-cardfields">'+cardField("К чему крепится",e(p.mount)+(p.parent?'<div>'+linkP(p.parent)+'</div>':""))+cardField("Способ крепления",e(p.fastener.type))+
  cardField("Болты / размер резьбы",e(p.fastener.size)+'<div class="fa-quiet">'+e(p.fastener.quantity)+'</div><div class="fa-quiet">'+source+'</div>')+
  cardField("Условия установки",before)+cardField("Что она блокирует",outgoing)+cardField("Что снять для доступа",access)+cardField("Игровая логика",e(p.rule))+'</div>'+
- '<div class="fa-source-note">'+e(p.sourceLevel)+(p.notes.length?'<p>'+p.notes.map(e).join(" ")+'</p>':"")+'</div></div></details>';
+ '<div class="fa-source-note">'+e(p.sourceLevel)+(p.notes.length?'<p>'+p.notes.map(e).join(" ")+'</p>':"")+'</div>'+(p.fixationMode?'<div class="fa-mount-reference"><strong>Три опоры силового агрегата:</strong> помимо передней балки есть задняя поперечина и подушка. <a href="#/moskvich-assembly">Проверить полную фиксацию на схеме</a>. Подушки и кронштейны можно подготовить на двигателе заранее.</div>':'')+'</div></details>';
  return row;
 }
 function drawCardList(){
@@ -61,9 +61,50 @@ function initCards(){
 }
 function openCard(id){var p=byId[id];if(!p)return;cardState.q="";cardState.category=p.category;cardState.status="all";cardState.page=0;cardState.expanded=id;var arr=filteredCards();cardState.page=Math.floor(Math.max(0,arr.findIndex(function(n){return n.id===id}))/cardPageSize);if(location.hash!=="#/moskvich-parts")location.hash="#/moskvich-parts";else{var q=document.getElementById("fa-q"),cat=document.getElementById("fa-cat"),status=document.getElementById("fa-status");if(q)q.value="";if(cat)cat.value=cardState.category;if(status)status.value="all";drawCardList();var el=document.getElementById("fa-card-"+id);if(el){el.open=true;el.scrollIntoView({block:"nearest"})}}}
 var graphState={mode:"overview",focus:null,q:"",scale:1};
+
+/* Три опоры силового агрегата: предметная рабочая схема, не полная заводская норма. */
+var mountState={frontBeam:false,left:false,right:false,rearBeam:false,rear:false,fixed:false};
+function mountModel(){return data.engineMounts}
+function mountReference(){var m=mountModel();if(!m)return "";return '<div class="fa-mount-reference"><strong>Источник конфигурации:</strong> '+a(m.source,"каталог ИЖ-412, чертёж №50 (1995)")+'<div class="fa-quiet">'+e(m.validity)+'</div></div>'}
+function mountHtml(){
+ var m=mountModel();if(!m)return "";
+ var defs='<defs><marker id="fa-mount-arrow" viewBox="0 0 9 9" refX="8" refY="4.5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#95bf8e"/></marker></defs>';
+ var svg='<svg viewBox="0 0 850 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема трёх опор силового агрегата: две передние и задняя">'+defs+
+ '<rect x="268" y="88" width="310" height="58" rx="11" fill="#35523a" stroke="#89b786" stroke-width="2"/><text x="423" y="113" fill="#eaf3e7" text-anchor="middle" font-size="15" font-weight="700">Силовой агрегат</text><text x="423" y="133" fill="#c4d6bb" text-anchor="middle" font-size="12">двигатель + сцепление + КПП</text>'+
+ '<path d="M 268 110 L 211 60" stroke="#8ab68b" stroke-width="3"/><path d="M 578 110 L 637 60" stroke="#8ab68b" stroke-width="3"/><path d="M 423 146 L 423 184" stroke="#8ab68b" stroke-width="3"/>'+
+ '<rect x="42" y="23" width="220" height="52" rx="9" fill="#273b2c" stroke="#617b63"/><text x="152" y="44" text-anchor="middle" fill="#e5eedf" font-size="13">Левая передняя опора</text><text x="152" y="61" text-anchor="middle" fill="#b4cbac" font-size="11">412-1001200-Б</text>'+
+ '<rect x="592" y="23" width="220" height="52" rx="9" fill="#273b2c" stroke="#617b63"/><text x="702" y="44" text-anchor="middle" fill="#e5eedf" font-size="13">Правая передняя опора</text><text x="702" y="61" text-anchor="middle" fill="#b4cbac" font-size="11">412-1001020</text>'+
+ '<rect x="290" y="184" width="266" height="42" rx="9" fill="#273b2c" stroke="#617b63"/><text x="423" y="201" text-anchor="middle" fill="#e5eedf" font-size="13">Задняя опора</text><text x="423" y="217" text-anchor="middle" fill="#b4cbac" font-size="11">408Ю-1001050-Б</text></svg>';
+ var checks=m.steps.map(function(item){return '<label class="fa-mount-step"><input type="checkbox" data-mount-check="'+e(item.id)+'"'+(mountState[item.id]?' checked':'')+'><span><strong>'+e(item.label)+'</strong><small>'+e(item.detail)+'</small></span></label>'}).join("");
+ var rows=m.hardware.map(function(f){return '<tr><td><strong>'+e(f.code)+'</strong></td><td>'+e(f.position)+'</td><td>'+e(f.thread)+'</td><td>'+e(f.quantity)+'</td><td><small>'+e(f.status)+'</small><div>'+a(f.catalogSource,"Каталог")+(f.dimensionSource?' · '+a(f.dimensionSource,"Размер"):'')+'</div></td></tr>'}).join("");
+ var groups=m.mounts.map(function(s){return '<div class="fa-mount-subcard"><h4>'+e(s.label)+'</h4><p>'+e(s.anchor)+'</p><ul>'+s.elements.map(function(x){return '<li>'+e(x[1])+' <code>'+e(x[0])+'</code> · '+e(x[2])+' шт.</li>'}).join("")+'</ul></div>'}).join("");
+ return '<section class="fa-mount-section" id="engine-mount-check"><h2>Проверка установки силового агрегата: три опоры</h2>'+
+ '<p class="fa-quiet">Развиваем реальную конструкцию. На схеме две передние опоры и одна задняя; поперечину задней опоры не включаем автоматически в основной каталог из 473 позиций.</p>'+
+ '<div class="fa-mount-svg">'+svg+'</div><div class="fa-mount-cards">'+groups+'</div>'+
+ '<h3>Проверь, что готово для окончательной фиксации</h3><div class="fa-mount-checks">'+checks+'</div><div class="fa-mount-result" id="fa-mount-result" role="status" aria-live="polite"></div>'+
+ '<div class="fa-quiet">Это <strong>демонстрация проектного правила</strong>, а не внедрённая механика UE5. Силовой агрегат можно позиционировать талью до закрепления на всех трёх опорах.</div>'+
+ '<h3>Реестр крепежа этого узла</h3><div class="fa-mount-tablewrap"><table class="fa-mount-table"><thead><tr><th>Номер</th><th>Применение</th><th>Резьба / размер</th><th>Количество</th><th>Уровень проверки</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
+ mountReference()+'<p class="fa-quiet">Принадлежность крепежа к каталогу 1995 года и совпадение номенклатурного номера с болтом определённого размера ещё не доказывают взаимозаменяемость с каждой машиной 1985 года.</p></section>';
+}
+function drawMountResult(){
+ var m=mountModel(),el=document.getElementById("fa-mount-result");if(!m||!el)return;
+ var missing=m.steps.filter(function(s){return !mountState[s.id]});
+ var supportsReady=m.steps.filter(function(s){return s.id!=="fixed"}).every(function(s){return mountState[s.id]});
+ var done=missing.length===0;
+ el.className="fa-mount-result"+(done?" completed":"");
+ el.innerHTML=done?'<strong>Агрегат окончательно закреплён (по проектной проверке).</strong><div>Все три опоры и завершающая затяжка отмечены.</div>':
+ supportsReady?'<strong>Три опоры подготовлены. Осталось проверить затяжку крепежа.</strong>':
+ '<strong>Закрепление не завершено.</strong><div>Не выполнено: '+missing.map(function(s){return e(s.label)}).join("; ")+'.</div>';
+}
+function initMountChecks(){
+ var section=document.getElementById("engine-mount-check");if(!section)return;
+ section.addEventListener("change",function(ev){var t=ev.target;if(!t||!t.dataset||!t.dataset.mountCheck)return;mountState[t.dataset.mountCheck]=!!t.checked;drawMountResult()});
+ drawMountResult();
+}
+
 function graphHtml(){return '<a class="crumb-link" href="#/moskvich-412">← К каталогу деталей</a><div class="eyebrow">ИЖ-412ИЭ-028 · 1985 / ЭТАП 2</div><h1>Схема порядка установки</h1><p class="intro">Посмотри весь автомобиль по 13 системам, переключись на полную схему из '+parts.length+' узлов или выбери конкретную деталь, чтобы увидеть, что её блокирует и что зависит от неё.</p>'+basicLinks()+measures()+
 '<div class="note"><strong>Три разных типа связи:</strong> сплошная стрелка — подтверждённая последовательность, пунктир — проектное условие для реализации, синяя линия — место крепления (не является запретом сборки). Логика доступа при разборке показана отдельно. У всех систем может быть несколько допустимых последовательностей монтажа.</div>'+
-'<div class="fa-tabs" id="fa-tabs"><button type="button" data-mode="overview">Обзор систем</button><button type="button" data-mode="full">Все '+parts.length+' узла</button><button type="button" data-mode="focus">Связи детали</button></div>'+
+'<div class="fa-mount-wrapper">'+mountHtml()+'</div>'+'<div class="fa-tabs" id="fa-tabs"><button type="button" data-mode="overview">Обзор систем</button><button type="button" data-mode="full">Все '+parts.length+' узла</button><button type="button" data-mode="focus">Связи детали</button></div>'+
 '<div class="fa-graph-grid"><aside class="fa-explorer"><h3>Найти деталь</h3><input id="fa-gq" class="fa-control" type="search" placeholder="Поиск по имени или ID"><div class="fa-quiet">Любая из '+parts.length+' карточек доступна для просмотра зависимостей.</div><div id="fa-gresults" class="fa-results"></div></aside>'+
 '<div class="fa-graph-panel"><div class="fa-graph-topbar"><strong id="fa-graph-title">Схема</strong><span><button id="fa-zoom-out" type="button">−</button> <button id="fa-zoom-in" type="button">+</button> <button id="fa-zoom-reset" type="button">100%</button></span></div>'+
 '<div id="fa-graph-scroll" class="fa-graph-scroll"></div><div class="fa-graph-legend"><span><i class="fa-dot"></i>По источнику</span><span><i class="fa-dot design"></i>Проектная зависимость</span><span><i class="fa-dot mount"></i>Место крепления</span><span><i class="fa-dot access"></i>Доступ при снятии</span></div><div id="fa-graph-info" class="fa-focused-info"></div></div></div>'+
@@ -131,7 +172,7 @@ function initGraph(){
  document.getElementById("fa-zoom-in").addEventListener("click",function(){graphState.scale=Math.min(2.2,graphState.scale+.2);drawGraph()});
  document.getElementById("fa-zoom-out").addEventListener("click",function(){graphState.scale=Math.max(.55,graphState.scale-.2);drawGraph()});
  document.getElementById("fa-zoom-reset").addEventListener("click",function(){graphState.scale=1;drawGraph()});
- drawGraph();drawResults();
+ initMountChecks();drawGraph();drawResults();
 }
 window.FCAssembly={cardsHtml:cardsHtml,initCards:initCards,graphHtml:graphHtml,initGraph:initGraph,openCard:openCard,getId:function(category,section,name){return byIdentity[category+"|"+section+"|"+name]||""},parts:parts,byId:byId};
 })();
