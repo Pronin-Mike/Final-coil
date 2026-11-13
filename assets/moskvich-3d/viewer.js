@@ -239,7 +239,7 @@ renderer.domElement.addEventListener('pointerup',e=>{
  const box=renderer.domElement.getBoundingClientRect();pointer.x=((e.clientX-box.left)/box.width)*2-1;pointer.y=-((e.clientY-box.top)/box.height)*2+1;ray.setFromCamera(pointer,camera);
  const hits=ray.intersectObjects(root.children,true);const first=hits.find(h=>h.object.userData.partId);if(!first)return;
  const id=first.object.userData.partId,name=first.object.userData.partName,category=first.object.userData.category;
- const candidate=lookup.find(i=>i.category===category&&i.name.toLowerCase()===name.toLowerCase()) ||lookup.find(i=>i.category===category&&i.name.toLowerCase().includes(name.toLowerCase()))||lookup.find(i=>i.category===category);
+ const candidate=lookup.find(i=>i.category===category&&i.name.toLowerCase()===name.toLowerCase()) ||lookup.find(i=>i.category===category&&i.name.toLowerCase().includes(name.toLowerCase()))||lookup.find(i=>i.category===category&&resolve(i).ids.includes(id))||lookup.find(i=>i.category===category);
  if(candidate)choose(candidate);
 });
 const resize=new ResizeObserver(()=>{const w=Math.max(host.clientWidth,1),h=Math.max(host.clientHeight,1);camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h);});resize.observe(host);
@@ -247,5 +247,5 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)controls.up
 renderer.setAnimationLoop(()=>{if(document.hidden)return;controls.update();renderer.render(scene,camera)});
 try{
  const response=await fetch('./assets/moskvich-3d/catalog.json',{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);
- catalog=await response.json();lookup.push(...flatten(catalog));paintList();loading.remove();choose(lookup.find(p=>/Коленчатый вал/i.test(p.name))||lookup[0]);
+ catalog=await response.json();lookup.push(...flatten(catalog));paintList();loading.remove();choose(lookup.find(p=>p.name==='Капот')||lookup[0]);
 }catch(err){loading.textContent='Не удалось загрузить каталог: '+err.message+'; проверьте, что сайт открыт через HTTP(S).';console.error(err);}
