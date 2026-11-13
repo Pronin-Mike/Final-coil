@@ -98,5 +98,18 @@
       "variants": 3,
       "wind_cm": 2.0
     }
-  }
+  },
+  "art_stage": "2.1",
+  "ground_strength": 0.85,
+  "ground_tile_cm": 120,
+  "geometry_lods": [
+    {
+      "fraction": 1.0,
+      "screen_size": 1.0
+    },
+    {
+      "fraction": 0.28,
+      "screen_size": 0.018
+    }
+  ]
 }

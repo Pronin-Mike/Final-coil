@@ -1,0 +1,884 @@
+{
+  "name": "PCG_Environment_Master",
+  "description": "",
+  "nodes": [
+    {
+      "name": "UnifiedZonePoints",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:UnifiedZonePoints",
+      "position": "(400, 0)",
+      "title": "Unified Surface And Zone Data",
+      "bEnabled": true,
+      "comment": "Precomputed world-space cells.\nNo per-frame surface tracing.",
+      "nodeType": "Merge Points",
+      "paramOverrides": {}
+    },
+    {
+      "name": "OptionalDebugMarkers",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:OptionalDebugMarkers",
+      "position": "(1100, 0)",
+      "title": "Optional Debug Marker Spawn",
+      "bEnabled": true,
+      "comment": "False: points only. True: tiny instanced markers.",
+      "nodeType": "Branch",
+      "paramOverrides": {}
+    },
+    {
+      "name": "Source_G01",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Source_G01",
+      "position": "(0, 0)",
+      "title": "Source G01",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Load PCG Data Asset",
+      "paramOverrides": {
+        "asset": {
+          "refPath": "/Game/FinalCoil/Environment/PCG/Masks/DA_Zones_G01.DA_Zones_G01"
+        },
+        "pins": [
+          {
+            "label": "Out",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfoPoint"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Normal",
+            "bInvisiblePin": false,
+            "tooltip": "",
+            "bAllowMultipleConnections": true
+          }
+        ],
+        "assetName": "G01",
+        "assetDescription": "Heightfield surface + current use masks + weighted zones + exclusions. Rebuild via Scripts/environment_zones.py.",
+        "bTagOutputsBasedOnOutputPins": false
+      }
+    },
+    {
+      "name": "Param_G01",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Param_G01",
+      "position": "(-300, 0)",
+      "title": "Param G01",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Get Graph Parameter",
+      "paramOverrides": {
+        "propertyPath": "Cell_G01",
+        "outputAttributeName": "Cell_G01"
+      }
+    },
+    {
+      "name": "Source_abandoned_E02",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Source_abandoned_E02",
+      "position": "(0, 150)",
+      "title": "Source Abandoned E02",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Load PCG Data Asset",
+      "paramOverrides": {
+        "asset": {
+          "refPath": "/Game/FinalCoil/Environment/PCG/Masks/DA_Zones_abandoned_E02.DA_Zones_abandoned_E02"
+        },
+        "pins": [
+          {
+            "label": "Out",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfoPoint"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Normal",
+            "bInvisiblePin": false,
+            "tooltip": "",
+            "bAllowMultipleConnections": true
+          }
+        ],
+        "assetName": "abandoned_E02",
+        "assetDescription": "Heightfield surface + current use masks + weighted zones + exclusions. Rebuild via Scripts/environment_zones.py.",
+        "bTagOutputsBasedOnOutputPins": false
+      }
+    },
+    {
+      "name": "Param_abandoned_E02",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Param_abandoned_E02",
+      "position": "(-300, 150)",
+      "title": "Param Abandoned E02",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Get Graph Parameter",
+      "paramOverrides": {
+        "propertyPath": "Cell_abandoned_E02",
+        "outputAttributeName": "Cell_abandoned_E02"
+      }
+    },
+    {
+      "name": "Source_forest_edge",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Source_forest_edge",
+      "position": "(0, 300)",
+      "title": "Source Forest Edge",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Load PCG Data Asset",
+      "paramOverrides": {
+        "asset": {
+          "refPath": "/Game/FinalCoil/Environment/PCG/Masks/DA_Zones_forest_edge.DA_Zones_forest_edge"
+        },
+        "pins": [
+          {
+            "label": "Out",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfoPoint"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Normal",
+            "bInvisiblePin": false,
+            "tooltip": "",
+            "bAllowMultipleConnections": true
+          }
+        ],
+        "assetName": "forest_edge",
+        "assetDescription": "Heightfield surface + current use masks + weighted zones + exclusions. Rebuild via Scripts/environment_zones.py.",
+        "bTagOutputsBasedOnOutputPins": false
+      }
+    },
+    {
+      "name": "Param_forest_edge",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Param_forest_edge",
+      "position": "(-300, 300)",
+      "title": "Param Forest Edge",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Get Graph Parameter",
+      "paramOverrides": {
+        "propertyPath": "Cell_forest_edge",
+        "outputAttributeName": "Cell_forest_edge"
+      }
+    },
+    {
+      "name": "Source_meadow",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Source_meadow",
+      "position": "(0, 450)",
+      "title": "Source Meadow",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Load PCG Data Asset",
+      "paramOverrides": {
+        "asset": {
+          "refPath": "/Game/FinalCoil/Environment/PCG/Masks/DA_Zones_meadow.DA_Zones_meadow"
+        },
+        "pins": [
+          {
+            "label": "Out",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfoPoint"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Normal",
+            "bInvisiblePin": false,
+            "tooltip": "",
+            "bAllowMultipleConnections": true
+          }
+        ],
+        "assetName": "meadow",
+        "assetDescription": "Heightfield surface + current use masks + weighted zones + exclusions. Rebuild via Scripts/environment_zones.py.",
+        "bTagOutputsBasedOnOutputPins": false
+      }
+    },
+    {
+      "name": "Param_meadow",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Param_meadow",
+      "position": "(-300, 450)",
+      "title": "Param Meadow",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Get Graph Parameter",
+      "paramOverrides": {
+        "propertyPath": "Cell_meadow",
+        "outputAttributeName": "Cell_meadow"
+      }
+    },
+    {
+      "name": "Source_occupied_H04",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Source_occupied_H04",
+      "position": "(0, 600)",
+      "title": "Source Occupied H04",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Load PCG Data Asset",
+      "paramOverrides": {
+        "asset": {
+          "refPath": "/Game/FinalCoil/Environment/PCG/Masks/DA_Zones_occupied_H04.DA_Zones_occupied_H04"
+        },
+        "pins": [
+          {
+            "label": "Out",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfoPoint"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Normal",
+            "bInvisiblePin": false,
+            "tooltip": "",
+            "bAllowMultipleConnections": true
+          }
+        ],
+        "assetName": "occupied_H04",
+        "assetDescription": "Heightfield surface + current use masks + weighted zones + exclusions. Rebuild via Scripts/environment_zones.py.",
+        "bTagOutputsBasedOnOutputPins": false
+      }
+    },
+    {
+      "name": "Param_occupied_H04",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Param_occupied_H04",
+      "position": "(-300, 600)",
+      "title": "Param Occupied H04",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Get Graph Parameter",
+      "paramOverrides": {
+        "propertyPath": "Cell_occupied_H04",
+        "outputAttributeName": "Cell_occupied_H04"
+      }
+    },
+    {
+      "name": "Source_old_bor",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Source_old_bor",
+      "position": "(0, 750)",
+      "title": "Source Old Bor",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Load PCG Data Asset",
+      "paramOverrides": {
+        "asset": {
+          "refPath": "/Game/FinalCoil/Environment/PCG/Masks/DA_Zones_old_bor.DA_Zones_old_bor"
+        },
+        "pins": [
+          {
+            "label": "Out",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfoPoint"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Normal",
+            "bInvisiblePin": false,
+            "tooltip": "",
+            "bAllowMultipleConnections": true
+          }
+        ],
+        "assetName": "old_bor",
+        "assetDescription": "Heightfield surface + current use masks + weighted zones + exclusions. Rebuild via Scripts/environment_zones.py.",
+        "bTagOutputsBasedOnOutputPins": false
+      }
+    },
+    {
+      "name": "Param_old_bor",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Param_old_bor",
+      "position": "(-300, 750)",
+      "title": "Param Old Bor",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Get Graph Parameter",
+      "paramOverrides": {
+        "propertyPath": "Cell_old_bor",
+        "outputAttributeName": "Cell_old_bor"
+      }
+    },
+    {
+      "name": "Source_shore",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Source_shore",
+      "position": "(0, 900)",
+      "title": "Source Shore",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Load PCG Data Asset",
+      "paramOverrides": {
+        "asset": {
+          "refPath": "/Game/FinalCoil/Environment/PCG/Masks/DA_Zones_shore.DA_Zones_shore"
+        },
+        "pins": [
+          {
+            "label": "Out",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfoPoint"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Normal",
+            "bInvisiblePin": false,
+            "tooltip": "",
+            "bAllowMultipleConnections": true
+          }
+        ],
+        "assetName": "shore",
+        "assetDescription": "Heightfield surface + current use masks + weighted zones + exclusions. Rebuild via Scripts/environment_zones.py.",
+        "bTagOutputsBasedOnOutputPins": false
+      }
+    },
+    {
+      "name": "Param_shore",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Param_shore",
+      "position": "(-300, 900)",
+      "title": "Param Shore",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Get Graph Parameter",
+      "paramOverrides": {
+        "propertyPath": "Cell_shore",
+        "outputAttributeName": "Cell_shore"
+      }
+    },
+    {
+      "name": "Source_stop",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Source_stop",
+      "position": "(0, 1050)",
+      "title": "Source Stop",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Load PCG Data Asset",
+      "paramOverrides": {
+        "asset": {
+          "refPath": "/Game/FinalCoil/Environment/PCG/Masks/DA_Zones_stop.DA_Zones_stop"
+        },
+        "pins": [
+          {
+            "label": "Out",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfoPoint"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Normal",
+            "bInvisiblePin": false,
+            "tooltip": "",
+            "bAllowMultipleConnections": true
+          }
+        ],
+        "assetName": "stop",
+        "assetDescription": "Heightfield surface + current use masks + weighted zones + exclusions. Rebuild via Scripts/environment_zones.py.",
+        "bTagOutputsBasedOnOutputPins": false
+      }
+    },
+    {
+      "name": "Param_stop",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Param_stop",
+      "position": "(-300, 1050)",
+      "title": "Param Stop",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Get Graph Parameter",
+      "paramOverrides": {
+        "propertyPath": "Cell_stop",
+        "outputAttributeName": "Cell_stop"
+      }
+    },
+    {
+      "name": "Source_wetland",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Source_wetland",
+      "position": "(0, 1200)",
+      "title": "Source Wetland",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Load PCG Data Asset",
+      "paramOverrides": {
+        "asset": {
+          "refPath": "/Game/FinalCoil/Environment/PCG/Masks/DA_Zones_wetland.DA_Zones_wetland"
+        },
+        "pins": [
+          {
+            "label": "Out",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfoPoint"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Normal",
+            "bInvisiblePin": false,
+            "tooltip": "",
+            "bAllowMultipleConnections": true
+          }
+        ],
+        "assetName": "wetland",
+        "assetDescription": "Heightfield surface + current use masks + weighted zones + exclusions. Rebuild via Scripts/environment_zones.py.",
+        "bTagOutputsBasedOnOutputPins": false
+      }
+    },
+    {
+      "name": "Param_wetland",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Param_wetland",
+      "position": "(-300, 1200)",
+      "title": "Param Wetland",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Get Graph Parameter",
+      "paramOverrides": {
+        "propertyPath": "Cell_wetland",
+        "outputAttributeName": "Cell_wetland"
+      }
+    },
+    {
+      "name": "ProtectGameplay",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:ProtectGameplay",
+      "position": "(750, 0)",
+      "title": "Protect Gameplay",
+      "bEnabled": true,
+      "comment": "Exclusion > 0 is never sent to terrestrial vegetation outputs.",
+      "nodeType": "Filter Attribute Elements by Range",
+      "paramOverrides": {
+        "targetAttribute": "Exclusion",
+        "minThreshold": {
+          "bInclusive": true,
+          "bUseConstantThreshold": true,
+          "thresholdAttribute": "$Density",
+          "bUseSpatialQuery": false,
+          "bFilterEachInputWithEachFilterDataRespectively": false,
+          "attributeTypes": {
+            "type": "Float",
+            "floatValue": 0,
+            "int32Value": 0,
+            "doubleValue": 0,
+            "intValue": 0,
+            "vector2Value": {
+              "x": 0,
+              "y": 0
+            },
+            "vectorValue": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "vector4Value": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "quatValue": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "transformValue": {
+              "location": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "rotation": {
+                "pitch": 0,
+                "yaw": 0,
+                "roll": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              }
+            },
+            "stringValue": "",
+            "boolValue": false,
+            "rotatorValue": {
+              "pitch": 0,
+              "yaw": 0,
+              "roll": 0
+            },
+            "nameValue": "None",
+            "softClassPathValue": {
+              "refPath": ""
+            },
+            "softObjectPathValue": {
+              "refPath": ""
+            },
+            "bAllowsTypeChange": true
+          }
+        },
+        "maxThreshold": {
+          "bInclusive": true,
+          "bUseConstantThreshold": true,
+          "thresholdAttribute": "$Density",
+          "bUseSpatialQuery": false,
+          "bFilterEachInputWithEachFilterDataRespectively": false,
+          "attributeTypes": {
+            "type": "Float",
+            "floatValue": 0.0010000000474974513,
+            "int32Value": 0,
+            "doubleValue": 0,
+            "intValue": 0,
+            "vector2Value": {
+              "x": 0,
+              "y": 0
+            },
+            "vectorValue": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "vector4Value": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "quatValue": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "transformValue": {
+              "location": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "rotation": {
+                "pitch": 0,
+                "yaw": 0,
+                "roll": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              }
+            },
+            "stringValue": "",
+            "boolValue": false,
+            "rotatorValue": {
+              "pitch": 0,
+              "yaw": 0,
+              "roll": 0
+            },
+            "nameValue": "None",
+            "softClassPathValue": {
+              "refPath": ""
+            },
+            "softObjectPathValue": {
+              "refPath": ""
+            },
+            "bAllowsTypeChange": true
+          }
+        }
+      }
+    },
+    {
+      "name": "Param_DebugMarkers",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Param_DebugMarkers",
+      "position": "(800, -200)",
+      "title": "Param Debug Markers",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Get Graph Parameter",
+      "paramOverrides": {
+        "propertyPath": "DebugMarkers",
+        "outputAttributeName": "DebugMarkers"
+      }
+    },
+    {
+      "name": "DebugMarkerSpawner",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:DebugMarkerSpawner",
+      "position": "(1400, 200)",
+      "title": "Debug Marker Spawner",
+      "bEnabled": true,
+      "comment": "Optional diagnostic instances only. Future plant placement is a separate stage.",
+      "nodeType": "Static Mesh Spawner",
+      "paramOverrides": {
+        "meshSelectorParameters": {
+          "refPath": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:DebugMarkerSpawner.PCGStaticMeshSpawnerSettings_1.DefaultSelectorInstance"
+        }
+      }
+    },
+    {
+      "name": "Subgraph_0",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:Subgraph_0",
+      "position": "(1500, 1100)",
+      "title": "Meadow Vegetation 50m",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Subgraph(PCG_MeadowVegetation)",
+      "paramOverrides": {}
+    },
+    {
+      "name": "DefaultInputNode",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:DefaultInputNode",
+      "position": "(0, 0)",
+      "title": "Input Node",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Input Node",
+      "paramOverrides": {
+        "pins": [
+          {
+            "label": "In",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfoSpatial"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Advanced",
+            "bInvisiblePin": false,
+            "tooltip": "Default input pin.",
+            "bAllowMultipleConnections": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "DefaultOutputNode",
+      "path": "/Game/FinalCoil/Environment/PCG/Core/PCG_Environment_Master.PCG_Environment_Master:DefaultOutputNode",
+      "position": "(200, 0)",
+      "title": "Output Node",
+      "bEnabled": true,
+      "comment": "",
+      "nodeType": "Output Node",
+      "paramOverrides": {
+        "pins": [
+          {
+            "label": "Out",
+            "usage": "Normal",
+            "allowedTypes": {
+              "ids": [
+                {
+                  "struct": {
+                    "refPath": "/Script/PCG.PCGDataTypeInfo"
+                  }
+                }
+              ],
+              "customSubtype": -1
+            },
+            "bAllowMultipleData": true,
+            "pinStatus": "Advanced",
+            "bInvisiblePin": false,
+            "tooltip": "",
+            "bAllowMultipleConnections": true
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "srcNode": "OptionalDebugMarkers",
+      "srcPin": "Output A",
+      "destNode": "DefaultOutputNode",
+      "destPin": "Out"
+    },
+    {
+      "srcNode": "DebugMarkerSpawner",
+      "srcPin": "Out",
+      "destNode": "DefaultOutputNode",
+      "destPin": "Out"
+    },
+    {
+      "srcNode": "Subgraph_0",
+      "srcPin": "Out",
+      "destNode": "DefaultOutputNode",
+      "destPin": "Out"
+    },
+    {
+      "srcNode": "Source_G01",
+      "srcPin": "Out",
+      "destNode": "UnifiedZonePoints",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "Source_abandoned_E02",
+      "srcPin": "Out",
+      "destNode": "UnifiedZonePoints",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "Source_forest_edge",
+      "srcPin": "Out",
+      "destNode": "UnifiedZonePoints",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "Source_meadow",
+      "srcPin": "Out",
+      "destNode": "UnifiedZonePoints",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "Source_occupied_H04",
+      "srcPin": "Out",
+      "destNode": "UnifiedZonePoints",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "Source_old_bor",
+      "srcPin": "Out",
+      "destNode": "UnifiedZonePoints",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "Source_shore",
+      "srcPin": "Out",
+      "destNode": "UnifiedZonePoints",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "Source_stop",
+      "srcPin": "Out",
+      "destNode": "UnifiedZonePoints",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "Source_wetland",
+      "srcPin": "Out",
+      "destNode": "UnifiedZonePoints",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "ProtectGameplay",
+      "srcPin": "InsideFilter",
+      "destNode": "OptionalDebugMarkers",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "Param_DebugMarkers",
+      "srcPin": "Out",
+      "destNode": "OptionalDebugMarkers",
+      "destPin": "bOutputToB"
+    },
+    {
+      "srcNode": "Param_G01",
+      "srcPin": "Out",
+      "destNode": "Source_G01",
+      "destPin": "Asset"
+    },
+    {
+      "srcNode": "Param_abandoned_E02",
+      "srcPin": "Out",
+      "destNode": "Source_abandoned_E02",
+      "destPin": "Asset"
+    },
+    {
+      "srcNode": "Param_forest_edge",
+      "srcPin": "Out",
+      "destNode": "Source_forest_edge",
+      "destPin": "Asset"
+    },
+    {
+      "srcNode": "Param_meadow",
+      "srcPin": "Out",
+      "destNode": "Source_meadow",
+      "destPin": "Asset"
+    },
+    {
+      "srcNode": "Param_occupied_H04",
+      "srcPin": "Out",
+      "destNode": "Source_occupied_H04",
+      "destPin": "Asset"
+    },
+    {
+      "srcNode": "Param_old_bor",
+      "srcPin": "Out",
+      "destNode": "Source_old_bor",
+      "destPin": "Asset"
+    },
+    {
+      "srcNode": "Param_shore",
+      "srcPin": "Out",
+      "destNode": "Source_shore",
+      "destPin": "Asset"
+    },
+    {
+      "srcNode": "Param_stop",
+      "srcPin": "Out",
+      "destNode": "Source_stop",
+      "destPin": "Asset"
+    },
+    {
+      "srcNode": "Param_wetland",
+      "srcPin": "Out",
+      "destNode": "Source_wetland",
+      "destPin": "Asset"
+    },
+    {
+      "srcNode": "UnifiedZonePoints",
+      "srcPin": "Out",
+      "destNode": "ProtectGameplay",
+      "destPin": "In"
+    },
+    {
+      "srcNode": "OptionalDebugMarkers",
+      "srcPin": "Output B",
+      "destNode": "DebugMarkerSpawner",
+      "destPin": "In"
+    }
+  ]
+}

@@ -4,11 +4,14 @@
   "meshes": [
     {
       "name": "SM_Meadow_short_00",
-      "triangles": 240,
-      "vertices": 270,
-      "height_cm": 14.600731786506696,
-      "radius_cm": 16.806274685758723,
+      "triangles": 152,
+      "vertices": 171,
+      "height_cm": 7.217116454304015,
+      "radius_cm": 24.928827077874846,
       "slots": [
+        "Meadow"
+      ],
+      "botanical_parts": [
         "Leaf"
       ],
       "group": "short",
@@ -17,12 +20,15 @@
     },
     {
       "name": "SM_Meadow_short_01",
-      "triangles": 240,
-      "vertices": 270,
-      "height_cm": 14.823633215950617,
-      "radius_cm": 15.440179304024747,
+      "triangles": 144,
+      "vertices": 180,
+      "height_cm": 3.014694807033386,
+      "radius_cm": 17.145056654771473,
       "slots": [
-        "Leaf"
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Dandelion"
       ],
       "group": "short",
       "variant": 1,
@@ -30,12 +36,16 @@
     },
     {
       "name": "SM_Meadow_short_02",
-      "triangles": 240,
-      "vertices": 270,
-      "height_cm": 14.792015016953663,
-      "radius_cm": 17.7598091507614,
+      "triangles": 160,
+      "vertices": 204,
+      "height_cm": 4.427723772267729,
+      "radius_cm": 19.050622179824863,
       "slots": [
-        "Leaf"
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Clover",
+        "Dry"
       ],
       "group": "short",
       "variant": 2,
@@ -43,11 +53,14 @@
     },
     {
       "name": "SM_Meadow_medium_00",
-      "triangles": 240,
-      "vertices": 270,
-      "height_cm": 38.82157642693333,
-      "radius_cm": 31.489756680595246,
+      "triangles": 288,
+      "vertices": 288,
+      "height_cm": 29.09983267930583,
+      "radius_cm": 22.10264935370734,
       "slots": [
+        "Meadow"
+      ],
+      "botanical_parts": [
         "Leaf"
       ],
       "group": "medium",
@@ -56,11 +69,14 @@
     },
     {
       "name": "SM_Meadow_medium_01",
-      "triangles": 240,
-      "vertices": 270,
-      "height_cm": 37.69696364684914,
-      "radius_cm": 36.52974892045745,
+      "triangles": 252,
+      "vertices": 252,
+      "height_cm": 36.40714440716513,
+      "radius_cm": 46.708603797147575,
       "slots": [
+        "Meadow"
+      ],
+      "botanical_parts": [
         "Leaf"
       ],
       "group": "medium",
@@ -69,12 +85,17 @@
     },
     {
       "name": "SM_Meadow_medium_02",
-      "triangles": 240,
-      "vertices": 270,
-      "height_cm": 37.82071286986466,
-      "radius_cm": 34.66010913739366,
+      "triangles": 288,
+      "vertices": 324,
+      "height_cm": 39.99323136680671,
+      "radius_cm": 44.14051274353476,
       "slots": [
-        "Leaf"
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Leaf",
+        "Seed",
+        "Stem"
       ],
       "group": "medium",
       "variant": 2,
@@ -82,14 +103,15 @@
     },
     {
       "name": "SM_Meadow_tall_00",
-      "triangles": 264,
-      "vertices": 306,
-      "height_cm": 79.64193220896412,
-      "radius_cm": 51.37953151115689,
+      "triangles": 120,
+      "vertices": 120,
+      "height_cm": 83.53496680331646,
+      "radius_cm": 65.28687722475055,
       "slots": [
-        "Leaf",
-        "Seed",
-        "Stem"
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Leaf"
       ],
       "group": "tall",
       "variant": 0,
@@ -97,11 +119,14 @@
     },
     {
       "name": "SM_Meadow_tall_01",
-      "triangles": 264,
-      "vertices": 306,
-      "height_cm": 85.19775640217553,
-      "radius_cm": 47.910911370040395,
+      "triangles": 280,
+      "vertices": 392,
+      "height_cm": 83.85592143012674,
+      "radius_cm": 29.894438089575186,
       "slots": [
+        "Meadow"
+      ],
+      "botanical_parts": [
         "Leaf",
         "Seed",
         "Stem"
@@ -112,14 +137,16 @@
     },
     {
       "name": "SM_Meadow_tall_02",
-      "triangles": 264,
-      "vertices": 306,
-      "height_cm": 82.97007348208953,
-      "radius_cm": 61.61257458222321,
+      "triangles": 160,
+      "vertices": 212,
+      "height_cm": 70.17188629097836,
+      "radius_cm": 21.095504765509272,
       "slots": [
-        "Leaf",
-        "Seed",
-        "Stem"
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Stem",
+        "Yarrow"
       ],
       "group": "tall",
       "variant": 2,
@@ -127,12 +154,15 @@
     },
     {
       "name": "SM_Meadow_herbs_00",
-      "triangles": 228,
-      "vertices": 288,
-      "height_cm": 17.55,
-      "radius_cm": 13.507997284360295,
+      "triangles": 200,
+      "vertices": 265,
+      "height_cm": 17.944192902286826,
+      "radius_cm": 12.80796934893669,
       "slots": [
-        "Leaf",
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Clover",
         "Pink",
         "Stem"
       ],
@@ -142,12 +172,15 @@
     },
     {
       "name": "SM_Meadow_herbs_01",
-      "triangles": 228,
-      "vertices": 288,
-      "height_cm": 17.55,
-      "radius_cm": 14.038551486683858,
+      "triangles": 200,
+      "vertices": 265,
+      "height_cm": 18.034786373923144,
+      "radius_cm": 13.338695426640516,
       "slots": [
-        "Leaf",
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Clover",
         "Pink",
         "Stem"
       ],
@@ -162,9 +195,12 @@
       "height_cm": 41.460546727483106,
       "radius_cm": 6.280127387243032,
       "slots": [
+        "Meadow"
+      ],
+      "botanical_parts": [
         "Cream",
-        "Leaf",
-        "Stem"
+        "Stem",
+        "Yarrow"
       ],
       "group": "herbs",
       "variant": 2,
@@ -177,9 +213,12 @@
       "height_cm": 41.506338224316394,
       "radius_cm": 6.280127387243032,
       "slots": [
+        "Meadow"
+      ],
+      "botanical_parts": [
         "Cream",
-        "Leaf",
-        "Stem"
+        "Stem",
+        "Yarrow"
       ],
       "group": "herbs",
       "variant": 3,
@@ -187,12 +226,15 @@
     },
     {
       "name": "SM_Meadow_herbs_04",
-      "triangles": 164,
-      "vertices": 184,
+      "triangles": 140,
+      "vertices": 178,
       "height_cm": 25.55,
-      "radius_cm": 10.50509064859364,
+      "radius_cm": 10.253880145204771,
       "slots": [
-        "Leaf",
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Dandelion",
         "Stem",
         "Yellow"
       ],
@@ -202,12 +244,15 @@
     },
     {
       "name": "SM_Meadow_herbs_05",
-      "triangles": 164,
-      "vertices": 184,
+      "triangles": 140,
+      "vertices": 178,
       "height_cm": 25.55,
-      "radius_cm": 12.2654936766652,
+      "radius_cm": 10.79496463013146,
       "slots": [
-        "Leaf",
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Dandelion",
         "Stem",
         "Yellow"
       ],
@@ -217,13 +262,15 @@
     },
     {
       "name": "SM_Meadow_dry_00",
-      "triangles": 180,
-      "vertices": 222,
-      "height_cm": 51.90119173059331,
-      "radius_cm": 32.026720247111996,
+      "triangles": 80,
+      "vertices": 99,
+      "height_cm": 48.82126848203699,
+      "radius_cm": 29.253360894607855,
       "slots": [
-        "Dry",
-        "Seed"
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Dry"
       ],
       "group": "dry",
       "variant": 0,
@@ -231,13 +278,15 @@
     },
     {
       "name": "SM_Meadow_dry_01",
-      "triangles": 180,
-      "vertices": 222,
-      "height_cm": 55.34117947417859,
-      "radius_cm": 39.21075274672558,
+      "triangles": 80,
+      "vertices": 99,
+      "height_cm": 50.627229318935555,
+      "radius_cm": 40.70287912266157,
       "slots": [
-        "Dry",
-        "Seed"
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Dry"
       ],
       "group": "dry",
       "variant": 1,
@@ -245,13 +294,15 @@
     },
     {
       "name": "SM_Meadow_dry_02",
-      "triangles": 180,
-      "vertices": 222,
-      "height_cm": 54.01333056420762,
-      "radius_cm": 30.942849472407705,
+      "triangles": 80,
+      "vertices": 99,
+      "height_cm": 46.58813488638604,
+      "radius_cm": 38.44882167968223,
       "slots": [
-        "Dry",
-        "Seed"
+        "Meadow"
+      ],
+      "botanical_parts": [
+        "Dry"
       ],
       "group": "dry",
       "variant": 2,

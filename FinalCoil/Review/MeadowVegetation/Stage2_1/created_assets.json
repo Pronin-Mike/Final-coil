@@ -1,0 +1,66 @@
+{
+  "modified_meshes": [
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_short_00",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_short_01",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_short_02",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_medium_00",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_medium_01",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_medium_02",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_tall_00",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_tall_01",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_tall_02",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_herbs_00",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_herbs_01",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_herbs_02",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_herbs_03",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_herbs_04",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_herbs_05",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_dry_00",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_dry_01",
+    "/Game/FinalCoil/Environment/Meadow/Meshes/SM_Meadow_dry_02"
+  ],
+  "created_materials": [
+    "/Game/FinalCoil/Environment/Meadow/M_Meadow_Integrated",
+    "/Game/FinalCoil/Environment/Meadow/M_Meadow_GroundDetail"
+  ],
+  "created_material_instances": [
+    "/Game/FinalCoil/Environment/Meadow/MI_Meadow_GroundDetail"
+  ],
+  "created_textures": [
+    "/Game/FinalCoil/Environment/Meadow/Textures/T_Meadow_LitterColor",
+    "/Game/FinalCoil/Environment/Meadow/Textures/T_Meadow_LitterNormal",
+    "/Game/FinalCoil/Environment/Meadow/Textures/T_Meadow_Ecology"
+  ],
+  "reference_only_meshes": [
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_short_00",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_short_01",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_short_02",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_medium_00",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_medium_01",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_medium_02",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_tall_00",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_tall_01",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_tall_02",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_00",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_01",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_02",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_03",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_04",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_05",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_dry_00",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_dry_01",
+    "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_dry_02"
+  ],
+  "retained": [
+    "PCG_Environment_Master",
+    "PCG_MeadowVegetation",
+    "MPC_MeadowWind",
+    "10 Environment Zones",
+    "Surface Adapter",
+    "Exclusion Masks"
+  ],
+  "new_actor_count": 0,
+  "new_hism_count": 0,
+  "modified_map": "/Game/FinalCoil/Maps/L_Berezovka_Terrain",
+  "component_added": "MEADOW_Output.MeadowGroundDetail"
+}

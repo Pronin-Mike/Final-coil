@@ -1,0 +1,134 @@
+{
+  "index": 7,
+  "frames": 0,
+  "started": 1668010.281,
+  "views": [
+    {
+      "name": "open_meadow",
+      "camera": [
+        18000.0000001296,
+        29586.543846246215,
+        278.1456002236385
+      ],
+      "eye_height_cm": 167.36294823559595,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "close_grass",
+      "camera": [
+        18000.0000001296,
+        29586.543846246215,
+        278.14560022363855
+      ],
+      "eye_height_cm": 167.362948235596,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "among_tall",
+      "camera": [
+        17468.699829076795,
+        30207.49202301087,
+        273.0403747351642
+      ],
+      "eye_height_cm": 167.52152027800685,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "transition",
+      "camera": [
+        17587.35535165773,
+        30195.397724242735,
+        274.36129276851557
+      ],
+      "eye_height_cm": 167.52266989888912,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "raised_8m",
+      "camera": [
+        18000.0000001296,
+        29286.543846246215,
+        900.3673384583471
+      ],
+      "eye_height_cm": 789.3512164714277,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "aerial",
+      "camera": [
+        18000.0000001296,
+        29386.543846246215,
+        3600.235302298268
+      ],
+      "eye_height_cm": 3489.351216471428,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "original"
+    },
+    {
+      "name": "alternate_light",
+      "camera": [
+        18000.0000001296,
+        29586.543846246215,
+        278.14560022363867
+      ],
+      "eye_height_cm": 167.36294823559612,
+      "viewport": [
+        1920,
+        994
+      ],
+      "screenshot_render": [
+        1920,
+        1080
+      ],
+      "lighting": "transient PIE sun"
+    }
+  ],
+  "status": "passed"
+}

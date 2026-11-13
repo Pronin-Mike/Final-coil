@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "matched_pairs": 10,
+  "sweep_frames": 15,
+  "maximum_camera_difference_cm": 0,
+  "all_images_from_unreal": true,
+  "artistic_acceptance": "open"
+}

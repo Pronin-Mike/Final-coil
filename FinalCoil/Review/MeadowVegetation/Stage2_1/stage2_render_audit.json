@@ -1,0 +1,479 @@
+{
+  "meshes": [
+    {
+      "name": "SM_Meadow_short_00",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_short_00.SM_Meadow_short_00",
+      "material_slots": 1,
+      "sections": [
+        1,
+        1,
+        1
+      ],
+      "triangles": [
+        240,
+        115,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_short_01",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_short_01.SM_Meadow_short_01",
+      "material_slots": 1,
+      "sections": [
+        1,
+        1,
+        1
+      ],
+      "triangles": [
+        240,
+        116,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_short_02",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_short_02.SM_Meadow_short_02",
+      "material_slots": 1,
+      "sections": [
+        1,
+        1,
+        1
+      ],
+      "triangles": [
+        240,
+        116,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_medium_00",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_medium_00.SM_Meadow_medium_00",
+      "material_slots": 1,
+      "sections": [
+        1,
+        1,
+        1
+      ],
+      "triangles": [
+        240,
+        115,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_medium_01",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_medium_01.SM_Meadow_medium_01",
+      "material_slots": 1,
+      "sections": [
+        1,
+        1,
+        1
+      ],
+      "triangles": [
+        240,
+        115,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_medium_02",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_medium_02.SM_Meadow_medium_02",
+      "material_slots": 1,
+      "sections": [
+        1,
+        1,
+        1
+      ],
+      "triangles": [
+        240,
+        116,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_tall_00",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_tall_00.SM_Meadow_tall_00",
+      "material_slots": 3,
+      "sections": [
+        7,
+        4,
+        1
+      ],
+      "triangles": [
+        264,
+        127,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_tall_01",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_tall_01.SM_Meadow_tall_01",
+      "material_slots": 3,
+      "sections": [
+        7,
+        4,
+        1
+      ],
+      "triangles": [
+        264,
+        127,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_tall_02",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_tall_02.SM_Meadow_tall_02",
+      "material_slots": 3,
+      "sections": [
+        7,
+        4,
+        1
+      ],
+      "triangles": [
+        264,
+        127,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_00",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_00.SM_Meadow_herbs_00",
+      "material_slots": 3,
+      "sections": [
+        16,
+        13,
+        7
+      ],
+      "triangles": [
+        228,
+        110,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_01",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_01.SM_Meadow_herbs_01",
+      "material_slots": 3,
+      "sections": [
+        16,
+        13,
+        7
+      ],
+      "triangles": [
+        228,
+        110,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_02",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_02.SM_Meadow_herbs_02",
+      "material_slots": 3,
+      "sections": [
+        14,
+        14,
+        11
+      ],
+      "triangles": [
+        308,
+        148,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_03",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_03.SM_Meadow_herbs_03",
+      "material_slots": 3,
+      "sections": [
+        14,
+        14,
+        12
+      ],
+      "triangles": [
+        308,
+        148,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_04",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_04.SM_Meadow_herbs_04",
+      "material_slots": 3,
+      "sections": [
+        3,
+        3,
+        2
+      ],
+      "triangles": [
+        164,
+        78,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_herbs_05",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_herbs_05.SM_Meadow_herbs_05",
+      "material_slots": 3,
+      "sections": [
+        3,
+        3,
+        2
+      ],
+      "triangles": [
+        164,
+        78,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_dry_00",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_dry_00.SM_Meadow_dry_00",
+      "material_slots": 2,
+      "sections": [
+        6,
+        5,
+        3
+      ],
+      "triangles": [
+        180,
+        87,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_dry_01",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_dry_01.SM_Meadow_dry_01",
+      "material_slots": 2,
+      "sections": [
+        6,
+        5,
+        3
+      ],
+      "triangles": [
+        180,
+        87,
+        64
+      ]
+    },
+    {
+      "name": "SM_Meadow_dry_02",
+      "reference": "/Game/FinalCoil/Environment/Meadow/ReferenceStage2/Meshes/SM_Meadow_dry_02.SM_Meadow_dry_02",
+      "material_slots": 2,
+      "sections": [
+        6,
+        6,
+        3
+      ],
+      "triangles": [
+        180,
+        87,
+        64
+      ]
+    }
+  ],
+  "components": [
+    {
+      "name": "HISM_SM_Meadow_medium_00_3",
+      "mesh": "SM_Meadow_medium_00",
+      "instances": 3884,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_medium_Leaf.MI_Meadow_medium_Leaf"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_medium_02_3",
+      "mesh": "SM_Meadow_medium_02",
+      "instances": 3889,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_medium_Leaf.MI_Meadow_medium_Leaf"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_medium_01_3",
+      "mesh": "SM_Meadow_medium_01",
+      "instances": 3799,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_medium_Leaf.MI_Meadow_medium_Leaf"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_short_01_3",
+      "mesh": "SM_Meadow_short_01",
+      "instances": 4300,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_short_Leaf.MI_Meadow_short_Leaf"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_short_00_3",
+      "mesh": "SM_Meadow_short_00",
+      "instances": 4339,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_short_Leaf.MI_Meadow_short_Leaf"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_short_02_3",
+      "mesh": "SM_Meadow_short_02",
+      "instances": 4393,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_short_Leaf.MI_Meadow_short_Leaf"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_dry_00_3",
+      "mesh": "SM_Meadow_dry_00",
+      "instances": 55,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_dry_Dry.MI_Meadow_dry_Dry",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_dry_Seed.MI_Meadow_dry_Seed"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_dry_01_3",
+      "mesh": "SM_Meadow_dry_01",
+      "instances": 40,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_dry_Dry.MI_Meadow_dry_Dry",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_dry_Seed.MI_Meadow_dry_Seed"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_dry_02_3",
+      "mesh": "SM_Meadow_dry_02",
+      "instances": 45,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_dry_Dry.MI_Meadow_dry_Dry",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_dry_Seed.MI_Meadow_dry_Seed"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_00_3",
+      "mesh": "SM_Meadow_herbs_00",
+      "instances": 84,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Stem.MI_Meadow_herbs_Stem",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Leaf.MI_Meadow_herbs_Leaf",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Pink.MI_Meadow_herbs_Pink"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_05_3",
+      "mesh": "SM_Meadow_herbs_05",
+      "instances": 95,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Leaf.MI_Meadow_herbs_Leaf",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Stem.MI_Meadow_herbs_Stem",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Yellow.MI_Meadow_herbs_Yellow"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_02_3",
+      "mesh": "SM_Meadow_herbs_02",
+      "instances": 97,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Stem.MI_Meadow_herbs_Stem",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Leaf.MI_Meadow_herbs_Leaf",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Cream.MI_Meadow_herbs_Cream"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_01_3",
+      "mesh": "SM_Meadow_herbs_01",
+      "instances": 82,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Stem.MI_Meadow_herbs_Stem",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Leaf.MI_Meadow_herbs_Leaf",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Pink.MI_Meadow_herbs_Pink"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_04_3",
+      "mesh": "SM_Meadow_herbs_04",
+      "instances": 90,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Leaf.MI_Meadow_herbs_Leaf",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Stem.MI_Meadow_herbs_Stem",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Yellow.MI_Meadow_herbs_Yellow"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_03_3",
+      "mesh": "SM_Meadow_herbs_03",
+      "instances": 72,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Stem.MI_Meadow_herbs_Stem",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Leaf.MI_Meadow_herbs_Leaf",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_herbs_Cream.MI_Meadow_herbs_Cream"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_tall_00_3",
+      "mesh": "SM_Meadow_tall_00",
+      "instances": 201,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_tall_Leaf.MI_Meadow_tall_Leaf",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_tall_Stem.MI_Meadow_tall_Stem",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_tall_Seed.MI_Meadow_tall_Seed"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_tall_01_3",
+      "mesh": "SM_Meadow_tall_01",
+      "instances": 214,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_tall_Leaf.MI_Meadow_tall_Leaf",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_tall_Stem.MI_Meadow_tall_Stem",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_tall_Seed.MI_Meadow_tall_Seed"
+      ],
+      "cast_shadow": false
+    },
+    {
+      "name": "HISM_SM_Meadow_tall_02_3",
+      "mesh": "SM_Meadow_tall_02",
+      "instances": 234,
+      "class_name": "HierarchicalInstancedStaticMeshComponent",
+      "materials": [
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_tall_Leaf.MI_Meadow_tall_Leaf",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_tall_Stem.MI_Meadow_tall_Stem",
+        "/Game/FinalCoil/Environment/Meadow/MI_Meadow_tall_Seed.MI_Meadow_tall_Seed"
+      ],
+      "cast_shadow": false
+    }
+  ],
+  "instances": 25913,
+  "actor_name": "Actor_75"
+}

@@ -52,7 +52,7 @@ else:sub,settings=master.add_node_of_type(unreal.PCGSubgraphSettings);sub.set_ed
 settings.set_subgraph(graph);master.add_edge(sub,'Out',master.get_output_node(),'Out');assert A.save_loaded_asset(master,False)
 mpc=unreal.load_asset(D+'/MPC_MeadowWind');parameters=mpc.get_editor_property('scalar_parameters');p=parameters[0];p.set_editor_property('default_value',cfg['wind_strength']*preset['wind']);mpc.set_editor_property('scalar_parameters',[p]);assert A.save_loaded_asset(mpc,False)
 actor=next(a for a in E.get_all_level_actors() if a.get_actor_label()=='ENV_PCG_Environment');component=actor.get_component_by_class(unreal.PCGComponent);_generation_started=time.perf_counter();component.generate(True)
-_report=dict(quality=quality,assets=assets,sha256=data['sha256'],distribution_seconds=data['seconds'],data_import_seconds=_generation_started-_install_started,status='generation_requested');_report_path=ROOT/'Review/MeadowVegetation/installation.json';_report_path.write_text(json.dumps(_report,indent=2));_record_state={'ticks':0}
+_report=dict(quality=quality,assets=assets,sha256=data['sha256'],distribution_seconds=data['seconds'],data_import_seconds=_generation_started-_install_started,status='generation_requested');_report_path=ROOT/('Review/MeadowVegetation/Stage2_1/installation_'+quality+'.json' if cfg.get('art_stage')=='2.1' else 'Review/MeadowVegetation/installation.json');_report_path.write_text(json.dumps(_report,indent=2));_record_state={'ticks':0}
 def _record_generation(dt):
  _record_state['ticks']+=1
  if _record_state['ticks']<2 or component.get_editor_property('generation_in_progress'):return

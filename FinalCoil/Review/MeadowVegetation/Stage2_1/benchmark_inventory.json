@@ -1,0 +1,114 @@
+{
+  "actor": "Actor_75",
+  "components": [
+    {
+      "name": "HISM_SM_Meadow_medium_00_6",
+      "mesh": "SM_Meadow_medium_00",
+      "instances": 3884,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_medium_02_6",
+      "mesh": "SM_Meadow_medium_02",
+      "instances": 3889,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_medium_01_6",
+      "mesh": "SM_Meadow_medium_01",
+      "instances": 3799,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_short_01_6",
+      "mesh": "SM_Meadow_short_01",
+      "instances": 4300,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_short_00_6",
+      "mesh": "SM_Meadow_short_00",
+      "instances": 4339,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_short_02_6",
+      "mesh": "SM_Meadow_short_02",
+      "instances": 4393,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_dry_00_6",
+      "mesh": "SM_Meadow_dry_00",
+      "instances": 55,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_dry_01_6",
+      "mesh": "SM_Meadow_dry_01",
+      "instances": 40,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_dry_02_6",
+      "mesh": "SM_Meadow_dry_02",
+      "instances": 45,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_00_6",
+      "mesh": "SM_Meadow_herbs_00",
+      "instances": 84,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_05_6",
+      "mesh": "SM_Meadow_herbs_05",
+      "instances": 95,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_02_6",
+      "mesh": "SM_Meadow_herbs_02",
+      "instances": 97,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_01_6",
+      "mesh": "SM_Meadow_herbs_01",
+      "instances": 82,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_04_6",
+      "mesh": "SM_Meadow_herbs_04",
+      "instances": 90,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_herbs_03_6",
+      "mesh": "SM_Meadow_herbs_03",
+      "instances": 72,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_tall_00_6",
+      "mesh": "SM_Meadow_tall_00",
+      "instances": 201,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_tall_01_6",
+      "mesh": "SM_Meadow_tall_01",
+      "instances": 214,
+      "materials": 1
+    },
+    {
+      "name": "HISM_SM_Meadow_tall_02_6",
+      "mesh": "SM_Meadow_tall_02",
+      "instances": 234,
+      "materials": 1
+    }
+  ],
+  "instances": 25913
+}

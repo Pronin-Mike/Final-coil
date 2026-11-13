@@ -1,0 +1,52 @@
+[
+  {
+    "log": "logs\\standalone_High.log",
+    "csv": "csv\\High.csv",
+    "sha256": "c36d08ac0246232f96dabe30eea2412d75e7ae0072c65db55be063fa27f0a7b4"
+  },
+  {
+    "log": "logs\\standalone_Low-backup-2026.11.13-18.36.38.log",
+    "csv": "Diagnostics\\LowShortWarmup\\Low.csv",
+    "sha256": "7683be21b63a46ec3825e7401b35adb0e6c26f733675680181317c3e5111052f"
+  },
+  {
+    "log": "logs\\standalone_Low.log",
+    "csv": "csv\\Low.csv",
+    "sha256": "a0e478489b044bac8e848a1b2495ed159406607b10d0770e2e7d85df13478c9c"
+  },
+  {
+    "log": "logs\\standalone_Medium-backup-2026.11.13-18.14.20.log",
+    "csv": "Diagnostics\\OffscreenLowClock\\Medium.csv",
+    "sha256": "0461153e8f0096490ef2569a6c19fb6ef32defb6f8b4712cbabca6e4b347562b"
+  },
+  {
+    "log": "logs\\standalone_Medium-backup-2026.11.13-18.17.22.log",
+    "csv": "Diagnostics\\AllRuns\\Profile(20261113_211528).csv",
+    "sha256": "f7f4f003a2d0abb9bd8ccd2f451912d6801fb914827086d9954f95b7e783688c"
+  },
+  {
+    "log": "logs\\standalone_Medium.log",
+    "csv": "csv\\Medium.csv",
+    "sha256": "89e575e36c108bdadfab91f410bf319f733bf94403483730d67f28c673c03a01"
+  },
+  {
+    "log": "logs\\standalone_Medium_groups.log",
+    "csv": "csv\\Medium_groups.csv",
+    "sha256": "14ff08ce1ee9f82b0e04e6689f1b3815fb225a04fdf8ce0dc17085cfd05820cb"
+  },
+  {
+    "log": "logs\\standalone_Medium_material.log",
+    "csv": "csv\\Medium_material.csv",
+    "sha256": "0b54ac53ec8afda9a904b63864f54be1510b8116f3f6c57ea725de46d65c75e3"
+  },
+  {
+    "log": "logs\\standalone_Medium_surface.log",
+    "csv": "csv\\Medium_surface.csv",
+    "sha256": "08f92d3a0b2d8202756db21254a0e0c697995dfebee88599b34c2de34b5fca0f"
+  },
+  {
+    "log": "logs\\standalone_Medium_wind.log",
+    "csv": "csv\\Medium_wind.csv",
+    "sha256": "e70b22e9b76a6f274e4d3f5d9446e376693bdee6a793f3051605a6ea747996c9"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "mode": "UnrealEditor -game -RenderOffscreen D3D12",
+  "quality": "High",
+  "seconds": 115.92200000002049,
+  "native_render_sizes": {
+    "before": [
+      1920,
+      1080
+    ],
+    "after": [
+      1920,
+      1080
+    ]
+  },
+  "actor": "Actor_75",
+  "instances": 34990,
+  "csv": "Review\\MeadowVegetation\\csv\\standalone_High.csv",
+  "measurement_csv_rows": {
+    "before": [
+      1350,
+      1550
+    ],
+    "after": [
+      1800,
+      2000
+    ]
+  },
+  "warmup_cycle_rows": {
+    "before": [
+      250,
+      500
+    ],
+    "after": [
+      780,
+      1030
+    ]
+  },
+  "command_line": [
+    "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+    "D:\\GameDevelop\\FinalCoil\\FinalCoil.uproject",
+    "/Game/FinalCoil/Maps/L_Berezovka_Terrain",
+    "-game",
+    "-RenderOffscreen",
+    "-windowed",
+    "-ResX=1920",
+    "-ResY=1080",
+    "-ForceRes",
+    "-NoSound",
+    "-unattended",
+    "-nosplash",
+    "-csvGpuStats",
+    "-csvCaptureFrames=2100",
+    "-ExitAfterCsvProfiling",
+    "-csvCategories=Basic,Rendering,RHI,RenderThread,Gpu,Memory",
+    "-csvExecCmds=60:BugItGo 18000 29600 210 0 90 0,75:ke Actor_75 SetActorHiddenInGame true,550:ke Actor_75 SetActorHiddenInGame false,1100:ke Actor_75 SetActorHiddenInGame true,1250:Shot filename=D:/GameDevelop/FinalCoil/Review/MeadowVegetation/High_native_before.png -nosuffix,1260:LogLoc,1600:ke Actor_75 SetActorHiddenInGame false,1750:Shot filename=D:/GameDevelop/FinalCoil/Review/MeadowVegetation/High_native_after.png -nosuffix,1760:LogLoc",
+    "-ExecCmds=r.VSync 0,t.MaxFPS 0,t.IdleWhenNotForeground 0,r.ScreenPercentage 100,r.DynamicRes.OperationMode 0",
+    "-ABSLOG=D:\\GameDevelop\\FinalCoil\\Saved\\MeadowVegetation\\standalone_High.log",
+    "-ModelContextProtocolPort=8011"
+  ],
+  "log": "Saved\\MeadowVegetation\\standalone_High.log"
+}

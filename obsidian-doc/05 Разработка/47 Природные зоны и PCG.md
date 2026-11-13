@@ -116,3 +116,8 @@ FPS берётся из CSV FrameTime, а не из dt Slate callback. Game Thre
 Связанные проверки: [check_environment_zones.py](../../FinalCoil/Scripts/check_environment_zones.py), [benchmark_environment.py](../../FinalCoil/Scripts/benchmark_environment.py), [check_environment_routes_play.py](../../FinalCoil/Scripts/check_environment_routes_play.py). Оркестрация графа через MCP: [environment_pcg_graph_tools.py](../../FinalCoil/Scripts/environment_pcg_graph_tools.py).
 
 При добавлении новых тестовых областей после импорта данных запустить `python FinalCoil/Scripts/environment_pcg_graph_mcp.py` при подключённом редакторе. Он читает текущий zones.json, обновляет тот же граф через MCP и не требует изменения списка областей в исходном коде. Локальный пересчёт stop внутри текущего редактора подтверждён: источник ~0.42 с, весь вызов с проверкой и сохранением ~6 с; данные не изменились.
+
+
+## Этап 2.1 — художественная доработка
+
+Локальный луг Z04 доработан поверх существующих Surface Adapter, масок, seed и PCG-графов. Структура 10 зон и диагностические 8116 точек сохранена. Нижний ярус, локальные детали земли, общий foliage-материал, сокращённые секции/LOD и A/B/C описаны в [[48 Луговая растительность и PCG#Этап 2.1 — художественная доработка]]. Участок остаётся 50 × 50 м; на остальную карту генерация не распространялась. [Технический отчёт и кадры](../../FinalCoil/Review/MeadowVegetation/Stage2_1/REPORT.md).

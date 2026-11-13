@@ -6,7 +6,7 @@ surface=M.Z.HeightfieldSurface();route=[(16800,28800),(19200,28800),(19200,31200
 state=dict(status='waiting',point=0,completed=[],started=time.monotonic(),last_progress=time.monotonic(),last_distance=1e9);runtime={};LV=unreal.get_editor_subsystem(unreal.LevelEditorSubsystem)
 for cmd in ['t.MaxFPS 0','Slate.bAllowThrottling 0','t.IdleWhenNotForeground 0']:unreal.SystemLibrary.execute_console_command(unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world(),cmd)
 def finish(status):
- state['status']=status;(ROOT/'Review/MeadowVegetation/PIE_walk.json').write_text(json.dumps(state,indent=2));unreal.unregister_slate_post_tick_callback(handle);LV.editor_request_end_play()
+ state['status']=status;Path(globals().get('OUTPUT_FILE',ROOT/'Review/MeadowVegetation/PIE_walk.json')).write_text(json.dumps(state,indent=2));unreal.unregister_slate_post_tick_callback(handle);LV.editor_request_end_play()
 def tick(dt):
  try:
   w=unreal.EditorLevelLibrary.get_game_world()
