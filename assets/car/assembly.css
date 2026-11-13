@@ -82,3 +82,28 @@
 .fa-section h2{margin:0 0 12px}
 @media(max-width:1020px){.fa-graph-grid{grid-template-columns:1fr}.fa-explorer{max-height:none}.fa-results{max-height:210px}.fa-measures{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.fa-toolbar{grid-template-columns:1fr}.fa-cardfields{grid-template-columns:1fr}.fa-measures{grid-template-columns:repeat(2,minmax(0,1fr))}.fa-card summary{flex-wrap:wrap}.fa-card-title{flex-basis:100%}.fa-card-id{display:none}.fa-graph-scroll{min-height:330px;max-height:590px}}
+
+/* Stage 2: engine mounting — source-backed references and editable status check */
+.fa-mount-section{background:#1c2e22;border:1px solid #405a45;border-radius:12px;padding:18px;margin:22px 0;scroll-margin-top:15px}
+.fa-mount-section h2{font-size:20px;margin:0 0 12px}.fa-mount-section h3{font-size:15px;margin:20px 0 11px}
+.fa-mount-svg{background:#122319;border:1px solid #38503d;border-radius:8px;padding:10px;overflow-x:auto;margin:12px 0}
+.fa-mount-svg svg{display:block;min-width:600px;max-width:100%;margin:auto}
+.fa-mount-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.fa-mount-subcard{background:#15271b;border:1px solid #354d3a;border-radius:8px;padding:12px;min-width:0}
+.fa-mount-subcard h4{margin:0 0 5px;color:#e0ecd9;font-size:14px}
+.fa-mount-subcard p{font-size:12px;color:#a6bca5;margin:0 0 10px}
+.fa-mount-subcard ul{padding-left:16px;color:#d0dec8;font-size:11px;line-height:1.7;margin:0}
+.fa-mount-subcard code{color:#d4c49e;overflow-wrap:anywhere}
+.fa-mount-checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.fa-mount-step{display:flex;gap:12px;align-items:start;border:1px solid #3e5941;border-radius:8px;background:#14251a;padding:11px;cursor:pointer;min-width:0}
+.fa-mount-step input{width:18px;height:18px;margin:1px 0 0;accent-color:#9bc18b;flex-shrink:0}
+.fa-mount-step strong{display:block;font-size:12px;color:#d7e8d0}.fa-mount-step small{display:block;font-size:11px;color:#a4b99e;line-height:1.5;margin-top:4px}
+.fa-mount-result{margin:12px 0;padding:13px;background:#3b3025;border:1px solid #79694c;border-radius:8px;color:#e1d4bd;font-size:13px;line-height:1.7}
+.fa-mount-result.completed{background:#1c3c25;border-color:#679b67;color:#d1efd3}
+.fa-mount-tablewrap{overflow-x:auto}.fa-mount-table{width:100%;border-collapse:collapse;min-width:750px;font-size:12px}
+.fa-mount-table th{text-align:left;color:#a4bca1;font-size:11px;border-bottom:1px solid #5e745f;padding:10px 8px}
+.fa-mount-table td{border-bottom:1px solid #37503a;padding:10px 8px;color:#d5e3d0;vertical-align:top}
+.fa-mount-table td small{color:#b5c8a8}.fa-mount-table td a{color:#b8dfaa}
+.fa-mount-reference{margin-top:13px;padding:12px;border-left:3px solid #8cae85;background:#263c2b;font-size:12px;color:#d5e9ce;line-height:1.6;border-radius:0 5px 5px 0}
+.fa-mount-reference a{color:#b6d69b}
+@media(max-width:800px){.fa-mount-cards{grid-template-columns:1fr}.fa-mount-checks{grid-template-columns:1fr}}
